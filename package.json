@@ -49,8 +49,10 @@
     "generate-docs-lockfile": "node packages/blade/scripts/generateDocsLockFile.mjs",
     "generate-icons": "node scripts/icons/generate.mjs",
     "fetch-icons": "node scripts/icons/fetch-from-figma.js",
-    "aicodemod:serve": "node packages/blade/codemods/aicodemod/server.mjs",
-    "aicodemod:host": "npx localtunnel --port 3000 --subdomain blade-ds",
+    "build:mcp": "yarn --cwd packages/blade-mcp build",
+    "mcp:build": "yarn --cwd packages/blade-mcp build",
+    "mcp:start": "node packages/blade-mcp/dist/server.js",
+    "storybook:build": "yarn --cwd packages/blade react:storybook:build",
     "ci:codesandbox": "yarn install --ignore-engines",
     "ci:codesandbox:install": "yarn install --ignore-engines --ignore-scripts",
     "ci:codesandbox:build": "yarn build:blade && yarn build:blade-core && yarn build:blade-svelte"

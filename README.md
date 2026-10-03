@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <img width="96px" alt="Loom UI Emblem" src="./branding/logo.svg">
+  <img width="84px" height="92px" alt="Loom UI Emblem" src="https://raw.githubusercontent.com/romeet9/greenloom-ui/master/branding/logo.svg">
 </p>
 
 <h1 align="center">Loom UI</h1>
@@ -38,22 +38,45 @@ cd greenloom-ui
 yarn install
 ```
 
-### 2. Start Storybook (Component Explorer)
+### 2. Run Storybook Locally
 
 ```bash
 yarn react:storybook
 ```
 Open **[http://localhost:9009](http://localhost:9009)** in your browser to view all 80+ components, interactive docs, and theme playgrounds.
 
-### 3. Build Packages
+### 3. Build Monorepo & MCP Server
 
 ```bash
 # Build core Loom UI packages
 yarn build
 
 # Build Loom UI MCP server
-yarn --cwd packages/blade-mcp build
+yarn mcp:build
+
+# Build production static Storybook site for sharing
+yarn storybook:build
 ```
+
+---
+
+## 🌐 Sharing Storybook with Developers
+
+You have two simple ways to share Storybook with team members and external developers:
+
+### Option A: Direct Local Run (Recommended for Contributors)
+Share the repository URL:
+```bash
+git clone https://github.com/romeet9/greenloom-ui.git
+cd greenloom-ui && yarn && yarn react:storybook
+```
+
+### Option B: Host Static Storybook (Online Web Link)
+Build the standalone static website bundle:
+```bash
+yarn storybook:build
+```
+This generates the complete self-contained HTML/JS bundle in `packages/blade/storybook-site/`. You can deploy this folder directly to **GitHub Pages**, **Vercel**, **Netlify**, or **Chromatic** to get a shareable public URL (e.g. `https://romeet9.github.io/greenloom-ui`).
 
 ---
 
@@ -67,20 +90,24 @@ yarn --cwd packages/blade-mcp build
 
 ---
 
-## 🤖 Using the Loom UI MCP Server
+## 🤖 Connecting AI Assistants (Loom UI MCP)
 
-Connect your AI assistants (Claude Code, Cursor, Windsurf, Antigravity) to generate compliant Loom UI code:
+To enable AI assistant pair programming with Loom UI in Cursor, Claude Code, Windsurf, or Antigravity, add the MCP server configuration:
 
 ```json
 {
   "mcpServers": {
     "loom-ui": {
       "command": "node",
-      "args": ["path/to/greenloom-ui/packages/blade-mcp/dist/server.js"]
+      "args": ["packages/blade-mcp/dist/server.js"]
     }
   }
 }
 ```
+
+Once connected, ask your AI assistant:
+- *"Create a new Loom project with a dense data table layout"*
+- *"Show me how to configure the PasswordInput component in Loom UI"*
 
 ---
 
