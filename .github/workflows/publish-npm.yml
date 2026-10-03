@@ -1,0 +1,47 @@
+name: Publish Packages to NPM
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: '--max-old-space-size=8192'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: 'https://registry.npmjs.org'
+          cache: 'yarn'
+
+      - name: Install Dependencies
+        run: yarn install --ignore-engines
+
+      - name: Build Core and Loom Packages
+        run: |
+          yarn build:blade-core
+          yarn build:blade
+          yarn build:blade-mcp
+
+      - name: Publish to NPM
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "Publishing @greenloom/loom-core..."
+          npm publish ./packages/blade-core --access public || echo "loom-core publish skipped or already exists"
+
+          echo "Publishing @greenloom/loom..."
+          npm publish ./packages/blade --access public || echo "loom publish skipped or already exists"
+
+          echo "Publishing @greenloom/loom-mcp..."
+          npm publish ./packages/blade-mcp --access public || echo "loom-mcp publish skipped or already exists"

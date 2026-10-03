@@ -2,6 +2,9 @@
   "name": "@greenloom/loom",
   "description": "The Design System that powers Green Loom AI",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=18"
