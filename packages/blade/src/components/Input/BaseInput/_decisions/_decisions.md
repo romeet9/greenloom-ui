@@ -92,7 +92,7 @@ Not covered by this prop, and why:
 
 - **`OTPInput` and `ColorInput`** compose their own `FormHint` outside `BaseInput`'s footer, so they do not inherit the prop and would each need separate wiring.
 - **`SelectInput` / `AutoComplete`** (`DropdownInputTriggers`) have focus semantics coupled to the dropdown's open state and already offer `showHintsAsTooltip` as an alternative hint treatment. Gating their help text on focus needs its own design decision.
-- **`prefers-reduced-motion`** is not handled here because it is not handled anywhere in Blade today. Adding it belongs in a system-wide motion pass, not in this prop.
+- **`prefers-reduced-motion`** is not handled here because it is not handled anywhere in Loom UI today. Adding it belongs in a system-wide motion pass, not in this prop.
 
 Known limits of the current behaviour:
 

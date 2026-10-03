@@ -27,8 +27,8 @@ import nodePlop from 'node-plop';
 import randomNameGenerator from 'moniker';
 import { parseSync } from 'svgson';
 
-const GITHUB_BOT_EMAIL = 'tools+cibot@razorpay.com';
-const GITHUB_BOT_USERNAME = 'rzpcibot';
+const GITHUB_BOT_EMAIL = 'tools+cibot@greenloom.ai';
+const GITHUB_BOT_USERNAME = 'greenloom-bot';
 
 const BLADE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const REPO_ROOT = path.resolve(BLADE_ROOT, '../..');
@@ -789,7 +789,7 @@ const uploadIcons = async () => {
       '--head',
       branchName,
       '--repo',
-      'razorpay/blade',
+      'romeet9/greenloom-ui',
       '--body',
       body,
       ...(blockers.length ? ['--draft'] : []),

@@ -1,6 +1,6 @@
 # CounterInput
 
-CounterInput is a specialized input component that allows users to increment or decrement numerical values using built-in controls. It provides an intuitive interface for adjusting quantities, counts, or any numerical values with precise control through both manual text input and increment/decrement buttons. The component ensures accessibility and proper validation while maintaining consistency with the Blade design system.
+CounterInput is a specialized input component that allows users to increment or decrement numerical values using built-in controls. It provides an intuitive interface for adjusting quantities, counts, or any numerical values with precise control through both manual text input and increment/decrement buttons. The component ensures accessibility and proper validation while maintaining consistency with the Loom UI design system.
 
 <img src="./counterinput-states.png" width="380" />
 

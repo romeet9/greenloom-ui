@@ -213,7 +213,7 @@ const [cardIcon, setCardIcon] = useState(null);
 - **Limited Flexibility**: Hard to customize detection rules or icon appearance
 - **Business Logic Conflicts**: Built-in detection might not match business requirements
 - **Generic Use Case Limitation**: Doesn't work for non-payment formatting scenarios
-- **Additional Learning Curve**: Teams need to learn Blade's specific card detection API and behavior
+- **Additional Learning Curve**: Teams need to learn Loom UI's specific card detection API and behavior
 
 ### Enhanced onChange with Dual Values
 
@@ -281,7 +281,7 @@ const [cardIcon, setCardIcon] = useState(null);
 
 ### External
 
-- [Razorpay Checkout](https://greenloom.ai/demopg3/) - Payment input UX patterns
+- [Green Loom Checkout](https://greenloom.ai/demopg3/) - Payment input UX patterns
 - [Stripe Elements](https://checkout.stripe.dev/checkout) - Payment input UX patterns
 - [Ant Design Input](https://ant.design/components/input-number#input-number-demo-formatter) - Formatter function
   approach

@@ -17,7 +17,7 @@ FormGroup is a high-level pattern component that provides a consistent way to bu
 
 > **Note**
 >
-> Unlike ListView, there aren't enough reasons to create Layout component for FormGroup, instead allowing users to compose forms using primitive blade components. More about this is discussed in [pattern-terminology.md](https://github.com/razorpay/blade/blob/e58edf015d2062bd51374c5a7024a85adc13f636/packages/blade/src/components/ListView/_decisions/pattern-terminology.md)
+> Unlike ListView, there aren't enough reasons to create Layout component for FormGroup, instead allowing users to compose forms using primitive Loom UI components. More about this is discussed in [pattern-terminology.md](https://github.com/razorpay/blade/blob/e58edf015d2062bd51374c5a7024a85adc13f636/packages/blade/src/components/ListView/_decisions/pattern-terminology.md)
 
 ### Component Anatomy
 
@@ -107,7 +107,7 @@ Instead, teams are encouraged to use their preferred validation libraries (Yup, 
 
 3. **Integration Flexibility**
 
-   - Blade components are designed to be flexible and adaptable, capable of consuming validation states from different libraries.
+   - Loom UI components are designed to be flexible and adaptable, capable of consuming validation states from different libraries.
 
    - By avoiding a built-in validation API, we ensure seamless integration with third-party libraries like Formik, React Hook Form, Yup, Zod, Joi, or custom implementations. Since Form libraries have their own validation systems.
 

@@ -116,7 +116,7 @@ and it is never the only way to read the value.
 
 ## Motion, except while dragging
 
-The thumb, the fill and the value indicator all move on Blade's motion tokens, sharing one
+The thumb, the fill and the value indicator all move on Loom UI's motion tokens, sharing one
 block in `sliderInputTokens` so they cannot drift out of step with each other.
 
 They do not transition their own positions. The control carries the value as a registered
@@ -200,7 +200,7 @@ positioned not to block. It is also numbers-only, and the indicator is expected 
 arbitrary text later.
 
 So the swap animates the whole value rather than individual digits: one behaviour that reads
-correctly for a number and for a word, on Blade's existing motion system, with no new
+correctly for a number and for a word, on Loom UI's existing motion system, with no new
 dependency. The trade is that it does not have NumberFlow's per-digit roll.
 
 `BaseAnimatedValue` takes the raw value and the formatted text separately. The raw value gives a
@@ -240,7 +240,7 @@ left out rather than shipped as a lookalike that drifts from the web behaviour.
   the two cannot disagree, but Blade has no RTL infrastructure to test against and no RTL
   support is claimed.
 
-- `prefers-reduced-motion` is not handled, deliberately and for now. Nothing in Blade handles
+- `prefers-reduced-motion` is not handled, deliberately and for now. Nothing in Loom UI handles
   it — the setting appears nowhere in the source — and the decision is to address it across the
   system at once rather than one component at a time.
 

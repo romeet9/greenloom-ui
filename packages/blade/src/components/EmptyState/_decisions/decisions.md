@@ -126,7 +126,7 @@ import { EmptyState, Button, Link } from '@razorpay/blade/components';
   - More flexibility than prescriptive API
   - Clear separation between content and actions
   - Supports complex footer layouts
-  - Custom spacing control using Blade components
+  - Custom spacing control using Loom UI components
 - Cons:
   - "Footer" naming can be confusing when people omit title/description and use slot for custom content
   - Less intuitive than standard React children pattern
@@ -303,7 +303,7 @@ Empty state with actions and help text using children.
 - People can omit title/description and use children for custom layouts
 - No restrictions on content type or layout complexity
 - Natural React API that developers are familiar with
-- Easier to create complex layouts with proper spacing using Blade components
+- Easier to create complex layouts with proper spacing using Loom UI components
 
 ## References
 

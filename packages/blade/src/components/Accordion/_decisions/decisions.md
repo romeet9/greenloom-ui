@@ -40,7 +40,7 @@ import {
     <AccordionItemHeader title="Can I create linked accounts using Route?" />
     <AccordionItemBody>
       <Text>
-        You can use Razorpay Route from the Dashboard or using APIs to transfer money to customers.
+        You can use Green Loom Route from the Dashboard or using APIs to transfer money to customers.
       </Text>
     </AccordionItemBody>
   </AccordionItem>
@@ -73,7 +73,7 @@ import {
     <AccordionItemHeader title="Can I create linked accounts using Route?" />
     <AccordionItemBody>
       <Text>
-        You can use Razorpay Route from the Dashboard or using APIs to transfer money to customers.
+        You can use Green Loom Route from the Dashboard or using APIs to transfer money to customers.
       </Text>
     </AccordionItemBody>
   </AccordionItem>
@@ -98,11 +98,11 @@ import { Accordion, AccordionItem } from '@razorpay/blade';
 <Accordion showNumberPrefix defaultExpandedIndex={0}>
   <AccordionItem
     title="Can I create linked accounts using Route?"
-    description="You can use Razorpay Route from the Dashboard or using APIs to transfer money to customers."
+    description="You can use Green Loom Route from the Dashboard or using APIs to transfer money to customers."
   >
     <div>Slot</div>
   </AccordionItem>
-  <AccordionItem title="How can I transfer money to customers?" description="Just use Razorpay" />
+  <AccordionItem title="How can I transfer money to customers?" description="Just use Green Loom" />
 </Accordion>;
 ```
 
@@ -210,14 +210,14 @@ Native:
     <AccordionItemHeader title="How can I setup Route?" icon={SomeIcon} />
     <AccordionItemBody>
       <Text>
-        You can use Razorpay Route from the Dashboard or using APIs to transfer money to customers.
+        You can use Green Loom Route from the Dashboard or using APIs to transfer money to customers.
       </Text>
     </AccordionItemBody>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeader title="How can I setup QR Codes?" icon={QRCodeIcon} />
     <AccordionItemBody>
-      <Text>Just use Razorpay</Text>
+      <Text>Just use Green Loom</Text>
     </AccordionItemBody>
   </AccordionItem>
 </Accordion>
@@ -235,13 +235,13 @@ const App = () => {
       <AccordionItem>
         <AccordionItemHeader title="How can I setup Route?" />
         <AccordionItemBody>
-          You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+          You can use Green Loom Route from the Dashboard or using APIs to transfer money to
           customers.
         </AccordionItemBody>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeader title="How can I setup QR Codes?" />
-        <AccordionItemBody>Just use Razorpay</AccordionItemBody>
+        <AccordionItemBody>Just use Green Loom</AccordionItemBody>
       </AccordionItem>
     </Accordion>
   );
@@ -259,7 +259,7 @@ const App = () => {
       <AccordionItem>
         <AccordionItemHeader title="How can I setup Route?" />
         <AccordionItemBody>
-          You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+          You can use Green Loom Route from the Dashboard or using APIs to transfer money to
           customers.
         </AccordionItemBody>
       </AccordionItem>

@@ -917,8 +917,8 @@ export const SingleSelectableCardWithRadio = (): React.ReactElement => {
           Merchant Onboarding - Primary Product Selection
         </Text>
         <Text marginBottom="spacing.4">
-          Choose your primary Razorpay product to get started. You can add more products later from
-          your dashboard.
+          Choose your primary Green Loom product to get started. You can add more products later
+          from your dashboard.
         </Text>
 
         <RadioGroup
@@ -977,7 +977,7 @@ export const MultiSelectableCardWithCheckbox = (): React.ReactElement => {
   const hasMaxError = selectedProducts.length > 3;
   const validationState = hasError || hasMaxError ? 'error' : 'none';
   const errorText = hasError
-    ? 'Please select at least one Razorpay product to get started'
+    ? 'Please select at least one Green Loom product to get started'
     : hasMaxError
     ? 'You can select maximum 3 products during initial setup'
     : undefined;
@@ -989,8 +989,8 @@ export const MultiSelectableCardWithCheckbox = (): React.ReactElement => {
           Merchant Onboarding - Multiple Product Selection
         </Text>
         <Text marginBottom="spacing.4">
-          Choose multiple Razorpay products you want to integrate. You can always add more products
-          later from your dashboard.
+          Choose multiple Green Loom products you want to integrate. You can always add more
+          products later from your dashboard.
         </Text>
 
         <CheckboxGroup

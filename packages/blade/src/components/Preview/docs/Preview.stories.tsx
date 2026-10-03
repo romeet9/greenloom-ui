@@ -296,7 +296,7 @@ const PDFRenderer: StoryFn<typeof Preview> = () => {
       <PreviewHeader title="Preview " />
       <PreviewBody>
         <Document
-          file="https://cdn.razorpay.com/traditional-banks-vs-razorpayx.pdf"
+          file="https://cdn.greenloom.ai/traditional-banks-vs-razorpayx.pdf"
           className="pdf-page"
         >
           <ReactPdfPage key={currentPage} pageNumber={currentPage} width={800} height={700} />

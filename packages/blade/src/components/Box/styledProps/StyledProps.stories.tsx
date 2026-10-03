@@ -23,13 +23,13 @@ const BoxStoryMeta = {
         <StoryPageWrapper
           componentName="Styled Props"
           componentDescription="Styled Props that can be added to any blade component for creating different layouts"
-          propsDescription="Same Styled Props are supported on all Blade Components"
+          propsDescription="Same Styled Props are supported on all Loom UI components"
           imports=""
         >
           <Alert
             isFullWidth
             isDismissible={false}
-            description="This is an example styled prop story. You can also check out stories of individual blade components where you will find 'Styled Props' category in their storybook args table."
+            description="This is an example styled prop story. You can also check out stories of individual Loom UI components where you will find 'Styled Props' category in their storybook args table."
             marginTop="spacing.4"
             marginBottom="spacing.8"
           />
@@ -38,7 +38,7 @@ const BoxStoryMeta = {
             <Text marginTop="spacing.3">
               Check Out{' '}
               <Link href="https://ui.greenloom.ai/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--docs">
-                &quot;Styled Props for Blade Components&quot; section from &quot;How to Create
+                &quot;Styled Props for Loom UI components&quot; section from &quot;How to Create
                 Layouts?&quot; Docs
               </Link>{' '}
               for interactive playground and more detailed documentation of Styled Props

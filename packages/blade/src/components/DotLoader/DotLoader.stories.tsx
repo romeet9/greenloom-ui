@@ -13,7 +13,7 @@ const Page = (): ReactElement => {
       <Subtitle>
         This is the DotLoader internal component. It is the shared indefinite loading indicator —
         three dots that lift and settle in a staggered wave. It is not exported publicly; use it
-        from other Blade components via `~components/DotLoader`.
+        from other Loom UI components via `~components/DotLoader`.
       </Subtitle>
       <a
         href="https://www.figma.com/design/jubmQL9Z8V7881ayUD95ps/Blade-DSL?node-id=125319-2211"

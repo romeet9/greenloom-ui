@@ -189,7 +189,7 @@ export default {
     footerMarginTop: 'spacing.4',
     footerPaddingTop: 'spacing.4',
     body:
-      'Create Razorpay Payments Links and share them with your customers from the Razorpay Dashboard or using APIs and start accepting payments. Check the advantages, payment methods, international currency support and more.',
+      'Create Green Loom Payments Links and share them with your customers from the Green Loom Dashboard or using APIs and start accepting payments. Check the advantages, payment methods, international currency support and more.',
     footerPrimaryAction: {
       text: 'Learn More',
       onClick: () => {
@@ -747,7 +747,7 @@ const InfoCardExample = (): React.ReactElement => {
     <InfoCardComponent width="280px" {...stateProps}>
       <InfoCardBody>
         <Box display="flex" flexDirection="row" justifyContent="space-between" alignItems="center">
-          <Text weight="semibold">Razorpay Summit 2026</Text>
+          <Text weight="semibold">Green Loom Summit 2026</Text>
           <Text size="small" color="surface.text.gray.subtle">
             {label}
           </Text>

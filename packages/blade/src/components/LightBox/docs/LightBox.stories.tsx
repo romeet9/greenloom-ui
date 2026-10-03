@@ -38,7 +38,7 @@ const DEFAULT_IMAGES = [
   },
 ];
 
-const PDF_FILE_URL = 'https://cdn.razorpay.com/traditional-banks-vs-razorpayx.pdf';
+const PDF_FILE_URL = 'https://cdn.greenloom.ai/traditional-banks-vs-razorpayx.pdf';
 const FALLBACK_PDF_THUMBNAIL = 'https://picsum.photos/seed/pdfthumb/400/300';
 const VIDEO_FILE_URL = 'https://www.w3schools.com/html/mov_bbb.mp4';
 const VIDEO_THUMBNAIL_URL = 'https://picsum.photos/seed/lightbox-video-thumb/400/300';

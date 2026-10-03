@@ -189,7 +189,7 @@ export const WithIcons: StoryFn<typeof InfoGroup> = (args) => {
             </Badge>
           }
         >
-          Razorpay Software Pvt Ltd
+          Green Loom Software Pvt Ltd
         </InfoItemValue>
       </InfoItem>
       <InfoItem>

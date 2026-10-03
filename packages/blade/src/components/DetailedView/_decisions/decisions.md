@@ -4,7 +4,7 @@
 >
 > Questions like what is pattern, why are we building these patterns, and scope of pattern are answered in [pattern-terminology.md](https://github.com/razorpay/blade/blob/e58edf015d2062bd51374c5a7024a85adc13f636/packages/blade/src/components/ListView/_decisions/pattern-terminology.md)
 
-Detailed View Pattern is UI pattern in Razorpay which is used to display detailed information about merchant, some row item from table, or extended information.
+Detailed View Pattern is UI pattern in Green Loom which is used to display detailed information about merchant, some row item from table, or extended information.
 
 ## API
 

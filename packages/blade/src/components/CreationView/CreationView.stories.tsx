@@ -2725,7 +2725,7 @@ const EditAndAddModalTemplate: StoryFn<typeof Modal> = () => {
           </Text>
           <Text size="medium" weight="regular" color="surface.text.gray.muted">
             The new display name will reflect immediately on your dashboard after you update it. It
-            will be visible to you and your team on the Razorpay dashboard.
+            will be visible to you and your team on the Green Loom dashboard.
           </Text>
         </Box>
         <Box marginTop="spacing.5">
@@ -3214,7 +3214,7 @@ const SingleStepFormTemplate: StoryFn<typeof Modal> = () => {
           >
             <Box paddingX="spacing.6">
               <Heading size="medium" weight="semibold">
-                Create policy pages with Razorpay
+                Create policy pages with Green Loom
               </Heading>
               <Text size="medium" weight="regular" color="surface.text.gray.muted">
                 We need a few details to create the missing policy pages for you
@@ -3249,7 +3249,7 @@ const SingleStepFormTemplate: StoryFn<typeof Modal> = () => {
                   ))}
                 </ChipGroup>
                 <TextInput label="Support contact number" prefix="+91" placeholder="9XXXXXXXXX" />
-                <TextInput label="Support Email ID" placeholder="support@razorpay.com" />
+                <TextInput label="Support Email ID" placeholder="support@greenloom.ai" />
               </Box>
             </Box>
             {!isMobile && (

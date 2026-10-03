@@ -158,7 +158,7 @@ We can extend our `value` prop to accept JSX
 <TextInput
   value={
     <>
-      <Tag onDismiss={}>kamlesh.chandnani@razorpay.com</Tag>
+      <Tag onDismiss={}>kamlesh.chandnani@greenloom.ai</Tag>
       <Tag onDismiss={}>divyanshu.maithani@razopay.com</Tag>
       saurabhdaw
     </>

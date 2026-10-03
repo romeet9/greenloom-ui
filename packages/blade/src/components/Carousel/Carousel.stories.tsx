@@ -120,7 +120,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Acquire Customers From New Customer Segments',
     longQuote:
-      'Creating No Cost EMI offers through the Razorpay dashboard was surprisingly easy and it has proved to be an important driver in making our subscriptions affordable to a wider audience. We saw ~3x increase of the EMI contribution in the overall sales, thereby unlocking a specific affordability sensitive segment for us.',
+      'Creating No Cost EMI offers through the Green Loom dashboard was surprisingly easy and it has proved to be an important driver in making our subscriptions affordable to a wider audience. We saw ~3x increase of the EMI contribution in the overall sales, thereby unlocking a specific affordability sensitive segment for us.',
     name: 'Subham Kumar',
     role: 'Product Manager',
     company: 'Unacademy',
@@ -136,7 +136,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Readymade Closed Wallet Solution For Quick Refunds',
     longQuote:
-      'We were looking for a closed wallet solution for one-step checkout once the money is loaded in the wallet. Razorpay, our online payment partner, built a white label closed wallet solution which enabled us to create & offer cashbacks and easily refund payments. This improved customer loyalty and the trust in our brand.',
+      'We were looking for a closed wallet solution for one-step checkout once the money is loaded in the wallet. Green Loom, our online payment partner, built a white label closed wallet solution which enabled us to create & offer cashbacks and easily refund payments. This improved customer loyalty and the trust in our brand.',
     name: 'Ashish Somani',
     role: 'GM, Strategy and Planning',
     company: 'MedLife',
@@ -144,7 +144,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Single Flow To Collect And Disburse Payments',
     longQuote:
-      'Razorpay has been an important partner for our business. We are currently using Smart collect and Route marketplace for collecting payments from users. Their innovative products and quick support has helped us scale our offering to our users. From onboarding documentation to technical integration, Razorpay has been a boon for Indian tech startups.',
+      'Green Loom has been an important partner for our business. We are currently using Smart collect and Route marketplace for collecting payments from users. Their innovative products and quick support has helped us scale our offering to our users. From onboarding documentation to technical integration, Green Loom has been a boon for Indian tech startups.',
     name: 'Pranay Bhardwaj',
     role: 'Product Manager',
     company: 'Slice',
@@ -152,7 +152,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Simplified Reconciliation Process For FinOps Teams',
     longQuote:
-      '50% of our payments come via NEFT, RTGS and, IMPS bank transfers. Reconciliation of payments was a tedious and cumbersome process. Razorpay Smart Collect has helped us automate this end-to-end and simplified the process for Finance and Operations team.',
+      '50% of our payments come via NEFT, RTGS and, IMPS bank transfers. Reconciliation of payments was a tedious and cumbersome process. Green Loom Smart Collect has helped us automate this end-to-end and simplified the process for Finance and Operations team.',
     name: 'Shailesh Gupta',
     role: 'Founder',
     company: 'innov8',
@@ -160,7 +160,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Finance Your Working Capital To Continue Growing',
     longQuote:
-      "We experienced a 40% decline in demand due to Covid-19 lockdown but we couldn't afford to cut back on marketing and product development. Razorpay did a fine job of processing and disbursing Working Capital Loan quickly with great support throughout. With increased liquidity, we were able to bounce back to normality in no time.",
+      "We experienced a 40% decline in demand due to Covid-19 lockdown but we couldn't afford to cut back on marketing and product development. Green Loom did a fine job of processing and disbursing Working Capital Loan quickly with great support throughout. With increased liquidity, we were able to bounce back to normality in no time.",
     name: 'Girish Khemnani',
     role: 'Owner',
     company: 'Market Insights',
@@ -168,7 +168,7 @@ const testimonialData: TestimonialData[] = [
   {
     quote: 'Helped Us Reduce Outstandings By 18%',
     longQuote:
-      'By using the card tokenization feature on Razorpay Subscriptions, we were able to eliminate up-front deposits for a majority of our customers. This helped us reduce outstandings by 18% and improved our retention numbers, as more customers were able to afford the product.',
+      'By using the card tokenization feature on Green Loom Subscriptions, we were able to eliminate up-front deposits for a majority of our customers. This helped us reduce outstandings by 18% and improved our retention numbers, as more customers were able to afford the product.',
     name: 'Aravind Radhakrishnan',
     role: 'Product Director',
     company: 'Zoomcar',

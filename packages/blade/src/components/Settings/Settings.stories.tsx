@@ -66,7 +66,6 @@ import {
   TabNavItem,
 } from '../TopNav';
 import { useTheme, useBreakpoint } from '../../utils';
-import type { BoxProps } from '../Box';
 import { RazorpayLogo } from './assets/razorpay';
 import TeamManagementIcon from './assets/png/team.png';
 import BankAccountIcon from './assets/png/bank.png';
@@ -507,7 +506,7 @@ const TopNavigation = (): React.ReactElement => {
             <Box width="200px">
               <SearchInput
                 placeholder="Search in payments"
-                accessibilityLabel="Search Across Razorpay"
+                accessibilityLabel="Search Across Green Loom"
                 showSearchIcon={false}
               />
             </Box>
@@ -528,7 +527,7 @@ const TopNavigation = (): React.ReactElement => {
                       John Doe
                     </Text>
                     <Text size="xsmall" color="surface.text.gray.muted">
-                      Razorpay Trusted Merchant
+                      Green Loom Trusted Merchant
                     </Text>
                   </Box>
                 </Box>
@@ -999,7 +998,7 @@ const User = (): React.ReactElement => {
 
           <SubSectionCard
             title="Notifications"
-            subtitle="Receive notifications from Razorpay on your phone/email for any account related updates"
+            subtitle="Receive notifications from Green Loom on your phone/email for any account related updates"
           >
             <Box display="flex" flexDirection="column" gap="spacing.5">
               <CardRow

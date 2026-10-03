@@ -29,7 +29,7 @@ const BoxStoryMeta = {
           componentName="Box"
           apiDecisionLink="https://github.com/razorpay/blade/blob/master/rfcs/2023-01-06-layout.md"
           componentDescription="Box Component from Layout Primitives of Blade."
-          propsDescription="All Box props support responsive objects. Props marked with 💅🏼 next to their names are the props that can also be used as styled-props on other blade components. Check out styled-props documentation for more details."
+          propsDescription="All Box props support responsive objects. Props marked with 💅🏼 next to their names are the props that can also be used as styled-props on other Loom UI components. Check out styled-props documentation for more details."
         >
           <Box paddingY="spacing.5" paddingBottom="spacing.8">
             <Heading size="xlarge">Layout Primitives Documentation</Heading>

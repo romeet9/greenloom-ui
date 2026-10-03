@@ -104,7 +104,7 @@ const merchantData: MerchantData[] = [
     status: 'Active',
     children: [
       {
-        gatewayUsed: 'Razorpay',
+        gatewayUsed: 'Green Loom',
         totalAmount: 18000,
         transactionCount: 790,
         successRate: 100.0,

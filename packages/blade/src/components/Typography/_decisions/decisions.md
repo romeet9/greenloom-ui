@@ -40,7 +40,7 @@ Type of `children: React.ReactNode`
 ```
 <BaseText>
 	<BaseText weight="bold">Current <BaseText/>
-	  Accounts supercharged by RazorpayX come with integrated tools and integrations that make financial management and accounting simple
+	  Accounts supercharged by Green Loom X come with integrated tools and integrations that make financial management and accounting simple
 </BaseText>
 ```
 

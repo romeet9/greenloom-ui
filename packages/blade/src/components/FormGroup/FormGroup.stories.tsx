@@ -30,7 +30,7 @@ export default {
     docs: {
       page: () => (
         <StoryPageWrapper
-          componentDescription="FormGroup is a pattern that provides a consistent way to build forms using Blade components."
+          componentDescription="FormGroup is a pattern that provides a consistent way to build forms using Loom UI components."
           componentName="FormGroup"
         >
           <Heading size="large">Usage</Heading>
@@ -179,7 +179,7 @@ const ValidationFormTemplate: StoryFn<{
         <Box>
           <Heading size="large">Welcome to Blade Example</Heading>
           <Heading size="medium" weight="regular">
-            This is an example form built with Blade
+            This is an example form built with Loom UI
           </Heading>
         </Box>
 

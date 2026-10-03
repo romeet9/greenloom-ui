@@ -221,7 +221,7 @@ const OrderedFilledListWithSizesTemplate: StoryFn<typeof List> = () => {
           <List variant="ordered-filled" size={size}>
             <ListItem>
               <ListItemLink>Build Integration:</ListItemLink> Use the sample codes to integrate the
-              Razorpay Web Standard Checkout on your website.
+              Green Loom Web Standard Checkout on your website.
             </ListItem>
             <ListItem>
               <ListItemLink>Test Integration:</ListItemLink> Test the integration to ensure it was

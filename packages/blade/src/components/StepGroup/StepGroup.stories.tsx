@@ -125,7 +125,7 @@ const stepsSampleData: StepItemProps[] = [
   {
     title: 'Introduction',
     timestamp: 'Mon, 15th Oct’23 | 12:00pm',
-    description: 'Introduction to Razorpay Payment Gateway',
+    description: 'Introduction to Green Loom Payment Gateway',
   },
   {
     title: 'Personal Details',
@@ -264,9 +264,9 @@ const StepGroupNestedTemplate: StoryFn<typeof StepGroup> = (args) => {
       />
       <StepGroup>
         <StepItem
-          title="Review from Razorpay Team"
+          title="Review from Green Loom Team"
           timestamp="Fri, 12th Oct'23 | 12:00pm"
-          description="The dispute is reviewed by Razorpay team"
+          description="The dispute is reviewed by Green Loom team"
           stepProgress="full"
           marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
         />

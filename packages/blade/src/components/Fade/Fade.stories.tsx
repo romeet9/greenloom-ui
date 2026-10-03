@@ -180,7 +180,7 @@ const stepsSampleData: StepItemProps[] = [
   {
     title: 'Introduction',
     timestamp: 'Mon, 15th Oct’23 | 12:00pm',
-    description: 'Introduction to Razorpay Payment Gateway',
+    description: 'Introduction to Green Loom Payment Gateway',
     href: '/onboarding/introduction',
   },
   {

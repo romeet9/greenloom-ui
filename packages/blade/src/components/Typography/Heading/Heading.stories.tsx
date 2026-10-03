@@ -27,7 +27,7 @@ const Page = (): ReactElement => {
 
           function App() {
             return (
-              <Heading size="large">Blade by Razorpay</Heading>
+              <Heading size="large">Blade by Green Loom</Heading>
             )
           }
 

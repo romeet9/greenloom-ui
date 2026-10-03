@@ -808,7 +808,7 @@ const ProductUseCase2Template: StoryFn<(props: StoryControlProps) => React.React
     <Box height={isReactNative() ? '100%' : undefined}>
       <Text>
         We can add related actions to the Tab's right side (as found in the{' '}
-        <Link href="https://dashboard.razorpay.com/app/subscriptions">dashboard</Link>) by wrapping
+        <Link href="https://dashboard.greenloom.ai/app/subscriptions">dashboard</Link>) by wrapping
         the <Code size="medium">TabList</Code> with a <Code size="medium">Box</Code> and aligning
         buttons or links to the right side of the box with flex.
       </Text>

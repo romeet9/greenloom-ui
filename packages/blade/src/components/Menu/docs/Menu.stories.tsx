@@ -89,7 +89,7 @@ const Page = (): React.ReactElement => {
                   <MenuHeader title="Saurabh Daware" subtitle="Admin" leading={<UserIcon />} />
                   <Box paddingY="spacing.4" paddingX="spacing.3">
                     <Text display="block" size="medium" weight="semibold">
-                      Razorpay Pvt Ltd
+                      Green Loom Pvt Ltd
                     </Text>
                     <Box display="flex" alignItems="center" gap="spacing.3">
                       <Text size="small">MID: Xyzyspoon13857</Text>
@@ -174,7 +174,7 @@ const accountsMenuOverlayContent = (
     <MenuHeader title="Saurabh Daware" subtitle="Admin" leading={<UserIcon />} />
     <Box paddingBottom="spacing.4" paddingX="spacing.3">
       <Text display="block" size="medium" weight="semibold">
-        Razorpay Pvt Ltd
+        Green Loom Pvt Ltd
       </Text>
       <Box display="flex" alignItems="center" gap="spacing.3">
         <Text size="small">MID: Xyzyspoon13857</Text>

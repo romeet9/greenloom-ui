@@ -178,7 +178,7 @@ const MyCustomButton = React.forwardRef<
 
 ## Future Scope
 
-Apart from normal Popovers while we audited the components used in Razorpay, we also found instances of Guided Popovers (Tour component), which can be used to guide users through a flow. 
+Apart from normal Popovers while we audited the components used in Green Loom, we also found instances of Guided Popovers (Tour component), which can be used to guide users through a flow. 
 We will be adding support for Guided Popovers in future.
 
 Guided Popovers will have additional features like: 

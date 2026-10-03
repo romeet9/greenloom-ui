@@ -10,7 +10,7 @@ const Page = (): React.ReactElement => {
   return (
     <StoryPageWrapper
       componentName="TrustBadge"
-      componentDescription="A generic trust badge — a brand shield paired with a sea-tinted pill that displays a configurable trust label (default: 'Razorpay Trusted Business'). The component is designed to be generic so the label can evolve without a breaking API change."
+      componentDescription="A generic trust badge — a brand shield paired with a sea-tinted pill that displays a configurable trust label (default: 'Green Loom Verified Partner'). The component is designed to be generic so the label can evolve without a breaking API change."
       figmaURL="https://www.figma.com/design/jubmQL9Z8V7881ayUD95ps/Blade-DSL?node-id=123352-128035&m=dev"
     >
       <Title>Usage</Title>
@@ -41,7 +41,7 @@ export default {
   },
   args: {
     variant: 'default',
-    label: 'Razorpay Trusted Business',
+    label: 'Green Loom Verified Partner',
   },
   parameters: {
     docs: {
@@ -72,5 +72,5 @@ IconOnly.args = {
 
 export const CustomLabel = TrustBadgeTemplate.bind({});
 CustomLabel.args = {
-  label: 'Razorpay Verified',
+  label: 'Green Loom Verified',
 };

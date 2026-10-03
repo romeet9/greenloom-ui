@@ -19,8 +19,8 @@ Internal component that exposes certain extra props to enable creation of Compon
 | Prop | Type | Required | Default | Description |
 |---|---|---|---|---|
 | variant | `anchor`, `button` | *No* | `anchor` | The variant of the Link to be rendered.<br><br>Note: `button` will look like an inline Link component (no spacing; can be rendered alongside other text) but will be rendered as a `button` element. |
-| intent |  `positive`,`negative`, `notice`, `information`, `neutral` | *No* | undefined | The intent of the link to be rendered.<br><br>  Note: <br> - We will use this to set the intent for internal Blade components that have positive, negative, notice, info, or neutral link buttons like an Alert component. |
-| contrast | `low`, `high` | *No* | `low` | The contrast of the link to be rendered.<br><br>  Note: We need this for internal Blade components since a `positive` intent could have a `high` as well as a `low` contrast link. |
+| intent |  `positive`,`negative`, `notice`, `information`, `neutral` | *No* | undefined | The intent of the link to be rendered.<br><br>  Note: <br> - We will use this to set the intent for internal Loom UI components that have positive, negative, notice, info, or neutral link buttons like an Alert component. |
+| contrast | `low`, `high` | *No* | `low` | The contrast of the link to be rendered.<br><br>  Note: We need this for internal Loom UI components since a `positive` intent could have a `high` as well as a `low` contrast link. |
 | children | `string` | When `icon` is passed: *No*<br>When `icon` is not passed: *Yes*   | undefined | The text to be rendered within the link. |
 | icon | `Icon` | When `children` is passed: *No*<br>When `children` is not passed: *Yes* | undefined | The Blade `Icon` component to be rendered within the link. |
 | iconPosition | `left`, `right` | *No* | `right` | The position of the rendered icon. |

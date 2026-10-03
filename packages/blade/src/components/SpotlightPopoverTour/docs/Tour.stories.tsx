@@ -532,7 +532,7 @@ export const WithScrollablePage = () => {
           return (
             <Box>
               <Text color="surface.text.gray.subtle">
-                Razorpay provides a Powerful Dashboard for you to get reports and detailed
+                Green Loom provides a Powerful Dashboard for you to get reports and detailed
                 statistics on payments, settlements, refunds and much more for you to take better
                 business decisions.
               </Text>
@@ -549,8 +549,8 @@ export const WithScrollablePage = () => {
           return (
             <Box>
               <Text color="surface.text.gray.subtle">
-                With Amazon AWS, we are built for scale. To ensure that products built with Razorpay
-                are always available, we have a highly scalable and reliable infrastructure.
+                With Amazon AWS, we are built for scale. To ensure that products built with Green
+                Loom are always available, we have a highly scalable and reliable infrastructure.
               </Text>
             </Box>
           );
@@ -565,8 +565,8 @@ export const WithScrollablePage = () => {
           return (
             <Box>
               <Text color="surface.text.gray.subtle">
-                With SDKs and documentation for all major languages and platforms, Razorpay is built
-                for developers.
+                With SDKs and documentation for all major languages and platforms, Green Loom is
+                built for developers.
               </Text>
             </Box>
           );
@@ -627,7 +627,7 @@ export const WithScrollablePage = () => {
             >
               <Text>A</Text>
               <SpotlightPopoverTourStep name="razorpay-dashboard">
-                <Link href="https://dashboard.razorpay.com">Powerful Dashboard</Link>
+                <Link href="https://dashboard.greenloom.ai">Powerful Dashboard</Link>
               </SpotlightPopoverTourStep>
               <Text>
                 for you to get reports and detailed statistics on payments, settlements, refunds and
@@ -715,7 +715,7 @@ export const WithScrollablePage = () => {
             >
               <Text>
                 Over the last couple of years, we have worked hard with our banking partners so you
-                don’t have to. Razorpay's servers are completely hosted on
+                don’t have to. Green Loom's servers are completely hosted on
               </Text>
               <SpotlightPopoverTourStep name="amazon-aws">
                 <Link href="https://aws.amazon.com/">Amazon AWS</Link>

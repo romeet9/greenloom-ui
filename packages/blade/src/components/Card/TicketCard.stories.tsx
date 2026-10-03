@@ -52,7 +52,7 @@ export default meta;
 const getTicketCardChildren = (label: string): React.ReactElement[] => [
   <TicketCardBody key="body">
     <Box display="flex" flexDirection="column" gap="spacing.2">
-      <Text weight="semibold">Razorpay Summit 2026</Text>
+      <Text weight="semibold">Green Loom Summit 2026</Text>
       <Text size="small" color="surface.text.gray.subtle">
         {label}
       </Text>

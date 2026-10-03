@@ -763,7 +763,7 @@ For the Industry SR use case (Optimizer), a chart can show **multiple trend line
 
 - Color Handling
 
-We will not support sequential colors for line charts. A limited, curated palette of theme colors will be available. A `color` prop will be available in the line configuration. If it is not provided, we will automatically assign a color from the predefined palette. [Rama Krushna Behera](mailto:rama.behera@razorpay.com) will confirm the final color palette.
+We will not support sequential colors for line charts. A limited, curated palette of theme colors will be available. A `color` prop will be available in the line configuration. If it is not provided, we will automatically assign a color from the predefined palette. [Rama Krushna Behera](mailto:rama.behera@greenloom.ai) will confirm the final color palette.
 
 - Tooltip
 

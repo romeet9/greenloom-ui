@@ -27,8 +27,8 @@ const {
   serializeTokens,
 } = require('./tokenSerializer');
 
-const GITHUB_BOT_EMAIL = 'tools+cibot@razorpay.com';
-const GITHUB_BOT_USERNAME = 'rzpcibot';
+const GITHUB_BOT_EMAIL = 'tools+cibot@greenloom.ai';
+const GITHUB_BOT_USERNAME = 'greenloom-bot';
 
 const BLADE_ROOT = path.resolve(__dirname, '..');
 const REPO_ROOT = path.resolve(BLADE_ROOT, '../..');
@@ -523,7 +523,7 @@ const uploadColorTokens = async () => {
       '--head',
       branchName,
       '--repo',
-      'razorpay/blade',
+      'romeet9/greenloom-ui',
       '--body',
       body,
       ...(blockers.length ? ['--draft'] : []),

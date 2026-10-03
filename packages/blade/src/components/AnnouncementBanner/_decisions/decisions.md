@@ -72,7 +72,7 @@ This maps the Figma to code as: `Alignment` → `alignment`, `showIcon` → pres
   - Mirrors the Figma prop name 1:1; guarantees a string.
 - Cons
   - Cannot embed an inline `Link` in the message (a common need for promo banners — "Know more", "Terms apply").
-  - Diverges from Blade's WYSIWYG philosophy where message content is `children`.
+  - Diverges from Loom UI's WYSIWYG philosophy where message content is `children`.
 - Decision: **rejected** — use `children`, which still accepts a plain string.
 
 ### Alternate API 4 — Compound component

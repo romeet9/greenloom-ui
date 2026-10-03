@@ -22,7 +22,7 @@
 
 ### 1\. Introduction
 
-Currently in Blade, we are planning to add new variants of icons: filled and outlined. This document discusses the development implementation for this change.
+Currently in Loom UI, we are planning to add new variants of icons: filled and outlined. This document discusses the development implementation for this change.
 
 ### 2\. Strategy Options
 

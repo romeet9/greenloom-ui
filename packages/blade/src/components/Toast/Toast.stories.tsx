@@ -169,7 +169,7 @@ const ToastVariantsTemplate: StoryFn<ToastProps> = () => {
             style={{ objectFit: 'cover', borderRadius: '8px' }}
             src="https://d6xcmfyh68wv8.cloudfront.net/blog-content/uploads/2023/05/Features-blog.png"
           />
-          <Text weight="semibold">Lightning-fast payments with the new Razorpay Turbo UPI</Text>
+          <Text weight="semibold">Lightning-fast payments with the new Green Loom Turbo UPI</Text>
           <Text size="xsmall">
             Turbo UPI allows end-users to complete their payment in-app, with no redirections or
             dependence on third-party UPI apps. With Turbo UPI, payments will be 5x faster with a

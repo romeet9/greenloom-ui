@@ -17,7 +17,7 @@ const SelfMessageTemplate: StoryFn<ChatMessageProps> = (args) => {
   return (
     <Box padding="spacing.4">
       <ChatMessage {...args} senderType="self">
-        How do I integrate Razorpay payment gateway?
+        How do I integrate Green Loom payment gateway?
       </ChatMessage>
     </Box>
   );
@@ -29,8 +29,8 @@ const OtherMessageTemplate: StoryFn<ChatMessageProps> = (args) => {
   return (
     <Box padding="spacing.4">
       <ChatMessage {...args} senderType="other" leading={<RayIcon size="medium" />}>
-        You can integrate the Razorpay payment gateway by following these steps. First, install the
-        SDK and configure your API keys.
+        You can integrate the Green Loom payment gateway by following these steps. First, install
+        the SDK and configure your API keys.
       </ChatMessage>
     </Box>
   );
@@ -86,7 +86,7 @@ const WithReasoningTemplate: StoryFn<ChatMessageProps> = (args) => {
         reasoningStatus="complete"
         reasoningTitle="Explored"
       >
-        Here are the integration steps for the Razorpay payment gateway.
+        Here are the integration steps for the Green Loom payment gateway.
       </ChatMessage>
     </Box>
   );
@@ -97,14 +97,14 @@ export const WithReasoning = WithReasoningTemplate.bind({});
 const ConversationTemplate: StoryFn<ChatMessageProps> = () => {
   return (
     <Box padding="spacing.4" display="flex" flexDirection="column" gap="spacing.3">
-      <ChatMessage senderType="self">What is Razorpay?</ChatMessage>
+      <ChatMessage senderType="self">What is Green Loom?</ChatMessage>
       <ChatMessage senderType="other" leading={<RayIcon size="medium" />}>
-        Razorpay is a full-stack financial solutions company that provides payment gateway, business
-        banking, and other financial products.
+        Green Loom is a full-stack financial solutions company that provides payment gateway,
+        business banking, and other financial products.
       </ChatMessage>
       <ChatMessage senderType="self">How do I get started?</ChatMessage>
       <ChatMessage senderType="other" leading={<RayIcon size="medium" />}>
-        You can sign up on the Razorpay dashboard, complete KYC verification, and then integrate
+        You can sign up on the Green Loom dashboard, complete KYC verification, and then integrate
         using our SDKs.
       </ChatMessage>
     </Box>

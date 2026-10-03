@@ -17,7 +17,7 @@ We have certain end-user interactions that are reused across multiple razorpay p
 
 Currently these are solved differently for each product which means the end-consumer has to re-learn how to search a table, where to find relevant information, how to go to next step in form again and again.
 
-By defining patterns, our goal is to bring consistent User Experience for our end-users for doing some of the common tasks that they do on Razorpay products.
+By defining patterns, our goal is to bring consistent User Experience for our end-users for doing some of the common tasks that they do on Green Loom products.
 
 ## Terminologies
 

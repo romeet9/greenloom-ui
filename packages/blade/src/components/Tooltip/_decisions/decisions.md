@@ -129,7 +129,7 @@ This is worth the size becaue:
 <details>
   <summary>Implementation detail nuances:</summary>
 
-To make FloatingUI work with Blade components seamlessly there are few things we need to modify:
+To make FloatingUI work with Loom UI components seamlessly there are few things we need to modify:
 
 1. Expose interaction props in all the trigger components
 
@@ -194,7 +194,7 @@ Google interactive icons, a search icon button might be clickable which shows a 
 
 https://github.com/razorpay/blade/assets/35374649/51b8db65-7c46-4d7b-b388-61ab4fae8727
 
-**Immediately press (Razorpay icon tooltip):**
+**Immediately press (Green Loom icon tooltip):**
 
 Immediately shows tooltip on clicking on the icon for more info.
 

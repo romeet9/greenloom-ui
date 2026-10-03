@@ -90,7 +90,7 @@ Complex usage:
 
 ### Working with existing components. 
 
-To use Skeleton loader with existing blade components like Card, consumers can create custom skeleton templates as per their needs and usecases. 
+To use Skeleton loader with existing Loom UI components like Card, consumers can create custom skeleton templates as per their needs and usecases. 
 
 **Example:** 
 
@@ -140,7 +140,7 @@ const App = () => {
   return (
     <Card>
       <CardHeader>
-        <CardHeaderLeading title="Payment options" subtitle="Secured by Razorpay" />
+        <CardHeaderLeading title="Payment options" subtitle="Secured by Green Loom" />
         <CardHeaderTrailing visual={<CardHeaderBadge variant="neutral">PENDING</CardHeaderBadge>} />
       </CardHeader>
       <CardBody>
@@ -204,7 +204,7 @@ https://github.com/razorpay/blade/assets/35374649/8298efde-f977-4aa3-bc2d-92fb50
   We discussed this, while it might look simple this approach also has few downsides: 
 
   - if we provide `isLoading` prop in Card it might cause a lot of jumps and shifts on the page because we won't know until API responds if the CardHeader has title/prefix or subtitle set or not and it could be removed after the API is done loading.
-  - Providing `isLoading` prop in Card or for all Blade components (where applicable) might not be the most flexible approach.
+  - Providing `isLoading` prop in Card or for all Loom UI components (where applicable) might not be the most flexible approach.
   - With `isLoading` prop consumers will anyways have to opt out and use custom Skeleton templates for the `CardBody` because `CardBody` accepts any JSX, so there's not much benefit to providing it out of the box because people will need to tweak it for different use cases.
 
 

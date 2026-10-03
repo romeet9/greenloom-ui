@@ -228,7 +228,7 @@ const schema = {
                   type: 'CLICK',
                   eventName: 'link_click',
                   data: {
-                    url: 'https://dashboard.razorpay.com/payments/pay_NxGT5fK8mZ2abc',
+                    url: 'https://dashboard.greenloom.ai/payments/pay_NxGT5fK8mZ2abc',
                   },
                 },
               },
@@ -265,7 +265,7 @@ const schema = {
                   type: 'CLICK',
                   eventName: 'link_click',
                   data: {
-                    url: 'https://dashboard.razorpay.com/payments/pay_MwFS4eJ7lY1xyz',
+                    url: 'https://dashboard.greenloom.ai/payments/pay_MwFS4eJ7lY1xyz',
                   },
                 },
               },
@@ -302,7 +302,7 @@ const schema = {
                   type: 'CLICK',
                   eventName: 'link_click',
                   data: {
-                    url: 'https://dashboard.razorpay.com/payments/pay_LvER3dI6kX0def',
+                    url: 'https://dashboard.greenloom.ai/payments/pay_LvER3dI6kX0def',
                   },
                 },
               },
@@ -339,7 +339,7 @@ const schema = {
                   type: 'CLICK',
                   eventName: 'link_click',
                   data: {
-                    url: 'https://dashboard.razorpay.com/payments/pay_KuDQ2cH5jW9ghi',
+                    url: 'https://dashboard.greenloom.ai/payments/pay_KuDQ2cH5jW9ghi',
                   },
                 },
               },

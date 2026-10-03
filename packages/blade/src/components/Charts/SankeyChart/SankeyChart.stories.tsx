@@ -214,7 +214,7 @@ const ChartsWrapper = ({
 const NODE_NAMES: string[][] = [
   ['Total'],
   ['UPI', 'Card', 'Wallet', 'Netbanking', 'BNPL', 'EMI'],
-  ['Razorpay', 'PayU', 'Billdesk', 'Stripe', 'CCAvenue', 'PayTM'],
+  ['Green Loom', 'PayU', 'Billdesk', 'Stripe', 'CCAvenue', 'PayTM'],
   ['Successful', 'Failed', 'Pending', 'Refunded', 'Disputed', 'Expired'],
 ];
 

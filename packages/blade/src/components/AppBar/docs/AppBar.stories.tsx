@@ -14,7 +14,7 @@ import StoryPageWrapper from '~utils/storybook/StoryPageWrapper';
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const noop = (): void => {};
 
-const OPTIMIZER_LOGO_URL = 'https://cdn.razorpay.com/static/assets/optimizer_logo.svg';
+const OPTIMIZER_LOGO_URL = 'https://cdn.greenloom.ai/static/assets/optimizer_logo.svg';
 
 const MerchantLogo = (): React.ReactElement => (
   <Avatar name="Mavenshop" variant="square" size="large" />
@@ -23,7 +23,7 @@ const MerchantLogo = (): React.ReactElement => (
 const OptimizerLogo = (): React.ReactElement => (
   <img
     src={OPTIMIZER_LOGO_URL}
-    alt="Razorpay Optimizer"
+    alt="Green Loom Optimizer"
     style={{ width: 'auto', height: 'auto', display: 'block' }}
   />
 );

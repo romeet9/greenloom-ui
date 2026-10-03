@@ -50,21 +50,21 @@ const Page = (): ReactElement => {
               <AccordionItem>
                 <AccordionItemHeader title="How can I setup Route?" />
                 <AccordionItemBody>
-                  You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+                  You can use Green Loom Route from the Dashboard or using APIs to transfer money to
                   customers. You may also check our docs for detailed instructions.
                 </AccordionItemBody>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeader title="How can I setup QR Codes?" />
                 <AccordionItemBody>
-                  Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+                  Just use Green Loom. You may also check our docs for detailed instructions. Please use the
                   search functionality to ask your queries.
                 </AccordionItemBody>
               </AccordionItem>
               <AccordionItem>
                 <AccordionItemHeader title="How can I setup Subscriptions?" />
                 <AccordionItemBody>
-                  Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+                  Just use Green Loom. You may also check our docs for detailed instructions. Please use the
                   search functionality to ask your queries.
                 </AccordionItemBody>
               </AccordionItem>
@@ -126,21 +126,21 @@ const AccordionTemplate: StoryFn<typeof AccordionComponent> = ({ ...args }) => {
       <AccordionItem>
         <AccordionItemHeader title="How can I setup Route?" />
         <AccordionItemBody>
-          You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+          You can use Green Loom Route from the Dashboard or using APIs to transfer money to
           customers. You may also check our docs for detailed instructions.
         </AccordionItemBody>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeader title="How can I setup QR Codes?" />
         <AccordionItemBody>
-          Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+          Just use Green Loom. You may also check our docs for detailed instructions. Please use the
           search functionality to ask your queries.
         </AccordionItemBody>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeader title="How can I setup Subscriptions?" />
         <AccordionItemBody>
-          Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+          Just use Green Loom. You may also check our docs for detailed instructions. Please use the
           search functionality to ask your queries.
         </AccordionItemBody>
       </AccordionItem>
@@ -169,7 +169,7 @@ const AccordionWithIconsTemplate: StoryFn<typeof AccordionComponent> = ({ ...arg
           }
         />
         <AccordionItemBody>
-          You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+          You can use Green Loom Route from the Dashboard or using APIs to transfer money to
           customers. You may also check our docs for detailed instructions.
         </AccordionItemBody>
       </AccordionItem>
@@ -179,7 +179,7 @@ const AccordionWithIconsTemplate: StoryFn<typeof AccordionComponent> = ({ ...arg
           title="How can I setup QR Codes?"
         />
         <AccordionItemBody>
-          Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+          Just use Green Loom. You may also check our docs for detailed instructions. Please use the
           search functionality to ask your queries.
         </AccordionItemBody>
       </AccordionItem>
@@ -189,7 +189,7 @@ const AccordionWithIconsTemplate: StoryFn<typeof AccordionComponent> = ({ ...arg
           title="How can I setup Subscriptions?"
         />
         <AccordionItemBody>
-          Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+          Just use Green Loom. You may also check our docs for detailed instructions. Please use the
           search functionality to ask your queries.
         </AccordionItemBody>
       </AccordionItem>
@@ -264,22 +264,22 @@ const AccordionControlledTemplate: StoryFn<typeof AccordionComponent> = ({
         <AccordionItem>
           <AccordionItemHeader title="How can I setup Route?" />
           <AccordionItemBody>
-            You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+            You can use Green Loom Route from the Dashboard or using APIs to transfer money to
             customers. You may also check our docs for detailed instructions.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeader title="How can I setup QR Codes?" />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeader title="How can I setup Subscriptions?" />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
       </AccordionComponent>
@@ -309,7 +309,7 @@ const AccordionWithCustomHeaderBodyTemplate: StoryFn<typeof AccordionComponent> 
         <AccordionItemHeader title="How can I setup Route?" />
         <AccordionItemBody>
           <Text color="surface.text.gray.subtle" marginBottom="spacing.0">
-            You can use Razorpay Route from the Dashboard or using APIs to transfer money to
+            You can use Green Loom Route from the Dashboard or using APIs to transfer money to
             customers. You may also check our docs for detailed instructions.
           </Text>
           {isVisible && (
@@ -338,7 +338,7 @@ const AccordionWithCustomHeaderBodyTemplate: StoryFn<typeof AccordionComponent> 
       <AccordionItem>
         <AccordionItemHeader title="How can I setup Subscriptions?" />
         <AccordionItemBody>
-          Just use Razorpay. You may also check our docs for detailed instructions. Please use the
+          Just use Green Loom. You may also check our docs for detailed instructions. Please use the
           search functionality to ask your queries.
         </AccordionItemBody>
       </AccordionItem>
@@ -430,7 +430,7 @@ const IndividualAccordionItemTemplate: StoryFn<typeof AccordionComponent> = ({ .
           </AccordionItemHeader>
           <AccordionItemBody>
             <Text color="surface.text.gray.subtle">
-              Razorpay please verify a payment of{' '}
+              Green Loom please verify a payment of{' '}
               <Amount color="surface.text.gray.subtle" value={5000} /> done by me to Razer for
               reloading gold as it seem they haven't received it. Payment Id :{' '}
               <Code>pay_LlI3slkdirf234</Code>
@@ -458,15 +458,15 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
         <AccordionItem>
           <AccordionItemHeader title="Simple Title & Text Item" />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeader title="Title Text of Accordion" subtitle="Subtitle Text" />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -476,8 +476,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             subtitle="Subtitle Text"
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -497,8 +497,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             }
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -508,8 +508,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             titleSuffix={<Badge>New</Badge>}
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -525,8 +525,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             }
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -535,8 +535,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             title="Item without subtitle"
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -554,8 +554,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             subtitle="Subtitle Text"
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -572,8 +572,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             title="Slot item without subtitle"
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
@@ -596,8 +596,8 @@ const AccordionItemHeaderVariantsTemplate: StoryFn<typeof AccordionComponent> = 
             titleSuffix={<Badge>New</Badge>}
           />
           <AccordionItemBody>
-            Just use Razorpay. You may also check our docs for detailed instructions. Please use the
-            search functionality to ask your queries.
+            Just use Green Loom. You may also check our docs for detailed instructions. Please use
+            the search functionality to ask your queries.
           </AccordionItemBody>
         </AccordionItem>
       </AccordionComponent>
@@ -617,12 +617,12 @@ const AccordionDeprecatedAPITemplate: StoryFn<typeof AccordionComponent> = ({ ..
       <AccordionItem
         icon={StarIcon}
         title="How can I setup Subscriptions?"
-        description="Just use Razorpay. You may also check our docs for detailed instructions. Please use the search functionality to ask your queries."
+        description="Just use Green Loom. You may also check our docs for detailed instructions. Please use the search functionality to ask your queries."
       />
       <AccordionItem
         icon={QRCodeIcon}
         title="How can I setup QR Codes?"
-        description="Just use Razorpay. You may also check our docs for detailed instructions. Please use the search functionality to ask your queries."
+        description="Just use Green Loom. You may also check our docs for detailed instructions. Please use the search functionality to ask your queries."
       />
       <AccordionItem icon={RoutesIcon} title="How can I setup Routes?">
         <Box>
@@ -633,7 +633,7 @@ const AccordionDeprecatedAPITemplate: StoryFn<typeof AccordionComponent> = ({ ..
       <AccordionItem
         icon={AnnouncementIcon}
         title="How can I setup Payouts?"
-        description="Use Razorpay Payouts to send money to bank accounts, UPI IDs, or wallets instantly. You can automate bulk payouts via APIs or manage them from the dashboard."
+        description="Use Green Loom Payouts to send money to bank accounts, UPI IDs, or wallets instantly. You can automate bulk payouts via APIs or manage them from the dashboard."
       />
     </AccordionComponent>
   );

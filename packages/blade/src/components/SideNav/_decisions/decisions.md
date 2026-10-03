@@ -231,7 +231,7 @@ const accountsL2Ref = React.useRef(null);
 | target      | anchor tag target attribute [target - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target) | AnchorTargetType              | \_self                                                       |
 | rel         | anchor tag rel attribute [rel - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#rel)          | AnchorRelType                 | target === ' \_blank ' ? ' noreferrer noopener ' : undefined |
 | onClick     | Click handler on item                                                                                                        | (e: React.MouseEvent) => void |                                                              |
-| icon        | Blade's Icon Component                                                                                                       | IconComponent                 |                                                              |
+| icon        | Loom UI's Icon Component                                                                                                       | IconComponent                 |                                                              |
 | trailing    | Trailing Slot of Item. It is visible on hover only. Can be used for adding Quick Shortcut Button, Trailing Text              | JSX                           |                                                              |
 | titleSuffix | Slot after the title to add Badge, Counter                                                                                   | JSX                           |                                                              |
 | tooltip     | Object with props that are forwarded to tooltip                                                                              | TooltipProps                  | undefined                                                    |
@@ -541,13 +541,13 @@ For Example of SideNavItem, check SideNavFooter example below.
 ## Accessibility
 
 1. All items should be accessible by `TAB`. Including going between levels L1, L2, L3
-2. We should use Blade's `SkipNav` utility to provide option of skipping nav and going to content
+2. We should use Loom UI's `SkipNav` utility to provide option of skipping nav and going to content
 3. React Router automatically handles `aria-current="page"`. Verify that it is working as expected.
 
 ## References
 
-- [RazorpayX Navigation Bar](https://github.com/razorpay/x/blob/master/src/js/views/Home/ActionCenter/index.js#L21) (Internal)
-- [Razorpay Merchant Dashboard Navigation Bar](https://github.com/razorpay/dashboard/blob/6f61a5909c5311c3be08a3ea28b920ed302f1e64/web/js/merchant/components/SidebarV2/Sidebar.tsx) (Internal)
+- [Green Loom X Navigation Bar](https://github.com/razorpay/x/blob/master/src/js/views/Home/ActionCenter/index.js#L21) (Internal)
+- [Green Loom Merchant Dashboard Navigation Bar](https://github.com/razorpay/dashboard/blob/6f61a5909c5311c3be08a3ea28b920ed302f1e64/web/js/merchant/components/SidebarV2/Sidebar.tsx) (Internal)
 - [SideNavigation - Atlassian DS](https://atlassian.design/components/side-navigation/examples)
 - [SideNav - Primer / GitHub](https://primer.style/react/deprecated/SideNav#url)
 - [SideNav - Carbon DS](https://react.carbondesignsystem.com/?path=/story/components-ui-shell-sidenav--fixed-side-nav)

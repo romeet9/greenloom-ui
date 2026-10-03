@@ -288,7 +288,7 @@ We could create simplified SelectableCard and SelectableCardGroup components wit
 - **Severely Limited Content**: Prop-based API (title, subtitle, leading) cannot handle:
   - Complex layouts with multiple sections, images, badges
   - Mixed content types (lists, buttons, dividers, custom elements)
-  - Razorpay-specific designs (transaction details, payment methods)
+  - Green Loom-specific designs (transaction details, payment methods)
 - **Limited Composition**: Cannot use existing Card subcomponents (CardHeader, CardBody, CardFooter)
 - **Maintenance Burden**: 2 additional components to maintain and keep accessible
 - **Bundle Size**: Significant overhead for limited functionality
@@ -302,14 +302,14 @@ We could create simplified SelectableCard and SelectableCardGroup components wit
 Radio-like behavior using existing Card and RadioGroup components.
 
 ```jsx
-function RazorpayPlanSelector() {
+function Green LoomPlanSelector() {
   const [selectedPlan, setSelectedPlan] = useState('starter');
 
   return (
     <RadioGroup
       value={selectedPlan}
       onChange={({ value }) => setSelectedPlan(value)}
-      label="Choose your Razorpay plan"
+      label="Choose your Green Loom plan"
       orientation="horizontal"
     >
       <Card as="label" isSelected={selectedPlan === 'starter'}>
@@ -347,7 +347,7 @@ function RazorpayPlanSelector() {
 Checkbox-like behavior for selecting multiple options with validation.
 
 ```jsx
-function RazorpayAddOnSelector() {
+function Green LoomAddOnSelector() {
   const [selectedAddOns, setSelectedAddOns] = useState(['smart_collect']);
 
   return (
@@ -415,7 +415,7 @@ function RazorpayAddOnSelector() {
 - **CheckboxGroup/RadioGroup**: Proven form control patterns with accessibility built-in
 - **No New Components**: Reduces bundle size and maintenance overhead
 
-### **Consistent with Blade Patterns**
+### **Consistent with Loom UI Patterns**
 
 - **Form Controls**: Uses established CheckboxGroup/RadioGroup patterns
 - **Accessibility**: Inherits proper ARIA roles, keyboard navigation, and screen reader support
@@ -431,7 +431,7 @@ function RazorpayAddOnSelector() {
 
 - **Familiar APIs**: Developers already know Card and form control patterns
 - **Less Learning**: No new component APIs to learn
-- **Composable**: Easy to combine with other Blade components
+- **Composable**: Easy to combine with other Loom UI components
 
 ## Accessibility
 

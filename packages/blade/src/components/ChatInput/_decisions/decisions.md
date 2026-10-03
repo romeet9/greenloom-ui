@@ -72,7 +72,7 @@ import { ChatInput, ChatInputFilePreview, ChatInputQuote } from '@razorpay/blade
 
 - Pros
   - Full rendering control over file previews and quote content
-  - Consumer can use custom components or Blade components for previews
+  - Consumer can use custom components or Loom UI components for previews
   - Flexible for edge cases (custom file preview states, different quote layouts, any ReactNode as quote content)
 - Cons
   - More boilerplate for common cases
@@ -304,7 +304,7 @@ import { ChatInput } from '@razorpay/blade/components';
 
 const ChatWithSuggestions = () => {
   const [suggestions, setSuggestions] = useState([
-    'Ask Ray anything related to Razorpay',
+    'Ask Ray anything related to Green Loom',
     'Show me recent transactions',
     'Help me set up webhooks',
   ]);

@@ -17,7 +17,7 @@ const Page = (): React.ReactElement => {
   return (
     <StoryPageWrapper
       componentName="DonutChart"
-      componentDescription="A Donut component built on top of Recharts with Blade design system styling."
+      componentDescription="A Donut component built on top of Recharts with Loom UI design system styling."
       figmaURL="https://www.figma.com/design/jubmQL9Z8V7881ayUD95ps/Blade-DSL?node-id=93596-50164&m=dev"
       apiDecisionLink="https://github.com/razorpay/blade/tree/master/packages/blade/src/components/Charts/_decisions"
     >

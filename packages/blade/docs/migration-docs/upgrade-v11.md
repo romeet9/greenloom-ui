@@ -8,16 +8,16 @@ All the rebranding upgrade activity starts at the design end and is then followe
 
 ## Migration with Codemod
 
-**Step 1:** Install this version of Blade as `yarn add @razorpay/blade-rebranded@npm:@razorpay/blade@v11.0.0`.
+**Step 1:** Install this version of Loom UI as `yarn add @greenloom/ui-rebranded@npm:@greenloom/ui@v11.0.0`.
 
 **Step 2:** Install new fonts (Inter & Tasa) by following [this file](https://ui.greenloom.ai/?path=/docs/guides-installation--docs#-installing-fonts).
 
-**Step 3:** The codemod will update the components to the new version of Blade. Execute the codemod on the file/directory that needs to be migrated for the page via the following command:
+**Step 3:** The codemod will update the components to the new version of Loom UI. Execute the codemod on the file/directory that needs to be migrated for the page via the following command:
 
 > Need help? Check out [jscodeshift docs](https://github.com/facebook/jscodeshift) for CLI usage tips.
 
 ```sh
-npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/@razorpay/blade-rebranded/codemods/brand-refresh/transformers/index.ts --ignore-pattern="**/node_modules/**"
+npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/@greenloom/ui-rebranded/codemods/brand-refresh/transformers/index.ts --ignore-pattern="**/node_modules/**"
 ```
 
 ### 🚧 Watch Out for Limitations & Edge Cases
@@ -26,33 +26,33 @@ npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/
 >
 > There might be some situations where the codemod falls short. If you encounter errors, handle those cases manually by following up with your designer.
 
-- The codemod doesn't handle the migration of conditionally rendered props. Take a moment to manually inspect and update such cases. The codemod will also log a warning for such cases with the line number & path to the file. For example: `Expression found in the "size" attribute, please update manually: src/pages/ResumeWithRazorpay/sections/WhyResumeSection.tsx:20`
+- The codemod doesn't handle the migration of conditionally rendered props. Take a moment to manually inspect and update such cases. The codemod will also log a warning for such cases with the line number & path to the file. For example: `Expression found in the "size" attribute, please update manually: src/pages/ResumeWithGreen Loom/sections/WhyResumeSection.tsx:20`
 
   ```diff
   - <Title size={isMobile ? "small" : "medium"}> Hello </Title>
   + <Heading size={isMobile ? "large" : "xlarge"}> Hello </Heading>
   ```
 
-- With Blade v11, we have removed `highContrast` & `lowContrast` terminology from color tokens. If you have used any color token which has `highContrast` in its name or `contrast="high"` prop in typography components, the codemod will replace it with `"UPDATE_THIS_VALUE_WITH_A_NEW_COLOR_TOKEN"` string. You will have to discuss these instances with designers & manually update this value with a new color token that matches the contrast you need.
+- With Loom UI v11, we have removed `highContrast` & `lowContrast` terminology from color tokens. If you have used any color token which has `highContrast` in its name or `contrast="high"` prop in typography components, the codemod will replace it with `"UPDATE_THIS_VALUE_WITH_A_NEW_COLOR_TOKEN"` string. You will have to discuss these instances with designers & manually update this value with a new color token that matches the contrast you need.
 
   ```diff
   - <Text color="surface.text.subtle.highContrast"> Lorem ipsum </Text>
   + <Text color="UPDATE_THIS_VALUE_WITH_A_NEW_COLOR_TOKEN"> Lorem ipsum </Text>
   ```
 
-- In a move towards internationalization, the default formatting of number in Amount component has now changed. It relies on locale state managed by [@razorpay/i18nify-js](https://www.npmjs.com/package/@razorpay/i18nify-js) library and fallbacks to browser locale to drive formatting. To maintain the previous formatting experience of the Amount component, ensure you follow the steps outlined in this [section](https://github.com/razorpay/blade/blob/master/packages/blade/upgrade-v11.md#amount).
+- In a move towards internationalization, the default formatting of number in Amount component has now changed. It relies on locale state managed by [@greenloom/i18nify-js](https://www.npmjs.com/package/@greenloom/i18nify-js) library and fallbacks to browser locale to drive formatting. To maintain the previous formatting experience of the Amount component, ensure you follow the steps outlined in this [section](https://github.com/greenloom/blade/blob/master/packages/blade/upgrade-v11.md#amount).
 
-**Step 5**: Test your page and make sure everything works as expected. Once the migration is complete for all pages, you can remove the old version of Blade from your project.
+**Step 5**: Test your page and make sure everything works as expected. Once the migration is complete for all pages, you can remove the old version of Loom UI from your project.
 
 ## Documentation
 
-By default, `ui.greenloom.ai` will show documentation for the latest version of Blade. To view the documentation for an older version, you can use the version selector in the top-left corner of the page.
+By default, `ui.greenloom.ai` will show documentation for the latest version of Loom UI. To view the documentation for an older version, you can use the version selector in the top-left corner of the page.
 
 <img alt="Version Switcher" src="./docs/images/docs-vrsion-switcher.png" width="800px">
 
 ## Available Rebranded Components
 
-To check out the list of available components, visit [Blade Component Status](https://ui.greenloom.ai/?path=/docs/guides-component-status--docs).
+To check out the list of available components, visit [Loom UI Component Status](https://ui.greenloom.ai/?path=/docs/guides-component-status--docs).
 
 ## Manual Migration Guide
 
@@ -63,16 +63,16 @@ Only use this if you're unable to run the codemod described above.
 - **`paymentTheme` & `bankingTheme` have been removed. Use `bladeTheme` instead.**
 
   ```diff
-    import { BladeProvider } from '@razorpay/blade/components';
-  - import { paymentTheme, bankingTheme } from "@razorpay/blade/tokens";
-  + import { bladeTheme } from "@razorpay/blade/tokens";
+    import { Loom UIProvider } from '@greenloom/ui/components';
+  - import { paymentTheme, bankingTheme } from "@greenloom/ui/tokens";
+  + import { bladeTheme } from "@greenloom/ui/tokens";
 
     const AppWrapper = () => {
       return (
-  -     <BladeProvider themeTokens={paymentTheme|bankingTheme} colorScheme="light">
-  +     <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+  -     <Loom UIProvider themeTokens={paymentTheme|bankingTheme} colorScheme="light">
+  +     <Loom UIProvider themeTokens={bladeTheme} colorScheme="light">
           <App />
-        </BladeProvider>
+        </Loom UIProvider>
       );
     }
 
@@ -98,20 +98,20 @@ Only use this if you're unable to run the codemod described above.
 
 ### Amount
 
-- **Amount component is now internationalized via [@razorpay/i18nify-js](https://www.npmjs.com/package/@razorpay/i18nify-js).**
+- **Amount component is now internationalized via [@greenloom/i18nify-js](https://www.npmjs.com/package/@greenloom/i18nify-js).**
 
 1. The `<Amount />` component will now automatically format numbers based on the user's browser locale. For example, `<Amount value={123456.789} currency="INR">` will render `₹1,23,456.79` for browsers with the `en-IN` default locale, whereas it will render `₹123,456.79` for browsers with the `en-US` locale.
 
-2. If you want to enable users to change the locale of your page, add the `@razorpay/i18nify-react` package and wrap your app inside the `I18nProvider`. Utilize the `setI18nState` utility to modify the locale. For more details, please refer to the [documentation](https://www.npmjs.com/package/@razorpay/i18nify-react).
+2. If you want to enable users to change the locale of your page, add the `@greenloom/i18nify-react` package and wrap your app inside the `I18nProvider`. Utilize the `setI18nState` utility to modify the locale. For more details, please refer to the [documentation](https://www.npmjs.com/package/@greenloom/i18nify-react).
 
-3. Additionally, if you prefer to maintain a fixed locale for your page and amount component, enclose your app within `<I18nProvider initData={{locale: 'locale-you-want'}}>..`. For more details, please refer to the [documentation](https://www.npmjs.com/package/@razorpay/i18nify-react).
+3. Additionally, if you prefer to maintain a fixed locale for your page and amount component, enclose your app within `<I18nProvider initData={{locale: 'locale-you-want'}}>..`. For more details, please refer to the [documentation](https://www.npmjs.com/package/@greenloom/i18nify-react).
 
-Example with `@razorpay/i18nify-react`
+Example with `@greenloom/i18nify-react`
 
 ```jsx
 import React, { useEffect } from 'react';
-import { I18nProvider, useI18nContext } from '@razorpay/i18nify-react';
-import { BladeProvider, Amount } from '@razorpay/blade/components';
+import { I18nProvider, useI18nContext } from '@greenloom/i18nify-react';
+import { Loom UIProvider, Amount } from '@greenloom/ui/components';
 
 const ToggleAmount = ({ value }) => {
   const { setI18nState } = useI18nContext();
@@ -131,9 +131,9 @@ const ToggleAmount = ({ value }) => {
 const App = () => {
   return (
     <I18nProvider initData={{ locale: 'en-IN' }}>
-      <BladeProvider>
+      <Loom UIProvider>
         <ToggleAmount value={2000000} />
-      </BladeProvider>
+      </Loom UIProvider>
     </I18nProvider>
   );
 };

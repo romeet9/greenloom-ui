@@ -59,7 +59,7 @@ const Page = (): ReactElement => {
         ![](https://user-images.githubusercontent.com/24487274/203279145-1e0b0540-467d-4901-97c8-014f98b3cfca.png)
       </Description>
       <Description>
-        4. Replace the native HTML elements with Blade's components (eg. `svg` becomes `Svg`). You
+        4. Replace the native HTML elements with Loom UI's components (eg. `svg` becomes `Svg`). You
         may use a tool such as [SVGR](https://react-svgr.com/playground/?native=true) for the
         initial transformation. Some properties may still need to be adjusted. Follow an existing
         icon as a reference.

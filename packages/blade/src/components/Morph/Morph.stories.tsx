@@ -28,7 +28,7 @@ const Page = (): React.ReactElement => {
         title="Distortions Note"
         isFullWidth
         isDismissible={false}
-        description="Morph animation uses framer-motion's layout animation internally. They work best when you're animating between similar components or animating positions. In case of animating the sizes, you might see distortions in text or children. You can wrap these children in Morph wrapper which might solve it in some cases though it can't completely be avoided in more complex components since blade components internally might have multiple nodes"
+        description="Morph animation uses framer-motion's layout animation internally. They work best when you're animating between similar components or animating positions. In case of animating the sizes, you might see distortions in text or children. You can wrap these children in Morph wrapper which might solve it in some cases though it can't completely be avoided in more complex components since Loom UI components internally might have multiple nodes"
         marginBottom="spacing.4"
       />
       <Title>Usage</Title>

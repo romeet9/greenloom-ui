@@ -89,7 +89,7 @@ Some other explorations like:
 - Using a compound component pattern for `Indicator.Container` in order to compose with other components. Suffers from the same issues of discoverability and rendering issues discussed in [Alerts API design](../../Alert/_decisions/decisions.md).
 - Providing props to different components (like icons, links, etc.) for showing an indicator. This inverts the control of rendering to these individual components, needs support of an extra prop in all these and makes it harder to support in custom components.
 
-However, at the moment we don't have a solid pattern for this usecase to build an API that can support all possible usage _(within Blade or outside Blade with custom components)_:
+However, at the moment we don't have a solid pattern for this usecase to build an API that can support all possible usage _(within Loom UI or outside Blade with custom components)_:
 
 - It would need a way to customize positioning (top-left, top-right, etc.). This positioning can be different for different components, eg. avatars may want a bottom-right positioning while buttons may want a top-right positioning.
 - It would need a way to offset position of the indicator (based on which element was showing the indicator) which makes it harder to generalize especially for custom components, eg. links may need slightly more offset than an icon button which may need the indicator that overlaps with the button

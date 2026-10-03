@@ -19,13 +19,13 @@ export default {
     lineHeight: 200,
     name: 'Storybook',
     children:
-      'Current Accounts supercharged by RazorpayX come with integrated tools and integrations that make financial management and accounting simple',
+      'Current Accounts supercharged by Green Loom X come with integrated tools and integrations that make financial management and accounting simple',
   },
   parameters: {
     docs: {
       page: () => (
         <StoryPageWrapper
-          componentDescription="The BaseText component is a wrapper component based on Blade's token system and should be used only in rarest exceptions where your Typography needs are not satisfied by Title, Heading or Text typography components(eg: highlighting a word in the Title with gradients in a landing page)."
+          componentDescription="The BaseText component is a wrapper component based on Loom UI's token system and should be used only in rarest exceptions where your Typography needs are not satisfied by Title, Heading or Text typography components(eg: highlighting a word in the Title with gradients in a landing page)."
           componentName="BaseText"
         >
           <Title>Usage</Title>

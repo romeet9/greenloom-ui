@@ -113,7 +113,7 @@ export const WithGhostSuggestions: StoryFn<typeof ChatInput> = () => {
       <ChatInput
         placeholder="Ask a question..."
         suggestions={[
-          'Ask Ray anything related to Razorpay',
+          'Ask Ray anything related to Green Loom',
           'Show me recent transactions',
           'Help me set up webhooks',
         ]}
@@ -341,7 +341,7 @@ const INITIAL_MESSAGES: ChatMsg[] = [
     id: 'msg-agent-1',
     senderType: 'other',
     content:
-      'Hello! This is a basic demo with ChatInput and ChatMessage components of Blade design system. You can accept the suggestions with tab in input to see different types of responses. Try adding more than 3 files in FileUpload to see error from file upload.',
+      'Hello! This is a basic demo with ChatInput and ChatMessage components of Loom UI design system. You can accept the suggestions with tab in input to see different types of responses. Try adding more than 3 files in FileUpload to see error from file upload.',
   },
 ];
 
@@ -360,7 +360,7 @@ const WebhookResponseCard = (): React.ReactElement => (
           Set up your webhook endpoint
         </Text>
         <Text variant="body" size="small" color="surface.text.gray.muted">
-          Choose where to receive Razorpay webhook events:
+          Choose where to receive Green Loom webhook events:
         </Text>
         <RadioGroup label="Webhook destination">
           <Radio value="existing">Use an existing server endpoint</Radio>
@@ -426,14 +426,14 @@ const getMockResponse = (userMessage: string): MockResponseResult => {
     return {
       type: 'text',
       text:
-        'To integrate Razorpay, start by signing up and grabbing your API keys from the Dashboard. Then install the SDK by running npm install razorpay in your project. Next, initialize the SDK with your key_id and key_secret. After that, create an Order using the Orders API, and finally open the Razorpay Checkout on your frontend to accept payments. Would you like a code snippet for a specific language or framework?',
+        'To integrate Green Loom, start by signing up and grabbing your API keys from the Dashboard. Then install the SDK by running npm install razorpay in your project. Next, initialize the SDK with your key_id and key_secret. After that, create an Order using the Orders API, and finally open the Green Loom Checkout on your frontend to accept payments. Would you like a code snippet for a specific language or framework?',
     };
   }
 
   return {
     type: 'text',
     text:
-      "That's a great question! Razorpay provides comprehensive APIs, SDKs, and a developer dashboard to help you build and manage payments seamlessly. Is there a specific area you'd like to dive deeper into — like subscriptions, refunds, or settlements?",
+      "That's a great question! Green Loom provides comprehensive APIs, SDKs, and a developer dashboard to help you build and manage payments seamlessly. Is there a specific area you'd like to dive deeper into — like subscriptions, refunds, or settlements?",
   };
 };
 
@@ -658,7 +658,7 @@ export const ProductUsecaseChatExperience: StoryFn<typeof ChatInput> = () => {
             Ray
           </Text>
           <Text variant="body" size="small" color="surface.text.gray.muted">
-            {isGenerating ? 'Typing...' : 'Razorpay AI Assistant'}
+            {isGenerating ? 'Typing...' : 'Green Loom AI Assistant'}
           </Text>
         </Box>
       </Box>
@@ -740,7 +740,7 @@ export const ProductUsecaseChatExperience: StoryFn<typeof ChatInput> = () => {
           accept=".jpg,.jpeg,.png,.pdf"
           suggestions={suggestions}
           onSuggestionAccept={({ suggestion }) => setText(suggestion)}
-          placeholder="Ask Ray anything about Razorpay..."
+          placeholder="Ask Ray anything about Green Loom..."
         />
       </Box>
     </Box>

@@ -200,7 +200,7 @@ const TypographyStoryMeta: Meta = {
   parameters: {
     docs: {
       description: {
-        component: 'An overview of all typography styles available in Blade.',
+        component: 'An overview of all typography styles available in Loom UI.',
       },
     },
   },

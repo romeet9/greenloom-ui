@@ -65,7 +65,7 @@ import {
 **Cons:**
 
 - Less flexible for complex value layouts
-- Cannot compose with other Blade components easily
+- Cannot compose with other Loom UI components easily
 - Limited customization options for styling individual parts
 - Props can become numerous for complex scenarios
 - Harder to extend for future use cases
@@ -328,7 +328,7 @@ Vertical orientation with leading icons and help text.
 
 ### Complex Value with Custom Components
 
-Using Blade components and custom layouts for complex value rendering.
+Using Loom UI components and custom layouts for complex value rendering.
 
 ```jsx
 <InfoGroup itemOrientation="horizontal" size="medium" valueAlign="right">

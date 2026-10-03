@@ -70,7 +70,7 @@ import { NavLink } from 'react-router-dom';
 | href      | URL to navigate to. Internally links to `to` attribute of router (Also turns item into anchor tag when passed) | string                        |                   |
 | isActive  | Sets the link as selected / active                                                                             | boolean                       | undefined         |
 | onClick   | Click handler on item                                                                                          | (e: React.MouseEvent) => void |                   |
-| icon      | Blade's Icon Component                                                                                         | IconComponent                 |                   |
+| icon      | Loom UI's Icon Component                                                                                         | IconComponent                 |                   |
 
 #### Examples
 

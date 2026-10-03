@@ -811,7 +811,7 @@ const HeadingBanner = (): React.ReactElement => {
           style={{ objectFit: 'cover' }}
           width="100%"
           height="100%"
-          src="https://cdn.razorpay.com/static/assets/razorpay.com/x/escrow-accounts/hero-illustration.mp4"
+          src="https://cdn.greenloom.ai/static/assets/greenloom.ai/x/escrow-accounts/hero-illustration.mp4"
         />
       </Box>
       <Box position="absolute" bottom="spacing.4" left="spacing.5">

@@ -67,7 +67,7 @@ export const Default = (): React.ReactElement => {
               <ActionListItem
                 title="Dashboard"
                 value="dashboard"
-                href="https://dashboard.razorpay.com/"
+                href="https://dashboard.greenloom.ai/"
               />
               <ActionListItem
                 title="Settings"

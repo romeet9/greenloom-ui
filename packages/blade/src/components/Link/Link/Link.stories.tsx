@@ -35,7 +35,7 @@ const Page = (): ReactElement => {
                 target="_blank" 
                 rel="noopener noreferer"
               >
-                Go to Razorpay.com
+                Go to Green Loom.com
               </Link>
             )
           }
@@ -111,7 +111,7 @@ LinkInline.args = {
   href: 'https://github.com/razorpay/blade/',
   target: '_blank',
   rel: 'noreferrer noopener',
-  children: `Blade's Github`,
+  children: `Loom UI's Github`,
 };
 LinkInline.parameters = {
   docs: {

@@ -212,7 +212,7 @@ const documents = [
 
 ### Mixed content (images + video + PDF)
 
-When some items are not images, use the custom mode with `children` + `thumbnail`. Use Blade's `Preview` component for zoomable document/image rendering.
+When some items are not images, use the custom mode with `children` + `thumbnail`. Use Loom UI's `Preview` component for zoomable document/image rendering.
 
 ```jsx
 <LightBox

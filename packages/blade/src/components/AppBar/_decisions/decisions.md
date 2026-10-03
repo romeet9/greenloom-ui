@@ -223,7 +223,7 @@ Demonstrates logo + title + full trust badge (`trustBadgeVariant="default"`) and
 - The root renders a semantic `<header>` landmark (or `role="banner"` when appropriate) labelled by `accessibilityLabel`.
 - The back button is a Blade `IconButton` with a required `accessibilityLabel` ("Go back" by default in examples); it is keyboard focusable and activatable with Enter/Space.
 - All trailing `IconButton`s require an `accessibilityLabel`; they are reachable in DOM/tab order left → right after the leading region.
-- The trust badge is rendered via the standalone `TrustBadge` component. In its default variant the visible "Razorpay Trusted Business" text is exposed to screen readers and the brand shield is `aria-hidden`; in the `icon-only` variant (no visible text) the shield wrapper carries a `role="img"` with the label.
+- The trust badge is rendered via the standalone `TrustBadge` component. In its default variant the visible "Green Loom Verified Partner" text is exposed to screen readers and the brand shield is `aria-hidden`; in the `icon-only` variant (no visible text) the shield wrapper carries a `role="img"` with the label.
 - `title`/`logo` are real text nodes or accessible content (not background images) so they are announced.
 - Color contrast: the `neutral` surface is transparent and the AppBar sits over a dark page, so foreground tokens are forced light (static-white) to meet WCAG AA against that page.
 
@@ -236,8 +236,8 @@ Demonstrates logo + title + full trust badge (`trustBadgeVariant="default"`) and
 - **Trust badge as a standalone component** — the trust badge ships as its own exported `TrustBadge` component (top-level in both `blade` and `blade-svelte`) rather than living inline in `AppBarLeading`, so it can be reused outside the AppBar. `AppBarLeading` maps `trustBadgeVariant` to `<TrustBadge variant="default" | "icon-only" emphasis={...} />`, deriving `emphasis` from the AppBar surface (`neutral` → intense/white text, `subtle` → subtle/dark text). The badge exposes:
   - `variant?: 'default' | 'icon-only'` (default `'default'`) — `icon-only` drops the pill/text for compact surfaces.
   - `emphasis?: 'intense' | 'subtle'` (default `'subtle'`) — text/foreground treatment; the brand shield gradient is fixed regardless of emphasis.
-  - `label?: string` (default `'Razorpay Trusted Business'`) — configurable trust label so the component can evolve (e.g. "Razorpay Verified") without a breaking API change.
-  The shield comes from the branded `RazorpayTrustIcon`. The pill uses the `interactive.background.staticBlack.faded` token (Figma `rgba(0,0,0,0.1)`). It is web-only (native throws), matching the AppBar itself, because the shield's gradient/drop-shadow are web-only.
+  - `label?: string` (default `'Green Loom Verified Partner'`) — configurable trust label so the component can evolve (e.g. "Green Loom Verified") without a breaking API change.
+  The shield comes from the branded `Green LoomTrustIcon`. The pill uses the `interactive.background.staticBlack.faded` token (Figma `rgba(0,0,0,0.1)`). It is web-only (native throws), matching the AppBar itself, because the shield's gradient/drop-shadow are web-only.
 - **`trailing` (icon / illustration)** — NOT a prop; the `AppBarActions` children slot accepts either icon buttons or an illustration (WYSIWYG).
 - **`state=scrolled`** — modeled as automatic scroll-driven elevation under `isSticky`, not a manual prop. Open: confirm with design whether the scrolled treatment is elevation, a bottom border, or a background change.
 - **`screenSize` (mobile / desktop)** — handled via responsive styled props (padding, logo width) rather than a prop, consistent with `TopNav`.

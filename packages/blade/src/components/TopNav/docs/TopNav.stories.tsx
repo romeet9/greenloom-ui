@@ -260,7 +260,7 @@ const TopNavSearchDropdown = (): React.ReactElement => {
       <Dropdown onOpenChange={(isOpen) => setIsSearchActive(isOpen)}>
         <SearchInput
           placeholder="Search in payments"
-          accessibilityLabel="Search Across Razorpay"
+          accessibilityLabel="Search Across Green Loom"
           onChange={({ value }) => setSearchTerm(value as string)}
         />
         <DropdownOverlay>
@@ -309,7 +309,7 @@ const MobileTopNav = (): React.ReactElement => {
                   Anurag Hazra
                 </Text>
                 <Text size="xsmall" color="surface.text.gray.muted">
-                  Razorpay Trusted Merchant
+                  Green Loom Trusted Merchant
                 </Text>
               </Box>
             </Box>
@@ -504,7 +504,7 @@ const TopNavFullExample = ({ variant = 'neutral' }: { variant?: 'primary' | 'neu
                           John Doe
                         </Text>
                         <Text size="xsmall" color="surface.text.gray.muted">
-                          Razorpay Trusted Merchant
+                          Green Loom Trusted Merchant
                         </Text>
                       </Box>
                     </Box>
@@ -687,7 +687,7 @@ const TopNavMinimalTemplate: StoryFn<typeof TopNav> = () => {
                 <Box width="200px">
                   <SearchInput
                     placeholder="Search in payments"
-                    accessibilityLabel="Search Across Razorpay"
+                    accessibilityLabel="Search Across Green Loom"
                   />
                 </Box>
                 <Tooltip content="View Ecosystem Health">
@@ -719,7 +719,7 @@ const TopNavMinimalTemplate: StoryFn<typeof TopNav> = () => {
                           Anurag Hazra
                         </Text>
                         <Text size="xsmall" color="surface.text.gray.muted">
-                          Razorpay Trusted Merchant
+                          Green Loom Trusted Merchant
                         </Text>
                       </Box>
                     </Box>
@@ -841,7 +841,7 @@ const TopNavSearchDropdownTemplate: StoryFn<typeof TopNav> = () => {
                           Anurag Hazra
                         </Text>
                         <Text size="xsmall" color="surface.text.gray.muted">
-                          Razorpay Trusted Merchant
+                          Green Loom Trusted Merchant
                         </Text>
                       </Box>
                     </Box>
@@ -926,7 +926,7 @@ const TopNavActionsWithContextTemplate: StoryFn<typeof TopNav> = () => {
                   Anurag Hazra
                 </Text>
                 <Text size="xsmall" color="surface.text.gray.muted">
-                  Razorpay Trusted Merchant
+                  Green Loom Trusted Merchant
                 </Text>
               </Box>
             </Box>
@@ -1028,7 +1028,7 @@ const TopNavWithButtonTemplate: StoryFn<typeof TopNav> = () => {
                           Anurag Hazra
                         </Text>
                         <Text size="xsmall" color="surface.text.gray.muted">
-                          Razorpay Trusted Merchant
+                          Green Loom Trusted Merchant
                         </Text>
                       </Box>
                     </Box>

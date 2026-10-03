@@ -1,4 +1,4 @@
-# Migration to Motion Presets (Blade v12)
+# Migration to Motion Presets (Loom UI v12)
 
 ## Changes
 
@@ -8,11 +8,11 @@ We've changed the structure of motion easing tokens inorder to simplify the stru
 
 2. Motion React Setup
 
-Blade v12 introduces `framer-motion` as peer dependency and requires you to set it up in your projects.
+Loom UI v12 introduces `framer-motion` as peer dependency and requires you to set it up in your projects.
 
 ## Steps to Migrate
 
-- **Step 1:** Upgrade to latest `@razorpay/blade` package in your project
+- **Step 1:** Upgrade to latest `@greenloom/ui` package in your project
 - **Step 2:** [Perform Tokens Changes](#token-changes) using Codemod or manually
 - **Step 3:** [Setup framer-motion](#motion-react-framer-motion-setup)
 
@@ -21,7 +21,7 @@ Blade v12 introduces `framer-motion` as peer dependency and requires you to set 
 We have codemod to help you do the required token changes. You can run the codemod with following command (Replace `./PATH_TO_YOUR_DIR` with glob path of files / directories you want to migrate)-
 
 ```sh
-npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/@razorpay/blade/codemods/migrate-motion-tokens/transformers/index.ts --ignore-pattern="**/node_modules/**"
+npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/@greenloom/ui/codemods/migrate-motion-tokens/transformers/index.ts --ignore-pattern="**/node_modules/**"
 ```
 
 <details>
@@ -57,7 +57,7 @@ You can skip this if you've run the codemod but in case not or you see some edge
 <details>
   <summary>Version Compatibility Note for consumers already using framer-motion with older version</summary>
 
-We realised that several projects in razorpay are already using `framer-motion` and are on older versions.
+We realised that several projects in greenloom are already using `framer-motion` and are on older versions.
 To give some time to consumers to upgrade to framer-motion v11+, we'll be supporting framer-motion v4+ from blade. Although we will be dropping this support in next major version of blade so we recommend planning out framer-motion upgrade in coming quarter.
 
 - **If you're on React 18**, migrating to framer-motion v11 should be fairly simple and low-effort. Checkout [Migrating from framer-motion v4+ to framer-motion v11+](#migrating-from-framer-motion-v4-to-framer-motion-v11)
@@ -111,7 +111,7 @@ These are mostly the changes you'll need if you're using core API. But if you're
   function App() {
     return (
       // `strict` ensures that you only use `m` and not `motion` in your components
-      // Blade presets always use `m` while animating
+      // Loom UI presets always use `m` while animating
       <LazyMotion strict features={loadFeatures}>
         {/* The animations run when loadFeatures resolves. */}
         <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} />
@@ -120,10 +120,10 @@ These are mostly the changes you'll need if you're using core API. But if you're
   }
   ```
 
-  ##### Go ahead and enjoy the Blade Motion Presets
+  ##### Go ahead and enjoy the Loom UI Motion Presets
 
   ```ts
-  import { Fade, Badge } from '@razorpay/blade/components';
+  import { Fade, Badge } from '@greenloom/ui/components';
 
   function MyComponent() {
     return (

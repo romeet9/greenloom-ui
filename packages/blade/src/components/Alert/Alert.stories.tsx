@@ -37,7 +37,7 @@ const Page = (): ReactElement => {
                 secondary: {
                   href: 'https://greenloom.ai',
                   target: '_blank',
-                  text: 'Go to Razorpay.com',
+                  text: 'Go to Green Loom.com',
                 },
               }}
             />

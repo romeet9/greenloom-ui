@@ -51,7 +51,7 @@ const MyCuteDrawer = () => {
         />
         <DrawerBody>
           <FTXAnnouncement />
-          <RazorpayOnePromotions />
+          <Green LoomOnePromotions />
           <CatPictures />
         </DrawerBody>
       <Drawer>

@@ -4,7 +4,7 @@
 >
 > Questions like what is pattern, why are we building these patterns, and scope of pattern are answered in [pattern-terminology.md](./pattern-terminology.md)
 
-List View Pattern is a UI pattern that includes Table, Filters, and Search of the table. It is a commonly used pattern on Razorpay dashboards to visualize data and help consumers filter / search through that data.
+List View Pattern is a UI pattern that includes Table, Filters, and Search of the table. It is a commonly used pattern on Green Loom dashboards to visualize data and help consumers filter / search through that data.
 
 ![alt text](image-5.png)
 
@@ -108,7 +108,7 @@ List View Pattern is a UI pattern that includes Table, Filters, and Search of th
 
 **Cons**
 
-- No control over layout from design-system so tomorrow if we decide to change position of SearchInput for all filters in Razorpay, it cannot be done without a migration on consumer-side.
+- No control over layout from design-system so tomorrow if we decide to change position of SearchInput for all filters in Green Loom, it cannot be done without a migration on consumer-side.
 - Can lead to inconsistent spacings / responsive behaviours across pages if consumers don't handle it correctly.
 - More verbose API as it requires handling layout manually
 -
@@ -481,7 +481,7 @@ export type QuickFilterProps = {
 
 - ### Naming `ListView` vs `TableFilterView`
 
-  Currently we're calling it ListView because the terminology was used in Razorpay although this terminology is not really used anywhere outside of Razorpay and can cause confusion to new people who join.
+  Currently we're calling it ListView because the terminology was used in Green Loom although this terminology is not really used anywhere outside of Green Loom and can cause confusion to new people who join.
 
   Alternate Options
 
@@ -490,7 +490,7 @@ export type QuickFilterProps = {
   - TableFilterView
 
   - **Conclusion:**
-    - We decided to call it ListView due to its familiarity in Razorpay and confusion it can cause to existing developers and designers in razorpay
+    - We decided to call it ListView due to its familiarity in Green Loom and confusion it can cause to existing developers and designers in razorpay
 
 - ### Do we want to control layout or not?
 

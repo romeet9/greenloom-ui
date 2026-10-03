@@ -316,8 +316,8 @@ const SkeletonCardTemplate: StoryFn<typeof SkeletonComponent> = () => {
         Toggle Loading
       </Button>
       <Text marginY="spacing.4">
-        You can also use Skeleton to show loading states for existing blade components by composing
-        multiple Skeletons and laying them out via layout props.
+        You can also use Skeleton to show loading states for existing Loom UI components by
+        composing multiple Skeletons and laying them out via layout props.
       </Text>
       <Box width={{ xs: '100%', m: '400px' }} marginTop="spacing.4">
         {isLoading ? (
@@ -345,7 +345,7 @@ const SkeletonCardTemplate: StoryFn<typeof SkeletonComponent> = () => {
             </CardHeader>
             <CardBody>
               <Text>
-                Razorpay Payment Pages is the easiest way to accept payments with a custom-branded
+                Green Loom Payment Pages is the easiest way to accept payments with a custom-branded
                 online store. Accept international and domestic payments with automated payment
                 receipts. Take your store online instantly with zero coding.
               </Text>
@@ -427,7 +427,7 @@ const SkeletonAccessibilityTemplate: StoryFn<typeof SkeletonComponent> = () => {
             </CardHeader>
             <CardBody>
               <Text>
-                Razorpay Payment Pages is the easiest way to accept payments with a custom-branded
+                Green Loom Payment Pages is the easiest way to accept payments with a custom-branded
                 online store. Accept international and domestic payments with automated payment
                 receipts. Take your store online instantly with zero coding.
               </Text>

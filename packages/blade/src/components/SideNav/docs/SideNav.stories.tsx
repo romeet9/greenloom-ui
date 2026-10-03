@@ -4,15 +4,7 @@ import { Title } from '@storybook/addon-docs/blocks';
 import { Link, matchPath, Route, Switch, useLocation } from 'react-router-dom';
 import type { SideNavProps, SideNavSectionProps } from '../types';
 import type { SideNavLinkProps } from '..';
-import {
-  SideNavBody,
-  SideNav,
-  SideNavLink,
-  SideNavLevel,
-  SideNavSection,
-  SideNavFooter,
-  SideNavItem,
-} from '..';
+import { SideNavBody, SideNav, SideNavLink, SideNavLevel, SideNavSection, SideNavFooter } from '..';
 import { RazorpayLinesSvg, RazorpayLogo } from './RazorpayLogo';
 import { sideNavWithReactRouter } from './code';
 import StoryRouter from '~utils/storybook/StoryRouter';
@@ -667,7 +659,7 @@ export const CollapsibleSideNav: StoryFn<typeof SideNav> = ({ ...args }) => {
         <SideNavBody>
           <SideNavSection>
             <NavItem title="How to center div in CSS" href="/chat/center-div" />
-            <NavItem title="How to get promoted to CTO in Razorpay?" href="/chat/promotion" />
+            <NavItem title="How to get promoted to CTO in Green Loom?" href="/chat/promotion" />
             <NavItem title="Will Anurag take over AI's job?" href="/chat/anurag-ai" />
             <NavItem title="How to learn JavaScript in 2 minutes?" href="/chat/javascript" />
             <NavItem title="Claude Code plugins to cure depression" href="/chat/depression" />

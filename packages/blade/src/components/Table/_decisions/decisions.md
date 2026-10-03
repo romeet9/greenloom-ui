@@ -41,7 +41,7 @@ A table component helps in displaying data in a grid format, through rows and co
       - [1. Only Composable API](#1-only-composable-api)
       - [2. Only Compact API](#2-only-compact-api)
       - [3. Both Composable \& Compact API](#3-both-composable--compact-api)
-      - [Current API Usage Across Razorpay Projects](#current-api-usage-across-razorpay-projects)
+      - [Current API Usage Across Green Loom Projects](#current-api-usage-across-razorpay-projects)
       - [Conclusion](#conclusion)
 - [Table Library Evaluation](#table-library-evaluation)
   - [Why a library?](#why-a-library)
@@ -67,7 +67,7 @@ A table component helps in displaying data in a grid format, through rows and co
 
 ## Out of scope
 
-We don't have enough use-cases for the following features at Razorpay and hence scoped them out of our Table component. If you are aware of any of these features being used at Razorpay, please let us know by creating an issue - we will evaluate it and scope it for future releases.
+We don't have enough use-cases for the following features at Green Loom and hence scoped them out of our Table component. If you are aware of any of these features being used at Green Loom, please let us know by creating an issue - we will evaluate it and scope it for future releases.
 
 - Column Reordering
 - Column Resizing
@@ -455,7 +455,7 @@ const onSortChange = ({ headerKey, sortType }) => {
 ##### Pros
 
 - Composable API is more intuitive and resembles the native HTML structure of a table
-- It is easier to understand since the API design is similar to rest of the Blade components
+- It is easier to understand since the API design is similar to rest of the Loom UI components
 - It is easier to extend and add new feature to individual table components
 - We could leverage tree-shaking to only import the components that are being used in the consumer's table
 
@@ -613,7 +613,7 @@ const pagination = {
 - Strong reasons to go with this approach would be to give our consumers complete flexibility to choose the API that they are most comfortable with
 - Strong reasons to not go with this approach would be the complexity and maintainability issues as well as education efforts required to educate the consumers about both the APIs
 
-##### Current API Usage Across Razorpay Projects
+##### Current API Usage Across Green Loom Projects
 
 > This is an approximate usage count. We identified this by searching through the codebase. Actual numbers may vary slightly.
 
@@ -643,7 +643,7 @@ We had a few requirements that we were looking for in a library:
 - Well maintained and has a good community around it
 - Reasonable bundle size
 - Supports all the features that we need today and in the future (including features marked out of scope)
-- Flexible styling to ensure we can match the Razorpay's design language
+- Flexible styling to ensure we can match the Green Loom's design language
 - Flexible API to ensure we can build both the Composable & Compact APIs
 
 ### Libraries evaluated

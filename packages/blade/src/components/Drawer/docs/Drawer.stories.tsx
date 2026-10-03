@@ -163,11 +163,11 @@ export const DrawerStacking = (args: DrawerProps): React.ReactElement => {
             padding="spacing.3"
           >
             <CardHeader>
-              <CardHeaderLeading title="Razorpay FTX" subtitle="Check out our yearly event" />
+              <CardHeaderLeading title="Green Loom FTX" subtitle="Check out our yearly event" />
             </CardHeader>
             <CardBody>
               <Box padding="spacing.4">
-                <Text>Book Your Tickets for Razorpay FTX</Text>
+                <Text>Book Your Tickets for Green Loom FTX</Text>
               </Box>
             </CardBody>
             <CardFooter>

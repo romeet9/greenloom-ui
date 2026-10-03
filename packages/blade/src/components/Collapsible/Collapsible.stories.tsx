@@ -48,7 +48,7 @@ const Page = (): ReactElement => {
                     justifyContent="space-between"
                     alignItems="baseline"
                   >
-                    <Text marginTop="spacing.2">Razorpay Platform Fees</Text>
+                    <Text marginTop="spacing.2">Green Loom Platform Fees</Text>
                     <Text>2%</Text>
                   </Box>
                   <Box
@@ -109,7 +109,7 @@ const CollapsibleButtonTemplate: StoryFn<typeof CollapsibleComponent> = ({ ...ar
             justifyContent="space-between"
             alignItems="baseline"
           >
-            <Text marginTop="spacing.2">Razorpay Platform Fees</Text>
+            <Text marginTop="spacing.2">Green Loom Platform Fees</Text>
             <Text>2%</Text>
           </Box>
           <Box
@@ -150,7 +150,7 @@ const CollapsibleLinkTemplate: StoryFn<typeof CollapsibleComponent> = ({ ...args
             justifyContent="space-between"
             alignItems="baseline"
           >
-            <Text marginTop="spacing.2">Razorpay Platform Fees</Text>
+            <Text marginTop="spacing.2">Green Loom Platform Fees</Text>
             <Text>2%</Text>
           </Box>
           <Box
@@ -191,7 +191,7 @@ const CollapsibleTextTemplate: StoryFn<typeof CollapsibleComponent> = ({ ...args
             justifyContent="space-between"
             alignItems="baseline"
           >
-            <Text marginTop="spacing.2">Razorpay Platform Fees</Text>
+            <Text marginTop="spacing.2">Green Loom Platform Fees</Text>
             <Text>2%</Text>
           </Box>
           <Box
@@ -272,7 +272,7 @@ const CollapsibleControlledTemplate: StoryFn<typeof CollapsibleComponent> = ({
             justifyContent="space-between"
             alignItems="baseline"
           >
-            <Text marginTop="spacing.2">Razorpay Platform Fees</Text>
+            <Text marginTop="spacing.2">Green Loom Platform Fees</Text>
             <Text>2%</Text>
           </Box>
           <Box
