@@ -35,9 +35,9 @@ jobs:
 
       - name: Build Packages
         run: |
-          yarn build:blade-core
-          yarn build:blade
-          yarn mcp:build
+          yarn --cwd packages/blade-core build
+          yarn --cwd packages/blade build
+          yarn --cwd packages/blade-mcp build
 
       - name: Build Static Storybook
         run: |
