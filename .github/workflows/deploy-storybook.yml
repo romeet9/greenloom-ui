@@ -18,6 +18,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: '--max-old-space-size=8192'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -25,13 +27,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: 'yarn'
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --ignore-engines
 
-      - name: Build Monorepo Packages
+      - name: Build Packages
         run: |
           yarn build:blade-core
           yarn build:blade
@@ -48,3 +50,4 @@ jobs:
           publish_dir: ./packages/blade/storybook-site
           publish_branch: gh-pages
           force_orphan: true
+
