@@ -212,7 +212,7 @@ import {
   CopyIcon,
   CheckIcon,
   ClockIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 type Transaction = {
   id: string;
   paymentId: string;
@@ -585,7 +585,7 @@ import {
   CopyIcon,
   CloseIcon,
   ArrowRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const KeyValueItem = ({ label, children }: { label: string; children: React.ReactNode }) => (
   <>

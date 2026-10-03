@@ -68,7 +68,7 @@ type SkipNavContentProps = {
 This example demonstrates how to implement the SkipNav component for accessibility, showing proper placement of SkipNavLink at the beginning of the document and SkipNavContent at the start of the main content area.
 
 ```tsx
-import { SkipNavLink, SkipNavContent, Box, Link, Text, Heading } from '@razorpay/blade/components';
+import { SkipNavLink, SkipNavContent, Box, Link, Text, Heading } from '@greenloom/loom/components';
 
 function AccessibleLayout() {
   return (

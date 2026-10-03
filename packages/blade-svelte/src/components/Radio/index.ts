@@ -4,7 +4,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { Radio, RadioGroup } from '@razorpay/blade-svelte/components';
+ *   import { Radio, RadioGroup } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <RadioGroup

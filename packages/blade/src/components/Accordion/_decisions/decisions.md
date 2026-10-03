@@ -32,7 +32,7 @@ import {
   AccordionItem,
   AccordionItemHeader,
   AccordionItemBody,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 <Accordion showNumberPrefix defaultExpandedIndex={0}>
   <AccordionItem>
@@ -65,7 +65,7 @@ import {
   AccordionItem,
   AccordionItemHeader,
   AccordionItemBody,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 <Accordion showNumberPrefix defaultExpandedIndex={0}>
   <AccordionItem>
@@ -93,7 +93,7 @@ import {
 <summary>Deprecated Accordion API</summary>
 
 ```jsx
-import { Accordion, AccordionItem } from '@razorpay/blade';
+import { Accordion, AccordionItem } from '@greenloom/loom';
 
 <Accordion showNumberPrefix defaultExpandedIndex={0}>
   <AccordionItem

@@ -32,7 +32,7 @@ type SideNavBackgroundColor =
   | 'surface.background.gray.intense';
 
 /**
- * Blade icon component, for example `CheckIcon` from `@razorpay/blade/components`
+ * Blade icon component, for example `CheckIcon` from `@greenloom/loom/components`
  */
 type IconComponent = React.ComponentType<any>;
 
@@ -389,7 +389,7 @@ import {
   BankIcon,
   ChevronRightIcon,
   ArrowUpRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Custom activation card for the banner slot
 const ActivationCard = () => {

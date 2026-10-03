@@ -62,7 +62,7 @@ type HeadingProps = {
 Here's a comprehensive example showcasing the Heading component's various features and props, demonstrating different sizes, colors, weights, and semantic variations to create page hierarchy:
 
 ```tsx
-import { Heading, Box, Text } from '@razorpay/blade/components';
+import { Heading, Box, Text } from '@greenloom/loom/components';
 
 function HeadingExample() {
   return (

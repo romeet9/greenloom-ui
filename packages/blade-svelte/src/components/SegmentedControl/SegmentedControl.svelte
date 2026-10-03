@@ -4,8 +4,8 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getSegmentedControlTemplateClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getSegmentedControlTemplateClasses } from '@greenloom/loom-core/styles';
   import { setSegmentedControlContext } from './context';
   import SegmentedControlIndicator from './SegmentedControlIndicator.svelte';
   import FormLabel from '../Input/_Form/FormLabel.svelte';

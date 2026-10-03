@@ -35,11 +35,11 @@ Theme tokens map global values to **semantic purposes** and support light/dark m
 
 ## ThemeTokens Shape
 
-The `ThemeTokens` object (provided to `BladeProvider`) has this top-level structure:
+The `ThemeTokens` object (provided to `LoomProvider`) has this top-level structure:
 
 ```ts
 ThemeTokens = {
-  name: string;           // "bladeTheme" or custom
+  name: string;           // "loomTheme" or custom
   border: { radius, width }
   breakpoints: { base, xs, s, m, l, xl }
   colors: { onLight: {...}, onDark: {...} }
@@ -96,27 +96,27 @@ Use object syntax with breakpoint keys for responsive values:
 ## Imports
 
 ```ts
-import { bladeTheme } from '@razorpay/blade/tokens';
-import { BladeProvider } from '@razorpay/blade/components';
+import { loomTheme } from '@greenloom/loom/tokens';
+import { LoomProvider } from '@greenloom/loom/components';
 ```
 
 ---
 
 # Theming Guide
 
-## BladeProvider Setup
+## LoomProvider Setup
 
-Every Blade application must be wrapped with `BladeProvider`:
+Every Blade application must be wrapped with `LoomProvider`:
 
 ```jsx
-import { BladeProvider } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
+import { LoomProvider } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
 
 function App() {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <YourApp />
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 ```
@@ -132,22 +132,22 @@ The `colorScheme` prop controls light/dark mode:
 | `"system"` | Follows OS preference |
 
 ```jsx
-<BladeProvider themeTokens={bladeTheme} colorScheme="dark">
+<LoomProvider themeTokens={loomTheme} colorScheme="dark">
   <App />
-</BladeProvider>
+</LoomProvider>
 ```
 
-### Nested BladeProvider for mixed modes
+### Nested LoomProvider for mixed modes
 
-If a section needs a different color scheme (e.g., dark section on a light page), wrap it in another `BladeProvider`:
+If a section needs a different color scheme (e.g., dark section on a light page), wrap it in another `LoomProvider`:
 
 ```jsx
-<BladeProvider themeTokens={bladeTheme} colorScheme="light">
+<LoomProvider themeTokens={loomTheme} colorScheme="light">
   <MainContent />
-  <BladeProvider themeTokens={bladeTheme} colorScheme="dark">
+  <LoomProvider themeTokens={loomTheme} colorScheme="dark">
     <DarkSection />
-  </BladeProvider>
-</BladeProvider>
+  </LoomProvider>
+</LoomProvider>
 ```
 
 Avoid unnecessary nesting — only use this when genuinely needed.
@@ -191,7 +191,7 @@ const StyledCard = styled.div(
 ### useTheme hook
 
 ```ts
-import { useTheme } from '@razorpay/blade/components';
+import { useTheme } from '@greenloom/loom/components';
 
 const { theme } = useTheme();
 const bgColor = theme.colors.surface.background.gray.moderate;
@@ -332,7 +332,7 @@ For charts and data visualization — see **ChartColorSystem** documentation for
 
 ## Light/Dark Mode
 
-All color tokens exist in both `onLight` and `onDark` variants. The active mode is determined by the `colorScheme` prop on `BladeProvider`. Consumers access `theme.colors.surface.*` (without specifying the mode) and the correct values resolve automatically.
+All color tokens exist in both `onLight` and `onDark` variants. The active mode is determined by the `colorScheme` prop on `LoomProvider`. Consumers access `theme.colors.surface.*` (without specifying the mode) and the correct values resolve automatically.
 
 ## Usage Examples
 
@@ -815,14 +815,14 @@ Elevation tokens control shadow depth for layered surfaces. Four levels are avai
 | `midRaised` | 16 | 0.17 | 6 | {0, 4} |
 | `highRaised` | 24 | 0.16 | 14 | {0, 6} |
 
-Elevation tokens support `onLight`/`onDark` mode variants, resolved automatically by `BladeProvider`.
+Elevation tokens support `onLight`/`onDark` mode variants, resolved automatically by `LoomProvider`.
 
 ## Usage
 
 Prefer the `Elevate` component for applying elevation:
 
 ```jsx
-import { Elevate } from '@razorpay/blade/components';
+import { Elevate } from '@greenloom/loom/components';
 
 <Elevate elevation="midRaised">
   <Card>Elevated card content</Card>

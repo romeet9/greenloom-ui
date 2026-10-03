@@ -135,7 +135,7 @@ import {
   Avatar,
   UserIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function StoreHeader(): React.ReactElement {
   return (
@@ -181,7 +181,7 @@ import {
   Box,
   Text,
   BellIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SettingsPage(): React.ReactElement {
   return (

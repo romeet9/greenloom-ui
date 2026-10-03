@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/svelte';
 import { describe, it, expect } from 'vitest';
-import { getActionListWrapperClasses } from '@razorpay/blade-core/styles';
+import { getActionListWrapperClasses } from '@greenloom/loom-core/styles';
 import ActionListTestHarness from './ActionListTestHarness.svelte';
 import ActionListInBottomSheetTestHarness from './ActionListInBottomSheetTestHarness.svelte';
 

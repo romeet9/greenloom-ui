@@ -2,8 +2,8 @@
   import BaseText from '../BaseText/BaseText.svelte';
   import type { TextBodyVariant, TextCaptionVariant } from './types';
   import type { BaseTextProps } from '../BaseText/types';
-  import type { TextAs } from '@razorpay/blade-core/styles';
-  import { getTextProps, validTextAsValues } from '@razorpay/blade-core/styles';
+  import type { TextAs } from '@greenloom/loom-core/styles';
+  import { getTextProps, validTextAsValues } from '@greenloom/loom-core/styles';
 
   type TextComponentProps = (TextBodyVariant | TextCaptionVariant) & {
     weight?: 'regular' | 'medium' | 'semibold';

@@ -131,7 +131,7 @@ Next, the BottomSheet also need to be composable with SelectInput dropdown.
 Previously in the API decisions we approached with this API: 
 
 ```jsx
-import { Spinner, useTheme, useBreakpoint } from "@razorpay/blade";
+import { Spinner, useTheme, useBreakpoint } from "@greenloom/loom";
 
 const BottomSheet = React.lazy();
 const DropdownOverlay = React.lazy();

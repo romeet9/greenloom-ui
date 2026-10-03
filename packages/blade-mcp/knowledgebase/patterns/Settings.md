@@ -92,8 +92,8 @@ import {
   PlusIcon,
   SettingsIcon,
   ChevronRightIcon,
-} from '@razorpay/blade/components';
-import { useTheme, useBreakpoint } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useTheme, useBreakpoint } from '@greenloom/loom/utils';
 
 // Settings Card Component for Overview Page
 const SettingCard = ({
@@ -499,9 +499,9 @@ import {
   Link,
   EditIcon,
   ChevronLeftIcon,
-} from '@razorpay/blade/components';
-import type { BoxProps } from '@razorpay/blade/components';
-import { useTheme, useBreakpoint } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import type { BoxProps } from '@greenloom/loom/components';
+import { useTheme, useBreakpoint } from '@greenloom/loom/utils';
 import { Link as RouterLink } from 'react-router-dom';
 
 // Helper component for displaying row values with optional edit button

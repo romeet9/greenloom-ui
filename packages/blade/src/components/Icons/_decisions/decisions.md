@@ -25,7 +25,7 @@
 
 - We will store all our icons within `components/Icons/*` directory and make them available to our consumers like this:
   ```jsx
-  import { CreditCardIcon } from '@razorpay/blade/components';
+  import { CreditCardIcon } from '@greenloom/loom/components';
   ```
 - All icons will be built using the internal `_Svg` components
 - Each Icon component will follow the naming convention of having `Icon` as a suffix. For example, `CreditCardIcon`, `ProfileIcon`, etc.

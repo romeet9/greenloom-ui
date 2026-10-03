@@ -29,7 +29,7 @@ A dedicated component with a clean, purpose-built API is clearer for consumers.
 ## API
 
 ```jsx
-import { SegmentedControl, SegmentedControlItem } from '@razorpay/blade/components';
+import { SegmentedControl, SegmentedControlItem } from '@greenloom/loom/components';
 
 <SegmentedControl defaultValue="daily" label="Time Period">
   <SegmentedControlItem value="daily">Daily</SegmentedControlItem>

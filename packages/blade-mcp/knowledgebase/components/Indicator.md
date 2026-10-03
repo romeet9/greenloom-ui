@@ -78,7 +78,7 @@ Where:
 This example demonstrates different variations of the Indicator component showing positive, negative, and notice states with different emphasis levels and text options.
 
 ```tsx
-import { Indicator, Box } from '@razorpay/blade/components';
+import { Indicator, Box } from '@greenloom/loom/components';
 
 function IndicatorExample() {
   return (

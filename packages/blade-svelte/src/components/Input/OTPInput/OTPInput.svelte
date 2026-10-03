@@ -4,8 +4,8 @@
     metaAttribute,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { formHintLeftLabelMarginLeft } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { formHintLeftLabelMarginLeft } from '@greenloom/loom-core/styles';
   import BaseInput from '../BaseInput/BaseInput.svelte';
   import FormLabel from '../_Form/FormLabel.svelte';
   import FormHint from '../_Form/FormHint.svelte';

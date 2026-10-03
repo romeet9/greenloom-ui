@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { BottomSheetBodyPadding, BottomSheetBodyOverflow } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { BottomSheetBodyPadding, BottomSheetBodyOverflow } from '@greenloom/loom-core/styles';
 
 /**
  * Snap points expressed as fractions of the viewport height (between 0 and 1).

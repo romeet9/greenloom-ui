@@ -1,4 +1,4 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 
 /**
  * Icon color tokens - matches React implementation

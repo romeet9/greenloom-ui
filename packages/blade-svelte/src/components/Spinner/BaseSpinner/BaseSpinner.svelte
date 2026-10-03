@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { makeAccessible, metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
+  import { makeAccessible, metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
   import type { BaseSpinnerProps } from './types';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
   import {
     getSpinnerClasses,
     spinnerBoxClass,
     spinnerIconClass,
     type SpinnerSize,
-  } from '@razorpay/blade-core/styles';
-  import { utilityClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
+  import { utilityClasses } from '@greenloom/loom-core/styles';
   import BaseText from '../../Typography/BaseText/BaseText.svelte';
 
   let {

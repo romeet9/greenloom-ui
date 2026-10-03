@@ -7,11 +7,11 @@ const SingleFileUploadStory = `
     Heading,
     ProgressBar,
     Text,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     FileUploadProps,
     BladeFile
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import React, { useState } from 'react';
 
 function App() {
@@ -125,12 +125,12 @@ const MultiFileUploadStory = `
     Heading,
     Divider,
     ProgressBar,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     FileUploadProps,
     BladeFile,
     BladeFileList,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import React, { useState } from 'react';
   
   function App() {
@@ -288,12 +288,12 @@ import {
     TextInput,
     Heading,
     Divider,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     FileUploadProps,
     BladeFile,
     BladeFileList,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import React, { useState } from 'react';
 
   function App() {
@@ -446,12 +446,12 @@ const AutoFileUploadWithProgressStory = `
     TextInput,
     Heading,
     Divider,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     FileUploadProps,
     BladeFile,
     BladeFileList,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import React, { useState } from 'react';
   
   function App() {
@@ -643,12 +643,12 @@ import {
     TextInput,
     Heading,
     Divider,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     FileUploadProps,
     BladeFile,
     BladeFileList,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import React, { useState } from 'react';
   
   function App() {

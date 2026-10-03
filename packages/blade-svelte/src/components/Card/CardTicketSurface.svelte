@@ -1,12 +1,12 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import {
     buildTicketShellPath,
     CARD_TICKET_OUTLINE_STROKE_WIDTH,
     CARD_TICKET_DISABLED_STROKE_DASHARRAY,
     getTokenCSSVariable,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
 
   // Call in the script block so the class names aren't tree-shaken from the CSS module.
   const tc = getCardTemplateClasses();

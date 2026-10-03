@@ -196,7 +196,7 @@ import {
   Button,
   PlusIcon,
   MessageSquareIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const TransactionsScreen = (): React.ReactElement => {
   const [isCreateOpen, setIsCreateOpen] = useState(false);

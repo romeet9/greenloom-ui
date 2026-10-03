@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade, DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
-import type { BaseInputValidationState } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade, DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
+import type { BaseInputValidationState } from '@greenloom/loom-core/styles';
 import type { LabelPosition } from '../Input/BaseInput/types';
 
 /**

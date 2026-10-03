@@ -116,7 +116,7 @@ function LayoutPrimitivesDocs(): React.ReactElement {
         <Heading size="large">Playground</Heading>
         <Sandbox padding="spacing.0">
           {`
-            import { Box, Text } from '@razorpay/blade/components'
+            import { Box, Text } from '@greenloom/loom/components'
 
             function App() {
               return (
@@ -183,7 +183,7 @@ function LayoutPrimitivesDocs(): React.ReactElement {
           <Text>Uncomment the commented code below to see things in action ✨</Text>
           <Sandbox padding={['spacing.5', 'spacing.0', 'spacing.5']} editorHeight={500}>
             {`
-              import { Box, Text } from '@razorpay/blade/components'
+              import { Box, Text } from '@greenloom/loom/components'
 
               function App() {
                 return (
@@ -236,7 +236,7 @@ function LayoutPrimitivesDocs(): React.ReactElement {
           </Text>
           <SandboxProvider
             code={`
-             import { Box, Text } from '@razorpay/blade/components';
+             import { Box, Text } from '@greenloom/loom/components';
 
              function App() {
                return (
@@ -308,7 +308,7 @@ function LayoutPrimitivesDocs(): React.ReactElement {
           ]}
         >
           {`
-                import { Text } from '@razorpay/blade/components'
+                import { Text } from '@greenloom/loom/components'
 
                 function App() {
                   return (
@@ -336,7 +336,7 @@ function LayoutPrimitivesDocs(): React.ReactElement {
         </Text>
         <Sandbox>
           {`
-              import { Alert } from '@razorpay/blade/components';
+              import { Alert } from '@greenloom/loom/components';
 
               function App() {
                 return (

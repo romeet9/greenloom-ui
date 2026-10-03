@@ -41,7 +41,7 @@ type TrustBadgeProps = {
 
 ```tsx
 import React from 'react';
-import { TrustBadge, Box } from '@razorpay/blade/components';
+import { TrustBadge, Box } from '@greenloom/loom/components';
 
 function TrustBadgeExample(): React.ReactElement {
   return (

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import BaseIconButton from './BaseIconButton/BaseIconButton.svelte';
   import type { IconButtonProps } from './types';
 

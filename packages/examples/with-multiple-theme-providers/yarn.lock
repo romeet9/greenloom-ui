@@ -2029,7 +2029,7 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@razorpay/blade@file:../../blade":
+"@greenloom/loom@file:../../blade":
   version "11.38.0"
   dependencies:
     "@babel/runtime" "7.20.0"

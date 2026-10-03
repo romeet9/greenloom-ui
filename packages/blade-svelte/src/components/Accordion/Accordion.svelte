@@ -6,14 +6,14 @@
     makeAnalyticsAttribute,
     cx,
     logger,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAccordionWrapperClasses,
     getAccordionTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { setAccordionContext } from './context';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import type { AccordionProps } from './types';
 
   const templateClasses = getAccordionTemplateClasses();

@@ -179,7 +179,7 @@ import {
   Box,
   Text,
   Checkbox,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const TermsAndConditionsBottomSheet = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -244,8 +244,8 @@ import {
   ActionList,
   ActionListItem,
   ActionListItemIcon,
-} from '@razorpay/blade/components';
-import { CustomersIcon } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { CustomersIcon } from '@greenloom/loom/components';
 
 const SearchUsersBottomSheet = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -330,7 +330,7 @@ import {
   Counter,
   Radio,
   RadioGroup,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AddressSelectionBottomSheet = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -392,8 +392,8 @@ import {
   Text,
   TextInput,
   Link,
-} from '@razorpay/blade/components';
-import { ArrowRightIcon } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { ArrowRightIcon } from '@greenloom/loom/components';
 
 const PhoneVerificationBottomSheet = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -469,8 +469,8 @@ import {
   ActionList,
   ActionListItem,
   ActionListItemIcon,
-} from '@razorpay/blade/components';
-import { CustomersIcon, ClockIcon, ThumbsUpIcon } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { CustomersIcon, ClockIcon, ThumbsUpIcon } from '@greenloom/loom/components';
 
 const DropdownWithBottomSheet = () => {
   return (
@@ -522,14 +522,14 @@ import {
   ActionListItem,
   ActionListSection,
   ActionListItemIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import {
   CustomersIcon,
   ClockIcon,
   ThumbsUpIcon,
   TrendingUpIcon,
   TrendingDownIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const StackedBottomSheets = () => {
   const [isFirstSheetOpen, setIsFirstSheetOpen] = useState(false);
@@ -640,7 +640,7 @@ import {
   Box,
   Text,
   Heading,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ZeroPaddingBottomSheet = () => {
   const [isOpen, setIsOpen] = useState(false);

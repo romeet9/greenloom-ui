@@ -147,7 +147,7 @@ type SegmentedControlItemProps = (
 
 ```tsx
 import React, { useState } from 'react';
-import { SegmentedControl, SegmentedControlItem, Box, Text } from '@razorpay/blade/components';
+import { SegmentedControl, SegmentedControlItem, Box, Text } from '@greenloom/loom/components';
 
 function TimePeriodExample(): React.ReactElement {
   const [period, setPeriod] = useState('');
@@ -191,7 +191,7 @@ import {
   ClockIcon,
   ListIcon,
   LayoutIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SegmentedControlIconsExample(): React.ReactElement {
   return (

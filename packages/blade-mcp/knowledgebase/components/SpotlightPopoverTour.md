@@ -152,11 +152,11 @@ import {
   CardBody,
   InfoIcon,
   Amount,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import type {
   SpotlightPopoverTourSteps,
   SpotlightPopoverStepRenderProps,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 // Custom footer component that can control the tour
 const CustomTourFooter = ({
   activeStep,
@@ -344,11 +344,11 @@ import {
   Button,
   Text,
   Code,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import type {
   SpotlightPopoverTourSteps,
   SpotlightPopoverStepRenderProps,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const InterruptibleTourFooter = ({
   activeStep,

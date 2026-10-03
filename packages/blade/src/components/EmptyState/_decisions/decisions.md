@@ -32,7 +32,7 @@ Components:
 **Final API** - Flexible Slot-based API with children pattern:
 
 ```jsx
-import { EmptyState, Button, Link } from '@razorpay/blade/components';
+import { EmptyState, Button, Link } from '@greenloom/loom/components';
 
 <EmptyState
   asset={<img src="/illustrations/no-data-found.png" alt="No data found" />}

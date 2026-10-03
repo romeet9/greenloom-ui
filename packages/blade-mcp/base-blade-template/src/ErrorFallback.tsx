@@ -1,4 +1,4 @@
-import { Alert, Box, Heading, Text } from '@razorpay/blade/components';
+import { Alert, Box, Heading, Text } from '@greenloom/loom/components';
 import { useEffect, useState } from 'react';
 const ErrorFallback = ({ error }: { error: Error; resetErrorBoundary?: () => void }) => {
   const [isCopied, setIsCopied] = useState(false);

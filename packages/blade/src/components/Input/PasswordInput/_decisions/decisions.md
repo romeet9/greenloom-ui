@@ -17,7 +17,7 @@ This document outlines the API of `PasswordInput` component.
 Sample usage:
 
 ```jsx
-import { PasswordInput } from '@razorpay/blade';
+import { PasswordInput } from '@greenloom/loom';
 
 <PasswordInput id="password" name="password" label="Label" />;
 ```

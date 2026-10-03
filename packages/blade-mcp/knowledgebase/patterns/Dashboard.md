@@ -189,7 +189,7 @@ Note: Main route entry points are inside `SideNavComponent` - If you need to add
 ```js
 // file: navigation/NavItems.tsx
 import React from 'react';
-import { InfoIcon, LayoutIcon, LogInIcon } from '@razorpay/blade/components';
+import { InfoIcon, LayoutIcon, LogInIcon } from '@greenloom/loom/components';
 
 type NavItem = {
   icon: React.ComponentType;
@@ -269,7 +269,7 @@ import {
   MagicCheckoutIcon,
   AwardIcon,
   RazorpayXIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import SideNav from './SideNav';
 import { isItemActive, RazorpayLogo } from './utils';
 
@@ -570,7 +570,7 @@ import {
   UserIcon,
   SIDE_NAV_EXPANDED_L1_WIDTH_BASE,
   SIDE_NAV_EXPANDED_L1_WIDTH_XL,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import Example from '../pages/Example';
 import { navItemsJSON } from './NavItems';
 
@@ -816,8 +816,8 @@ export { isItemActive, RazorpayLogo };
 // file: index.tsx
 // Index entry point
 import React from 'react';
-import { BladeProvider } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
+import { LoomProvider } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
 import { BrowserRouter } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 import TopNav from '../navigation/TopNav';
@@ -840,12 +840,12 @@ h1, h2, h3, h4, h5, h6 {
 
 function AppWrapper() {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <GlobalStyles />
       <BrowserRouter>
         <TopNav />
       </BrowserRouter>
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 

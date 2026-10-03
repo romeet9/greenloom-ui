@@ -31,8 +31,8 @@ import {
   CopyIcon,
   DownloadIcon,
   Text,
-} from '@razorpay/blade/components';
-import type { TableData, BoxProps } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import type { TableData, BoxProps } from '@greenloom/loom/components';
 
 const nodes: Item[] = [
   ...Array.from({ length: 20 }, (_, i) => ({

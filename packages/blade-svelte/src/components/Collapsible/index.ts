@@ -13,7 +13,7 @@
  *     Collapsible,
  *     CollapsibleButton,
  *     CollapsibleBody,
- *   } from '@razorpay/blade-svelte';
+ *   } from '@greenloom/loom-svelte';
  * </script>
  *
  * <Collapsible>

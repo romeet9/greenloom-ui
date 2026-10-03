@@ -13,7 +13,7 @@
  *     ModalBody,
  *     ModalFooter,
  *     Button,
- *   } from '@razorpay/blade-svelte/components';
+ *   } from '@greenloom/loom-svelte/components';
  *
  *   let isOpen = $state(false);
  * </script>

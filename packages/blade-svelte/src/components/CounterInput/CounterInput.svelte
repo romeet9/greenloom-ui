@@ -11,13 +11,13 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCounterInputContainerClasses,
     getCounterInputButtonClasses,
     getCounterInputInputClasses,
     getCounterInputTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { MinusIcon } from '../Icons/MinusIcon';
   import { PlusIcon } from '../Icons/PlusIcon';
   import FormLabel from '../Input/_Form/FormLabel.svelte';

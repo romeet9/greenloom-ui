@@ -194,7 +194,7 @@ import {
   ClockIcon,
   HeartIcon,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function MyStepGroup() {
   return (
@@ -248,7 +248,7 @@ function MyStepGroup() {
 This example shows how to create an interactive StepGroup where steps can be selected via click events, with visual feedback and state management to track the current selected step.
 
 ```tsx
-import { StepGroup, StepItem, StepItemIndicator, Button, Box } from '@razorpay/blade/components';
+import { StepGroup, StepItem, StepItemIndicator, Button, Box } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function InteractiveStepGroup() {
@@ -326,7 +326,7 @@ import {
   RazorpayIcon,
   BriefcaseIcon,
   ClockIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function NestedStepGroup() {
@@ -419,7 +419,7 @@ function NestedStepGroup() {
 This example shows a horizontal orientation of the StepGroup component, ideal for representing a linear progression of steps across the page rather than vertically down the page.
 
 ```tsx
-import { StepGroup, StepItem, StepItemIndicator, Box } from '@razorpay/blade/components';
+import { StepGroup, StepItem, StepItemIndicator, Box } from '@greenloom/loom/components';
 
 function HorizontalStepGroup() {
   return (

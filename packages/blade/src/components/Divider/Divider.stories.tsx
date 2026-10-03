@@ -30,7 +30,7 @@ const Page = (): React.ReactElement => {
             Text,
             Card,
             CardBody
-          } from "@razorpay/blade/components";
+          } from "@greenloom/loom/components";
           
           function App() {
             return (

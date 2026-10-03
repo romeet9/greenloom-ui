@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom/client';
 import { LazyMotion } from 'framer-motion';
 import { createGlobalStyle } from 'styled-components';
-import { BladeProvider } from '@razorpay/blade/components';
+import { LoomProvider } from '@greenloom/loom/components';
 import { ErrorBoundary } from 'react-error-boundary';
-import { bladeTheme } from '@razorpay/blade/tokens';
-import '@razorpay/blade/fonts.css';
+import { loomTheme } from '@greenloom/loom/tokens';
+import '@greenloom/loom/fonts.css';
 
 import { ErrorFallback } from './ErrorFallback';
 import App from './App';
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 const loadFeatures = () => import('./features.ts').then((res) => res.default);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+  <LoomProvider themeTokens={loomTheme} colorScheme="light">
     <LazyMotion strict features={loadFeatures}>
       <GlobalStyles />
       <ErrorBoundary
@@ -40,5 +40,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <App />
       </ErrorBoundary>
     </LazyMotion>
-  </BladeProvider>,
+  </LoomProvider>,
 );

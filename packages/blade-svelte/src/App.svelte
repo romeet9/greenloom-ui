@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { bladeTheme } from '@razorpay/blade-core/tokens';
-  import { BladeProvider } from './components/BladeProvider';
+  import { loomTheme } from '@greenloom/loom-core/tokens';
+  import { LoomProvider } from './components/LoomProvider';
   import Button from './components/Button/Button.svelte'
   import Link from './components/Link/Link.svelte'
   import ThemeSwitcher from './ThemeSwitcher.svelte'
@@ -33,7 +33,7 @@
   }
 </script>
 
-<BladeProvider themeTokens={bladeTheme} colorScheme="light">
+<LoomProvider themeTokens={loomTheme} colorScheme="light">
 <main>
   <ThemeSwitcher />
   <div class="component-container">
@@ -606,7 +606,7 @@
     />
   </div>
 </main>
-</BladeProvider>
+</LoomProvider>
 
 <style>
   main {

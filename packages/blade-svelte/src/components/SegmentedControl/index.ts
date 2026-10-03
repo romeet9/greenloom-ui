@@ -4,7 +4,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { SegmentedControl, SegmentedControlItem } from '@razorpay/blade-svelte/components';
+ *   import { SegmentedControl, SegmentedControlItem } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <SegmentedControl defaultValue="daily" label="Time Period">

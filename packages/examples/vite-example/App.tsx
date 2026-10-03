@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@razorpay/blade/components';
+import { Button } from '@greenloom/loom/components';
 
 function App(): React.ReactElement {
   return <Button>Hello world</Button>;

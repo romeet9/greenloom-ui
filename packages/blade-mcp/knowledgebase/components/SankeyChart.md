@@ -123,7 +123,7 @@ type ChartsCategoricalColorToken = `data.background.categorical.${ChartColorCate
 
 ```tsx
 import React from 'react';
-import { Box, ChartSankeyWrapper, ChartSankey } from '@razorpay/blade/components';
+import { Box, ChartSankeyWrapper, ChartSankey } from '@greenloom/loom/components';
 
 function PaymentFlowSankeyChart() {
   return (
@@ -163,7 +163,7 @@ export default PaymentFlowSankeyChart;
 
 ```tsx
 import React from 'react';
-import { Box, ChartSankeyWrapper, ChartSankey } from '@razorpay/blade/components';
+import { Box, ChartSankeyWrapper, ChartSankey } from '@greenloom/loom/components';
 
 function SingleColorSankeyChart() {
   return (

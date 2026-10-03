@@ -1,8 +1,8 @@
-# blade-core — Agent Context
+# loom-core — Agent Context
 
-Core utilities and shared functionality for the Blade Design System. Contains shared logic consumed by `@razorpay/blade` and other Blade packages.
+Core utilities and shared functionality for Loom UI. Contains shared logic consumed by `@greenloom/loom`, `@greenloom/loom-svelte`, and other Loom packages.
 
-Important: This package is only used in `@razorpay/blade-svelte` package right now and not in `@razorpay/blade` package.
+Important: This package provides tokens and styles for `@greenloom/loom-svelte` and core tokens for `@greenloom/loom`.
 
 ## Package Structure
 

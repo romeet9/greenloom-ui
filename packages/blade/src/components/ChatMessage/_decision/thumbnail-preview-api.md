@@ -21,7 +21,7 @@ Reference visual (stacked thumbnail preview with overflow `+2`):
 ## API
 
 ```tsx
-import { ChatMessage } from '@razorpay/blade/components';
+import { ChatMessage } from '@greenloom/loom/components';
 
 <ChatMessage
   thumbnails={[

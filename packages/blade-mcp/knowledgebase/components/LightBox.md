@@ -133,7 +133,7 @@ This example shows a controlled LightBox with explicit `activeIndex`, `onIndexCh
 
 ```tsx
 import { useState } from 'react';
-import { Box, Button, LightBox, LightBoxBody, LightBoxItem } from '@razorpay/blade/components';
+import { Box, Button, LightBox, LightBoxBody, LightBoxItem } from '@greenloom/loom/components';
 
 const IMAGES = [
   { src: 'https://picsum.photos/seed/lightbox-doc-1/1200/800', alt: 'Invoice summary page' },
@@ -194,7 +194,7 @@ import {
   Preview,
   PreviewBody,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const PDF_URL = 'https://cdn.razorpay.com/traditional-banks-vs-razorpayx.pdf';
 const VIDEO_URL = 'https://www.w3schools.com/html/mov_bbb.mp4';

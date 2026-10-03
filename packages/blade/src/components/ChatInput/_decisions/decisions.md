@@ -13,7 +13,7 @@ ChatInput is an input component designed for AI chat interfaces. It combines a t
 Overall structure showing the main usage pattern with a realistic example:
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 <ChatInput
   value={text}
@@ -47,7 +47,7 @@ import { ChatInput } from '@razorpay/blade/components';
 In this alternate approach, `files` and `quote` accept `ReactNode` instead of data props. The upload button and file picker remain built-in to ChatInput; only the preview rendering and quote content are fully consumer-controlled.
 
 ```jsx
-import { ChatInput, ChatInputFilePreview, ChatInputQuote } from '@razorpay/blade/components';
+import { ChatInput, ChatInputFilePreview, ChatInputQuote } from '@greenloom/loom/components';
 
 <ChatInput
   value={text}
@@ -248,7 +248,7 @@ File previews appear above the text area when files are attached. The "Upload fi
 <img src="./chatinput-basic-usage.png" width="500px" alt="ChatInput basic usage with file uploads" />
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 const ChatWithFiles = () => {
   const [files, setFiles] = useState([]);
@@ -273,7 +273,7 @@ const ChatWithFiles = () => {
 When `validationState` is set to `'error'`, the input border turns red and `errorText` is displayed below the input. This is useful for surfacing submission errors or invalid input states.
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 const ChatWithError = () => {
   const [validationState, setValidationState] = useState('none');
@@ -300,7 +300,7 @@ Ghost suggestions appear as faded text after the cursor. When multiple suggestio
 <img src="./chatinput-ghost-suggestions.png" width="500px" alt="ChatInput with ghost suggestions" />
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 const ChatWithSuggestions = () => {
   const [suggestions, setSuggestions] = useState([
@@ -330,7 +330,7 @@ When `isGenerating` is true, the submit button changes to a stop button. Clickin
 <img src="./chatinput-stop-generation.png" width="500px" alt="ChatInput stop generation" />
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 const ChatWithStop = () => {
   const [isGenerating, setIsGenerating] = useState(false);
@@ -361,7 +361,7 @@ const ChatWithStop = () => {
 Combining all features -- file upload, ghost suggestion, stop generation, and validation error.
 
 ```jsx
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 const FullFeaturedChat = () => {
   const [text, setText] = useState('');

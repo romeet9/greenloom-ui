@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { resolveComponentStyleOverride } from '../../../utils/resolveComponentStyleOverride';
-import type { BladeThemeContextValue } from '../../BladeProvider/types';
-import type { AmountSlot, StyleOverride } from '@razorpay/blade-core/styles';
+import type { BladeThemeContextValue } from '../../LoomProvider/types';
+import type { AmountSlot, StyleOverride } from '@greenloom/loom-core/styles';
 
 const mockGetter = (
   styleOverride: StyleOverride<AmountSlot> | undefined,

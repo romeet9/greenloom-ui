@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { getTokenCSSVariable, makeAccessible, type AriaRoles } from '@razorpay/blade-core/utils';
-  import { getDotLoaderClasses } from '@razorpay/blade-core/styles';
+  import { getTokenCSSVariable, makeAccessible, type AriaRoles } from '@greenloom/loom-core/utils';
+  import { getDotLoaderClasses } from '@greenloom/loom-core/styles';
   import type { DotLoaderProps } from './types';
 
   let { color, size = 'medium', accessibilityLabel, className }: DotLoaderProps = $props();

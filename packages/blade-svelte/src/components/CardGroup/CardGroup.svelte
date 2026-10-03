@@ -5,12 +5,12 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCardGroupSurfaceClasses,
     getCardGroupTemplateClasses,
     getCardSurfaceClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { setCardGroupContext } from './cardGroupContext';
   import type { CardGroupProps } from './types';
 

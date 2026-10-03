@@ -16,7 +16,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { TextInput } from '@razorpay/blade-svelte/components';
+ *   import { TextInput } from '@greenloom/loom-svelte/components';
  *   let value = $state('');
  * </script>
  *

@@ -6,7 +6,7 @@
     getStyledPropsClasses,
     makeAnalyticsAttribute,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAnimatedChipClasses,
     getChipInnerClasses,
@@ -16,7 +16,7 @@
     getChipIconColorToken,
     getChipTextSizes,
     getChipIconSizes,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import type { TextColors } from '../Typography/BaseText/types';
   import type { IconColor } from '../Icons/types';

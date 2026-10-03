@@ -104,7 +104,7 @@ type SkeletonProps = {
 This example shows a simple implementation of multiple Skeleton elements with varying widths and heights to create a text-like loading placeholder.
 
 ```tsx
-import { Skeleton, Box } from '@razorpay/blade/components';
+import { Skeleton, Box } from '@greenloom/loom/components';
 
 function BasicSkeletonExample() {
   return (
@@ -138,7 +138,7 @@ import {
   Button,
   Text,
   Divider,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function CardLoadingExample() {
   const [isLoading, setIsLoading] = useState(true);

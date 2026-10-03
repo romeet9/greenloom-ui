@@ -1,6 +1,6 @@
 # svelte-app example
 
-A minimal Vite + Svelte 5 app that consumes `@razorpay/blade-svelte` (via the built `dist`,
+A minimal Vite + Svelte 5 app that consumes `@greenloom/loom-svelte` (via the built `dist`,
 same as a real consumer would), with a bundle size analyzer wired into the build.
 
 ## Usage
@@ -8,7 +8,7 @@ same as a real consumer would), with a bundle size analyzer wired into the build
 Build `blade-svelte` first so this app can resolve it:
 
 ```sh
-yarn workspace @razorpay/blade-svelte build
+yarn workspace @greenloom/loom-svelte build
 ```
 
 Then build this app and open the report:

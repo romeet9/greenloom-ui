@@ -16,7 +16,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { PhoneNumberInput } from '@razorpay/blade-svelte/components';
+ *   import { PhoneNumberInput } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <PhoneNumberInput

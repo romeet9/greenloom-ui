@@ -6,12 +6,12 @@
     makeAccessible,
     makeAnalyticsAttribute,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAccordionButtonClasses,
     getAccordionButtonBorderClasses,
     getAccordionTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Divider from '../Divider/Divider.svelte';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import CollapsibleChevronIcon from '../Collapsible/CollapsibleChevronIcon.svelte';

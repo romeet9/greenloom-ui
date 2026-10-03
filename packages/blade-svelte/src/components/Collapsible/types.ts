@@ -1,5 +1,5 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { ButtonProps } from '../Button/types';
 import type { TextColors } from '../Typography/BaseText/types';
 import type { CollapsibleDirection } from './context';

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import { useCardContext } from './CardContext';
   import type { CardHeaderTrailingProps } from './types';
 

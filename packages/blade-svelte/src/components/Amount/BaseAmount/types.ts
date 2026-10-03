@@ -1,6 +1,6 @@
 import type { CurrencyCodeType } from '@razorpay/i18nify-js/currency';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { AmountSlot, StyleOverride } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { AmountSlot, StyleOverride } from '@greenloom/loom-core/styles';
 import type { BaseTextProps } from '../../Typography/BaseText/types';
 
 // Amount size types

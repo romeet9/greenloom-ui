@@ -214,7 +214,7 @@ import {
   CardHeaderLeading,
   Box,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BasicCarouselExample = () => {
   const testimonials = [
@@ -295,7 +295,7 @@ import {
   Box,
   Text,
   Heading,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AutoPlayCarouselExample = () => {
   const testimonials = [
@@ -393,7 +393,7 @@ import {
   Button,
   ChevronLeftIcon,
   ChevronRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ControlledCarouselExample = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -519,7 +519,7 @@ import {
   BankIcon,
   CalendarIcon,
   ClockIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const MultiItemSelectableCarouselExample = () => {
   const [selectedPayment, setSelectedPayment] = useState<string | null>(null);
@@ -621,7 +621,7 @@ This example demonstrates an auto-playing carousel with custom styling and respo
 
 ```tsx
 import React from 'react';
-import { Carousel, CarouselItem, Box, Text, Card, CardBody } from '@razorpay/blade/components';
+import { Carousel, CarouselItem, Box, Text, Card, CardBody } from '@greenloom/loom/components';
 
 const AutoPlayProductCarouselExample = () => {
   const products = [
@@ -696,7 +696,7 @@ import {
   Box,
   Text,
   Heading,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const CarouselWithPeekExample = () => {
   const features = [

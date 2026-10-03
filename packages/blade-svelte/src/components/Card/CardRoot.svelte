@@ -1,9 +1,9 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { makeAccessible, metaAttribute, MetaConstants, getStyledPropsClasses, cx } from '@razorpay/blade-core/utils';
-  import { cardRootStyles } from '@razorpay/blade-core/styles';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+  import { makeAccessible, metaAttribute, MetaConstants, getStyledPropsClasses, cx } from '@greenloom/loom-core/utils';
+  import { cardRootStyles } from '@greenloom/loom-core/styles';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 
   let {
     children,

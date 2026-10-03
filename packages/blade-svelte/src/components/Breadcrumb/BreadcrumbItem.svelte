@@ -6,7 +6,7 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     breadcrumbListItemClass,
     separatorWrapperClass,
@@ -14,7 +14,7 @@
     getBreadcrumbTextSizes,
     getStepperItemSelectedClasses,
     getStepperItemLinkClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import BaseLink from '../Link/BaseLink/BaseLink.svelte';
   import { ChevronRightIcon } from '../Icons/ChevronRightIcon';

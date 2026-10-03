@@ -7,7 +7,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { CounterInput } from '@razorpay/blade-svelte';
+ *   import { CounterInput } from '@greenloom/loom-svelte';
  *
  *   let quantity = $state(1);
  * </script>

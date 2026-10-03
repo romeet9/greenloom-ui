@@ -14,7 +14,7 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     getFloatingPlacementParts,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getTooltipClasses,
     getTooltipTemplateClasses,
@@ -23,7 +23,7 @@
     tooltipArrowClass,
     tooltipTitleClass,
     tooltipContentClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { portal } from '../../utils/portal';
   import { setTooltipContext } from './tooltipContext';
   import type { TooltipProps, TooltipPlacement } from './types';
@@ -93,7 +93,7 @@
 
   const resolvedSide = $derived(getFloatingPlacementParts(resolvedPlacement)[0]);
 
-  /* Hover open/close delay — mirrors React's BladeProvider FloatingDelayGroup:
+  /* Hover open/close delay — mirrors React's LoomProvider FloatingDelayGroup:
    *   const tooltipDelays = { open: 300, close: 300 }
    * Focus events bypass the delay (same as floating-ui's useFocus). */
   const HOVER_OPEN_DELAY = 300;

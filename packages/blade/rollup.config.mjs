@@ -125,7 +125,7 @@ const getWebConfig = (inputs) => {
       pluginResolve({ extensions: webExtensions }),
       pluginCommonjs(),
       pluginBabel({
-        exclude: 'node_modules/**',
+        exclude: '**/node_modules/**',
         babelHelpers: 'runtime',
         envName: 'production',
         extensions: webExtensions,
@@ -167,7 +167,7 @@ const getBladeCoverageConfig = (inputs) => {
       pluginResolve({ extensions: webExtensions }),
       pluginCommonjs(),
       pluginBabel({
-        exclude: 'node_modules/**',
+        exclude: '**/node_modules/**',
         babelHelpers: 'runtime',
         envName: 'production',
         extensions: webExtensions,
@@ -207,7 +207,7 @@ const getNativeConfig = (inputs) => {
       pluginResolve({ extensions: nativeExtensions }),
       pluginCommonjs(),
       pluginBabel({
-        exclude: 'node_modules/**',
+        exclude: '**/node_modules/**',
         babelHelpers: 'runtime',
         envName: 'production',
         extensions: nativeExtensions,

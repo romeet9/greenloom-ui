@@ -161,7 +161,7 @@ This example demonstrates the ordered-filled variant with links for step-by-step
 
 ```tsx
 import React from 'react';
-import { Box, List, ListItem, ListItemLink, Heading } from '@razorpay/blade/components';
+import { Box, List, ListItem, ListItemLink, Heading } from '@greenloom/loom/components';
 
 const OrderedFilledListExample = () => {
   return (
@@ -204,7 +204,7 @@ import {
   ListItemCode,
   Heading,
   BookmarkIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AdvancedListExample = () => {
   return (
@@ -221,7 +221,7 @@ const AdvancedListExample = () => {
           <ListItemLink href="#resources">Documentation Resources</ListItemLink>
           <List variant="ordered" size="medium">
             <ListItem>
-              Install with: <ListItemCode>npm install @razorpay/blade</ListItemCode>
+              Install with: <ListItemCode>npm install @greenloom/loom</ListItemCode>
             </ListItem>
             <ListItem>
               <ListItemText>

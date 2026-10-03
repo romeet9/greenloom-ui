@@ -150,7 +150,7 @@ By default, we will merge the first characters of first & last word in the `name
 `AvatarGroup` can be used to stack multiple avatars together.
 
 ```tsx
-import { Avatar, AvatarGroup } from '@razorpay/blade/components';
+import { Avatar, AvatarGroup } from '@greenloom/loom/components';
 
 const App = () => (
   <AvatarGroup maxCount={3} size="medium">

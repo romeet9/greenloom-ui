@@ -148,7 +148,7 @@ import {
   CollapsibleBody,
   Text,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const UncontrolledExample = () => {
   return (
@@ -182,7 +182,7 @@ import {
   Text,
   Box,
   Button,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ControlledReadMoreExample = () => {
   // State for controlled collapsible
@@ -229,7 +229,7 @@ import {
   CollapsibleBody,
   Text,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const TopDirectionExample = () => {
   return (
@@ -268,7 +268,7 @@ Use `CollapsibleText` when the trigger must be a full-width text row with a chev
 
 ```tsx
 import React from 'react';
-import { Collapsible, CollapsibleText, CollapsibleBody, Text, Box } from '@razorpay/blade/components';
+import { Collapsible, CollapsibleText, CollapsibleBody, Text, Box } from '@greenloom/loom/components';
 
 const CollapsibleTextExample = () => {
   return (

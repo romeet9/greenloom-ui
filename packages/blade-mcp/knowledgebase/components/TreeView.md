@@ -216,7 +216,7 @@ import {
   Counter,
   Badge,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SidebarTree() {
   return (
@@ -272,8 +272,8 @@ export default SidebarTree;
 
 ```tsx
 import React from 'react';
-import { TreeView, TreeViewItem } from '@razorpay/blade/components';
-import { CheckCircleIcon, LoaderIcon, RefreshIcon } from '@razorpay/blade/components';
+import { TreeView, TreeViewItem } from '@greenloom/loom/components';
+import { CheckCircleIcon, LoaderIcon, RefreshIcon } from '@greenloom/loom/components';
 
 const CheckoutScreensTree = (): React.ReactElement => (
   <TreeView>
@@ -304,7 +304,7 @@ const CheckoutScreensTree = (): React.ReactElement => (
 
 ```tsx
 import React from 'react';
-import { TreeView, TreeViewItem } from '@razorpay/blade/components';
+import { TreeView, TreeViewItem } from '@greenloom/loom/components';
 
 function RegionsTree() {
   return (
@@ -343,7 +343,7 @@ import {
   TreeViewItem,
   Button,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function RegionsFilter() {
   const [values, setValues] = React.useState<string[]>([]);
@@ -396,7 +396,7 @@ import {
   SelectInput,
   TreeView,
   TreeViewItem,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Branches opt out of selection with isSelectable={false}: clicking them (or Enter/Space)
 // toggles expansion, so only leaf items (cities) can become the selected value
@@ -427,7 +427,7 @@ function CityPicker() {
 
 ```tsx
 import React from 'react';
-import { TreeView, TreeViewItem, TreeViewLoadMore } from '@razorpay/blade/components';
+import { TreeView, TreeViewItem, TreeViewLoadMore } from '@greenloom/loom/components';
 
 // Mock API functions for demonstration
 const fetchCities = (): Promise<string[]> => Promise.resolve(['Bengaluru', 'Mysuru', 'Mangaluru']);

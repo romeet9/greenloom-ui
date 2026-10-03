@@ -1,7 +1,7 @@
 import { mount } from 'svelte';
 import App from './App.svelte';
-import '@razorpay/blade-core/tokens/theme.css';
-import '@razorpay/blade-core/styles.css';
+import '@greenloom/loom-core/tokens/theme.css';
+import '@greenloom/loom-core/styles.css';
 
 const app = mount(App, {
   target: document.getElementById('app'),

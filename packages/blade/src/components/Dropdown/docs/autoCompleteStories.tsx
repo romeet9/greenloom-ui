@@ -11,7 +11,7 @@ export const getSimpleAutoComplete = (
     AutoComplete,
     ActionList,
     ActionListItem,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (

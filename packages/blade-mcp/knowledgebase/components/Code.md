@@ -89,7 +89,7 @@ type CodeProps = CodeHighlightedProps | CodeNonHighlightedProps;
 Here's a comprehensive example showcasing the Code component's various features and props:
 
 ```tsx
-import { Code, Text, Box } from '@razorpay/blade/components';
+import { Code, Text, Box } from '@greenloom/loom/components';
 
 function CodeExample() {
   return (

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { getCardFooterClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { getCardFooterClasses } from '@greenloom/loom-core/styles';
   import Divider from '../Divider/Divider.svelte';
   import { useCardContext } from './CardContext';
   import type { CardFooterProps } from './types';

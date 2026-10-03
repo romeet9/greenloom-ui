@@ -101,7 +101,7 @@ import {
   CardHeader,
   CardHeaderLeading,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function StaggerExample() {
   const [isVisible, setIsVisible] = useState(true);

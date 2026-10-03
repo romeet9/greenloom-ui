@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { makeAccessible, type AriaRoles } from '@razorpay/blade-core/utils';
+  import { makeAccessible, type AriaRoles } from '@greenloom/loom-core/utils';
   import {
     getAvatarButtonClasses,
     getAvatarTemplateClasses,
     avatarIconSizeTokens,
     avatarTextSizeMapping,
     getButtonTextColorToken,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import Heading from '../Typography/Heading/Heading.svelte';
   import type { TextColors } from '../Typography/BaseText/types';

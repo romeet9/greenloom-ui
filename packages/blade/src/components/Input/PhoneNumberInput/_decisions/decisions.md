@@ -18,7 +18,7 @@ This document outlines the API of `PhoneNumberInput` component.
 ## Basic Usage
 
 ```jsx
-import { PhoneNumberInput } from '@razorpay/blade';
+import { PhoneNumberInput } from '@greenloom/loom';
 
 <PhoneNumberInput
   countryCode="IN"

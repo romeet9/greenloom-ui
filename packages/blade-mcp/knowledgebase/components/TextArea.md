@@ -104,7 +104,7 @@ This example shows a TextArea component with validation, character limit, and he
 
 ```tsx 
 import { useState } from 'react';
-import { TextArea, Box } from '@razorpay/blade/components';
+import { TextArea, Box } from '@greenloom/loom/components';
 
 function FeedbackForm(): React.ReactElement {
   const [feedback, setFeedback] = useState('');
@@ -159,8 +159,8 @@ export default FeedbackForm;
 This example demonstrates TextArea with different configurations including label position, disabled state, and custom styling.
 
 ```tsx
-import { TextArea } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { TextArea } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function ProductDescriptionEditor() {
   return (
@@ -210,8 +210,8 @@ function ProductDescriptionEditor() {
 This example shows a TextArea without a visible label but with proper accessibility support using the accessibilityLabel prop.
 
 ```tsx
-import { TextArea } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { TextArea } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function SearchQueryBuilder() {
   return (
@@ -243,8 +243,8 @@ This example demonstrates a TextArea with tagging functionality, allowing users 
 
 ```tsx
 import { useState } from 'react';
-import { TextArea } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { TextArea } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function EmailInviter() {
   const [emails, setEmails] = useState(['john.doe@example.com']);
@@ -292,9 +292,9 @@ This example shows how to implement custom keyboard behavior, like submitting on
 
 ```tsx
 import { useState } from 'react';
-import { TextArea } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
-import { Button } from '@razorpay/blade/components';
+import { TextArea } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
+import { Button } from '@greenloom/loom/components';
 
 function MessageComposer() {
   const [message, setMessage] = useState('');

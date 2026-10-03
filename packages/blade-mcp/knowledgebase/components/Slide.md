@@ -119,7 +119,7 @@ This example demonstrates a simple slide animation toggled by a button, showing 
 
 ```tsx
 import { useState } from 'react';
-import { Slide, Box, Button, Card, CardBody, Text } from '@razorpay/blade/components';
+import { Slide, Box, Button, Card, CardBody, Text } from '@greenloom/loom/components';
 
 function BasicSlideExample() {
   const [isVisible, setIsVisible] = useState(true);
@@ -158,7 +158,7 @@ import {
   CardHeader,
   CardHeaderLeading,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SlideInViewExample() {
   return (

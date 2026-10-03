@@ -84,9 +84,10 @@ This generates the complete self-contained HTML/JS bundle in `packages/blade/sto
 
 | Package | Directory | Description |
 | :--- | :--- | :--- |
-| **`@greenloom/ui`** | [`./packages/blade`](./packages/blade/) | The core Loom UI component library, tokens, and theme providers. |
-| **`@greenloom/mcp`** | [`./packages/blade-mcp`](./packages/blade-mcp/) | Model Context Protocol (MCP) server for AI assistants building Loom UI code. |
-| **`@greenloom/svelte`** | [`./packages/blade-svelte`](./packages/blade-svelte/) | Svelte adapter for Loom UI components. |
+| **`@greenloom/loom`** | [`./packages/blade`](./packages/blade/) | The core Loom UI component library, tokens, and theme providers. |
+| **`@greenloom/loom-mcp`** | [`./packages/blade-mcp`](./packages/blade-mcp/) | Model Context Protocol (MCP) server for AI assistants building Loom UI code. |
+| **`@greenloom/loom-core`** | [`./packages/blade-core`](./packages/blade-core/) | Core design tokens, shared utilities, and typography systems. |
+| **`@greenloom/loom-svelte`** | [`./packages/blade-svelte`](./packages/blade-svelte/) | Svelte 5 components for Loom UI. |
 
 ---
 

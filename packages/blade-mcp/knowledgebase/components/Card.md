@@ -348,7 +348,7 @@ import {
   CardHeaderBadge,
   Text,
   InfoIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BasicCardExample = () => {
   return (
@@ -401,7 +401,7 @@ import {
   Box,
   Text,
   Amount,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const TicketCardExample = () => (
   <TicketCard width="280px">
@@ -434,7 +434,7 @@ const TicketCardExample = () => (
 Two-tone card with an emphasized header section over a subtle body section, wrapped by a single rounded border. No perforation or notches.
 
 ```tsx
-import { InfoCard, InfoCardBody, InfoCardFooter, Box, Text } from '@razorpay/blade/components';
+import { InfoCard, InfoCardBody, InfoCardFooter, Box, Text } from '@greenloom/loom/components';
 
 const InfoCardExample = () => (
   <InfoCard width="280px" isSelected>
@@ -477,8 +477,8 @@ import {
   ArrowSquareUpIcon,
   ArrowRightIcon,
   useTheme,
-} from '@razorpay/blade/components';
-import { useBreakpoint } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint } from '@greenloom/loom/utils';
 
 const MetricCard = () => {
   const { theme } = useTheme();
@@ -585,7 +585,7 @@ import {
   CheckboxGroup,
   Checkbox,
   RazorpayIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 type ProductOption = {

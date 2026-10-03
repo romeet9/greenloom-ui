@@ -1,5 +1,5 @@
 import { get } from 'svelte/store';
-import { logger } from '@razorpay/blade-core/utils';
+import { logger } from '@greenloom/loom-core/utils';
 import { toastStore, showToast, dismissToast, generateId } from './toastStore';
 import type { ToastProps, UseToastReturn } from './types';
 

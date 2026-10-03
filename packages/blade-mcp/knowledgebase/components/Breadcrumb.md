@@ -127,7 +127,7 @@ This example demonstrates Breadcrumbs with different sizes, colors, and on diffe
 
 ```tsx
 import React from 'react';
-import { Box, Breadcrumb, BreadcrumbItem, HomeIcon } from '@razorpay/blade/components';
+import { Box, Breadcrumb, BreadcrumbItem, HomeIcon } from '@greenloom/loom/components';
 
 const BreadcrumbExample = () => {
   return (
@@ -160,7 +160,7 @@ import {
   HomeIcon,
   CreditCardIcon,
   FolderIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import { useLocation, Link as RouterLink, matchPath } from 'react-router-dom';
 
 // Custom BreadcrumbItem that integrates with React Router
@@ -242,7 +242,7 @@ import {
   Text,
   HomeIcon,
   FolderIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ResponsiveBreadcrumb = () => {
   // Example deep navigation structure

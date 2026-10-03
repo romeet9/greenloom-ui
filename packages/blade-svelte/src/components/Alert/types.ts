@@ -1,5 +1,5 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { IconComponent } from '../Icons';
 
 export type AlertColor = 'information' | 'negative' | 'neutral' | 'notice' | 'positive' | 'primary';

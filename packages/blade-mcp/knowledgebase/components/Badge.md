@@ -91,7 +91,7 @@ This example demonstrates badges with key properties and styling.
 
 ```tsx
 import React from 'react';
-import { Badge, Box, InfoIcon, CheckCircleIcon } from '@razorpay/blade/components';
+import { Badge, Box, InfoIcon, CheckCircleIcon } from '@greenloom/loom/components';
 
 const BadgeExample = () => {
   return (

@@ -44,8 +44,8 @@ A FAB is defined by where it sits, so shipping only the pill would push identica
 ## API
 
 ```jsx
-import { FloatingActionButton } from '@razorpay/blade/components';
-import { PlusIcon } from '@razorpay/blade/components';
+import { FloatingActionButton } from '@greenloom/loom/components';
+import { PlusIcon } from '@greenloom/loom/components';
 
 // with a label
 <FloatingActionButton icon={PlusIcon} onClick={createPayment}>

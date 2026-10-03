@@ -1,6 +1,6 @@
-import type { StyleOverride } from '@razorpay/blade-core/styles';
-import { mergeStyleOverride } from '@razorpay/blade-core/utils';
-import type { BladeThemeContextValue, BladeComponentName } from '../components/BladeProvider/types';
+import type { StyleOverride } from '@greenloom/loom-core/styles';
+import { mergeStyleOverride } from '@greenloom/loom-core/utils';
+import type { BladeThemeContextValue, BladeComponentName } from '../components/LoomProvider/types';
 
 /**
  * Merges provider `componentConfig.styleOverride` with an instance override.

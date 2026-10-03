@@ -7,7 +7,7 @@ import {
   Heading,
   Text,
   Icon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const EmptyStateExample = () => {
   return (

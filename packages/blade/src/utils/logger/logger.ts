@@ -6,19 +6,23 @@ type LoggerOptions = {
   type: LogType;
 };
 
-type ThrowBladeErrorOptions = {
+type ThrowLoomErrorOptions = {
   message: string;
   moduleName?: string;
 };
 
-const PREFIX = '[Blade]:';
+type ThrowBladeErrorOptions = ThrowLoomErrorOptions;
 
-const throwBladeError = ({ message, moduleName }: ThrowBladeErrorOptions): void | never => {
+const PREFIX = '[Loom]:';
+
+const throwLoomError = ({ message, moduleName }: ThrowLoomErrorOptions): void | never => {
   if (__DEV__) {
-    const prefix = moduleName ? `[Blade: ${moduleName}]:` : PREFIX;
+    const prefix = moduleName ? `[Loom: ${moduleName}]:` : PREFIX;
     throw new Error(`${prefix} ${message}`);
   }
 };
+
+const throwBladeError = throwLoomError;
 
 const getCommonLogger = (
   type: LogType,
@@ -36,9 +40,10 @@ const getCommonLogger = (
 
 const logger = ({ message, moduleName, type }: LoggerOptions): void => {
   if (__DEV__) {
-    const prefix = moduleName ? `[Blade: ${moduleName}]:` : PREFIX;
+    const prefix = moduleName ? `[Loom: ${moduleName}]:` : PREFIX;
     getCommonLogger(type)(`${prefix} ${message}`);
   }
 };
 
-export { throwBladeError, logger };
+export { throwLoomError, throwBladeError, logger };
+export type { ThrowLoomErrorOptions, ThrowBladeErrorOptions, LoggerOptions };

@@ -4,8 +4,8 @@
     MetaConstants,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getTabsTemplateClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getTabsTemplateClasses } from '@greenloom/loom-core/styles';
   import { getTabsContext } from './context';
   import TabIndicator from './TabIndicator.svelte';
   import type { TabListProps } from './types';

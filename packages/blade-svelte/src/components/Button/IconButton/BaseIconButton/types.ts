@@ -2,10 +2,10 @@ import type {
   AccessibilityProps,
   DataAnalyticsAttribute,
   StyledPropsBlade,
-} from '@razorpay/blade-core/utils';
+} from '@greenloom/loom-core/utils';
 import type { IconComponent } from '../../../Icons/iconMap';
 import type { IconButtonEmphasis, IconButtonSize } from '../types';
-import type { StyleOverride, IconButtonSlot } from '@razorpay/blade-core/styles';
+import type { StyleOverride, IconButtonSlot } from '@greenloom/loom-core/styles';
 
 export interface BaseIconButtonProps extends StyledPropsBlade, DataAnalyticsAttribute {
   /**

@@ -12,7 +12,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { OTPInput } from '@razorpay/blade-svelte/components';
+ *   import { OTPInput } from '@greenloom/loom-svelte/components';
  *   let otp = $state('');
  * </script>
  *

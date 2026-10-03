@@ -70,10 +70,10 @@
 <Story name="Code Sizes" asChild>
   <div style="display: flex; flex-direction: column; gap: 0.5rem;">
     <Text as="p" size="small">
-      Small size: <Code size="small" isHighlighted>npm install @razorpay/blade</Code>
+      Small size: <Code size="small" isHighlighted>npm install @greenloom/loom</Code>
     </Text>
     <Text as="p" size="medium">
-      Medium size: <Code size="medium" isHighlighted>npm install @razorpay/blade</Code>
+      Medium size: <Code size="medium" isHighlighted>npm install @greenloom/loom</Code>
     </Text>
   </div>
 </Story>

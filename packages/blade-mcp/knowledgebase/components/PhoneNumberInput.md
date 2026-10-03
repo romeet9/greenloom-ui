@@ -168,7 +168,7 @@ This example demonstrates a simple phone number input with validation and countr
 
 ```tsx
 import { useState } from 'react';
-import { PhoneNumberInput, Box } from '@razorpay/blade/components';
+import { PhoneNumberInput, Box } from '@greenloom/loom/components';
 import { isValidPhoneNumber } from '@razorpay/i18nify-js';
 import type { CountryCodeType } from '@razorpay/i18nify-js';
 
@@ -231,7 +231,7 @@ import {
   Text,
   PhoneIcon,
   Button
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import type { CountryCodeType } from '@razorpay/i18nify-js';
 
 function AdvancedPhoneNumberExample() {
@@ -311,7 +311,7 @@ This example demonstrates how to use PhoneNumberInput with simplified configurat
 
 ```tsx
 import { useState } from 'react';
-import { PhoneNumberInput, Box, Text } from '@razorpay/blade/components';
+import { PhoneNumberInput, Box, Text } from '@greenloom/loom/components';
 
 function SimplifiedPhoneNumberExample() {
   const [value, setValue] = useState('');
@@ -349,7 +349,7 @@ import {
   TextInput,
   Box,
   Button
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import { isValidPhoneNumber } from '@razorpay/i18nify-js';
 import type { CountryCodeType } from '@razorpay/i18nify-js';
 

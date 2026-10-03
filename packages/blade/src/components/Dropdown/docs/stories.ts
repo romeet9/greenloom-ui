@@ -21,7 +21,7 @@ const Playground = `
     InfoIcon,
     FileTextIcon,
     Button
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (
@@ -87,7 +87,7 @@ const getSimpleSelectCode = (selectionType: DropdownProps['selectionType']): str
     SelectInput,
     ActionList,
     ActionListItem,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (
@@ -126,7 +126,7 @@ const WithControlledSelectStory = `
     ActionList,
     ActionListItem,
     Button,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App(args): React.ReactElement {
     const [currentSelection, setCurrentSelection] = React.useState<undefined | string>();
@@ -172,7 +172,7 @@ const WithSimpleMenuStory = `
     ActionListSection,
     MyAccountIcon,
     Box,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App (): React.ReactElement {
     return (
@@ -234,7 +234,7 @@ const WithControlledMenuStory = `
     CheckIcon,
     ClockIcon,
     CloseIcon
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     const [status, setStatus] = React.useState<string | undefined>();

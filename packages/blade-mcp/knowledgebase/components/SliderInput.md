@@ -203,7 +203,7 @@ export type { SliderInputProps };
 
 ```tsx
 import React from 'react';
-import { SliderInput, Box } from '@razorpay/blade/components';
+import { SliderInput, Box } from '@greenloom/loom/components';
 
 function SliderInputExample(): React.ReactElement {
   const [volume, setVolume] = React.useState(40);

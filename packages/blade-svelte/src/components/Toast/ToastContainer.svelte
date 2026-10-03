@@ -4,7 +4,7 @@
     MetaConstants,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     toastContainerClass,
     toastHoverRegionClass,
@@ -17,8 +17,8 @@
     MIN_TOAST_DESKTOP,
     MIN_TOAST_MOBILE,
     TOAST_Z_INDEX,
-  } from '@razorpay/blade-core/styles';
-  import { useBreakpoint } from '../BladeProvider/breakpointContext';
+  } from '@greenloom/loom-core/styles';
+  import { useBreakpoint } from '../LoomProvider/breakpointContext';
   import Toast from './Toast.svelte';
   import {
     toastStore,

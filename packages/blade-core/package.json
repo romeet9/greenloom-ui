@@ -1,6 +1,6 @@
 {
-  "name": "@razorpay/blade-core",
-  "description": "Core utilities and shared functionality for Blade Design System",
+  "name": "@greenloom/loom-core",
+  "description": "Core utilities and shared functionality for Loom UI",
   "version": "0.20.0",
   "license": "MIT",
   "engines": {
@@ -11,14 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/razorpay/blade.git"
+    "url": "https://github.com/greenloom/loom.git"
   },
   "keywords": [
     "design system",
     "core",
     "utilities",
-    "razorpay",
-    "blade"
+    "greenloom",
+    "loom",
+    "ui"
   ],
   "scripts": {
     "prepare": "yarn build",

@@ -58,7 +58,7 @@ type DisplayProps = {
 Here's a comprehensive example showcasing the Display component's various features and props:
 
 ```tsx
-import { Display, Box } from '@razorpay/blade/components';
+import { Display, Box } from '@greenloom/loom/components';
 
 function DisplayExample() {
   return (

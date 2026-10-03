@@ -65,10 +65,10 @@
   import Text from '../Typography/Text/Text.svelte';
   import Heading from '../Typography/Heading/Heading.svelte';
   import Amount from '../Amount/Amount.svelte';
-  import { BladeProvider } from '../BladeProvider';
-  import { bladeTheme } from '@razorpay/blade-core/tokens';
+  import { LoomProvider } from '../LoomProvider';
+  import { loomTheme } from '@greenloom/loom-core/tokens';
   import { CreditCardIcon, InfoIcon, CloseIcon, CheckIcon, SearchIcon, ChevronRightIcon } from '../Icons';
-  import type { CardBackgroundColor } from '@razorpay/blade-core/styles';
+  import type { CardBackgroundColor } from '@greenloom/loom-core/styles';
   import type { CardSpacingValueType } from './types';
 
   type CardStoryArgs = {
@@ -144,7 +144,7 @@
   {/snippet}
 </Story>
 
-<!-- Story 1: Card Example — light + nested dark BladeProvider (scoped scheme). -->
+<!-- Story 1: Card Example — light + nested dark LoomProvider (scoped scheme). -->
 <Story name="Card Example" asChild>
   <div style="display: flex;">
     <div
@@ -191,7 +191,7 @@
         </CardFooter>
       </Card>
     </div>
-    <BladeProvider themeTokens={bladeTheme} colorScheme="dark">
+    <LoomProvider themeTokens={loomTheme} colorScheme="dark">
       <div
         style="background-color: var(--surface-background-gray-moderate); padding: var(--spacing-8);"
       >
@@ -236,7 +236,7 @@
           </CardFooter>
         </Card>
       </div>
-    </BladeProvider>
+    </LoomProvider>
   </div>
 </Story>
 

@@ -1,4 +1,4 @@
-import { getTokenCSSVariable } from '@razorpay/blade-core/utils';
+import { getTokenCSSVariable } from '@greenloom/loom-core/utils';
 import { iconSizeMap } from './iconSizeMap';
 import type { IconSizeMapKey } from './iconSizeMap';
 import type { IconColor, IconSize } from './types';

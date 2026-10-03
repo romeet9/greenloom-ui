@@ -92,7 +92,7 @@ This example demonstrates a basic search input with label and help text, showing
 
 ```tsx
 import { useState } from 'react';
-import { SearchInput, Box } from '@razorpay/blade/components';
+import { SearchInput, Box } from '@greenloom/loom/components';
 
 function BasicSearchExample() {
   const [searchValue, setSearchValue] = useState('');
@@ -145,7 +145,7 @@ import {
   SettingsIcon,
   UserIcon,
   HelpCircleIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SearchWithDropdownExample() {
   const [searchTerm, setSearchTerm] = useState('');

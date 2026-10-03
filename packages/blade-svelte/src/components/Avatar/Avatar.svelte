@@ -5,19 +5,19 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAvatarWrapperClasses,
     getAvatarTemplateClasses,
     getTopAddonClass,
     getBottomAddonClass,
     avatarToBottomAddonSize,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import AvatarButton from './AvatarButton.svelte';
   import { UserIcon } from '../Icons/UserIcon';
   import { getAvatarGroupContext } from './avatarContext';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import type { AvatarProps, AvatarImgProps } from './types';
 
   const templateClasses = getAvatarTemplateClasses();

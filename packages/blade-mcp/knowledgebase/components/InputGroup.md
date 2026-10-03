@@ -120,11 +120,11 @@ type InputGroupContextType = {
 Create a payment information form with format validation, different input types, and error handling.
 
 ```tsx
-import { InputGroup, InputRow } from '@razorpay/blade/components/InputGroup';
-import { TextInput } from '@razorpay/blade/components/Input/TextInput';
-import { PasswordInput } from '@razorpay/blade/components/Input/PasswordInput';
-import { Button } from '@razorpay/blade/components/Button';
-import { Box } from '@razorpay/blade/components/Box';
+import { InputGroup, InputRow } from '@greenloom/loom/components/InputGroup';
+import { TextInput } from '@greenloom/loom/components/Input/TextInput';
+import { PasswordInput } from '@greenloom/loom/components/Input/PasswordInput';
+import { Button } from '@greenloom/loom/components/Button';
+import { Box } from '@greenloom/loom/components/Box';
 import { useState } from 'react';
 
 function PaymentForm() {
@@ -215,14 +215,14 @@ function PaymentForm() {
 Create a comprehensive business onboarding form with conditional layouts that adapt to different screen sizes.
 
 ```tsx
-import { InputGroup, InputRow } from '@razorpay/blade/components/InputGroup';
-import { TextInput } from '@razorpay/blade/components/Input/TextInput';
-import { SelectInput } from '@razorpay/blade/components/Input/DropdownInputTriggers';
-import { Dropdown, DropdownOverlay } from '@razorpay/blade/components/Dropdown';
-import { ActionList, ActionListItem } from '@razorpay/blade/components/ActionList';
-import { Button } from '@razorpay/blade/components/Button';
-import { Box } from '@razorpay/blade/components/Box';
-import { useIsMobile } from '@razorpay/blade/utils/useIsMobile';
+import { InputGroup, InputRow } from '@greenloom/loom/components/InputGroup';
+import { TextInput } from '@greenloom/loom/components/Input/TextInput';
+import { SelectInput } from '@greenloom/loom/components/Input/DropdownInputTriggers';
+import { Dropdown, DropdownOverlay } from '@greenloom/loom/components/Dropdown';
+import { ActionList, ActionListItem } from '@greenloom/loom/components/ActionList';
+import { Button } from '@greenloom/loom/components/Button';
+import { Box } from '@greenloom/loom/components/Box';
+import { useIsMobile } from '@greenloom/loom/utils/useIsMobile';
 
 function BusinessOnboardingForm() {
   const isMobile = useIsMobile();

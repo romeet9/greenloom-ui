@@ -51,7 +51,7 @@
   import { Dropdown, DropdownOverlay } from '../../Dropdown';
   import { ChevronUpDownIcon } from '../../Icons';
   import Text from '../../Typography/Text/Text.svelte';
-  import { getBladeThemeContextGetter } from '../../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../../LoomProvider/loomThemeContext';
   import SearchInput from '../SearchInput/SearchInput.svelte';
   import type { CountrySelectorProps } from './types';
 
@@ -70,7 +70,7 @@
   let isOpen = $state(false);
   let searchQuery = $state('');
 
-  // BladeProvider tracks viewport width and resolves `platform` at `breakpoints.m`.
+  // LoomProvider tracks viewport width and resolves `platform` at `breakpoints.m`.
   // Outside a provider there is no viewport signal, so `auto` falls back to bottomsheet.
   const themeContextGetter = getBladeThemeContextGetter();
   const resolvedMode = $derived(

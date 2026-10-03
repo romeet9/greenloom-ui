@@ -1,5 +1,5 @@
-import type { DividerSlot, StyleOverride } from '@razorpay/blade-core/styles';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { DividerSlot, StyleOverride } from '@greenloom/loom-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 
 export type DividerProps = {
   /**

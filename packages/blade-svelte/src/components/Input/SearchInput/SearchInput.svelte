@@ -1,6 +1,6 @@
 <script lang="ts">
   import { untrack } from 'svelte';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import { useFormId } from '../BaseInput/useFormId';
   import BaseInput from '../BaseInput/BaseInput.svelte';
   import IconButton from '../../Button/IconButton/IconButton.svelte';

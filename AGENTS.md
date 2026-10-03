@@ -1,6 +1,6 @@
-# Blade Monorepo — Agent Context
+# Loom UI Monorepo — Agent Context
 
-This is the monorepo for the Blade Design System. It contains different packages related to the Blade Design System of Razorpay.
+This is the monorepo for Loom UI, Greenloom's Design System. It contains packages powering Loom UI across React, React Native, Svelte, and AI Agent MCP integration.
 
 ## Packages
 
@@ -8,12 +8,12 @@ Load the Agents Context File in your context whenever change is being made to th
 
 | Package                                  | Agents Context File                            | Description                                                                                                                       |
 | ---------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [blade](./packages/blade/)               | ./packages/blade/CLAUDE.md or AGENTS.md        | The core Blade Design System package with cross-platform UI components for React Web and React Native                             |
-| [blade-mcp](./packages/blade-mcp/)       | ./packages/blade-mcp/CLAUDE.md or AGENTS.md    | Model Context Protocol (MCP) server for AI-assisted development using Blade components                                            |
-| [blade-core](./packages/blade-core/)     | ./packages/blade-core/CLAUDE.md or AGENTS.md   | Core utilities for Blade Design System (Only used in blade-svelte as of now and not in blade package)                             |
-| [blade-svelte](./packages/blade-svelte/) | ./packages/blade-svelte/CLAUDE.md or AGENTS.md | Svelte components for Blade Design System (changes here should only be made when explicitly asked by the user for svelte changes) |
+| [blade (loom)](./packages/blade/)        | ./packages/blade/CLAUDE.md or AGENTS.md        | The core Loom UI package (`@greenloom/loom`) with cross-platform UI components for React Web and React Native                      |
+| [blade-mcp (loom-mcp)](./packages/blade-mcp/) | ./packages/blade-mcp/CLAUDE.md or AGENTS.md    | Model Context Protocol (MCP) server for AI-assisted development using Loom UI components                                           |
+| [blade-core (loom-core)](./packages/blade-core/) | ./packages/blade-core/CLAUDE.md or AGENTS.md   | Core utilities and shared tokens for Loom UI (`@greenloom/loom-core`)                                                              |
+| [blade-svelte (loom-svelte)](./packages/blade-svelte/) | ./packages/blade-svelte/CLAUDE.md or AGENTS.md | Svelte 5 components for Loom UI (`@greenloom/loom-svelte`)                                                                         |
 
-.. And few other smaller packages related to blade
+.. And supporting packages related to Loom UI
 
 ## Finding Task Intent
 

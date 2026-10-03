@@ -1,4 +1,4 @@
-import { Button, Text, Box, Heading } from '@razorpay/blade/components';
+import { Button, Text, Box, Heading } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 const App = () => {

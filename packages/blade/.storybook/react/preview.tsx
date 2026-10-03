@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { create } from 'storybook/theming';
 import { themeConfig } from './storybook-theme';
-import { BladeProvider } from '../../src/components';
-import { bladeTheme } from '../../src/tokens/theme';
+import { LoomProvider, BladeProvider } from '../../src/components';
+import { loomTheme, bladeTheme } from '../../src/tokens/theme';
 import { createTheme } from '../../src/tokens/theme/createTheme';
 import ErrorBoundary from './ErrorBoundary';
 import { INTERNAL_STORY_ADDON_PARAM } from './constants';
@@ -181,13 +181,13 @@ export const decorators = [
       if (context.globals.brandColor) {
         return createTheme({ brandColor: context.globals.brandColor }).theme;
       }
-      return bladeTheme;
+      return loomTheme;
     };
 
     return (
       <ErrorBoundary>
         <LazyMotion strict features={domMax}>
-          <BladeProvider
+          <LoomProvider
             key={`${context.globals.themeTokenName}-${context.globals.colorScheme}`}
             themeTokens={getThemeTokens()}
             colorScheme={context.globals.colorScheme}
@@ -195,7 +195,7 @@ export const decorators = [
             <StoryCanvas context={context}>
               <Story />
             </StoryCanvas>
-          </BladeProvider>
+          </LoomProvider>
         </LazyMotion>
       </ErrorBoundary>
     );

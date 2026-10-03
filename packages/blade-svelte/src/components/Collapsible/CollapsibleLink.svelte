@@ -1,6 +1,6 @@
 <script lang="ts">
   import BaseLink from '../Link/BaseLink/BaseLink.svelte';
-  import { makeAnalyticsAttribute, getStyledPropsClasses } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute, getStyledPropsClasses } from '@greenloom/loom-core/utils';
   import { getCollapsibleContext } from './context';
   import CollapsibleChevronIcon from './CollapsibleChevronIcon.svelte';
   import type { CollapsibleLinkProps } from './types';

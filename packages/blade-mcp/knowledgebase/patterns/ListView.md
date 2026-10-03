@@ -149,22 +149,22 @@ The table body is a **slot** — replace it with your Blade `Table` instance.
 
 | Component | Import Path | Usage |
 |---|---|---|
-| `Button` | `@razorpay/blade/components` | Action buttons, pagination, search trigger |
-| `Link` | `@razorpay/blade/components` | Table cell links, header links |
-| `Badge` | `@razorpay/blade/components` | Table Status column |
-| `Table` | `@razorpay/blade/components` | Data grid (slotted in) |
-| `Tabs` | `@razorpay/blade/components` | Page-level tab navigation |
-| `SearchInput` | `@razorpay/blade/components` | Filter search field |
-| `SelectInput` | `@razorpay/blade/components` | Rows-per-page selector in footer |
-| `SideNavigation` | `@razorpay/blade/components` | Left nav panel (Desktop) |
-| `TopNavigation` | `@razorpay/blade/components` | App top bar (Desktop) |
-| `Switch` | `@razorpay/blade/components` | Test Mode toggle |
-| `Counter` | `@razorpay/blade/components` | Filter count badges |
-| `Divider` | `@razorpay/blade/components` | Vertical separator between Search & Filter |
-| `Avatar` | `@razorpay/blade/components` | User initials in top nav |
-| `Card` | `@razorpay/blade/components` | Quick Filter items (Mobile) |
-| `Amount` | `@razorpay/blade/components` | Monetary display with currency symbol |
-| `Pagination` | `@razorpay/blade/components` | Footer prev/next navigation |
+| `Button` | `@greenloom/loom/components` | Action buttons, pagination, search trigger |
+| `Link` | `@greenloom/loom/components` | Table cell links, header links |
+| `Badge` | `@greenloom/loom/components` | Table Status column |
+| `Table` | `@greenloom/loom/components` | Data grid (slotted in) |
+| `Tabs` | `@greenloom/loom/components` | Page-level tab navigation |
+| `SearchInput` | `@greenloom/loom/components` | Filter search field |
+| `SelectInput` | `@greenloom/loom/components` | Rows-per-page selector in footer |
+| `SideNavigation` | `@greenloom/loom/components` | Left nav panel (Desktop) |
+| `TopNavigation` | `@greenloom/loom/components` | App top bar (Desktop) |
+| `Switch` | `@greenloom/loom/components` | Test Mode toggle |
+| `Counter` | `@greenloom/loom/components` | Filter count badges |
+| `Divider` | `@greenloom/loom/components` | Vertical separator between Search & Filter |
+| `Avatar` | `@greenloom/loom/components` | User initials in top nav |
+| `Card` | `@greenloom/loom/components` | Quick Filter items (Mobile) |
+| `Amount` | `@greenloom/loom/components` | Monetary display with currency symbol |
+| `Pagination` | `@greenloom/loom/components` | Footer prev/next navigation |
 
 ## Anatomy Summary
 
@@ -239,9 +239,9 @@ import {
   CheckIcon,
   CloseIcon,
   Link,
-} from '@razorpay/blade/components';
-import type { TableData, DatesRangeValue } from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import type { TableData, DatesRangeValue } from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 type PaymentItem = {
   id: string;
@@ -674,9 +674,9 @@ import {
   CopyIcon,
   TrashIcon,
   SelectInput,
-} from '@razorpay/blade/components';
-import type { TableData, DatesRangeValue, Identifier } from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import type { TableData, DatesRangeValue, Identifier } from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Using the same PaymentItem type and data from previous example
 // ... (PaymentItem type, MethodFilterValues, nodes, data definitions)
@@ -1146,8 +1146,8 @@ import {
   Code,
   Amount,
   Box,
-} from '@razorpay/blade/components';
-import type { TableData, DatesRangeValue } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import type { TableData, DatesRangeValue } from '@greenloom/loom/components';
 
 // Using the same PaymentItem type and data from previous examples
 // ... (PaymentItem type, MethodFilterValues, nodes, data definitions)

@@ -3,8 +3,8 @@
     metaAttribute,
     MetaConstants,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getModalBodyClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getModalBodyClasses } from '@greenloom/loom-core/styles';
   import type { ModalBodyProps } from './types';
 
   let {

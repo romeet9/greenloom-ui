@@ -32,7 +32,7 @@ import {
   RazorSenseGradient,
   preloadRazorSenseAssets,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const RippleWaveScreen = () => {
   const [assetsPreloaded, setAssetsPreloaded] = useState(false);

@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { metaAttribute } from '@razorpay/blade-core/utils';
-  import { makeAccessible } from '@razorpay/blade-core/utils';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
+  import { makeAccessible } from '@greenloom/loom-core/utils';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import { CARD_LINK_OVERLAY_ID } from './constants';
 
   // Prevent tree-shaking

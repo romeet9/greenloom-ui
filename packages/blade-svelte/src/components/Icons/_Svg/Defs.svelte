@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { metaAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
 
   type DefsProps = {
     children: Snippet;

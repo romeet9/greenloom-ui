@@ -6,7 +6,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { Switch } from '@razorpay/blade-svelte';
+ *   import { Switch } from '@greenloom/loom-svelte';
  *
  *   let isOn = $state(false);
  * </script>

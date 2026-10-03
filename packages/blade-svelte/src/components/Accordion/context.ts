@@ -1,5 +1,5 @@
 import { getContext, setContext } from 'svelte';
-import type { AccordionSlot, StyleOverride } from '@razorpay/blade-core/styles';
+import type { AccordionSlot, StyleOverride } from '@greenloom/loom-core/styles';
 import type { AccordionVariantType } from './types';
 
 const ACCORDION_CONTEXT_KEY = 'blade-accordion-context';

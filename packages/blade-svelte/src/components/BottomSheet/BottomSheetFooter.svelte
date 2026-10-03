@@ -3,11 +3,11 @@
     metaAttribute,
     MetaConstants,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     bottomSheetFooterClass,
     bottomSheetFooterInnerClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { getBottomSheetContext } from './bottomSheetContext';
   import type { BottomSheetFooterProps } from './types';
 

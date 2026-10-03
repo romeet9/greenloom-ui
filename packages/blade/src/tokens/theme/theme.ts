@@ -176,7 +176,12 @@ export type Colors = {
 export type ColorsWithModes = Record<ColorSchemeModes, Colors>;
 
 export type ThemeTokens = {
-  name: 'bladeTheme' | StringWithAutocomplete; // Can be used to watch over state changes between theme without watching over entire theme object
+  name:
+    | 'loomTheme'
+    | 'loomNeutralTheme'
+    | 'bladeTheme'
+    | 'bladeNeutralTheme'
+    | StringWithAutocomplete; // Can be used to watch over state changes between theme without watching over entire theme object
   border: Border;
   backdropBlur: BackdropBlur;
   breakpoints: Breakpoints;

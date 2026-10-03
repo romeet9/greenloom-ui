@@ -163,7 +163,7 @@ import {
   InfoIcon,
   DownloadIcon,
   ArrowRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const StandardLinkExample = () => {
   return (
@@ -243,7 +243,7 @@ export default StandardLinkExample;
 
 ```tsx
 import React from 'react';
-import { Box, Text, Heading, Link, ArrowRightIcon } from '@razorpay/blade/components';
+import { Box, Text, Heading, Link, ArrowRightIcon } from '@greenloom/loom/components';
 
 const InlineLinkExample = () => {
   return (

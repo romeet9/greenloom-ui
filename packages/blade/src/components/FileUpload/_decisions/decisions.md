@@ -199,7 +199,7 @@ Here are a few illustrative examples showcasing the utilization of the `FileUplo
 ```jsx
 import React, { useRef } from 'react';
 import axios from 'axios';
-import { Box, FileUpload } from '@razorpay/blade/components';
+import { Box, FileUpload } from '@greenloom/loom/components';
 
 const UncontrolledSingleFileUploadForm = () => {
   const fileUploadRef = useRef();
@@ -256,7 +256,7 @@ export default UncontrolledSingleFileUploadForm;
 ```jsx
 import React, { useRef } from 'react';
 import axios from 'axios';
-import { Box, FileUpload } from '@razorpay/blade/components';
+import { Box, FileUpload } from '@greenloom/loom/components';
 
 const UncontrolledMultiFileUploadForm = () => {
   const fileUploadRef = useRef();
@@ -319,7 +319,7 @@ export default UncontrolledMultiFileUploadForm;
 ```jsx
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Box, FileUpload } from '@razorpay/blade/components';
+import { Box, FileUpload } from '@greenloom/loom/components';
 
 const ControlledCustomProgressFileUploadForm = () => {
   const [uploadedFile, setUploadedFile] = useState();

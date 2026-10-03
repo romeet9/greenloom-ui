@@ -39,7 +39,7 @@
 
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { getBaseInputTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getBaseInputTemplateClasses } from '@greenloom/loom-core/styles';
   import Text from '../../Typography/Text/Text.svelte';
   import type { IconComponent } from '../../Icons/iconMap';
 

@@ -283,7 +283,7 @@ import {
   TestIcon,
   TicketIcon,
   UserIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicMenu() {
   return (
@@ -372,7 +372,7 @@ import {
   TestIcon,
   TicketIcon,
   UserIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function ControlledMenu() {
   const [isOpen, setIsOpen] = useState(false);

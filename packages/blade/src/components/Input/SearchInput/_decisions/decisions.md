@@ -109,7 +109,7 @@ import {
   ActionList,
   ActionListItem,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -151,7 +151,7 @@ const App = () => {
 
 ```jsx
 import React from 'react';
-import { Box, SearchInput } from '@razorpay/blade/components';
+import { Box, SearchInput } from '@greenloom/loom/components';
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState('');

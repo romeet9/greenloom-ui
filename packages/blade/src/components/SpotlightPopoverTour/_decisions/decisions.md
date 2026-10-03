@@ -209,8 +209,8 @@ type SpotlightPopoverFooterProps = {
 ## Usage
 
 ```jsx
-import { SpotlightPopover, SpotlightPopoverFooter } from '@razorpay/blade/components';
-import type { SpotlightPopoverSteps } from '@razorpay/blade/components';
+import { SpotlightPopover, SpotlightPopoverFooter } from '@greenloom/loom/components';
+import type { SpotlightPopoverSteps } from '@greenloom/loom/components';
 
 const Footer = ({ activeStep, totalSteps, goToNext, goToPrevious, stopTour }) => {
   const isLast = activeStep === totalSteps - 1;
@@ -473,8 +473,8 @@ It will look like this:
 
 ```jsx
 
-import { SpotlightPopover } from '@razorpay/blade/components';
-import type { SpotlightPopoverSteps } from '@razorpay/blade/components';
+import { SpotlightPopover } from '@greenloom/loom/components';
+import type { SpotlightPopoverSteps } from '@greenloom/loom/components';
 
 const globalSteps: SpotlightPopoverSteps = [
   {

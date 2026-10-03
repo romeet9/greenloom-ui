@@ -464,7 +464,7 @@ import {
   CheckIcon,
   CloseIcon,
   PlusIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Define your data types
 type PaymentItem = {
@@ -698,7 +698,7 @@ import {
   TableData,
   Box,
   Spinner,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 type User = {
   id: string;
@@ -814,7 +814,7 @@ import {
   Text,
   ChevronDownIcon,
   ChevronRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 type Data = {
   id: string;
@@ -1010,7 +1010,7 @@ import {
   DropdownOverlay,
   ActionList,
   ActionListItem,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const nodes = [
   { id: '1', name: 'Order 1' },

@@ -208,7 +208,7 @@ Renders the default glass refraction animation filling its container.
 
 ```jsx
 import React from 'react';
-import { RazorSense, Box } from '@razorpay/blade/components';
+import { RazorSense, Box } from '@greenloom/loom/components';
 
 const DefaultExample = () => {
   return (
@@ -227,7 +227,7 @@ Presets provide ready-made configurations for common use cases.
 
 ```jsx
 import React from 'react';
-import { RazorSense, Box } from '@razorpay/blade/components';
+import { RazorSense, Box } from '@greenloom/loom/components';
 
 const PresetExamples = () => {
   return (
@@ -259,7 +259,7 @@ Pauses the video at a specific frame while keeping the light sweep animating.
 
 ```jsx
 import React from 'react';
-import { RazorSense, Box } from '@razorpay/blade/components';
+import { RazorSense, Box } from '@greenloom/loom/components';
 
 const PausedExample = () => {
   return (
@@ -294,7 +294,7 @@ import {
   Text,
   Button,
   CheckIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const SuccessAnimation = () => {
   const [isLoaded, setIsLoaded] = useState(false);

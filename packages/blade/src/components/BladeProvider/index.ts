@@ -8,9 +8,9 @@ import type {
   Elevation,
   BackdropBlur,
 } from '~tokens/global';
-export { BladeProvider } from './BladeProvider';
+export { LoomProvider, BladeProvider } from './BladeProvider';
 export * from './types';
-export { default as useTheme } from './useTheme';
+export { default as useTheme, useLoomTheme, useBladeTheme } from './useTheme';
 
 export type Theme = {
   name: ThemeTokens['name'];

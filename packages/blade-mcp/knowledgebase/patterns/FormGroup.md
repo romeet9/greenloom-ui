@@ -39,7 +39,7 @@ import {
   useToast,
   ToastContainer,
   ArrowRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const SimpleContactForm = () => {
   const [formData, setFormData] = useState({
@@ -104,7 +104,7 @@ A comprehensive form demonstrating validation states, error messages, required f
 
 ```tsx
 import React, { useState } from 'react';
-import { Box, TextInput, PasswordInput, Button, Alert, Heading , ArrowRightIcon} from '@razorpay/blade/components';
+import { Box, TextInput, PasswordInput, Button, Alert, Heading , ArrowRightIcon} from '@greenloom/loom/components';
 
 const ValidationForm = () => {
   const [formData, setFormData] = useState({
@@ -235,7 +235,7 @@ import {
   Text,
   useToast,
   ToastContainer,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const CITY_OPTIONS = [
   { title: 'Mumbai', value: 'mumbai' },
@@ -434,7 +434,7 @@ import {
   Text,
   useToast,
   ToastContainer,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const LongFormWithFixedFooter = () => {
   const [formData, setFormData] = useState({

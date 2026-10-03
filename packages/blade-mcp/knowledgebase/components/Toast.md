@@ -100,7 +100,7 @@ type UseToastReturn = {
 
 - Use `Toast` for brief, non-critical feedback after user actions (e.g., "Item saved", "Payment successful").
 - Use the imperative `useToast()` hook API — call `toast.show()` and `toast.dismiss()`.
-- Place `<ToastContainer />` once at the root of your app, outside nested `BladeProvider` instances.
+- Place `<ToastContainer />` once at the root of your app, outside nested `LoomProvider` instances.
 - Use `type="informational"` (default) with auto-dismiss for transient confirmations.
 - Use `type="promotional"` for richer content that requires user acknowledgment.
 - Keep action labels short — a single verb like "Undo" or "Retry".
@@ -111,7 +111,7 @@ type UseToastReturn = {
 - Don't use `Toast` for critical errors that need explicit acknowledgment — use `Alert` instead.
 - Don't use `Toast` for persistent, inline status messages — use `Alert` for in-page context.
 - Don't stack multiple promotional toasts — only one can be active at a time.
-- Don't render `ToastContainer` inside `BladeProvider` children if you have nested providers — place it at the app root.
+- Don't render `ToastContainer` inside `LoomProvider` children if you have nested providers — place it at the app root.
 - Don't rely on `onDismissButtonClick` for detecting auto-dismiss — it only fires on manual dismiss.
 - Don't use long sentences as toast content — keep messages concise and scannable.
 
@@ -122,7 +122,7 @@ type UseToastReturn = {
 This example demonstrates the simplest implementation of a Toast notification with success message using the useToast hook.
 
 ```tsx
-import { ToastContainer, useToast, Box, Button } from '@razorpay/blade/components';
+import { ToastContainer, useToast, Box, Button } from '@greenloom/loom/components';
 
 function BasicToastExample() {
   const toast = useToast();
@@ -152,7 +152,7 @@ function BasicToastExample() {
 This example shows how to create toasts with different color schemes to convey various types of messages like success, error, warning, and information.
 
 ```tsx
-import { ToastContainer, useToast, Box, Button } from '@razorpay/blade/components';
+import { ToastContainer, useToast, Box, Button } from '@greenloom/loom/components';
 
 function ColoredToastExample() {
   const toast = useToast();
@@ -228,7 +228,7 @@ function ColoredToastExample() {
 This example demonstrates how to add an interactive action button to a toast, along with custom dismissal behavior and event logging.
 
 ```tsx
-import { ToastContainer, useToast, Box, Button } from '@razorpay/blade/components';
+import { ToastContainer, useToast, Box, Button } from '@greenloom/loom/components';
 
 function ActionToastExample() {
   const toast = useToast();
@@ -266,7 +266,7 @@ function ActionToastExample() {
 This example shows how to create a rich promotional toast with custom content, images, and multiple text elements for marketing announcements.
 
 ```tsx
-import { ToastContainer, useToast, Box, Button, Heading, Text } from '@razorpay/blade/components';
+import { ToastContainer, useToast, Box, Button, Heading, Text } from '@greenloom/loom/components';
 
 function PromotionalToastExample() {
   const toast = useToast();
@@ -326,7 +326,7 @@ import {
   Heading,
   Text,
   CheckCircleIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function ComprehensiveToastExample() {
   const toast = useToast();

@@ -1,6 +1,6 @@
-# blade-mcp — Agent Context
+# loom-mcp — Agent Context
 
-MCP (Model Context Protocol) server for the Blade Design System. Exposes Blade docs to AI agents via MCP tools along with other tools such as figma-to-code, create-new-blade-project, etc.
+MCP (Model Context Protocol) server for Loom UI. Exposes Loom docs to AI agents via MCP tools along with other tools such as figma-to-code, create-new-blade-project, etc.
 
 ## Package Structure
 

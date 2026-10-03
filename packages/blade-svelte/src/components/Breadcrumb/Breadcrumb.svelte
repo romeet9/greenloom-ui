@@ -6,14 +6,14 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getBreadcrumbTemplateClasses,
     breadcrumbNavClass,
     breadcrumbListClass,
     showLastSeparatorClass,
     breadcrumbListStepperClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { BreadcrumbProps, BreadcrumbContextValue } from './types';
   import { BREADCRUMB_CONTEXT_KEY } from './constants';
 

@@ -2,7 +2,7 @@
   "name": "svelte-app",
   "private": true,
   "version": "0.0.1",
-  "description": "Example Vite + Svelte app consuming @razorpay/blade-svelte, with a bundle size analyzer",
+  "description": "Example Vite + Svelte app consuming @greenloom/loom-svelte, with a bundle size analyzer",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,8 +12,8 @@
     "analyze:full": "yarn build:deps && yarn analyze"
   },
   "dependencies": {
-    "@razorpay/blade-core": ">=0.8.0",
-    "@razorpay/blade-svelte": "0.9.0",
+    "@greenloom/loom-core": ">=0.8.0",
+    "@greenloom/loom-svelte": "0.9.0",
     "svelte": "5.35.2"
   },
   "devDependencies": {

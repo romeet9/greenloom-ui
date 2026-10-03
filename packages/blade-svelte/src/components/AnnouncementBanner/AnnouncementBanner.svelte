@@ -7,17 +7,17 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAnnouncementBannerClasses,
     getAnnouncementBannerTemplateClasses,
     announcementBannerIconWrapperClass,
     announcementBannerTextColorClass,
     announcementBannerIconColorClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import type { AnnouncementBannerProps } from './types';
 
   void getAnnouncementBannerTemplateClasses();

@@ -4,7 +4,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { Chip, ChipGroup } from '@razorpay/blade-svelte/components';
+ *   import { Chip, ChipGroup } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <ChipGroup label="Select Business type:" selectionType="single">

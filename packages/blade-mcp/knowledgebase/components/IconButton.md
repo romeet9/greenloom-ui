@@ -112,7 +112,7 @@ This example demonstrates the basic usage of the IconButton component with diffe
 
 ```tsx
 import React from 'react';
-import { IconButton, Box, Text, CloseIcon, EditIcon, InfoIcon } from '@razorpay/blade/components';
+import { IconButton, Box, Text, CloseIcon, EditIcon, InfoIcon } from '@greenloom/loom/components';
 
 const IconButtonBasicExample = () => {
   return (

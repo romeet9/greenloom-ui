@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, getTokenCSSVariable, cx, type AriaRoles } from '@razorpay/blade-core/utils';
+  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, getTokenCSSVariable, cx, type AriaRoles } from '@greenloom/loom-core/utils';
   import { useInteraction } from '../../../utils/useInteraction';
   import { resolveComponentStyleOverride } from '../../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../../LoomProvider/loomThemeContext';
   import BaseText from '../../Typography/BaseText/BaseText.svelte';
   import DotLoader from '../../DotLoader/DotLoader.svelte';
   import type { BaseButtonProps } from './types';
   import type { TextColors } from '../../Typography/BaseText/types';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
   import {
     getButtonClasses,
     getButtonTemplateClasses,
@@ -18,7 +18,7 @@
     getButtonIconOnlySize,
     type ActionStatesType as ButtonActionStatesType,
     type DotLoaderSize,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { IconColor } from '../../Icons/types';
 
   // Get template classes via function call to prevent Svelte tree-shaking

@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { AnnouncementBannerSlot, StyleOverride } from '@razorpay/blade-core/styles';
-import type { StyledPropsBlade, DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
+import type { AnnouncementBannerSlot, StyleOverride } from '@greenloom/loom-core/styles';
+import type { StyledPropsBlade, DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
 import type { IconComponent } from '../Icons';
 
 export type AnnouncementBannerAlignment = 'center' | 'left';

@@ -94,7 +94,7 @@ Here are comprehensive examples showing different use cases of the Preview compo
 ### Basic Image Preview
 
 ```tsx
-import { Preview, PreviewHeader, PreviewBody, PreviewFooter } from '@razorpay/blade/components';
+import { Preview, PreviewHeader, PreviewBody, PreviewFooter } from '@greenloom/loom/components';
 
 function ImagePreview() {
   return (
@@ -112,10 +112,10 @@ function ImagePreview() {
 ### PDF Preview with Navigation
 
 ```tsx
-import { Preview, PreviewHeader, PreviewBody, PreviewFooter } from '@razorpay/blade/components';
+import { Preview, PreviewHeader, PreviewBody, PreviewFooter } from '@greenloom/loom/components';
 import { Document, Page } from 'react-pdf';
-import { Button } from '@razorpay/blade/components';
-import { ArrowLeftIcon, ArrowRightIcon } from '@razorpay/blade/components';
+import { Button } from '@greenloom/loom/components';
+import { ArrowLeftIcon, ArrowRightIcon } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function PDFPreview() {
@@ -158,7 +158,7 @@ function PDFPreview() {
 ### Disabled Drag and Zoom Preview
 
 ```tsx
-import { Preview, PreviewHeader, PreviewBody } from '@razorpay/blade/components';
+import { Preview, PreviewHeader, PreviewBody } from '@greenloom/loom/components';
 
 function StaticPreview() {
   return (

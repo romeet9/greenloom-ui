@@ -6,15 +6,15 @@
     throwBladeError,
     getTokenCSSVariable,
     cx,
-  } from '@razorpay/blade-core/utils';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
-  import { utilityClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
+  import { utilityClasses } from '@greenloom/loom-core/styles';
   import type { BaseAmountProps } from './types';
-  import { getAmountByParts } from '@razorpay/blade-core/utils';
-  import { normalAmountSizes, subtleFontSizes, amountLineHeights } from '@razorpay/blade-core/styles';
+  import { getAmountByParts } from '@greenloom/loom-core/utils';
+  import { normalAmountSizes, subtleFontSizes, amountLineHeights } from '@greenloom/loom-core/styles';
   import BaseText from '../../Typography/BaseText/BaseText.svelte';
   import { resolveComponentStyleOverride } from '../../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../../LoomProvider/loomThemeContext';
 
   const themeContextGetter = getBladeThemeContextGetter();
 

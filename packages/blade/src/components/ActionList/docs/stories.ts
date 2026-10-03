@@ -15,7 +15,7 @@ const Playground = `
     DownloadIcon,
     FileTextIcon,
     Button 
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (
@@ -60,7 +60,7 @@ const Playground = `
 `;
 
 const ActionList = `
-  import { Box, ActionList, ActionListItem } from '@razorpay/blade/components';
+  import { Box, ActionList, ActionListItem } from '@greenloom/loom/components';
 
   function App() {
     return (
@@ -86,7 +86,7 @@ const ActionListItem = `
     ActionListItemBadgeGroup,
     ActionListItemBadge,
     HomeIcon 
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (
@@ -119,7 +119,7 @@ const ActionListSection = `
     ActionList, 
     ActionListItem, 
     ActionListSection,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   function App() {
     return (

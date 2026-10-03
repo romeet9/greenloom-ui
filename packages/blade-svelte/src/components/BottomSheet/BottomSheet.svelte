@@ -7,7 +7,7 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     BOTTOM_SHEET_Z_INDEX,
     bottomSheetSurfaceClass,
@@ -17,7 +17,7 @@
     bottomSheetGrabHandleHiddenClass,
     bottomSheetPortalRootClass,
     getBottomSheetTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import {
     bottomSheetStack,
     addBottomSheetToStack,

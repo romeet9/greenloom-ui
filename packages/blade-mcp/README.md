@@ -1,24 +1,22 @@
-# Blade MCP
+# Loom MCP
 
-[![npm version](https://img.shields.io/npm/v/@razorpay/blade-mcp.svg)](https://www.npmjs.com/package/@razorpay/blade-mcp)
+[![npm version](https://img.shields.io/npm/v/@greenloom/loom-mcp.svg)](https://www.npmjs.com/package/@greenloom/loom-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
 
-Blade MCP is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that implements Razorpay's Design Guidelines and allows you to build Web Interfaces using Blade Design System.
-
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](<https://cursor.com/en-US/install-mcp?name=Blade%20MCP%20(Stdio)&config=eyJjb21tYW5kIjoibnB4IC15IEByYXpvcnBheS9ibGFkZS1tY3BAbGF0ZXN0In0%3D>)
+Loom MCP is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that provides AI agents with context and tools to build Web Interfaces using Loom UI.
 
 ## Available Tools
 
 | Tool Name                   | Description                                                                                                                                                                                                                                |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `hi_blade`                  | Provides a welcome message and overview of Blade MCP capabilities when user greets with "hi blade", "hey blade", etc.                                                                                                                      |
-| `create_new_blade_project`  | Creates a new project using Blade with Vite, React, and TypeScript setup. Should only be called when creating a new project from scratch.                                                                                                  |
-| `create_blade_cursor_rules` | Creates the cursor rules for Blade to help with code generation. Should be called before getting component docs and when the rule file doesn't exist.                                                                                      |
-| `get_blade_component_docs`  | Fetches the Blade Design System documentation for specific components. Useful when adding or modifying components in your project.                                                                                                         |
-| `get_blade_pattern_docs`    | Fetches the Blade Design System pattern documentation. Use this to get information about design patterns, best practices, and implementation guidelines.                                                                                   |
-| `get_blade_general_docs`    | Fetches general Blade Design System documentation. Use this to get information about setup, installation, theming, tokens, and general guidelines.                                                                                         |
-| `get_figma_to_code`         | Converts Figma designs into Blade Design System code. Provide a Figma design URL to generate the corresponding React components using Blade's component library. **[NOTE: figma to code tool can only be accessed by Razorpay employees]** |
+| `hi_blade`                  | Provides a welcome message and overview of Loom MCP capabilities when user greets with "hi loom", "hey loom", etc.                                                                                                                         |
+| `create_new_blade_project`  | Creates a new project using Loom UI with Vite, React, and TypeScript setup. Should only be called when creating a new project from scratch.                                                                                                |
+| `create_blade_cursor_rules` | Creates the cursor rules for Loom UI to help with code generation. Should be called before getting component docs and when the rule file doesn't exist.                                                                                    |
+| `get_blade_component_docs`  | Fetches the Loom UI component documentation for specific components. Useful when adding or modifying components in your project.                                                                                                           |
+| `get_blade_pattern_docs`    | Fetches the Loom UI pattern documentation. Use this to get information about design patterns, best practices, and implementation guidelines.                                                                                               |
+| `get_blade_general_docs`    | Fetches general Loom UI documentation. Use this to get information about setup, installation, theming, tokens, and general guidelines.                                                                                                     |
+| `get_figma_to_code`         | Converts Figma designs into Loom UI code. Provide a Figma design URL to generate the corresponding React components using Loom's component library.                                                                                       |
 
 ## Prerequisites
 
@@ -33,9 +31,9 @@ Create or update your `mcp.json` file with:
 ```json
 {
   "mcpServers": {
-    "blade-mcp": {
+    "loom-mcp": {
       "command": "npx",
-      "args": ["-y", "@razorpay/blade-mcp@latest"]
+      "args": ["-y", "@greenloom/loom-mcp@latest"]
     }
   }
 }

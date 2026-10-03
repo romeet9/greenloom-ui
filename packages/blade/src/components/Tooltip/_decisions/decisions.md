@@ -46,7 +46,7 @@ The tooltip typically provides additional context about the element or its funct
 To make tooltip apear on hovering over non-interactive elements such as icons, badges, counters etc. We will provide a `TooltipInteractiveWrapper` component which will work as a minimal trigger:
 
 ```js
-import { Tooltip, TooltipInteractiveWrapper } from '@razorpay/blade';
+import { Tooltip, TooltipInteractiveWrapper } from '@greenloom/loom';
 
 // non-interactive element as trigger
 <Tooltip content="Amount reversed to customer bank account">
@@ -77,7 +77,7 @@ To make custom elements work the components needs to expose:
   - onTouchEnd
 
 ```jsx
-import type { TooltipTriggerProps } from "@razorpay/blade/components";
+import type { TooltipTriggerProps } from "@greenloom/loom/components";
 
 type MyCustomButtonProps = { 
   children: React.ReactNode 

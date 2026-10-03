@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { metaAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
 
   type CircleProps = {
     cx: string | number;

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { resolveComponentStyleOverride } from './resolveComponentStyleOverride';
-import type { BladeThemeContextValue } from '../components/BladeProvider/types';
-import type { ButtonSlot } from '@razorpay/blade-core/styles';
+import type { BladeThemeContextValue } from '../components/LoomProvider/types';
+import type { ButtonSlot } from '@greenloom/loom-core/styles';
 
 const mockGetter = (
   componentConfig: BladeThemeContextValue['componentConfig'],

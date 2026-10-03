@@ -7,7 +7,7 @@ This approach combines component props for high-level control with configuration
 
 ```ts
 // Import statement
-import { LineChart } from '@razorpay/blade/charts';
+import { LineChart } from '@greenloom/loom/charts';
 
 const chartData = [
   { month: 'Jan', teamA: 2450, teamB: 2600 },
@@ -151,7 +151,7 @@ interface CustomLineChartProps {
 
 ```ts
 // Import statement
-import { AreaChart } from '@razorpay/blade/charts';
+import { AreaChart } from '@greenloom/loom/charts';
 
 const chartData = [
   { month: 'Jan', teamA: 2450, teamB: 2600 },
@@ -272,7 +272,7 @@ interface CustomAreaChartProps {
 
 
 ```tsx
-import { BarChart } from '@razorpay/blade/charts';
+import { BarChart } from '@greenloom/loom/charts';
 
 const chartData = [
   { month: 'Jan', desktop: 400, mobile: 240 },
@@ -338,7 +338,7 @@ interface CustomBarChartProps {
 
 
 ```ts
-import { PieChart } from '@razorpay/blade/charts';
+import { PieChart } from '@greenloom/loom/charts';
 
 const chartData = [
   { category: 'Electronics', amount: 45000 },

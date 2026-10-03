@@ -9,8 +9,8 @@
  *     CardHeaderTrailing, CardHeaderIcon, CardHeaderCounter,
  *     CardHeaderBadge, CardFooter, CardFooterLeading,
  *     CardFooterTrailing
- *   } from '@razorpay/blade-svelte/components';
- *   import { InfoIcon } from '@razorpay/blade-svelte/components';
+ *   } from '@greenloom/loom-svelte/components';
+ *   import { InfoIcon } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <Card>

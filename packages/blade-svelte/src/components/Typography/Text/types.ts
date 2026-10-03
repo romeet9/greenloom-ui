@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { TextAs, StyleOverride, TextSlot } from '@razorpay/blade-core/styles';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { TextAs, StyleOverride, TextSlot } from '@greenloom/loom-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { BaseTextProps, BaseTextSizes } from '../BaseText/types';
 
 export type TextVariant = 'body' | 'caption';

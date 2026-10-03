@@ -96,7 +96,7 @@ This creates a comprehensive palette ensuring:
 ### Basic Chart with Automatic Colors
 
 ```tsx
-import { ChartBarWrapper, ChartBar, ChartXAxis, ChartYAxis } from '@razorpay/blade/components';
+import { ChartBarWrapper, ChartBar, ChartXAxis, ChartYAxis } from '@greenloom/loom/components';
 
 function MyChart() {
   const data = [

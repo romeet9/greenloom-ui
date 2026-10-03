@@ -170,7 +170,7 @@ Use `Tabs` when a **single selection filters or changes the visible page content
 This example demonstrates the fundamental implementation of Tabs with a bordered horizontal layout, showing how to structure TabList, TabItems, and TabPanels.
 
 ```tsx
-import { Box, Text, Tabs, TabList, TabItem, TabPanel } from '@razorpay/blade/components';
+import { Box, Text, Tabs, TabList, TabItem, TabPanel } from '@greenloom/loom/components';
 
 function BasicTabsExample() {
   return (
@@ -206,7 +206,7 @@ function BasicTabsExample() {
 This example shows how to create controlled tabs where the active tab is managed by state, allowing programmatic tab switching through external controls.
 
 ```tsx
-import { Box, Text, Tabs, TabList, TabItem, TabPanel, Button } from '@razorpay/blade/components';
+import { Box, Text, Tabs, TabList, TabItem, TabPanel, Button } from '@greenloom/loom/components';
 import React from 'react';
 
 function ControlledTabsExample() {
@@ -275,7 +275,7 @@ import {
   SubscriptionsIcon,
   ClipboardIcon,
   SettingsIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function TabsWithIconsAndBadgesExample() {
   return (

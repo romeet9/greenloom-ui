@@ -75,7 +75,7 @@ import {
   Text,
   Button,
   ExternalLinkIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AnimatedCardExample = () => {
   return (
@@ -132,7 +132,7 @@ import {
   Box,
   Button,
   ExternalLinkIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AnimatedImageOverlayExample = () => {
   return (
@@ -195,7 +195,7 @@ import {
   Box,
   Heading,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const MultiTriggerAnimationExample = () => {
   return (
@@ -258,7 +258,7 @@ import {
   Heading,
   Text,
   Button,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const TapRevealExample = () => {
   return (
@@ -300,7 +300,7 @@ This example shows content that animates when it scrolls into the viewport.
 
 ```tsx
 import React from 'react';
-import { AnimateInteractions, Move, Box, Heading, Text } from '@razorpay/blade/components';
+import { AnimateInteractions, Move, Box, Heading, Text } from '@greenloom/loom/components';
 
 const ScrollInViewExample = () => {
   return (

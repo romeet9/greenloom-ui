@@ -4,7 +4,7 @@ General documentation contains fundamental guides and references for using Blade
 
 ## Usage
 
-The Usage guide covers the core fundamentals of implementing Blade in your application. It includes setup instructions for `BladeProvider` and how to do initial setup of blade in your app.
+The Usage guide covers the core fundamentals of implementing Blade in your application. It includes setup instructions for `LoomProvider` and how to do initial setup of blade in your app.
 
 ## ChoosingComponents
 

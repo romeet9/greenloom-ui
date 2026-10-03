@@ -194,7 +194,7 @@ This example shows the three main types of Avatar (image, letter, and icon) with
 
 ```tsx
 import React from 'react';
-import { Avatar, Box, Indicator, BuildingIcon, TrustedBadgeIcon } from '@razorpay/blade/components';
+import { Avatar, Box, Indicator, BuildingIcon, TrustedBadgeIcon } from '@greenloom/loom/components';
 
 const AvatarExample = () => {
   // Image avatar with interactive props and variants
@@ -264,7 +264,7 @@ This example shows how to handle click events and manage the selection state of 
 
 ```tsx
 import React, { useState } from 'react';
-import { Avatar, Box, Text } from '@razorpay/blade/components';
+import { Avatar, Box, Text } from '@greenloom/loom/components';
 
 const InteractiveAvatarExample = () => {
   // Track the selected avatar index
@@ -317,7 +317,7 @@ This example demonstrates the AvatarGroup component with different settings and 
 
 ```tsx
 import React from 'react';
-import { Avatar, AvatarGroup, Box } from '@razorpay/blade/components';
+import { Avatar, AvatarGroup, Box } from '@greenloom/loom/components';
 
 const AvatarGroupExample = () => {
   // Team members data
@@ -364,7 +364,7 @@ This example shows how to handle clicks within an AvatarGroup.
 
 ```tsx
 import React, { useState } from 'react';
-import { Avatar, AvatarGroup, Box, Text } from '@razorpay/blade/components';
+import { Avatar, AvatarGroup, Box, Text } from '@greenloom/loom/components';
 
 const InteractiveAvatarGroupExample = () => {
   const [selectedUser, setSelectedUser] = useState<string | null>(null);

@@ -71,7 +71,7 @@ import {
   SearchIcon,
   DownloadIcon,
   UserIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const IconsExample = () => {
   return (

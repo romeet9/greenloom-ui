@@ -26,7 +26,7 @@ export const FadeIntro = (): React.ReactElement => {
         Fade, 
         Card, 
         CardBody 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Fade>
@@ -51,7 +51,7 @@ export const MoveIntro = (): React.ReactElement => {
         Move, 
         Card, 
         CardBody 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Move>
@@ -76,7 +76,7 @@ export const SlideIntro = (): React.ReactElement => {
         Slide, 
         Card, 
         CardBody 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Slide direction={{ enter: 'right', exit: 'bottom' }}>
@@ -99,7 +99,7 @@ export const ScaleIntro = (): React.ReactElement => {
       <Box flex="1" padding="spacing.4" elevation="lowRaised" borderRadius="medium" width="100%">
         <SandboxHighlighter>{`import { 
         Scale, 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Scale motionTriggers={['hover']}>
@@ -120,7 +120,7 @@ export const ElevateIntro = (): React.ReactElement => {
       <Box flex="1" padding="spacing.4" elevation="lowRaised" borderRadius="medium" width="100%">
         <SandboxHighlighter>{`import { 
         Elevate, 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Elevate motionTriggers={['hover']}>
@@ -145,7 +145,7 @@ export const MorphIntro = (): React.ReactElement => {
         Morph,
         Button,
         TextInput 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
       import { AnimatePresence } from 'framer-motion';
 
       <AnimatePresence>
@@ -187,7 +187,7 @@ export const StaggerIntro = (): React.ReactElement => {
         Move, 
         Card, 
         CardBody 
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <Stagger>
@@ -215,7 +215,7 @@ export const AnimateInteractionsIntro = (): React.ReactElement => {
         CardBody,
         Box,
         Button
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
 
       <AnimateInteractions motionTrigggers={['hover']}>

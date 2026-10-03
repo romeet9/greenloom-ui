@@ -40,7 +40,7 @@ export const sideNavWithReactRouter = {
     SettingsIcon,
     UserIcon,
     MenuIcon,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import { navItemsJSON } from './navItemsJSON';
 
   const Page = ({ match }) => (
@@ -303,7 +303,7 @@ export const sideNavWithReactRouter = {
     UserIcon,
     Tooltip,
     Button,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
 
   export const navItemsJSON = [

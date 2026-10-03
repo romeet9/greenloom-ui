@@ -219,7 +219,7 @@ This comprehensive example demonstrates a payment setup form with both single ch
 
 ```tsx
 import React, { useState, useRef } from 'react';
-import { Checkbox, CheckboxGroup, Box, Text, Button, Heading } from '@razorpay/blade/components';
+import { Checkbox, CheckboxGroup, Box, Text, Button, Heading } from '@greenloom/loom/components';
 
 const PaymentSetupForm = () => {
   // State for form submission
@@ -436,7 +436,7 @@ This example showcases a product configuration form with checkboxes for customiz
 
 ```tsx
 import React, { useState } from 'react';
-import { Checkbox, CheckboxGroup, Box, Text, Button, Heading } from '@razorpay/blade/components';
+import { Checkbox, CheckboxGroup, Box, Text, Button, Heading } from '@greenloom/loom/components';
 
 const ProductConfigurationForm = () => {
   // State for selected features

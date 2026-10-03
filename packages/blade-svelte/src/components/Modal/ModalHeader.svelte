@@ -4,7 +4,7 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     modalHeaderClass,
     modalEmptyHeaderCapsuleClass,
@@ -16,7 +16,7 @@
     modalCloseButtonClass,
     modalHeaderCloseButtonClass,
     modalHeaderDividerClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { CloseIcon } from '../Icons/CloseIcon';
   import Text from '../Typography/Text/Text.svelte';
   import { getModalContext } from './modalContext';

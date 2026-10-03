@@ -19,7 +19,7 @@ import {
   InfoItemKey,
   InfoItemValue,
   Divider,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 <InfoGroup itemOrientation="horizontal" size="medium">
   <InfoItem>

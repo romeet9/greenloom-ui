@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { metaAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
   import {
     getCheckboxIconClasses,
     getCheckboxIconVariant,
     getCheckboxSvgClasses,
     getCheckboxTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { CheckboxIconProps } from './types';
 
   const templateClasses = getCheckboxTemplateClasses();

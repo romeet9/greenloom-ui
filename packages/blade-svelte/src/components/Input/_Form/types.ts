@@ -1,5 +1,5 @@
 import type { Snippet } from 'svelte';
-import type { FormSize, FormLabelPosition, FormHintType } from '@razorpay/blade-core/styles';
+import type { FormSize, FormLabelPosition, FormHintType } from '@greenloom/loom-core/styles';
 
 export type NecessityIndicator = 'required' | 'optional' | 'none';
 

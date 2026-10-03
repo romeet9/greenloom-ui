@@ -188,7 +188,7 @@ import {
   Box,
   Text,
   UserIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicSelectExample() {
   const [selectedUser, setSelectedUser] = useState('');
@@ -243,7 +243,7 @@ import {
   Box,
   Button,
   TagIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function MultiSelectWithValidationExample(): React.ReactElement {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -352,7 +352,7 @@ import {
   Heading,
   Text,
   GlobeIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function CurrencySelectExample() {
   // Pre-defined currency data

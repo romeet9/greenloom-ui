@@ -5,7 +5,7 @@
     makeAccessible,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getRadioGroupFieldClasses,
     getRadioGroupItemsClasses,
@@ -13,7 +13,7 @@
     getRadioGroupHintTextClass,
     getRadioGroupHintMarginClass,
     getRadioGroupTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { setRadioGroupContext } from './radioContext';
   import { InfoIcon } from '../Icons';
   import type { RadioGroupProps, RadioGroupContextType, State } from './types';

@@ -1,7 +1,7 @@
 /**
  * Keep in sync with packages/blade-core/src/utils/cardTicketOutline.ts
  * (blade does not depend on blade-core yet).
- * TODO: import from @razorpay/blade-core
+ * TODO: import from @greenloom/loom-core
  *
  * Known limitation: CARD_TICKET_CORNER_RADIUS, CARD_TICKET_NOTCH_RADIUS, and
  * CARD_TICKET_OUTLINE_STROKE_WIDTH are hardcoded to match their corresponding

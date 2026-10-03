@@ -5,8 +5,8 @@
  * @example
  * ```svelte
  * <script>
- *   import { AppBar, AppBarLeading, AppBarActions, IconButton } from '@razorpay/blade-svelte/components';
- *   import { UserIcon, CloseIcon } from '@razorpay/blade-svelte/components';
+ *   import { AppBar, AppBarLeading, AppBarActions, IconButton } from '@greenloom/loom-svelte/components';
+ *   import { UserIcon, CloseIcon } from '@greenloom/loom-svelte/components';
  *
  *   const goBack = () => history.back();
  * </script>

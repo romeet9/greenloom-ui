@@ -4,7 +4,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { Avatar, AvatarGroup } from '@razorpay/blade-svelte/components';
+ *   import { Avatar, AvatarGroup } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <Avatar name="Nitin Kumar" src="https://avatars.githubusercontent.com/u/46647141?v=4" />

@@ -10,7 +10,7 @@ export const FadeSandbox = ({ padding }: { padding?: BoxProps['padding'] }): Rea
         InfoIcon, 
         Box,
         Button
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
 
       function App() {
         const [isVisible, setIsVisible] = React.useState(true);
@@ -45,7 +45,7 @@ export const MoveSandbox = ({ padding }: { padding?: BoxProps['padding'] }): Rea
       Text, 
       Box,
       Button
-    } from '@razorpay/blade/components';
+    } from '@greenloom/loom/components';
 
     function App() {
       const [isVisible, setIsVisible] = React.useState(true);
@@ -83,7 +83,7 @@ export const SlideSandbox = ({
       Text, 
       Box,
       Button
-    } from '@razorpay/blade/components';
+    } from '@greenloom/loom/components';
 
     function App() {
       const [isVisible, setIsVisible] = React.useState(true);
@@ -119,7 +119,7 @@ export const ScaleSandbox = ({
       CardBody,
       Text, 
       Box,
-    } from '@razorpay/blade/components';
+    } from '@greenloom/loom/components';
 
     function App() {
       return (
@@ -152,7 +152,7 @@ export const ElevateSandbox = ({
       CardBody,
       Text, 
       Box,
-    } from '@razorpay/blade/components';
+    } from '@greenloom/loom/components';
 
     function App() {
       return (
@@ -181,7 +181,7 @@ export const MorphSandbox = ({
   return (
     <Sandbox padding={padding}>
       {`
-          import { Morph, Box, TextInput } from '@razorpay/blade/components';
+          import { Morph, Box, TextInput } from '@greenloom/loom/components';
 
           const App = () => {
             const [showNameButton, setShowNameButton] = React.useState(true);
@@ -235,7 +235,7 @@ export const AnimateInteractionsSandbox = ({
         Text,
         Button,
         ExternalLinkIcon,
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
   
       function App() {
         return (
@@ -302,7 +302,7 @@ export const StaggerSandbox = ({
         Chip,
         Box,
         Button
-      } from '@razorpay/blade/components';
+      } from '@greenloom/loom/components';
   
       function App() {
         const [isVisible, setIsVisible] = React.useState(true);

@@ -92,7 +92,7 @@ import {
   CardHeaderLeading,
   Text,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicScaleExample() {
   return (
@@ -140,7 +140,7 @@ import {
   CardHeader,
   CardHeaderLeading,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function ControlledScaleExample() {
   const [isHighlighted, setIsHighlighted] = useState(false);

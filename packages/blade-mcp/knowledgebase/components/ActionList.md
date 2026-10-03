@@ -162,7 +162,7 @@ import {
   UserIcon,
   ActivityIcon,
   TransactionsIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ActionListExample = () => {
   return (
@@ -270,7 +270,7 @@ const ActionListExample = () => {
 When dealing with large lists, you can use the virtualization feature for better performance.
 
 ```tsx
-import { Box, ActionList, ActionListItem, ActionListSection } from '@razorpay/blade/components';
+import { Box, ActionList, ActionListItem, ActionListSection } from '@greenloom/loom/components';
 
 const LargeActionListExample = () => {
   // Generate a large list of items
@@ -313,7 +313,7 @@ import {
   HomeIcon,
   UserIcon,
   SettingsIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ActionListInContextExample = () => {
   return (

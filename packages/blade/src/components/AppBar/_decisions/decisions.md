@@ -11,9 +11,9 @@ The AppBar is a top-of-screen application/page header that gives the user contex
 Overall structure of the API showing the main usage pattern with a realistic example:
 
 ```jsx
-import { AppBar, AppBarLeading, AppBarActions } from '@razorpay/blade/components';
-import { IconButton } from '@razorpay/blade/components';
-import { ArrowLeftIcon, UserIcon, CloseIcon } from '@razorpay/blade/components';
+import { AppBar, AppBarLeading, AppBarActions } from '@greenloom/loom/components';
+import { IconButton } from '@greenloom/loom/components';
+import { ArrowLeftIcon, UserIcon, CloseIcon } from '@greenloom/loom/components';
 
 <AppBar
   backButton={{ onClick: goBack, accessibilityLabel: 'Go back' }}

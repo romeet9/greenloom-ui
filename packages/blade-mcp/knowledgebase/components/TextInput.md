@@ -198,7 +198,7 @@ type TextInputProps = TextInputPropsWithA11yLabel | TextInputPropsWithLabel;
 This example demonstrates `showHelpTextOnFocus`, which keeps `helpText` out of the layout until the field is focused. Note that the third field's `errorText` stays visible whether or not the field is focused — validation feedback is never gated behind focus.
 
 ```tsx
-import { TextInput, Box } from '@razorpay/blade/components';
+import { TextInput, Box } from '@greenloom/loom/components';
 
 function ContextualHelpTextExample() {
   return (
@@ -238,7 +238,7 @@ function ContextualHelpTextExample() {
 This example demonstrates basic TextInput usage with different validation states.
 
 ```tsx
-import { TextInput, Box } from '@razorpay/blade/components';
+import { TextInput, Box } from '@greenloom/loom/components';
 
 function TextInputExample() {
   const handleChange = ({ name, value }) => {
@@ -304,7 +304,7 @@ import {
   SearchIcon,
   CreditCardIcon,
   InfoIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function FeatureRichTextInputExample() {
   return (
@@ -359,7 +359,7 @@ function FeatureRichTextInputExample() {
 This example demonstrates how to create TextInput components without visible labels but with proper accessibility support using the accessibilityLabel prop, useful for compact UI designs.
 
 ```tsx
-import { TextInput, Box, SearchIcon, UserIcon } from '@razorpay/blade/components';
+import { TextInput, Box, SearchIcon, UserIcon } from '@greenloom/loom/components';
 
 function AccessibleTextInputExample() {
   return (
@@ -393,7 +393,7 @@ This example demonstrates using TextInput to collect multiple values as tags.
 
 ```tsx
 import { useState } from 'react';
-import { TextInput, Box, MailIcon } from '@razorpay/blade/components';
+import { TextInput, Box, MailIcon } from '@greenloom/loom/components';
 
 function TaggedTextInputExample() {
   const [emails, setEmails] = useState(['user@example.com']);
@@ -452,7 +452,7 @@ import {
   InputDropdownButton,
   ActionList,
   ActionListItem,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function AdvancedTextInputExample() {
   const [cardNumber, setCardNumber] = useState('');

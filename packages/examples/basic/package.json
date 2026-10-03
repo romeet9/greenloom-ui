@@ -7,10 +7,10 @@
     "build:app": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "analyze:only": "source-map-explorer 'build/static/js/*.js' --gzip",
     "analyze": "yarn build && yarn analyze:only",
-    "postinstall": "rm -rf node_modules/@razorpay/blade/node_modules"
+    "postinstall": "rm -rf node_modules/@greenloom/loom/node_modules"
   },
   "dependencies": {
-    "@razorpay/blade": "file:../../blade",
+    "@greenloom/loom": "file:../../blade",
     "@fontsource/lato": "^4.5.10",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",

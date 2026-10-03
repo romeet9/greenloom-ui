@@ -1,14 +1,17 @@
 export const surfaceTextNormal = '#0E0E0E';
-export const bladePrimary = '#8db279';
-export const bladeTextFont =
+export const loomPrimary = '#8db279';
+export const bladePrimary = loomPrimary;
+export const loomTextFont =
   '"Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
-export const bladeCodeFont = '"Geist Mono", "Menlo", monospace';
+export const bladeTextFont = loomTextFont;
+export const loomCodeFont = '"Geist Mono", "Menlo", monospace';
+export const bladeCodeFont = loomCodeFont;
 
 export const themeConfig = {
   base: 'light' as const,
 
-  colorPrimary: bladePrimary,
-  colorSecondary: bladePrimary,
+  colorPrimary: loomPrimary,
+  colorSecondary: loomPrimary,
 
   // UI
   appBg: '#fafaf9',

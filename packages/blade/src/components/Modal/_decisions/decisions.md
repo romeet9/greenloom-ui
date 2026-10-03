@@ -57,7 +57,7 @@ Modal's Anatomy is similar to BottomSheet's Anatomy and we will keep the API dec
 Sample usage:
 
 ```jsx
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button, Text } from '@razorpay/blade/components';
+import { Modal, ModalHeader, ModalBody, ModalFooter, Button, Text } from '@greenloom/loom/components';
 
 const [isOpen, setIsOpen] = useState(false);
 
@@ -169,7 +169,7 @@ const [isOpen, setIsOpen] = useState(false);
 > You can use Lazy Loading to load the Modal component only on dWeb and BottomSheet component only on mWeb.
 
 ```jsx
-import { useTheme, BottomSheet, Modal } from '@razorpay/blade';
+import { useTheme, BottomSheet, Modal } from '@greenloom/loom';
 
 const App = () => {
   const { theme, platform } = useTheme();

@@ -7,7 +7,7 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     MAKE_ANALYTICS_CONSTANTS,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getToastClasses,
     getToastTemplateClasses,
@@ -18,7 +18,7 @@
     toastContentClass,
     toastTrailingClass,
     toastDismissButtonClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Button from '../Button/Button.svelte';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import { CloseIcon } from '../Icons/CloseIcon';

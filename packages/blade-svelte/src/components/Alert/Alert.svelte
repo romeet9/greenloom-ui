@@ -6,7 +6,7 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAlertClasses,
     getAlertTemplateClasses,
@@ -33,7 +33,7 @@
     alertIconWrapperCenterClass,
     alertIconOffsetDescriptionOnlyClass,
     alertCloseButtonDescriptionOnlyClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import BaseButton from '../Button/BaseButton/BaseButton.svelte';
   import BaseLink from '../Link/BaseLink/BaseLink.svelte';

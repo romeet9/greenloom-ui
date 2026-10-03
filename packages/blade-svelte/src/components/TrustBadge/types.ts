@@ -1,5 +1,5 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { TrustBadgeVariant } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { TrustBadgeVariant } from '@greenloom/loom-core/styles';
 
 export type { TrustBadgeVariant };
 

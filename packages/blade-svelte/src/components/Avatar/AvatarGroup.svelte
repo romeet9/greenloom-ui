@@ -4,7 +4,7 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getAvatarGroupClasses,
     getAvatarTemplateClasses,
@@ -12,7 +12,7 @@
     getAvatarGroupOverflowButtonClasses,
     avatarGroupOverflowTextColorToken,
     getAvatarGroupOverflowBodyTextSize,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Heading from '../Typography/Heading/Heading.svelte';
   import Text from '../Typography/Text/Text.svelte';
   import type { TextColors } from '../Typography/BaseText/types';

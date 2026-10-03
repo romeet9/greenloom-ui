@@ -1,4 +1,4 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 
 /**
  * Payload passed to the `onChange` callback when the switch toggles.

@@ -3,8 +3,8 @@
     metaAttribute,
     MetaConstants,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getTabsTemplateClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getTabsTemplateClasses } from '@greenloom/loom-core/styles';
   import { getTabsContext } from './context';
   import type { TabItemProps } from './types';
   import type { IconSize } from '../Icons/types';

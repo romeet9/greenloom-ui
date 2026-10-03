@@ -1,6 +1,6 @@
 <script lang="ts">
   import { tick } from 'svelte';
-  import { getSegmentedControlTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getSegmentedControlTemplateClasses } from '@greenloom/loom-core/styles';
   import { getSegmentedControlContext } from './context';
 
   const classes = getSegmentedControlTemplateClasses();

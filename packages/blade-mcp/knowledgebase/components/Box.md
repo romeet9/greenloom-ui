@@ -282,7 +282,7 @@ This example demonstrates a responsive layout with flexbox properties, styling, 
 
 ```tsx
 import React from 'react';
-import { Box, Text, Heading, Button, RazorpayIcon } from '@razorpay/blade/components';
+import { Box, Text, Heading, Button, RazorpayIcon } from '@greenloom/loom/components';
 
 const ResponsiveLayout = () => {
   return (
@@ -436,7 +436,7 @@ This example demonstrates how to use Box with advanced positioning techniques, t
 
 ```tsx
 import React from 'react';
-import { Box, Text, Button } from '@razorpay/blade/components';
+import { Box, Text, Button } from '@greenloom/loom/components';
 
 const AdvancedPositioningExample = () => {
   return (
@@ -574,7 +574,7 @@ This example demonstrates a responsive grid layout with event handlers.
 
 ```tsx
 import React, { useState } from 'react';
-import { Box, Text, Heading } from '@razorpay/blade/components';
+import { Box, Text, Heading } from '@greenloom/loom/components';
 
 const ResponsiveGridExample = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

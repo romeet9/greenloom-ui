@@ -74,10 +74,10 @@ export type EmptyStateSize = 'small' | 'medium' | 'large' | 'xlarge';
 
 ```tsx
 import { useState } from 'react';
-import { EmptyState } from '@razorpay/blade/components';
-import { Button } from '@razorpay/blade/components';
-import { Link } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { EmptyState } from '@greenloom/loom/components';
+import { Button } from '@greenloom/loom/components';
+import { Link } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 const ErrorEmptyState = () => {
   const [isRetrying, setIsRetrying] = useState(false);
@@ -130,9 +130,9 @@ const ErrorEmptyState = () => {
 ### Simple EmptyState with Blade Icon
 
 ```tsx
-import { EmptyState } from '@razorpay/blade/components';
-import { Button } from '@razorpay/blade/components';
-import { EcommerceIcon } from '@razorpay/blade/components';
+import { EmptyState } from '@greenloom/loom/components';
+import { Button } from '@greenloom/loom/components';
+import { EcommerceIcon } from '@greenloom/loom/components';
 
 const SimpleEmptyState = () => {
   return (

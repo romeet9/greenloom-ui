@@ -56,8 +56,8 @@ export const topNavFullExample = {
     AwardIcon,
     SIDE_NAV_EXPANDED_L1_WIDTH_BASE,
     SIDE_NAV_EXPANDED_L1_WIDTH_XL,
-  } from "@razorpay/blade/components";
-  import { makeSize } from "@razorpay/blade/utils";
+  } from "@greenloom/loom/components";
+  import { makeSize } from "@greenloom/loom/utils";
 
 
   const TabNavItemLink = React.forwardRef((props, ref) => {
@@ -393,7 +393,7 @@ export const topNavFullExample = {
     PaymentGatewayIcon,
     PaymentLinkIcon,
     PaymentPagesIcon,
-  } from "@razorpay/blade/components";
+  } from "@greenloom/loom/components";
 
   const NavLink = (
     props
@@ -516,7 +516,7 @@ export const tabNavExample = {
     Menu,
     MenuItem,
     MenuOverlay,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     return (

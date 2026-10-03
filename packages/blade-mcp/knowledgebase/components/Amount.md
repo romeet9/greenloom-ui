@@ -127,9 +127,9 @@ type AmountProps = AmountTypeProps & AmountCommonProps;
 ### Display Variations
 
 ```tsx
-import { Amount } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
-import { Text } from '@razorpay/blade/components';
+import { Amount } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
+import { Text } from '@greenloom/loom/components';
 
 const AmountVariationsExample = () => {
   return (
@@ -161,9 +161,9 @@ export default AmountVariationsExample;
 ### Formatting and Styling
 
 ```tsx
-import { Amount } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
-import { Text } from '@razorpay/blade/components';
+import { Amount } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
+import { Text } from '@greenloom/loom/components';
 import { I18nProvider } from '@razorpay/i18nify-react';
 
 const AmountFormattingExample = () => {

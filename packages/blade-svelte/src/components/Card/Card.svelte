@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import CardRoot from './CardRoot.svelte';
   import CardSurface from './CardSurface.svelte';
   import LinkOverlay from './LinkOverlay.svelte';

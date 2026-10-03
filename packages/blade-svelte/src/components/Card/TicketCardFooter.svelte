@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
+  import { metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
   import { TICKET_CARD_CONTEXT_KEY, getSectionedCardContext } from './sectionedCardContext';
 
   let {

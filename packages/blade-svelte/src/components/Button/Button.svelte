@@ -1,7 +1,7 @@
 <script lang="ts">
   import BaseButton from './BaseButton/BaseButton.svelte';
   import type { ButtonProps } from './types';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
 
   let {
     children,

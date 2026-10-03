@@ -259,7 +259,7 @@ import {
   Alert,
   TextInput,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function SingleStepCreationView() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -438,7 +438,7 @@ This example shows a comprehensive multi-step creation flow that adapts to mobil
 import React from 'react';
 import dayjs from 'dayjs';
 import styled from 'styled-components';
-import { useTheme, useBreakpoint } from '@razorpay/blade/utils';
+import { useTheme, useBreakpoint } from '@greenloom/loom/utils';
 import {
   Box,
   Button,
@@ -489,7 +489,7 @@ import {
   CalendarIcon,
   ChevronDownIcon,
   ChevronUpIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const steps = [
   { title: 'Select Vendor', description: 'Choose a vendor for the GRN', stepNumber: 1 },
@@ -1632,8 +1632,8 @@ import {
   BottomSheetFooter,
   Text,
   TextInput,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 function ResponsiveModalWrapper({
   children,
@@ -1743,8 +1743,8 @@ import {
   Text,
   Heading,
   ZapIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 function ResponsiveModalWrapper({
   children,
@@ -2019,8 +2019,8 @@ import {
   ChipGroup,
   Chip,
   TextInput,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 function ResponsiveModalWrapper({
   children,

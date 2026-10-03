@@ -40,7 +40,7 @@ Components:
 Sample usage:
 
 ```jsx
-import { BottomSheet } from '@razorpay/blade';
+import { BottomSheet } from '@greenloom/loom';
 
 const [isOpen, setIsOpen] = React.useState(false);
 
@@ -159,7 +159,7 @@ Considering the bundle size downside to approach 1, we decided to go ahead with 
 ### Composition Example
 
 ```jsx
-import { useTheme, useBreakpoint, BottomSheet, Dropdown } from '@razorpay/blade';
+import { useTheme, useBreakpoint, BottomSheet, Dropdown } from '@greenloom/loom';
 
 const App = () => {
   const { theme } = useTheme();
@@ -213,10 +213,10 @@ There are two major reasons:
 <summary>Consumer side bottomsheet lazy loading example</summary>
 
 ```jsx
-import { Spinner, useTheme, useBreakpoint } from '@razorpay/blade';
+import { Spinner, useTheme, useBreakpoint } from '@greenloom/loom';
 
-const BottomSheet = React.lazy(() => import('@razorpay/blade/components/bottomsheet'));
-const DropdownOverlay = React.lazy(() => import('@razorpay/blade/components/dropdown-overlay'));
+const BottomSheet = React.lazy(() => import('@greenloom/loom/components/bottomsheet'));
+const DropdownOverlay = React.lazy(() => import('@greenloom/loom/components/dropdown-overlay'));
 
 const App = () => {
   const { theme } = useTheme();

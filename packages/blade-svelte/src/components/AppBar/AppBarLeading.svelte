@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { getAppBarTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { getAppBarTemplateClasses } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import { TrustBadge } from '../TrustBadge';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import { getAppBarContext, useAppBarContext } from './AppBarContext';
   import type { AppBarLeadingProps, AppBarVariant } from './types';
 

@@ -65,17 +65,17 @@ type AnnouncementBannerProps = {
 - Don't use `AnnouncementBanner` for contextual or section-specific messages — use `Alert` instead.
 - Don't use it for temporary feedback after user actions — use `Toast` instead.
 - Don't add multi-line content or complex JSX — the component only supports single-line text.
-- Don't try to control the color scheme via props — it automatically follows the app's `colorScheme` from `BladeProvider`.
+- Don't try to control the color scheme via props — it automatically follows the app's `colorScheme` from `LoomProvider`.
 - Don't expect a dismiss button or action buttons — they are not supported; use `Alert` if you need dismissibility or actions.
 
 ## Examples
 
 ### Default AnnouncementBanner (centered, with icon)
 
-The colour treatment is driven by the app's `colorScheme` set on `BladeProvider`. No extra prop is needed.
+The colour treatment is driven by the app's `colorScheme` set on `LoomProvider`. No extra prop is needed.
 
 ```tsx
-import { AnnouncementBanner, AnnouncementIcon } from '@razorpay/blade/components';
+import { AnnouncementBanner, AnnouncementIcon } from '@greenloom/loom/components';
 
 function DefaultBannerExample() {
   return (
@@ -91,17 +91,17 @@ function DefaultBannerExample() {
 When the app `colorScheme` is `dark`, the banner automatically renders the dark treatment.
 
 ```tsx
-import { AnnouncementBanner, AnnouncementIcon } from '@razorpay/blade/components';
-import { BladeProvider } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
+import { AnnouncementBanner, AnnouncementIcon } from '@greenloom/loom/components';
+import { LoomProvider } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
 
 function DarkBannerExample() {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="dark">
+    <LoomProvider themeTokens={loomTheme} colorScheme="dark">
       <AnnouncementBanner icon={AnnouncementIcon}>
         Enter promotional text here
       </AnnouncementBanner>
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 ```
@@ -111,7 +111,7 @@ function DarkBannerExample() {
 Content can be left aligned instead of the default center alignment.
 
 ```tsx
-import { AnnouncementBanner } from '@razorpay/blade/components';
+import { AnnouncementBanner } from '@greenloom/loom/components';
 
 function LeftAlignedBannerExample() {
   return (
@@ -127,7 +127,7 @@ function LeftAlignedBannerExample() {
 Omit the `icon` prop to render the banner without a leading icon.
 
 ```tsx
-import { AnnouncementBanner } from '@razorpay/blade/components';
+import { AnnouncementBanner } from '@greenloom/loom/components';
 
 function NoIconBannerExample() {
   return (
@@ -143,8 +143,8 @@ function NoIconBannerExample() {
 The message can contain an inline `Link` for in-context navigation.
 
 ```tsx
-import { AnnouncementBanner, AnnouncementIcon } from '@razorpay/blade/components';
-import { Link } from '@razorpay/blade/components';
+import { AnnouncementBanner, AnnouncementIcon } from '@greenloom/loom/components';
+import { Link } from '@greenloom/loom/components';
 
 function BannerWithLinkExample() {
   return (

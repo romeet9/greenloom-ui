@@ -4,7 +4,7 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     bottomSheetHeaderClass,
     bottomSheetHeaderContentClass,
@@ -19,7 +19,7 @@
     bottomSheetEmptyHeaderFloatingClass,
     bottomSheetCloseButtonCapsuleClass,
     bottomSheetCloseButtonCapsuleFloatingClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { CloseIcon } from '../Icons/CloseIcon';
   import { ChevronLeftIcon } from '../Icons/ChevronLeftIcon';
   import IconButton from '../Button/IconButton/IconButton.svelte';

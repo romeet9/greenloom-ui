@@ -1,7 +1,7 @@
 {
-  "name": "@razorpay/blade-svelte",
+  "name": "@greenloom/loom-svelte",
   "version": "0.19.0",
-  "description": "Blade Design System for Svelte",
+  "description": "Loom UI for Svelte",
   "license": "MIT",
   "type": "module",
   "sideEffects": [
@@ -16,13 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/razorpay/blade.git"
+    "url": "https://github.com/greenloom/loom.git"
   },
   "keywords": [
     "design system",
     "svelte",
-    "razorpay",
-    "blade"
+    "greenloom",
+    "loom",
+    "ui"
   ],
   "exports": {
     "./components": {
@@ -64,7 +65,7 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.0",
-    "@razorpay/blade-core": ">=0.20.0",
+    "@greenloom/loom-core": ">=0.20.0",
     "@razorpay/i18nify-js": "1.12.3",
     "@use-gesture/vanilla": "10.2.24",
     "class-variance-authority": "^0.7.0"

@@ -13,23 +13,23 @@ import figmaToken from '../images/figma-token.png';
 
 <br />
 
-## Wrap your App with `BladeProvider`
+## Wrap your App with `LoomProvider`
 
-Make sure if `BladeProvider` is not already present in your app, add it to your app entry point.
+Make sure if `LoomProvider` is not already present in your app, add it to your app entry point.
 
-In some cases, if section of the page is using dark theme while rest of the page is using light theme, you can wrap the section in `BladeProvider` with `colorScheme` set to `dark`. Although avoid unnecessary usage of BladeProvider when its not needed.
+In some cases, if section of the page is using dark theme while rest of the page is using light theme, you can wrap the section in `LoomProvider` with `colorScheme` set to `dark`. Although avoid unnecessary usage of LoomProvider when its not needed.
 
 ```jsx
 // index.js
 import App from './App';
-import { BladeProvider } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
+import { LoomProvider } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
 
 function AppWrapper(): JSX.Element {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <App />
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 
@@ -52,7 +52,7 @@ So to know the blade component's name and properties
 
 ```jsx
 // in your file where you want to implement this
-import { Button, DownloadIcon } from '@razorpay/blade/components';
+import { Button, DownloadIcon } from '@greenloom/loom/components';
 
 <Button variant="secondary" size="medium" icon={DownloadIcon} iconPosition="left">
   Export

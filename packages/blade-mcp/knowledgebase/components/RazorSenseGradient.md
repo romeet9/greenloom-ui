@@ -82,7 +82,7 @@ Renders a fluid gradient clipped to a custom SVG path.
 
 ```jsx
 import React from 'react';
-import { RazorSenseGradient } from '@razorpay/blade/components';
+import { RazorSenseGradient } from '@greenloom/loom/components';
 
 const BasicExample = () => {
   return (
@@ -102,7 +102,7 @@ Uses framer-motion SVG variants to animate the mask shape while the gradient pla
 ```jsx
 import React from 'react';
 import { m as motion } from 'framer-motion';
-import { RazorSenseGradient } from '@razorpay/blade/components';
+import { RazorSenseGradient } from '@greenloom/loom/components';
 
 const RayRotate = ({ isRunning = true }: { isRunning?: boolean }) => {
   return (
@@ -169,7 +169,7 @@ import {
   RazorSenseGradient,
   preloadRazorSenseAssets,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const CombinedExample = () => {
   const [assetsPreloaded, setAssetsPreloaded] = useState(false);

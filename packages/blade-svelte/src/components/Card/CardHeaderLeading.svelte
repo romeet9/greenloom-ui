@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import { useCardContext } from './CardContext';
   import type { CardHeaderLeadingProps } from './types';

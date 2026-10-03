@@ -42,7 +42,7 @@
 
   type PaymentApp = { name: string; logo?: string };
 
-  // Brand logos from the checkout CDN (same source as the BladeProvider checkout demo).
+  // Brand logos from the checkout CDN (same source as the LoomProvider checkout demo).
   const upiApps: PaymentApp[] = [
     { name: 'Google Pay', logo: 'https://cdn.razorpay.com/app/googlepay.svg' },
     { name: 'PhonePe', logo: 'https://cdn.razorpay.com/app/phonepe.svg' },

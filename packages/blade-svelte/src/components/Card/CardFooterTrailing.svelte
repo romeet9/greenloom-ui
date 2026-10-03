@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute, MAKE_ANALYTICS_CONSTANTS } from '@razorpay/blade-core/utils';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { makeAnalyticsAttribute, MAKE_ANALYTICS_CONSTANTS } from '@greenloom/loom-core/utils';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import Button from '../Button/Button.svelte';
   import { useCardContext } from './CardContext';
   import type { CardFooterTrailingProps } from './types';

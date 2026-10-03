@@ -5,8 +5,8 @@
     hintTextSize,
     hintIconSize,
     hintTextColor,
-  } from '@razorpay/blade-core/styles';
-  import { cx } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/styles';
+  import { cx } from '@greenloom/loom-core/utils';
   import Text from '../../Typography/Text/Text.svelte';
   import type { TextColors } from '../../Typography/BaseText/types';
   import { InfoIcon, CheckIcon } from '../../Icons';

@@ -71,7 +71,7 @@ type ButtonGroupProps = {
     RefreshIcon,
     ShareIcon,
     DownloadIcon,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     return (
@@ -102,7 +102,7 @@ type ButtonGroupProps = {
     ActionList,
     ActionListItem,
     ChevronDownIcon,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     return (

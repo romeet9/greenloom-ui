@@ -1,10 +1,10 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade, DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade, DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
 import type {
   BaseInputSize,
   BaseInputValidationState,
   BaseInputValueComponentType,
-} from '@razorpay/blade-core/styles';
+} from '@greenloom/loom-core/styles';
 import type { IconComponent } from '../../Icons/iconMap';
 import type { NecessityIndicator } from '../_Form/types';
 

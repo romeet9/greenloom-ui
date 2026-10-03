@@ -29,7 +29,7 @@ export const bottomNavWithReactRouter = {
     BottomNav,
     BottomNavItem,
     BottomNavItemProps
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import { bottomNavItems } from './bottomNavItems';
 
 
@@ -99,7 +99,7 @@ export const bottomNavWithReactRouter = {
     PaymentLinkIcon,
     PaymentPagesIcon,
     PaymentButtonIcon,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   export const bottomNavItems = [
     {

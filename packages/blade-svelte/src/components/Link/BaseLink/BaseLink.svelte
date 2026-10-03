@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, type AriaRoles } from '@razorpay/blade-core/utils';
+  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, type AriaRoles } from '@greenloom/loom-core/utils';
   import { useInteraction } from '../../../utils/useInteraction';
   import BaseText from '../../Typography/BaseText/BaseText.svelte';
   import type { TextColors } from '../../Typography/BaseText/types';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
-  import { getBaseLinkClasses, getBaseLinkContentClasses, getBaseLinkTemplateClasses, getLinkColorToken, getLinkTextSizes, getLinkIconSizeMap, type ActionStatesType } from '@razorpay/blade-core/styles';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
+  import { getBaseLinkClasses, getBaseLinkContentClasses, getBaseLinkTemplateClasses, getLinkColorToken, getLinkTextSizes, getLinkIconSizeMap, type ActionStatesType } from '@greenloom/loom-core/styles';
   import type { IconColor } from '../../Icons/types';
   import type { BaseLinkProps } from './types';
 

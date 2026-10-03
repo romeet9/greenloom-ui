@@ -246,7 +246,7 @@ const ThemeSelector = ({
               {selectedColor ? (
                 <SandboxHighlighter showLineNumbers={false} theme={colorScheme}>
                   {` 
-              import { createTheme } from '@razorpay/blade/tokens';
+              import { createTheme } from '@greenloom/loom/tokens';
               import App from './App';
 
               const Wrapper = () => {
@@ -267,7 +267,7 @@ const ThemeSelector = ({
               ) : (
                 <SandboxHighlighter showLineNumbers={false} theme={colorScheme}>
                   {` 
-              import { ${selectedPreBuiltTheme} } from '@razorpay/blade/tokens';
+              import { ${selectedPreBuiltTheme} } from '@greenloom/loom/tokens';
               import App from './App';
               
               const Wrapper = () => {

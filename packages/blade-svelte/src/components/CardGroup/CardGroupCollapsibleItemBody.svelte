@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
-  import { getCardGroupTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
+  import { getCardGroupTemplateClasses } from '@greenloom/loom-core/styles';
   import CollapsibleBody from '../Collapsible/CollapsibleBody.svelte';
   import { setInsideCardGroupBody } from './cardGroupContext';
   import type { CardGroupCollapsibleItemBodyProps } from './types';

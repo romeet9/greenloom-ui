@@ -5,8 +5,8 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
-  import { getActionListWrapperClasses, getActionListTemplateClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getActionListWrapperClasses, getActionListTemplateClasses } from '@greenloom/loom-core/styles';
   import { getBottomSheetContext } from '../BottomSheet/bottomSheetContext';
   import { getDropdownContext } from '../Dropdown/dropdownContext';
   import { setActionListContext } from './actionListContext';

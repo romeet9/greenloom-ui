@@ -1,6 +1,6 @@
-# Green Loom AI Design System — Agent Context
+# Loom UI — Agent Context
 
-Blade is Razorpay's design system. This package (`@razorpay/blade`) ships React (web) and React Native components from a single shared codebase.
+Loom UI is Greenloom's design system. This package (`@greenloom/loom`) ships React (web) and React Native components from a single shared codebase.
 
 ## Package Structure
 

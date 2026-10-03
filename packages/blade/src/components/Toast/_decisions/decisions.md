@@ -30,7 +30,7 @@ Toasts can also be used to provide feedback to the user when a system event occu
 The blade toasts will use [react-hot-toast](https://react-hot-toast.com/) under the hood with a similar imperative API to show, dismiss and create new toasts without needing for consumer to handle positional or stacking logic. 
 
 ```jsx
-import { BladeProvider, ToastContainer, useToast } from "@razorpay/blade/components"
+import { BladeProvider, ToastContainer, useToast } from "@greenloom/loom/components"
 
 const HomePage = () => {
   const toast = useToast();
@@ -161,7 +161,7 @@ type useToastReturnType = {
 react-hot-toast provides this functionality, for more info see [react-hot-toast docs](https://react-hot-toast.com/docs/toast#dismiss-toast-programmatically)
 
 ```jsx
-import { BladeProvider, ToastContainer, useToast } from "@razorpay/blade/components"
+import { BladeProvider, ToastContainer, useToast } from "@greenloom/loom/components"
 
 const Example = () => {
   const toastId = React.useRef(null);
@@ -188,7 +188,7 @@ const Example = () => {
 ### Promotional Toast
 
 ```jsx
-import { BladeProvider, ToastContainer, useToast } from "@razorpay/blade/components"
+import { BladeProvider, ToastContainer, useToast } from "@greenloom/loom/components"
 
 const Example = () => {
   const toast = useToast();

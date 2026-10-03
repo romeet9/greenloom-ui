@@ -127,7 +127,7 @@ The `onClick` prop can be used to integrate with routing libraries like `react-r
 
 ```jsx
 import { Link } from 'react-router-dom';
-import { Breadcrumb, BreadcrumbItem } from "@razorpay/blade/components";
+import { Breadcrumb, BreadcrumbItem } from "@greenloom/loom/components";
 import {
   useHref,
   useLinkClickHandler,

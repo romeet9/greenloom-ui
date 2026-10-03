@@ -1,13 +1,13 @@
 import React from 'react';
-import { BladeProvider, Button } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
-import '@razorpay/blade/fonts.css';
+import { LoomProvider, Button } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
+import '@greenloom/loom/fonts.css';
 
 function App(): React.ReactElement {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <Button onClick={() => console.log('hi')}>Hello</Button>
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 

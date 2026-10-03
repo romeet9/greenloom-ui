@@ -3,11 +3,11 @@
     metaAttribute,
     MetaConstants,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getBottomSheetBodyClasses,
     getBottomSheetBodyContentClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { getBottomSheetContext } from './bottomSheetContext';
   import { observeResize } from '../../utils/observeResize';
   import type { BottomSheetBodyProps } from './types';

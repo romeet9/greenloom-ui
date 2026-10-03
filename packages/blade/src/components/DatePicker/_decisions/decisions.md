@@ -273,8 +273,8 @@ The `Calendar` component is used to select a date or range of dates. It can be u
 Advantage of using this composition pattern is that we can also add additional components like `TimePicker` inside the `DropdownOverlay`.
 
 ```jsx
-import { Calendar, Dropdown, DropdownButton, DropdownOverlay } from '@razorpay/blade/components';
-import { getFormattedDate } from '@razorpay/blade/utils';
+import { Calendar, Dropdown, DropdownButton, DropdownOverlay } from '@greenloom/loom/components';
+import { getFormattedDate } from '@greenloom/loom/utils';
 
 function WithDropdown(): React.ReactElement {
   const [selectedDate, setSelectedDate] = React.useState < DateValue > new Date();

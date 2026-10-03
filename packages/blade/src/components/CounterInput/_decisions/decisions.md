@@ -23,7 +23,7 @@ The CounterInput consists of:
 Overall structure of the API showing the main usage pattern with realistic example:
 
 ```jsx
-import { CounterInput } from '@razorpay/blade/components';
+import { CounterInput } from '@greenloom/loom/components';
 
 <CounterInput
   label="Quantity"
@@ -167,7 +167,7 @@ type CounterInputProps = {
 ### Basic Usage
 
 ```jsx
-import { CounterInput } from '@razorpay/blade/components';
+import { CounterInput } from '@greenloom/loom/components';
 
 const App = () => {
   const [quantity, setQuantity] = useState(1);
@@ -186,7 +186,7 @@ const App = () => {
 ### With Constraints and Emphasis
 
 ```jsx
-import { CounterInput } from '@razorpay/blade/components';
+import { CounterInput } from '@greenloom/loom/components';
 
 const App = () => {
   const [amount, setAmount] = useState(100);
@@ -207,7 +207,7 @@ const App = () => {
 ### With Loading State
 
 ```jsx
-import { CounterInput } from '@razorpay/blade/components';
+import { CounterInput } from '@greenloom/loom/components';
 
 const App = () => {
   const [quantity, setQuantity] = useState(5);
@@ -236,7 +236,7 @@ const App = () => {
 ### Different Sizes
 
 ```jsx
-import { CounterInput } from '@razorpay/blade/components';
+import { CounterInput } from '@greenloom/loom/components';
 
 const App = () => {
   const [quantity, setQuantity] = useState(3);

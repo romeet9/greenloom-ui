@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from '../Button/Button.svelte';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import { getCollapsibleContext } from './context';
   import type { CollapsibleButtonProps } from './types';
 

@@ -1,5 +1,5 @@
 import type { Snippet } from 'svelte';
-import type { DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
+import type { DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
 
 /**
  * Web-only Svelte port of React `BaseHeaderProps`. Only the slice consumed by

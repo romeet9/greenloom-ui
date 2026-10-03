@@ -47,8 +47,8 @@ type MorphProps = {
 ### Basic Transformation Example
 
 ```tsx
-import { Morph } from '@razorpay/blade/components';
-import { Button, TextInput, Box, Link } from '@razorpay/blade/components';
+import { Morph } from '@greenloom/loom/components';
+import { Button, TextInput, Box, Link } from '@greenloom/loom/components';
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
@@ -87,8 +87,8 @@ function ButtonToInputMorphExample() {
 ### Shape and Style Morphing
 
 ```tsx
-import { Morph } from '@razorpay/blade/components';
-import { Box, Button } from '@razorpay/blade/components';
+import { Morph } from '@greenloom/loom/components';
+import { Box, Button } from '@greenloom/loom/components';
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
@@ -131,8 +131,8 @@ function ShapeMorphExample() {
 ### Interactive Button State Change
 
 ```tsx
-import { Morph } from '@razorpay/blade/components';
-import { Button, Box } from '@razorpay/blade/components';
+import { Morph } from '@greenloom/loom/components';
+import { Button, Box } from '@greenloom/loom/components';
 import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 

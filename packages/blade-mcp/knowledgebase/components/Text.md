@@ -82,8 +82,8 @@ type TextProps<T> = T extends { variant: infer Variant }
 Here's a comprehensive example showcasing the Text component's various features and props, demonstrating different text variants, sizes, weights, and styling options for creating properly formatted content:
 
 ```tsx
-import { Text } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { Text } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function TextExample() {
   return (

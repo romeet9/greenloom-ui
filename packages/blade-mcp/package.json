@@ -1,7 +1,7 @@
 {
-  "name": "@greenloom/mcp",
+  "name": "@greenloom/loom-mcp",
   "version": "1.0.0",
-  "description": "Model Context Protocol server for Green Loom & Loom UI",
+  "description": "Model Context Protocol server for Loom UI",
   "main": "dist/exports.js",
   "type": "module",
   "bin": "dist/server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/greenloom/ui.git"
+    "url": "https://github.com/greenloom/loom.git"
   },
   "files": [
     "dist",

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { hintTextSize } from '@razorpay/blade-core/styles';
+  import { hintTextSize } from '@greenloom/loom-core/styles';
   import Text from '../../Typography/Text/Text.svelte';
   import type { CharacterCounterProps } from './types';
 

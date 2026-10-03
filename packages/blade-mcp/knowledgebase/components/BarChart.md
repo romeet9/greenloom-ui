@@ -314,7 +314,7 @@ import {
   ChartCartesianGrid,
   ChartTooltip,
   ChartLegend,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const salesData = [
   { month: 'Jan', revenue: 4000, profit: 2000, expenses: 1000 },
@@ -365,7 +365,7 @@ import {
   ChartTooltip,
   ChartLegend,
   ChartReferenceBand,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // `industryLow` / `industryHigh` are the industry's 25th and 75th percentile for that day.
 const successRateData = [
@@ -409,7 +409,7 @@ import {
   ChartYAxis,
   ChartTooltip,
   ChartLegend,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const methodData = [
   { period: 'Apr 1', card: 54, cardLow: 42, cardHigh: 64, upi: 76, upiLow: 64, upiHigh: 86 },

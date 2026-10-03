@@ -1,5 +1,5 @@
 <script>
-  import { Text, Button } from '@razorpay/blade-svelte/components';
+  import { Text, Button } from '@greenloom/loom-svelte/components';
 
   const avatars = [
     { name: 'Divya Sharma' },

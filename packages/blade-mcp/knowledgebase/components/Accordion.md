@@ -180,7 +180,7 @@ import {
   AccordionItem,
   AccordionItemHeader,
   AccordionItemBody,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BasicAccordionExample = () => {
   return (
@@ -222,7 +222,7 @@ import {
   AccordionItemHeader,
   AccordionItemBody,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AccordionVariantsExample = () => {
   return (
@@ -272,8 +272,8 @@ import {
   AccordionItemBody,
   Badge,
   Link,
-} from '@razorpay/blade/components';
-import { RoutesIcon, QRCodeIcon, SubscriptionsIcon } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { RoutesIcon, QRCodeIcon, SubscriptionsIcon } from '@greenloom/loom/components';
 
 const RichHeaderAccordionExample = () => {
   return (
@@ -335,8 +335,8 @@ import {
   AccordionItemBody,
   Box,
   Button,
-} from '@razorpay/blade/components';
-import { AnnouncementIcon, RoutesIcon } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { AnnouncementIcon, RoutesIcon } from '@greenloom/loom/components';
 
 const ControlledAccordionExample = () => {
   // State for controlled accordion
@@ -399,7 +399,7 @@ import {
   TextInput,
   Button,
   UserIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import { useState } from 'react';
 
 const CustomContentAccordionExample = () => {
@@ -472,7 +472,7 @@ import {
   TextInput,
   Button,
   Badge,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const PaymentMethodsAccordion = () => {
   return (

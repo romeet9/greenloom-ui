@@ -17,12 +17,12 @@ type ThemeContextValue = {
 };
 
 /**
- * Reusable hook to be used in BladeProvider.native & BladeProvider.web file
+ * Reusable hook to be used in LoomProvider.native & LoomProvider.web file
  *
  * This hook processes incoming themeTokens & initialColorScheme
  * And validates & returns the theme values
  */
-const useBladeProvider = ({
+const useLoomProvider = ({
   themeTokens,
   initialColorScheme,
 }: {
@@ -33,14 +33,14 @@ const useBladeProvider = ({
     if (!themeTokens) {
       throwBladeError({
         message: `Expected valid themeTokens of type ThemeTokens to be passed but found ${typeof themeTokens}`,
-        moduleName: 'BladeProvider',
+        moduleName: 'LoomProvider',
       });
     }
 
     if (initialColorScheme && !colorSchemeNamesInput.includes(initialColorScheme)) {
       throwBladeError({
         message: `Expected color scheme to be one of [${colorSchemeNamesInput.toString()}] but received ${initialColorScheme}`,
-        moduleName: 'BladeProvider',
+        moduleName: 'LoomProvider',
       });
     }
   }
@@ -71,4 +71,6 @@ const useBladeProvider = ({
   return { themeContextValue, theme };
 };
 
-export { useBladeProvider };
+const useBladeProvider = useLoomProvider;
+
+export { useLoomProvider, useBladeProvider };

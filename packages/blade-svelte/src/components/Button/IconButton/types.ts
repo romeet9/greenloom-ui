@@ -1,13 +1,13 @@
-import type { DataAnalyticsAttribute, StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { DataAnalyticsAttribute, StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type {
   IconButtonEmphasis,
   IconButtonSize,
   IconButtonSlot,
   StyleOverride,
-} from '@razorpay/blade-core/styles';
+} from '@greenloom/loom-core/styles';
 import type { IconComponent } from '../../Icons/iconMap';
 
-export type { IconButtonEmphasis, IconButtonSize } from '@razorpay/blade-core/styles';
+export type { IconButtonEmphasis, IconButtonSize } from '@greenloom/loom-core/styles';
 
 export interface IconButtonProps extends StyledPropsBlade, DataAnalyticsAttribute {
   /**

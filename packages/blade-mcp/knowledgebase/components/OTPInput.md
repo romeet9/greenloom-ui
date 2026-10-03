@@ -133,7 +133,7 @@ This example shows a basic OTP verification flow with different states based on 
 
 ```tsx
 import { useState, useEffect } from 'react';
-import { OTPInput, Box, Button, Text } from '@razorpay/blade/components';
+import { OTPInput, Box, Button, Text } from '@greenloom/loom/components';
 
 function OTPVerificationExample() {
   const [otp, setOtp] = useState('');
@@ -217,7 +217,7 @@ This example demonstrates using OTPInput for PIN entry with masked input for enh
 
 ```tsx
 import { useState, useRef } from 'react';
-import { OTPInput, Box, Button, Text } from '@razorpay/blade/components';
+import { OTPInput, Box, Button, Text } from '@greenloom/loom/components';
 
 function SecurePINEntryExample() {
   const [pin, setPin] = useState('');
@@ -342,7 +342,7 @@ This example shows how to use refs with OTPInput to programmatically control foc
 
 ```tsx
 import { useState, useRef } from 'react';
-import { OTPInput, Box, Button, Text } from '@razorpay/blade/components';
+import { OTPInput, Box, Button, Text } from '@greenloom/loom/components';
 
 function ProgrammaticOTPExample() {
   const [otp, setOtp] = useState('');

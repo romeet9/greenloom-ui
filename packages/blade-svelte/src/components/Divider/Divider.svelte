@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { getDividerClasses } from '@razorpay/blade-core/styles';
-  import { metaAttribute, MetaConstants, getStyledPropsClasses, cx } from '@razorpay/blade-core/utils';
+  import { getDividerClasses } from '@greenloom/loom-core/styles';
+  import { metaAttribute, MetaConstants, getStyledPropsClasses, cx } from '@greenloom/loom-core/utils';
   import { resolveComponentStyleOverride } from '../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../LoomProvider/loomThemeContext';
   import type { DividerProps } from './types';
 
   const themeContextGetter = getBladeThemeContextGetter();

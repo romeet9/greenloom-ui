@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
 import type { CountryCodeType } from '@razorpay/i18nify-js/types';
-import type { StyledPropsBlade, DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade, DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
 import type { IconComponent } from '../../Icons/iconMap';
 import type {
   BaseInputSize,

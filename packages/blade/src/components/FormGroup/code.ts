@@ -7,7 +7,7 @@ import {
   Button,
   ArrowRightIcon,
   Alert,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const FormExample = () => {
   const [formData, setFormData] = React.useState({

@@ -118,7 +118,7 @@ import {
   CardFooter,
   CardFooterLeading,
   CardFooterTrailing,
-} from "@razorpay/blade"
+} from "@greenloom/loom"
 
 <Card surfaceLevel={2}>
   <CardHeader>
@@ -220,7 +220,7 @@ With this, users will have to know that icon size have to be `xl` & color have t
 To resolve this we will expose a different component which will internally add the neccesary props & render it: 
 
 ```jsx
-import { Card, CardHeader, CardHeaderIcon } from "@razorpay/blade/components";
+import { Card, CardHeader, CardHeaderIcon } from "@greenloom/loom/components";
 
 <CardHeader prefix={<CardHeaderIcon icon={InfoIcon} />}>
 ```
@@ -566,7 +566,7 @@ import {
   CardHeaderIcon,
   CardHeaderCounter,
   CardHeaderBadge
-} from "@razorpay/blade"
+} from "@greenloom/loom"
 
 
 <Card surfaceLevel={2}>

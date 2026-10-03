@@ -330,8 +330,8 @@ export type {
 export { InputGroup, InputRow } from './InputGroup';
 export type { InputGroupProps, InputRowProps } from './InputGroup';
 
-// BladeProvider
-export * from './BladeProvider';
+// LoomProvider
+export * from './LoomProvider';
 
 // Dropdown
 export {

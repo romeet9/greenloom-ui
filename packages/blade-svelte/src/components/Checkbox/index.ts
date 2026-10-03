@@ -7,7 +7,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { Checkbox, CheckboxGroup } from '@razorpay/blade-svelte/components';
+ *   import { Checkbox, CheckboxGroup } from '@greenloom/loom-svelte/components';
  *
  *   let values = $state<string[]>([]);
  * </script>

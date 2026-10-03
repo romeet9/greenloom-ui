@@ -2,7 +2,7 @@
   import BaseText from '../BaseText/BaseText.svelte';
   import type { HeadingProps } from './types';
   import type { TextColors, BaseTextProps } from '../BaseText/types';
-  import { getHeadingProps, validHeadingAsValues } from '@razorpay/blade-core/styles';
+  import { getHeadingProps, validHeadingAsValues } from '@greenloom/loom-core/styles';
 
   let {
     as,

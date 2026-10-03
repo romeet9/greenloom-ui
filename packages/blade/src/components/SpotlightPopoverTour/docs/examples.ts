@@ -7,11 +7,11 @@ export const BasicExample = `
     Box,
     Text,
     Button
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
   import type {
     SpotlightPopoverStepRenderProps,
     SpotlightPopoverTourSteps,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const CustomTourFooter = ({
     activeStep,

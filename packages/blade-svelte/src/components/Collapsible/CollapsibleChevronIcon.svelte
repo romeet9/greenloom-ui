@@ -1,7 +1,7 @@
 <script lang="ts">
   import { ChevronDownIcon } from '../Icons/ChevronDownIcon';
-  import { getCollapsibleChevronClasses } from '@razorpay/blade-core/styles';
-  import { makeAccessible } from '@razorpay/blade-core/utils';
+  import { getCollapsibleChevronClasses } from '@greenloom/loom-core/styles';
+  import { makeAccessible } from '@greenloom/loom-core/utils';
   import { getCollapsibleContext } from './context';
   import type { IconProps } from '../Icons/types';
 

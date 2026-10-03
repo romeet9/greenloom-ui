@@ -28,10 +28,10 @@
       <Text size="medium" color="surface.text.gray.muted">Install the Blade Svelte package:</Text>
       <pre
         style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
-        ><code>yarn add @razorpay/blade-svelte</code></pre
+        ><code>yarn add @greenloom/loom-svelte</code></pre
       >
       <Text size="small" color="surface.text.gray.muted">
-        Note: @razorpay/blade-core (design tokens, CSS, fonts) is automatically installed as a
+        Note: @greenloom/loom-core (design tokens, CSS, fonts) is automatically installed as a
         dependency.
       </Text>
     </div>
@@ -41,7 +41,7 @@
       <Text size="medium" color="surface.text.gray.muted">Add to your entry file or layout:</Text>
       <pre
         style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
-        ><code>import '@razorpay/blade-core/tokens/theme.css';</code></pre
+        ><code>import '@greenloom/loom-core/tokens/theme.css';</code></pre
       >
     </div>
 
@@ -50,26 +50,26 @@
       <Text size="medium" color="surface.text.gray.muted">Add Blade fonts:</Text>
       <pre
         style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
-        ><code>import '@razorpay/blade-core/fonts.css';</code></pre
+        ><code>import '@greenloom/loom-core/fonts.css';</code></pre
       >
     </div>
 
     <div style="margin-top: 24px;">
-      <Heading size="large">Step 4: Wrap App in BladeProvider</Heading>
+      <Heading size="large">Step 4: Wrap App in LoomProvider</Heading>
       <Text size="medium" color="surface.text.gray.muted">
-        Pass <code>bladeTheme</code> or a custom theme from <code>createTheme</code>:
+        Pass <code>loomTheme</code> or a custom theme from <code>createTheme</code>:
       </Text>
       <pre
         style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
         ><code
-          >{`import { BladeProvider, Button } from '@razorpay/blade-svelte/components';
-import { bladeTheme, createTheme } from '@razorpay/blade-core/tokens';
+          >{`import { LoomProvider, Button } from '@greenloom/loom-svelte/components';
+import { loomTheme, createTheme } from '@greenloom/loom-core/tokens';
 
 const { theme } = createTheme({ brandColor: '#19BEA2', borderRadius: { medium: 16 } });
 
-<BladeProvider themeTokens={bladeTheme} colorScheme="light">
+<LoomProvider themeTokens={loomTheme} colorScheme="light">
   <Button>Pay</Button>
-</BladeProvider>`}</code
+</LoomProvider>`}</code
         ></pre
       >
     </div>
@@ -80,7 +80,7 @@ const { theme } = createTheme({ brandColor: '#19BEA2', borderRadius: { medium: 1
       <pre
         style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
         ><code
-          >{`import { Button, Text, Heading } from '@razorpay/blade-svelte/components';`}</code
+          >{`import { Button, Text, Heading } from '@greenloom/loom-svelte/components';`}</code
         ></pre
       >
     </div>
@@ -91,16 +91,16 @@ const { theme } = createTheme({ brandColor: '#19BEA2', borderRadius: { medium: 1
   <div style="padding: 24px; max-width: 600px;">
     <Heading size="large">Theme Switching</Heading>
     <Text size="medium" color="surface.text.gray.muted">
-      Pass <code>colorScheme</code> to BladeProvider (<code>light</code>, <code>dark</code>, or
+      Pass <code>colorScheme</code> to LoomProvider (<code>light</code>, <code>dark</code>, or
       <code>system</code>). Nested providers can scope dark/light to a subtree via
       <code>data-blade-color-scheme</code>.
     </Text>
     <pre
       style="background: #f4f4f5; padding: 16px; border-radius: 8px; margin: 12px 0; overflow-x: auto;"
       ><code
-        >{`<BladeProvider themeTokens={bladeTheme} colorScheme="dark">
+        >{`<LoomProvider themeTokens={loomTheme} colorScheme="dark">
   <!-- Dark scoped UI -->
-</BladeProvider>`}</code
+</LoomProvider>`}</code
       ></pre
       >
     <Text size="small" color="surface.text.gray.muted">
@@ -111,9 +111,9 @@ const { theme } = createTheme({ brandColor: '#19BEA2', borderRadius: { medium: 1
 
 <Story name="Live Example">
   <div style="padding: 24px; display: flex; flex-direction: column; gap: 16px;">
-    <Heading size="large">Components with BladeProvider</Heading>
+    <Heading size="large">Components with LoomProvider</Heading>
     <Text size="medium" color="surface.text.gray.muted">
-      This story is wrapped by the Storybook BladeProvider decorator.
+      This story is wrapped by the Storybook LoomProvider decorator.
     </Text>
     <Button variant="primary">Primary Button</Button>
   </div>

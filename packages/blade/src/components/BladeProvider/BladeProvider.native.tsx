@@ -3,8 +3,8 @@ import { ThemeProvider as StyledComponentThemeProvider } from 'styled-components
 import { PortalHost, PortalProvider } from '@gorhom/portal';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { ThemeContext } from './useTheme';
-import { useBladeProvider } from './useBladeProvider';
-import type { BladeProviderProps } from './types';
+import { useLoomProvider } from './useBladeProvider';
+import type { LoomProviderProps } from './types';
 import { BottomSheetStackProvider } from '~components/BottomSheet/BottomSheetStack';
 import { DrawerStackProvider } from '~components/Drawer/StackProvider';
 
@@ -12,12 +12,12 @@ const gestureHandlerStyle = {
   flex: 1,
 };
 
-const BladeProvider = ({
+const LoomProvider = ({
   themeTokens,
   colorScheme: initialColorScheme,
   children,
-}: BladeProviderProps): ReactElement => {
-  const { theme, themeContextValue } = useBladeProvider({ initialColorScheme, themeTokens });
+}: LoomProviderProps): ReactElement => {
+  const { theme, themeContextValue } = useLoomProvider({ initialColorScheme, themeTokens });
 
   return (
     <GestureHandlerRootView style={gestureHandlerStyle}>
@@ -35,4 +35,6 @@ const BladeProvider = ({
   );
 };
 
-export { BladeProvider };
+const BladeProvider = LoomProvider;
+
+export { LoomProvider, BladeProvider };

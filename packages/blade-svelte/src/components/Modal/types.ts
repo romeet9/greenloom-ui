@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { ModalSize, ModalBodyPadding } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { ModalSize, ModalBodyPadding } from '@greenloom/loom-core/styles';
 
 export interface ModalProps extends StyledPropsBlade {
   /**

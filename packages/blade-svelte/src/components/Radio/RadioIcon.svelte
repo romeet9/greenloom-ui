@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { metaAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
   import {
     getRadioIconWrapperClasses,
     getRadioIconVariant,
     getRadioTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { RadioSize } from './types';
 
   const templateClasses = getRadioTemplateClasses();

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { metaAttribute } from '@razorpay/blade-core/utils';
-  import { bottomSheetBackdropClass } from '@razorpay/blade-core/styles';
+  import { metaAttribute } from '@greenloom/loom-core/utils';
+  import { bottomSheetBackdropClass } from '@greenloom/loom-core/styles';
 
   let {
     isOpen,

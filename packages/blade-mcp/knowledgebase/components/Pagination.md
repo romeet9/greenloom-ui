@@ -142,7 +142,7 @@ type PaginationProps = PaginationCommonProps & {
 This example demonstrates a fully controlled pagination component with all features enabled including page navigation, page size selection, page number selector with ellipsis for large page ranges, and custom label. It shows how to handle controlled state for both page and page size, with proper event handlers and accessibility considerations.
 
 ```typescript
-import { Pagination } from '@razorpay/blade/components';
+import { Pagination } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function ControlledPaginationExample() {

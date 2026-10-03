@@ -145,7 +145,7 @@ Here's a comprehensive example showing how to use the Popover component with its
 
 ```tsx
 import React from 'react';
-import { Popover, Button, Box, Text, InfoIcon } from '@razorpay/blade/components';
+import { Popover, Button, Box, Text, InfoIcon } from '@greenloom/loom/components';
 
 const App = () => {
   return (
@@ -187,7 +187,7 @@ import {
   Box,
   Text,
   InfoIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const App = () => {
   return (
@@ -227,7 +227,7 @@ import {
   Box,
   Text,
   type PopoverTriggerProps
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Custom trigger component with forwardRef
 const CustomTrigger = React.forwardRef<

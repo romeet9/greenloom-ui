@@ -1,5 +1,5 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { CounterColor, CounterEmphasis, CounterSize } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { CounterColor, CounterEmphasis, CounterSize } from '@greenloom/loom-core/styles';
 
 export interface BaseCounterProps extends StyledPropsBlade {
   /**

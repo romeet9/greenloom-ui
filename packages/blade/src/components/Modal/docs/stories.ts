@@ -10,7 +10,7 @@ import {
   Box,
   Badge,
   Counter
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -61,7 +61,7 @@ import {
   ModalBody,
   ModalHeader,
   Text
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -100,7 +100,7 @@ import {
   Box,
   Badge,
   Counter
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -155,7 +155,7 @@ import {
   ModalBody,
   ModalHeader,
   Text
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -217,7 +217,7 @@ import {
   Text,
   TextArea,
   TextInput
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -339,7 +339,7 @@ import {
   Text,
   TextArea,
   TextInput
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -502,7 +502,7 @@ import {
   ModalFooter,
   ModalHeader,
   Text
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {
@@ -567,8 +567,8 @@ import {
   OTPInput,
   Link,
   LockIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Responsive wrapper component for handling mobile/desktop modal display
 function ResponsiveModalWrapper({
@@ -768,8 +768,8 @@ import {
   Divider,
   PhoneIcon,
   MailIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Responsive wrapper component for handling mobile/desktop modal display
 function ResponsiveModalWrapper({
@@ -1036,8 +1036,8 @@ import {
   Text,
   Badge,
   Heading,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Responsive wrapper component for handling mobile/desktop modal display
 function ResponsiveModalWrapper({
@@ -1152,7 +1152,7 @@ import {
   Text,
   Box,
   Alert,
-} from "@razorpay/blade/components";
+} from "@greenloom/loom/components";
 import React from "react";
 
 function App() {

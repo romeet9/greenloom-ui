@@ -73,7 +73,7 @@ The following props are supported by the InputGroup component:
 ### Basic Usage
 
 ```jsx
-import { InputGroup, InputRow, TextInput, PasswordInput } from '@razorpay/blade/components';
+import { InputGroup, InputRow, TextInput, PasswordInput } from '@greenloom/loom/components';
 
 const App = () => {
   return (
@@ -93,7 +93,7 @@ const App = () => {
 ### With Validation
 
 ```jsx
-import { InputGroup, InputRow, TextInput, PasswordInput } from '@razorpay/blade/components';
+import { InputGroup, InputRow, TextInput, PasswordInput } from '@greenloom/loom/components';
 
 const App = () => {
   return (

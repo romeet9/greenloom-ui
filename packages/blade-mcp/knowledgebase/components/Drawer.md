@@ -190,7 +190,7 @@ import {
   Heading,
   Text,
   DownloadIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BasicDrawer = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -301,7 +301,7 @@ import {
   CheckIcon,
   MoreHorizontalIcon,
   DownloadIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const CustomHeaderDrawer = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

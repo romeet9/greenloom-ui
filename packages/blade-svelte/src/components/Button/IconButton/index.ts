@@ -7,7 +7,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { IconButton, CloseIcon } from '@razorpay/blade-svelte/components';
+ *   import { IconButton, CloseIcon } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <IconButton

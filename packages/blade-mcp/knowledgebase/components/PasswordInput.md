@@ -174,7 +174,7 @@ This example demonstrates a practical usage of `PasswordInput` with various prop
 
 ```tsx
 import React, { useState, useRef } from 'react';
-import { PasswordInput, Button, Box } from '@razorpay/blade/components';
+import { PasswordInput, Button, Box } from '@greenloom/loom/components';
 
 export default function PasswordInputExample() {
   const [password, setPassword] = useState('');

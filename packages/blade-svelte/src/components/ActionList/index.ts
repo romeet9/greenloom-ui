@@ -34,7 +34,7 @@
  *     BottomSheet,
  *     BottomSheetHeader,
  *     BottomSheetBody,
- *   } from '@razorpay/blade-svelte/components';
+ *   } from '@greenloom/loom-svelte/components';
  *
  *   let isOpen = $state(false);
  *   let selected = $state<string | undefined>('IN');

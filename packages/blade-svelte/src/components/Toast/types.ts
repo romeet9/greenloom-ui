@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
 import type { Writable } from 'svelte/store';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { IconComponent } from '../Icons';
 
 /**

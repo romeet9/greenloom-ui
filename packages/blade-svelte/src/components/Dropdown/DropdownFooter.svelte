@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { MetaConstants, makeAccessible, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { dropdownFooterClass } from '@razorpay/blade-core/styles';
+  import { MetaConstants, makeAccessible, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { dropdownFooterClass } from '@greenloom/loom-core/styles';
   import BaseFooter from '../BaseHeaderFooter/BaseFooter.svelte';
   import { getDropdownContext } from './dropdownContext';
   import type { DropdownFooterProps } from './types';

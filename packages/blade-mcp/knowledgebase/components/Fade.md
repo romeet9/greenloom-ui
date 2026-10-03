@@ -86,7 +86,7 @@ This example demonstrates the controlled usage of the Fade component with a togg
 
 ```tsx
 import React, { useState } from 'react';
-import { Fade, Box, Button, Card, CardBody, Heading, Text } from '@razorpay/blade/components';
+import { Fade, Box, Button, Card, CardBody, Heading, Text } from '@greenloom/loom/components';
 
 const ControlledFadeExample = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -129,7 +129,7 @@ This example shows how to trigger fade animations when elements enter the viewpo
 
 ```tsx
 import React from 'react';
-import { Fade, Box, Card, CardBody, Heading, Text } from '@razorpay/blade/components';
+import { Fade, Box, Card, CardBody, Heading, Text } from '@greenloom/loom/components';
 
 const ViewportFadeExample = () => {
   return (
@@ -186,7 +186,7 @@ import {
   CardHeaderLeading,
   Box,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import { Route, Switch, useLocation } from 'react-router-dom';
 
 const PageTransitionExample = () => {
@@ -260,7 +260,7 @@ This example shows how to use the Fade component with refs to maintain functiona
 
 ```tsx
 import React, { useState, useRef, useEffect } from 'react';
-import { Fade, Box, Button, TextInput } from '@razorpay/blade/components';
+import { Fade, Box, Button, TextInput } from '@greenloom/loom/components';
 
 const FadeWithRefExample = () => {
   const [isVisible, setIsVisible] = useState(false);

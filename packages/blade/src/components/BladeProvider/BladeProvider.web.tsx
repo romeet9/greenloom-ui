@@ -6,19 +6,19 @@ import {
 import { FloatingDelayGroup } from '@floating-ui/react';
 import stylisCSSHigherSpecificity from './stylisCSSHigherSpecificity';
 import { ThemeContext } from './useTheme';
-import { useBladeProvider } from './useBladeProvider';
-import type { BladeProviderProps } from './types';
+import { useLoomProvider } from './useBladeProvider';
+import type { LoomProviderProps } from './types';
 import { BottomSheetStackProvider } from '~components/BottomSheet/BottomSheetStack';
 import { DrawerStackProvider } from '~components/Drawer/StackProvider';
 
 const tooltipDelays = { open: 300, close: 300 };
 
-const BladeProvider = ({
+const LoomProvider = ({
   themeTokens,
   colorScheme: initialColorScheme,
   children,
-}: BladeProviderProps): ReactElement => {
-  const { theme, themeContextValue } = useBladeProvider({ initialColorScheme, themeTokens });
+}: LoomProviderProps): ReactElement => {
+  const { theme, themeContextValue } = useLoomProvider({ initialColorScheme, themeTokens });
 
   return (
     <ThemeContext.Provider value={themeContextValue}>
@@ -40,4 +40,6 @@ const BladeProvider = ({
   );
 };
 
-export { BladeProvider };
+const BladeProvider = LoomProvider;
+
+export { LoomProvider, BladeProvider };

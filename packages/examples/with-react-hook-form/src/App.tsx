@@ -1,13 +1,13 @@
 import { useController, useForm } from 'react-hook-form';
 import {
-  BladeProvider,
+  LoomProvider,
   Button,
   PasswordInput,
   TextArea,
   TextInput,
-} from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
-import '@razorpay/blade/fonts.css';
+} from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
+import '@greenloom/loom/fonts.css';
 
 type FormFields = {
   firstName: string;
@@ -51,7 +51,7 @@ function App(): JSX.Element {
   });
 
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <form onSubmit={handleSubmit((data) => console.log(data))}>
         <TextInput
           {...firstName.field}
@@ -103,7 +103,7 @@ function App(): JSX.Element {
 
         <Button type="submit">submit</Button>
       </form>
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 

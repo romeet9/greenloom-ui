@@ -264,7 +264,7 @@ import {
   Text,
   TextArea,
   Checkbox,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ModalExample = () => {
   // State to control modal visibility
@@ -375,8 +375,8 @@ import {
   OTPInput,
   Link,
   LockIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Responsive wrapper component for handling mobile/desktop modal display
 function ResponsiveModalWrapper({
@@ -583,8 +583,8 @@ import {
   FacebookIcon,
   WhatsAppIcon,
   CopyIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // [ResponsiveModalWrapper component code remains the same as above in otp modal example]
 
@@ -745,8 +745,8 @@ import {
   ListItem,
   InfoIcon,
   CheckIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // [ResponsiveModalWrapper component code remains the same as in otp modal example]
 

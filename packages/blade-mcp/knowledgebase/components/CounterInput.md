@@ -152,7 +152,7 @@ export type { CounterInputContextType };
 
 ```tsx
 import React from 'react';
-import { CounterInput, Box } from '@razorpay/blade/components';
+import { CounterInput, Box } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function CounterInputExample(): React.ReactElement {

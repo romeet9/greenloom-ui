@@ -90,7 +90,7 @@ type PasswordInputProps = BaseInputProps & {
 ### Basic Payment Form
 
 ```jsx
-import { TextInput, PasswordInput, Box } from '@razorpay/blade/components';
+import { TextInput, PasswordInput, Box } from '@greenloom/loom/components';
 
 const [cardIcon, setCardIcon] = useState(null);
 

@@ -287,7 +287,7 @@ import {
   CheckIcon,
   ClockIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BasicDropdownExample = () => {
   const [status, setStatus] = useState<string | undefined>();
@@ -351,7 +351,7 @@ import {
   CheckIcon,
   ClockIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const SelectDropdownExample = () => {
   // Single selection state
@@ -453,7 +453,7 @@ import {
   ClockIcon,
   CloseIcon,
   TextInput,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const AutoCompleteDropdownExample = () => {
   const fruits = [

@@ -269,7 +269,7 @@ A basic example of single file upload integrated in a form with validation.
 
 ```tsx
 import React, { useState } from 'react';
-import { FileUpload, TextInput, Button, Box } from '@razorpay/blade/components';
+import { FileUpload, TextInput, Button, Box } from '@greenloom/loom/components';
 
 const SingleFileUploadExample = () => {
   const [name, setName] = useState('');
@@ -338,8 +338,8 @@ An example showing how to use the multiple file upload functionality with progre
 
 ```tsx
 import React, { useState } from 'react';
-import { FileUpload, Box } from '@razorpay/blade/components';
-import type { BladeFile, BladeFileList } from '@razorpay/blade/components';
+import { FileUpload, Box } from '@greenloom/loom/components';
+import type { BladeFile, BladeFileList } from '@greenloom/loom/components';
 
 const MultipleFileUploadExample = () => {
   const [fileList, setFileList] = useState<BladeFileList>([]);
@@ -409,8 +409,8 @@ Use `FileUploadItem` to show a single file with its status, outside of `FileUplo
 
 ```tsx
 import React from 'react';
-import { FileUploadItem, Box } from '@razorpay/blade/components';
-import type { BladeFile } from '@razorpay/blade/components';
+import { FileUploadItem, Box } from '@greenloom/loom/components';
+import type { BladeFile } from '@greenloom/loom/components';
 
 const FileUploadItemExample = () => {
   const file = Object.assign(new File(['content'], 'invoice.pdf', { type: 'application/pdf' }), {

@@ -11,7 +11,7 @@ LightBox is a full-screen overlay component for viewing media items — images, 
 ## API
 
 ```jsx
-import { LightBox, LightBoxBody, LightBoxItem } from '@razorpay/blade/components';
+import { LightBox, LightBoxBody, LightBoxItem } from '@greenloom/loom/components';
 
 const [isOpen, setIsOpen] = useState(false);
 const [activeIndex, setActiveIndex] = useState(0);

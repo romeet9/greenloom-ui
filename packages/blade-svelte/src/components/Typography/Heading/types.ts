@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { validHeadingAsValues, StyleOverride, HeadingSlot } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { validHeadingAsValues, StyleOverride, HeadingSlot } from '@greenloom/loom-core/styles';
 import type { BaseTextProps, BaseTextSizes } from '../BaseText/types';
 
 export type HeadingProps = {

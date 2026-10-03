@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { metaAttribute, MetaConstants, cx } from '@razorpay/blade-core/utils';
-  import { getAccordionTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants, cx } from '@greenloom/loom-core/utils';
+  import { getAccordionTemplateClasses } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import CollapsibleBody from '../Collapsible/CollapsibleBody.svelte';
   import { getAccordionContext, getAccordionItemContext } from './context';

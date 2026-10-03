@@ -22,7 +22,7 @@ The TimePicker consists of:
 ## API
 
 ```jsx
-import { TimePicker } from '@razorpay/blade/components';
+import { TimePicker } from '@greenloom/loom/components';
 
 <TimePicker
   label="Select time"

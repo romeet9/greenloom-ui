@@ -39,7 +39,7 @@ import {
   Radio,
   Box,
   Divider,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Single Selection Pattern (Radio-like behavior)
 <RadioGroup

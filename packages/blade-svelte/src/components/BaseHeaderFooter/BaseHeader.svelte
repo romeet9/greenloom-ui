@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { metaAttribute, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import {
     getDropdownTemplateClasses,
     baseHeaderInnerClass,
@@ -8,7 +8,7 @@
     baseHeaderLeadingClass,
     baseHeaderTitleRowClass,
     baseHeaderTrailingClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import Divider from '../Divider/Divider.svelte';
   import IconButton from '../Button/IconButton/IconButton.svelte';

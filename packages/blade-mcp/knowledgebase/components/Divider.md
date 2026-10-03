@@ -75,7 +75,7 @@ type DividerProps = {
 This example shows the default horizontal divider that separates text sections with vertical spacing.
 
 ```tsx
-import { Divider, Box, Text } from '@razorpay/blade/components';
+import { Divider, Box, Text } from '@greenloom/loom/components';
 
 const HorizontalDividerExample = () => (
   <Box>
@@ -91,7 +91,7 @@ const HorizontalDividerExample = () => (
 This example demonstrates a vertical divider that separates inline content horizontally within a flex container.
 
 ```tsx
-import { Divider, Box, Text } from '@razorpay/blade/components';
+import { Divider, Box, Text } from '@greenloom/loom/components';
 
 const VerticalDividerExample = () => (
   <Box display="flex" alignItems="center" height="40px">
@@ -107,7 +107,7 @@ const VerticalDividerExample = () => (
 This example shows how to customize dividers with different colors and thicknesses to create visual hierarchies.
 
 ```tsx
-import { Divider, Box, Text } from '@razorpay/blade/components';
+import { Divider, Box, Text } from '@greenloom/loom/components';
 
 const StyledDividerExample = () => (
   <Box>
@@ -125,7 +125,7 @@ const StyledDividerExample = () => (
 This example demonstrates divider styles (solid/dashed), variants (normal/subtle/muted), and thickness options.
 
 ```tsx
-import { Divider, Box, Text } from '@razorpay/blade/components';
+import { Divider, Box, Text } from '@greenloom/loom/components';
 
 const DividerVariantsExample = () => (
   <Box>

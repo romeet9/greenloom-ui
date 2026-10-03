@@ -5,13 +5,13 @@
     makeAccessible,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getChipGroupFieldClasses,
     getChipGroupGapClasses,
     getChipGroupTemplateClasses,
     getChipGroupLabelSizeClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { setChipGroupContext } from './chipContext';
   import type { ChipGroupProps, ChipGroupContextType, State } from './types';
 

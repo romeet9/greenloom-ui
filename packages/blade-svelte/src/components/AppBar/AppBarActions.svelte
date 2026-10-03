@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { getAppBarTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { getAppBarTemplateClasses } from '@greenloom/loom-core/styles';
   import { useAppBarContext } from './AppBarContext';
   import type { AppBarActionsProps } from './types';
 

@@ -20,7 +20,7 @@ type OverrideTheme = {
 };
 
 /**
- * @deprecated Use `createTheme` from `@razorpay/blade/tokens` instead
+ * @deprecated Use `createTheme` from `@greenloom/loom/tokens` instead
  *
  * @description
  *

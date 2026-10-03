@@ -4,8 +4,8 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getActionListTemplateClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getActionListTemplateClasses } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import Divider from '../Divider/Divider.svelte';
   import { getActionListSectionRole, getActionListSectionItemsRole } from './getA11yRoles';

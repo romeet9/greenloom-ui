@@ -2,9 +2,9 @@
   import BaseText from '../BaseText/BaseText.svelte';
   import type { CodeProps } from './types';
   import type { TextColors } from '../BaseText/types';
-  import { metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
-  import { getCodeClasses, getCodeFontSizeAndLineHeight, getCodeColor } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
+  import { getCodeClasses, getCodeFontSizeAndLineHeight, getCodeColor } from '@greenloom/loom-core/styles';
 
   let {
     children,

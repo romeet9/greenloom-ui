@@ -79,9 +79,9 @@ import {
   Text,
   MapIcon,
   TrashIcon,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
-import type { IconColors, IconComponent, BoxProps } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
+import type { IconColors, IconComponent, BoxProps } from '@greenloom/loom/components';
 
 // Types for our confirmation components
 type ConfirmationType = 'neutral' | 'negative' | 'positive';

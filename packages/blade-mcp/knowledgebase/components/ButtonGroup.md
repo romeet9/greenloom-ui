@@ -89,7 +89,7 @@ import {
   RefreshIcon,
   ShareIcon,
   DownloadIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ButtonGroupExample = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -153,7 +153,7 @@ import {
   ActionListItem,
   PlusIcon,
   ChevronDownIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ButtonGroupWithDropdownExample = () => {
   const [selectedAction, setSelectedAction] = useState('');

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
-  import { modalBackdropClass } from '@razorpay/blade-core/styles';
+  import { metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
+  import { modalBackdropClass } from '@greenloom/loom-core/styles';
   import { getModalContext } from './modalContext';
 
   const ctx = getModalContext();

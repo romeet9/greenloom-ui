@@ -184,7 +184,7 @@ import {
   CreditCardIcon,
   ArrowRightIcon,
   ShieldIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const PaymentFormExample = () => {
   const [isProcessing, setIsProcessing] = useState(false);
@@ -282,7 +282,7 @@ This example demonstrates buttons with dynamic states and interactions.
 
 ```tsx
 import React, { useState } from 'react';
-import { Button, Box, Text, CheckIcon, RefreshIcon } from '@razorpay/blade/components';
+import { Button, Box, Text, CheckIcon, RefreshIcon } from '@greenloom/loom/components';
 
 const SimpleToggleExample = () => {
   const [isActive, setIsActive] = useState(false);

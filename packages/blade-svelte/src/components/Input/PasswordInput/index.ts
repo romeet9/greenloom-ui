@@ -13,7 +13,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { PasswordInput } from '@razorpay/blade-svelte/components';
+ *   import { PasswordInput } from '@greenloom/loom-svelte/components';
  *   let password = $state('');
  * </script>
  *

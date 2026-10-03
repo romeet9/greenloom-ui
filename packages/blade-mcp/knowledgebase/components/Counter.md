@@ -72,7 +72,7 @@ This example demonstrates different variants of the Counter component with vario
 
 ```tsx
 import React from 'react';
-import { Counter, Box, Text } from '@razorpay/blade/components';
+import { Counter, Box, Text } from '@greenloom/loom/components';
 
 const CounterExample = () => {
   return (

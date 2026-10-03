@@ -4,7 +4,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { Skeleton } from '@razorpay/blade-svelte';
+ *   import { Skeleton } from '@greenloom/loom-svelte';
  * </script>
  *
  * <Skeleton width="100%" height="50px" borderRadius="medium" />

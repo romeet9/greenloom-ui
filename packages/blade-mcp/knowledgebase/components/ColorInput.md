@@ -131,7 +131,7 @@ type ColorInputProps = {
 
 ```tsx
 import React, { useState } from 'react';
-import { ColorInput, Box } from '@razorpay/blade/components';
+import { ColorInput, Box } from '@greenloom/loom/components';
 
 function BrandColorExample(): React.ReactElement {
   const [color, setColor] = useState({ hex: '#305EFF', opacity: 100 });
@@ -162,7 +162,7 @@ export default BrandColorExample;
 
 ```tsx
 import React from 'react';
-import { ColorInput, Box } from '@razorpay/blade/components';
+import { ColorInput, Box } from '@greenloom/loom/components';
 
 function ColorInputSizesExample(): React.ReactElement {
   return (

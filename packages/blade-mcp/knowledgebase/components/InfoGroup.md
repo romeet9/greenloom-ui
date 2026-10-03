@@ -9,10 +9,10 @@ InfoGroup is a structured component for displaying key-value pairs in a consiste
 These types define the props that InfoGroup component and its subcomponents accept. Use these to understand the available configuration options when implementing InfoGroup in your application.
 
 ```typescript
-import type { IconComponent } from '@razorpay/blade/components';
-import type { StringChildrenType, TestID } from '@razorpay/blade/utils';
-import type { StyledPropsBlade } from '@razorpay/blade/components';
-import type { BoxProps } from '@razorpay/blade/components';
+import type { IconComponent } from '@greenloom/loom/components';
+import type { StringChildrenType, TestID } from '@greenloom/loom/utils';
+import type { StyledPropsBlade } from '@greenloom/loom/components';
+import type { BoxProps } from '@greenloom/loom/components';
 
 export type InfoGroupProps = {
   /**
@@ -164,7 +164,7 @@ import {
   InfoItemKey,
   InfoItemValue,
   Amount,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicInfoGroup() {
   return (
@@ -210,7 +210,7 @@ import {
   UserIcon,
   BankIcon,
   CheckIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function VerticalInfoGroup() {
   return (

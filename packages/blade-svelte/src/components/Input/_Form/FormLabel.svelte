@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { metaAttribute, MetaConstants, cx } from '@razorpay/blade-core/utils';
+  import { metaAttribute, MetaConstants, cx } from '@greenloom/loom-core/utils';
   import {
     getFormLabelClasses,
     getFormLabelInnerClasses,
@@ -8,7 +8,7 @@
     labelTextSize,
     labelOptionalIndicatorTextSize,
     labelTextColor,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Text from '../../Typography/Text/Text.svelte';
   import type { TextColors } from '../../Typography/BaseText/types';
   import type { FormLabelProps } from './types';

@@ -70,7 +70,7 @@ import {
   ChartTooltip,
   ChartLegend,
   ChartArea,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 // A simple stacked Area Chart example
 <ChartLineWrapper data={chartData}>
@@ -97,7 +97,7 @@ This approach combines component props for high-level control with configuration
 
 ```ts
 // Import statement
-import { AreaChart } from '@razorpay/blade/charts';
+import { AreaChart } from '@greenloom/loom/charts';
 const areaConfig = [
   {
     dataKey: 'teamA',
@@ -241,7 +241,7 @@ import {
   Legend,
   Line,
   ReferenceLine,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 // Simple Line Chart
 // Line
@@ -270,7 +270,7 @@ import {
   ChartLegend,
   ChartLine,
   ChartReferenceLine,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 
 // Tiny Line Chart
@@ -348,7 +348,7 @@ import {
   ChartLegend,
   ChartArea,
   ChartReferenceLine,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 // Simple Area Chart
 <ChartAreaWrapper data={chartData}>
@@ -374,7 +374,7 @@ import {
   ChartLegend,
   ChartArea,
   ChartReferenceLine,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 
 // Stacked Area Chart
@@ -515,7 +515,7 @@ import {
   ChartTooltip,
   ChartLegend,
   ChartLabelList,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 // Simple Bar Chart
 <ChartBarWrapper data={chartData}>
@@ -551,7 +551,7 @@ import {
   ChartTooltip,
   ChartLegend,
   ChartLabelList,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 
 // Stacked Bar Chart
@@ -618,7 +618,7 @@ import {
   ChartCell,
   ChartTooltip,
   ChartLegend,
-} from '@razorpay/blade/charts';
+} from '@greenloom/loom/charts';
 
 
 
@@ -686,7 +686,7 @@ Uses a `ChartSankeyWrapper` + `ChartSankey` composition pattern, consistent with
 Example —
 
 ```tsx
-import { ChartSankeyWrapper, ChartSankey } from '@razorpay/blade/components';
+import { ChartSankeyWrapper, ChartSankey } from '@greenloom/loom/components';
 
 <Box height="420px">
   <ChartSankeyWrapper showTooltip>

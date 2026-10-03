@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { metaAttribute, MetaConstants, makeAccessible } from '@razorpay/blade-core/utils';
-  import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
+  import { metaAttribute, MetaConstants, makeAccessible } from '@greenloom/loom-core/utils';
+  import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
 
   type SvgProps = {
     width: number;

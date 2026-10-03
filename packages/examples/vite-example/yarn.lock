@@ -386,7 +386,7 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@razorpay/blade@../../blade/build":
+"@greenloom/loom@../../blade/build":
   version "0.0.0"
 
 "@types/babel__core@^7.20.5":

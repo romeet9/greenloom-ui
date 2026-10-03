@@ -70,7 +70,7 @@ This example shows how to use multiple triggers (hover and focus) to improve acc
 
 ```tsx
 import React from 'react';
-import { Elevate, Card, CardBody, Heading, Text, Button } from '@razorpay/blade/components';
+import { Elevate, Card, CardBody, Heading, Text, Button } from '@greenloom/loom/components';
 
 const AccessibleElevateExample = () => {
   return (
@@ -100,7 +100,7 @@ This example demonstrates how to control the elevation state programmatically us
 
 ```tsx
 import React, { useState } from 'react';
-import { Elevate, Card, CardBody, Box, Button, Heading, Text } from '@razorpay/blade/components';
+import { Elevate, Card, CardBody, Box, Button, Heading, Text } from '@greenloom/loom/components';
 
 const ControlledElevateExample = () => {
   const [isHighlighted, setIsHighlighted] = useState(false);
@@ -148,7 +148,7 @@ import {
   AnimateInteractions,
   Move,
   ExternalLinkIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const CoordinatedAnimationExample = () => {
   return (

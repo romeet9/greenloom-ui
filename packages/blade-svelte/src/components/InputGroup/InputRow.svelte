@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getInputGroupTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getInputGroupTemplateClasses } from '@greenloom/loom-core/styles';
   import type { InputRowProps } from './types';
 
   const templateClasses = getInputGroupTemplateClasses();

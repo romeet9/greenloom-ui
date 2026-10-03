@@ -269,7 +269,7 @@ import {
   Tooltip,
   TooltipInteractiveWrapper,
   InfoIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function TimePickerExample() {
   const [basicTime, setBasicTime] = useState<Date | null>(null);

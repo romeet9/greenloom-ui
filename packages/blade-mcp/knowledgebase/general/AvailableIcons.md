@@ -2,7 +2,7 @@
 
 ## How to use Icons
 
-All icons are exported from `@razorpay/blade/components`. They can be used in components that support IconComponent type. Or used as standalone components.
+All icons are exported from `@greenloom/loom/components`. They can be used in components that support IconComponent type. Or used as standalone components.
 
 ```tsx
 import {
@@ -11,7 +11,7 @@ import {
   // Icons import
   AcceptPaymentsIcon,
   ArrowRightIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 <>
   {/* Components with icon prop */}

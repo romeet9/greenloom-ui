@@ -4,9 +4,9 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { getActionListItemClasses, getActionListTemplateClasses } from '@razorpay/blade-core/styles';
-  import { useId } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
+  import { getActionListItemClasses, getActionListTemplateClasses } from '@greenloom/loom-core/styles';
+  import { useId } from '@greenloom/loom-core/utils';
   import Text from '../Typography/Text/Text.svelte';
   import { getDropdownContext } from '../Dropdown/dropdownContext';
   import { getActionListContext, setActionListItemContext } from './actionListContext';

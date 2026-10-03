@@ -120,8 +120,8 @@ import {
   ChartDonutCell,
   ChartTooltip,
   ChartLegend,
-} from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function DonutChartExample() {
   const chartData = [

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { useTheme } from './components/BladeProvider';
+  import { useTheme } from './components/LoomProvider';
 
   const theme = $derived(useTheme());
 

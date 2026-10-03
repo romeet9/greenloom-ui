@@ -15,7 +15,7 @@ const getBladeVersion = (): string => {
   const sha = process.env.GITHUB_SHA;
   if (sha && !isMaster) {
     const shortSha = sha.slice(0, 8);
-    return `https://pkg.csb.dev/razorpay/blade/commit/${shortSha}/@razorpay/blade`;
+    return `https://pkg.csb.dev/razorpay/blade/commit/${shortSha}/@greenloom/loom`;
   }
 
   return '*';
@@ -62,7 +62,7 @@ export const getReactScriptsJSDependencies = (): Dependencies => {
       'react-dom': '^18',
       'react-scripts': '4.0.3',
       'framer-motion': '11.13.3',
-      '@razorpay/blade': getBladeVersion(),
+      '@greenloom/loom': getBladeVersion(),
       'styled-components': packageJson.peerDependencies['styled-components'],
       '@razorpay/i18nify-js': packageJson.peerDependencies['@razorpay/i18nify-js'],
       '@razorpay/i18nify-react': packageJson.peerDependencies['@razorpay/i18nify-react'],
@@ -82,7 +82,7 @@ export const vitePackageJSON = JSON.stringify(
     },
     dependencies: {
       ...deps.dependencies,
-      '@razorpay/blade': getBladeVersion(),
+      '@greenloom/loom': getBladeVersion(),
     },
     devDependencies: deps.devDependencies,
   },
@@ -137,7 +137,7 @@ export const indexHTML = dedent`
 `;
 
 export const logger = dedent`
-import { Box, Button, IconButton, SlashIcon } from '@razorpay/blade/components';
+import { Box, Button, IconButton, SlashIcon } from '@greenloom/loom/components';
 import React from 'react';
 
 const overrideConsoleLog = () => {
@@ -250,12 +250,12 @@ import { LazyMotion } from 'framer-motion';
 
 const loadFeatures = () => import('./features.js').then((res) => res.default);
 
-import { BladeProvider, Box } from "@razorpay/blade/components";
-import { ${themeTokenName}, createTheme } from "@razorpay/blade/tokens";
+import { LoomProvider, Box } from "@greenloom/loom/components";
+import { ${themeTokenName}, createTheme } from "@greenloom/loom/tokens";
 
 import App from "./App";
 ${showConsole ? 'import { Logger } from "./Logger";' : ''}
-import '@razorpay/blade/fonts.css';
+import '@greenloom/loom/fonts.css';
 
 const rootElement = document.getElementById("root");
 
@@ -274,7 +274,7 @@ const getTheme = () => {
 }
 
 root.render(
-  <BladeProvider themeTokens={getTheme()} colorScheme="${colorScheme}">
+  <LoomProvider themeTokens={getTheme()} colorScheme="${colorScheme}">
     <LazyMotion strict features={loadFeatures}>
       <Box 
         backgroundColor="surface.background.gray.subtle"
@@ -289,7 +289,7 @@ root.render(
         ${showConsole ? '<Logger />' : ''}
       </Box>
     </LazyMotion>
-  </BladeProvider>
+  </LoomProvider>
 );
 
 console.clear(); // There could be some codesandbox warnings, clearing them here on init

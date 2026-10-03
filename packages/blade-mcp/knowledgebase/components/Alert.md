@@ -143,7 +143,7 @@ type AlertProps = {
 This example demonstrates a standard information alert with title, description, and both primary and secondary actions.
 
 ```tsx
-import { Alert } from '@razorpay/blade/components';
+import { Alert } from '@greenloom/loom/components';
 
 function StandardAlertExample() {
   return (
@@ -175,7 +175,7 @@ function StandardAlertExample() {
 High emphasis alerts have a more prominent look with intense styling, useful for drawing more attention.
 
 ```tsx
-import { Alert } from '@razorpay/blade/components';
+import { Alert } from '@greenloom/loom/components';
 
 function HighEmphasisAlertExample() {
   return (
@@ -201,7 +201,7 @@ function HighEmphasisAlertExample() {
 Alerts can be minimal with just a description and no title or actions.
 
 ```tsx
-import { Alert } from '@razorpay/blade/components';
+import { Alert } from '@greenloom/loom/components';
 
 function MinimalAlertExample() {
   return (
@@ -220,7 +220,7 @@ function MinimalAlertExample() {
 Alerts that provide only a primary action for users to respond.
 
 ```tsx
-import { Alert } from '@razorpay/blade/components';
+import { Alert } from '@greenloom/loom/components';
 
 function SingleActionAlertExample() {
   return (
@@ -245,7 +245,7 @@ function SingleActionAlertExample() {
 Full width alerts span the entire width of their container and are useful for full-bleed layouts.
 
 ```tsx
-import { Alert, Box } from '@razorpay/blade/components';
+import { Alert, Box } from '@greenloom/loom/components';
 
 function FullWidthAlertExample() {
   return (

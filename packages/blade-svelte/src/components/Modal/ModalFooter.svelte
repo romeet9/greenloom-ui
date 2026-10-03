@@ -3,12 +3,12 @@
     metaAttribute,
     MetaConstants,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     modalFooterClass,
     modalFooterDividerClass,
     modalFooterInnerClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { ModalFooterProps } from './types';
 
   let { children, testID, ...rest }: ModalFooterProps = $props();

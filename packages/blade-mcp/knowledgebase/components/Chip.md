@@ -236,7 +236,7 @@ import {
   ShieldIcon,
   RefreshIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ProductDetailsCard = () => {
   return (
@@ -352,7 +352,7 @@ import {
   ThumbsUpIcon,
   ThumbsDownIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const BusinessRegistrationForm = () => {
   // Form state for different ChipGroup components
@@ -501,7 +501,7 @@ import {
   TagIcon,
   FilterIcon,
   CloseIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const ProductFilterInterface = () => {
   // State for filters

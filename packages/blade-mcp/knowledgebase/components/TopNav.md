@@ -12,7 +12,7 @@ Below are the props that the TopNav component and its subcomponents accept. Thes
 
 ```typescript
 /**
- * Blade icon component, for example `CheckIcon` from `@razorpay/blade/components`
+ * Blade icon component, for example `CheckIcon` from `@greenloom/loom/components`
  */
 type IconComponent = React.ComponentType<any>;
 
@@ -252,7 +252,7 @@ import {
   RazorpayxPayrollIcon,
   ShoppingBagIcon,
   AwardIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Helper function to determine if a route is active
 const isRouteActive = (currentPath, routePath, activeOnPaths = []) => {
@@ -527,8 +527,8 @@ const isActive = (path) => {
 The TopNav component adapts to different screen sizes by showing a simplified interface on mobile:
 
 ```jsx
-import { useBreakpoint } from '@razorpay/blade/utils';
-import { useTheme, TopNav } from '@razorpay/blade/components';
+import { useBreakpoint } from '@greenloom/loom/utils';
+import { useTheme, TopNav } from '@greenloom/loom/components';
 
 const MyTopNav = (): React.ReactElement => {
   const { theme } = useTheme();

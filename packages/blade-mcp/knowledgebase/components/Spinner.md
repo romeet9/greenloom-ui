@@ -86,7 +86,7 @@ This example demonstrates how to use the Spinner component to indicate a loading
 
 ```tsx
 import { useState, useEffect } from 'react';
-import { Spinner, Text, Box } from '@razorpay/blade/components';
+import { Spinner, Text, Box } from '@greenloom/loom/components';
 
 function LoadingExample() {
   const [isLoading, setIsLoading] = useState(true);

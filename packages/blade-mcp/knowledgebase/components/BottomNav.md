@@ -16,7 +16,7 @@ The following types represent the props that the BottomNav component and its sub
 
 ```typescript
 /**
- * Blade icon component, for example `CheckIcon` from `@razorpay/blade/components`
+ * Blade icon component, for example `CheckIcon` from `@greenloom/loom/components`
  */
 type IconComponent = React.ComponentType<any>;
 
@@ -152,7 +152,7 @@ import {
   MenuDotsIcon,
   CurrentAccountIcon,
   RazorpayIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 // Sample page component to show when a route is matched
 const PageContent = ({ title }) => (

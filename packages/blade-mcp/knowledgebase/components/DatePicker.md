@@ -366,7 +366,7 @@ This example demonstrates a comprehensive single date picker with validation, co
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text } from '@razorpay/blade/components';
+import { DatePicker, Box, Text } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const SingleDatePickerExample = () => {
@@ -415,7 +415,7 @@ This example shows different size variants of the DatePicker (small, medium, lar
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text, Button } from '@razorpay/blade/components';
+import { DatePicker, Box, Text, Button } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const SizeVariantsExample = () => {
@@ -483,7 +483,7 @@ This example demonstrates the `showClearButton` prop which renders a clear icon 
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text } from '@razorpay/blade/components';
+import { DatePicker, Box, Text } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const ClearButtonExample = () => {
@@ -519,7 +519,7 @@ This example demonstrates alternative picker views for selecting months and year
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text } from '@razorpay/blade/components';
+import { DatePicker, Box, Text } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const MonthYearPickerExample = () => {
@@ -570,7 +570,7 @@ This example demonstrates date range selection with presets and validation.
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text, Button } from '@razorpay/blade/components';
+import { DatePicker, Box, Text, Button } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const DateRangeExample = () => {
@@ -693,7 +693,7 @@ This is useful when the preset label provides more context than showing raw date
 
 ```tsx
 import React, { useState } from 'react';
-import { DatePicker, Box, Text } from '@razorpay/blade/components';
+import { DatePicker, Box, Text } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const PresetsCompactDisplayExample = () => {
@@ -765,7 +765,7 @@ This example demonstrates the FilterChipDatePicker variant for filters and data 
 
 ```tsx
 import React, { useState } from 'react';
-import { FilterChipDatePicker, Box, Text } from '@razorpay/blade/components';
+import { FilterChipDatePicker, Box, Text } from '@greenloom/loom/components';
 import dayjs from 'dayjs';
 
 const FilterChipDatePickerExample = () => {
@@ -844,7 +844,7 @@ This example demonstrates how to use the DatePicker with different locales for i
 
 ```tsx
 import React from 'react';
-import { DatePicker, Box, Text } from '@razorpay/blade/components';
+import { DatePicker, Box, Text } from '@greenloom/loom/components';
 import { I18nProvider } from '@razorpay/i18nify-react';
 
 const LocalizationExample = () => {

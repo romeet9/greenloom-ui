@@ -24,8 +24,8 @@ There is **no** action button, **no** dismiss/close affordance, and **no** feedb
 The component is prop-driven. The message is passed as `children` (text or inline `Link`) and layout by `alignment`. The colour treatment (dark/light) is resolved automatically from the app `colorScheme` via `useTheme`, so there is no `theme` prop. The leading icon is rendered when an `icon` is provided; omit the prop to render without an icon.
 
 ```jsx
-import { AnnouncementBanner } from '@razorpay/blade/components';
-import { BankAccountVerificationIcon } from '@razorpay/blade/components';
+import { AnnouncementBanner } from '@greenloom/loom/components';
+import { BankAccountVerificationIcon } from '@greenloom/loom/components';
 
 <AnnouncementBanner icon={BankAccountVerificationIcon} alignment="center">
   Enter promotional text here

@@ -76,7 +76,7 @@ const chartConfig = {
 ### For Bar Chart -  
 
 ```tsx
-import { BarChart } from '@razorpay/blade/charts';
+import { BarChart } from '@greenloom/loom/charts';
 
 const chartData = [
   { month: 'Jan', desktop: 400, mobile: 240 },

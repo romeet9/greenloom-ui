@@ -31,7 +31,7 @@ Annotated component with props ([figma](https://www.figma.com/file/cX625jYMAX1Ro
 ![Collapsible breakdown](./collapsible-breakdown.png)
 
 ```jsx
-import { Collapsible, CollapsibleButton, CollapsibleLink, CollapsibleBody } from '@razorpay/blade';
+import { Collapsible, CollapsibleButton, CollapsibleLink, CollapsibleBody } from '@greenloom/loom';
 
 <Collapsible>
   <CollapsibleButton>Button</CollapsibleButton>

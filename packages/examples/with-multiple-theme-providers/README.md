@@ -10,7 +10,7 @@ When a `ThemeProvider` is nested inside another `ThemeProvider`, `styled-compone
 
 ```tsx
 /**
- * bladeTheme
+ * loomTheme
  * {
  *  ...
  *  colors { // 👈 Blade components need this token
@@ -31,12 +31,12 @@ const myCustomTheme = {
 const App = () => {
   // ...
   return (
-    <BladeProvider themeTokens={bladeTheme}>
-      {/* The theme provider below will merge and replace any top level keys from `bladeTheme` above */}
+    <LoomProvider themeTokens={loomTheme}>
+      {/* The theme provider below will merge and replace any top level keys from `loomTheme` above */}
       <ThemeProvider theme={myCustomTheme}>
         <Button>Hello</Button>
       </ThemeProvider>
-    </BladeProvider>
+    </LoomProvider>
   );
 };
 ```

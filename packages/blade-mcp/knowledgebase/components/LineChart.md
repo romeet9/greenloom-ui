@@ -304,8 +304,8 @@ import {
   ChartTooltip,
   ChartLegend,
   ChartReferenceLine,
-} from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function BasicLineChart() {
   const data = [
@@ -362,7 +362,7 @@ import {
   ChartLegend,
   ChartReferenceBand,
   ChartReferenceLine,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function LineChartWithReferenceBand() {
   const data = [

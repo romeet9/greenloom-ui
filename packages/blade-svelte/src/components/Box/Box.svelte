@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute, metaAttribute, MetaConstants } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute, metaAttribute, MetaConstants } from '@greenloom/loom-core/utils';
   import type { BoxProps } from './types';
 
   // this is omitted — Box does not bind to a DOM node reference

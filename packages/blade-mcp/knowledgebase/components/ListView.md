@@ -166,8 +166,8 @@ import {
   SearchInput,
   Link,
   SelectInput,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Define data types for strong typing
 type PaymentItem = {
@@ -579,8 +579,8 @@ import {
   Code,
   TableEditableCell,
   Link,
-} from '@razorpay/blade/components';
-import { useBreakpoint, useTheme } from '@razorpay/blade/utils';
+} from '@greenloom/loom/components';
+import { useBreakpoint, useTheme } from '@greenloom/loom/utils';
 
 // Define data types for strong typing
 type PaymentItem = {

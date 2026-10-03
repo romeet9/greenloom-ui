@@ -4,8 +4,8 @@
     MetaConstants,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
-  import { getCollapsibleInnerClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getCollapsibleInnerClasses } from '@greenloom/loom-core/styles';
   import { setCollapsibleContext } from './context';
   import type { CollapsibleProps } from './types';
 

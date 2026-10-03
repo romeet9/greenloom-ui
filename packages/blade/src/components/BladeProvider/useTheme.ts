@@ -26,18 +26,22 @@ const useTheme = (): ThemeContext => {
   if (__DEV__) {
     if (!themeContext.theme) {
       throwBladeError({
-        message: 'BladeProvider is missing theme',
-        moduleName: 'BladeProvider',
+        message: 'LoomProvider is missing theme',
+        moduleName: 'LoomProvider',
       });
     }
     if (themeContext === undefined) {
       throwBladeError({
-        message: 'useTheme must be used within BladeProvider',
-        moduleName: 'BladeProvider',
+        message: 'useTheme must be used within LoomProvider',
+        moduleName: 'LoomProvider',
       });
     }
   }
   return themeContext;
 };
 
+const useLoomTheme = useTheme;
+const useBladeTheme = useTheme;
+
+export { useTheme, useLoomTheme, useBladeTheme };
 export default useTheme;

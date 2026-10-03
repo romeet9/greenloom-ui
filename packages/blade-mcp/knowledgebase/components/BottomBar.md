@@ -43,7 +43,7 @@ type BottomBarProps = {
 
 ```tsx
 import React from 'react';
-import { BottomBar, Button, Box, Heading, Text } from '@razorpay/blade/components';
+import { BottomBar, Button, Box, Heading, Text } from '@greenloom/loom/components';
 
 function CheckoutScreen(): React.ReactElement {
   return (
@@ -69,7 +69,7 @@ export default CheckoutScreen;
 
 ```tsx
 import React from 'react';
-import { BottomBar, Button } from '@razorpay/blade/components';
+import { BottomBar, Button } from '@greenloom/loom/components';
 
 function SingleActionBar(): React.ReactElement {
   return (

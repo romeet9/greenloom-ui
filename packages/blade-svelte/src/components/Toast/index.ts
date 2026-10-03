@@ -8,7 +8,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { ToastContainer, useToast, Button } from '@razorpay/blade-svelte/components';
+ *   import { ToastContainer, useToast, Button } from '@greenloom/loom-svelte/components';
  *
  *   const toast = useToast();
  * </script>

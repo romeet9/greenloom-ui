@@ -7,8 +7,8 @@
     getStyledPropsClasses,
     kebabCase,
     combineStyleStrings,
-  } from '@razorpay/blade-core/utils';
-  import { getSkeletonClasses, getSkeletonInlineStyle } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getSkeletonClasses, getSkeletonInlineStyle } from '@greenloom/loom-core/styles';
   import type { SkeletonProps } from './types';
 
   let {

@@ -6,9 +6,9 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     cx,
-  } from '@razorpay/blade-core/utils';
-  import { getAppBarClasses, getAppBarTemplateClasses } from '@razorpay/blade-core/styles';
-  import { getUtilityClass } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getAppBarClasses, getAppBarTemplateClasses } from '@greenloom/loom-core/styles';
+  import { getUtilityClass } from '@greenloom/loom-core/styles';
   import IconButton from '../Button/IconButton/IconButton.svelte';
   import { ArrowLeftIcon } from '../Icons';
   import { setAppBarContext } from './AppBarContext';

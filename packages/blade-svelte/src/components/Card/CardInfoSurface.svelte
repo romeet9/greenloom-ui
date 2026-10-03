@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
 
   // Call in the script block so the class names aren't tree-shaken from the CSS module.
   const tc = getCardTemplateClasses();

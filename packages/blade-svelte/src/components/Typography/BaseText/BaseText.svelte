@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, cx } from '@razorpay/blade-core/utils';
+  import { makeAccessible, makeAnalyticsAttribute, metaAttribute, MetaConstants, cx } from '@greenloom/loom-core/utils';
   import type { BaseTextProps } from './types';
-  import { getBaseTextClasses } from '@razorpay/blade-core/styles';
-  import { getStyledPropsClasses } from '@razorpay/blade-core/utils';
+  import { getBaseTextClasses } from '@greenloom/loom-core/styles';
+  import { getStyledPropsClasses } from '@greenloom/loom-core/utils';
   import { resolveComponentStyleOverride } from '../../../utils/resolveComponentStyleOverride';
-  import { getBladeThemeContextGetter } from '../../BladeProvider/bladeThemeContext';
+  import { getBladeThemeContextGetter } from '../../LoomProvider/loomThemeContext';
 
   const themeContextGetter = getBladeThemeContextGetter();
 

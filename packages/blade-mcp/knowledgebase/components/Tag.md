@@ -78,7 +78,7 @@ This example shows the simplest implementation of a Tag component with an icon a
 
 ```tsx
 import React from 'react';
-import { Tag, FileTextIcon } from '@razorpay/blade/components';
+import { Tag, FileTextIcon } from '@greenloom/loom/components';
 
 function BasicTagExample() {
   const [isTagVisible, setIsTagVisible] = React.useState(true);
@@ -107,7 +107,7 @@ This example demonstrates a Tag in its disabled state, where the dismiss functio
 
 ```tsx
 import React from 'react';
-import { Tag, FileTextIcon } from '@razorpay/blade/components';
+import { Tag, FileTextIcon } from '@greenloom/loom/components';
 
 function DisabledTagExample() {
   const [isTagVisible, setIsTagVisible] = React.useState(true);
@@ -137,7 +137,7 @@ This example shows both medium and large Tag sizes side by side for comparison, 
 
 ```tsx
 import React from 'react';
-import { Tag, Box, FileTextIcon } from '@razorpay/blade/components';
+import { Tag, Box, FileTextIcon } from '@greenloom/loom/components';
 
 function TagSizesExample() {
   const [mediumTagVisible, setMediumTagVisible] = React.useState(true);
@@ -167,7 +167,7 @@ This example demonstrates how to implement a tag input system where users can ad
 
 ```tsx
 import React from 'react';
-import { Tag, Box, TextInput, Button, PlusIcon } from '@razorpay/blade/components';
+import { Tag, Box, TextInput, Button, PlusIcon } from '@greenloom/loom/components';
 
 function TagInputExample() {
   const [inputValue, setInputValue] = React.useState('');
@@ -240,7 +240,7 @@ import {
   TagIcon,
   CalendarIcon,
   BellIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function ComprehensiveTagExample() {
   // State for managing tags

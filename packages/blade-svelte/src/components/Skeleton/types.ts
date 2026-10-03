@@ -1,5 +1,5 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { SkeletonBorderRadius } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { SkeletonBorderRadius } from '@greenloom/loom-core/styles';
 
 export interface SkeletonProps extends StyledPropsBlade {
   /**

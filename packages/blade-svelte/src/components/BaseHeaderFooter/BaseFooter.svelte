@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { metaAttribute, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
-  import { baseFooterInnerClass, getDropdownTemplateClasses } from '@razorpay/blade-core/styles';
+  import { metaAttribute, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
+  import { baseFooterInnerClass, getDropdownTemplateClasses } from '@greenloom/loom-core/styles';
   import Divider from '../Divider/Divider.svelte';
   import type { BaseFooterProps } from './types';
 

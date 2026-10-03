@@ -78,7 +78,7 @@ type TooltipInteractiveWrapperProps = { children?: React.ReactNode } & StyledPro
 This example shows the simplest implementation of a Tooltip component providing additional information for a button element.
 
 ```tsx
-import { Tooltip, Button } from '@razorpay/blade/components';
+import { Tooltip, Button } from '@greenloom/loom/components';
 
 function BasicTooltipExample() {
   return (
@@ -94,7 +94,7 @@ function BasicTooltipExample() {
 This example demonstrates a Tooltip with both a title and content, including a callback function that triggers when the tooltip opens or closes.
 
 ```tsx
-import { Tooltip, Button } from '@razorpay/blade/components';
+import { Tooltip, Button } from '@greenloom/loom/components';
 
 function TooltipWithTitleExample() {
   return (
@@ -121,7 +121,7 @@ import {
   InfoIcon,
   Box,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function NonInteractiveTooltipExample() {
   return (

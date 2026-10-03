@@ -8,7 +8,7 @@
  * @example
  * ```svelte
  * <script>
- *   import { Tooltip, Button } from '@razorpay/blade-svelte/components';
+ *   import { Tooltip, Button } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <Tooltip content="Amount reversed to customer bank account" placement="bottom">

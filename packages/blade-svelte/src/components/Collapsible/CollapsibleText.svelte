@@ -6,8 +6,8 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
-  import { getCollapsibleTextClasses } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { getCollapsibleTextClasses } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import CollapsibleChevronIcon from './CollapsibleChevronIcon.svelte';
   import { getCollapsibleContext } from './context';

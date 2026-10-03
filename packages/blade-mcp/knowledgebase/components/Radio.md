@@ -185,8 +185,8 @@ If the labels are short (1-2 words) and consistent, use `Chip` with `selectionTy
 This example demonstrates a standard RadioGroup with multiple Radio options of different sizes and states, including disabled options and help text.
 
 ```tsx
-import { RadioGroup, Radio } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { RadioGroup, Radio } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function BasicRadioExample() {
   const handleChange = ({ name, value }) => {
@@ -224,8 +224,8 @@ function BasicRadioExample() {
 This example shows how to implement a controlled RadioGroup where the selected value is managed through React state, with the selection reflected in the help text.
 
 ```tsx
-import { RadioGroup, Radio } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { RadioGroup, Radio } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 import { useState } from 'react';
 
 function ControlledRadioExample() {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { MetaConstants, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { MetaConstants, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import BaseHeader from '../BaseHeaderFooter/BaseHeader.svelte';
   import { getDropdownContext } from './dropdownContext';
   import type { DropdownHeaderProps } from './types';

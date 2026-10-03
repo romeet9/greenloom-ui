@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import BaseInput from '../BaseInput/BaseInput.svelte';
   import CharacterCounter from '../_Form/CharacterCounter.svelte';
   import IconButton from '../../Button/IconButton/IconButton.svelte';

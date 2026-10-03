@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { metaAttribute, MetaConstants, makeAnalyticsAttribute, cx } from '@razorpay/blade-core/utils';
+  import { metaAttribute, MetaConstants, makeAnalyticsAttribute, cx } from '@greenloom/loom-core/utils';
   import Collapsible from '../Collapsible/Collapsible.svelte';
   import Divider from '../Divider/Divider.svelte';
   import { getAccordionContext, setAccordionItemContext } from './context';

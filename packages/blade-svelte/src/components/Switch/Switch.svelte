@@ -6,11 +6,11 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getSwitchClasses,
     getSwitchTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { SwitchProps } from './types';
 
   const switchClasses = getSwitchTemplateClasses();

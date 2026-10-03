@@ -7,14 +7,14 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getBaseInputWrapperClasses,
     getBaseInputClasses,
     getBaseInputTemplateClasses,
     baseInputBorderRadius,
     formHintLeftLabelMarginLeft,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import FormLabel from '../_Form/FormLabel.svelte';
   import FormHint from '../_Form/FormHint.svelte';
   import BaseInputVisuals from './BaseInputVisuals.svelte';

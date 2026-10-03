@@ -212,7 +212,7 @@ import {
   ChartCartesianGrid,
   ChartTooltip,
   Box,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicAreaChart() {
   const data = [

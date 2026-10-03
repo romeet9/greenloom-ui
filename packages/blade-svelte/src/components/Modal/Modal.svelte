@@ -6,13 +6,13 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     logger,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     MODAL_Z_INDEX,
     getModalSurfaceClasses,
     getModalTemplateClasses,
     modalWrapperClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { portal } from '../../utils/portal';
   import { lockBodyScroll, unlockBodyScroll } from '../../utils/bodyScrollLock';
   import ModalBackdrop from './ModalBackdrop.svelte';

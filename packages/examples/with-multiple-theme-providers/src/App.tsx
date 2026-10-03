@@ -1,7 +1,7 @@
 import styled, { ThemeProvider } from 'styled-components';
-import { BladeProvider, Button } from '@razorpay/blade/components';
-import { bladeTheme } from '@razorpay/blade/tokens';
-import '@razorpay/blade/fonts.css';
+import { LoomProvider, Button } from '@greenloom/loom/components';
+import { loomTheme } from '@greenloom/loom/tokens';
+import '@greenloom/loom/fonts.css';
 
 import './app.css';
 
@@ -26,12 +26,12 @@ const MyButton = styled.button(({ theme }) => ({
 
 function App(): React.ReactElement {
   return (
-    <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+    <LoomProvider themeTokens={loomTheme} colorScheme="light">
       <ThemeProvider theme={customTheme}>
         <Button onClick={() => console.log('hi')}>Hello</Button>
         <MyButton onClick={() => console.log('hi')}>World</MyButton>
       </ThemeProvider>
-    </BladeProvider>
+    </LoomProvider>
   );
 }
 

@@ -1,5 +1,5 @@
 import type { Snippet, Component } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { IconProps } from '../Icons/types';
 
 export type BreadcrumbSize = 'small' | 'medium' | 'large';

@@ -6,11 +6,11 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     useId,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     dropdownTriggerWrapperClass,
     getDropdownTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { setDropdownContext } from './dropdownContext';
   import { createDropdownController } from './useDropdown';
   import { makeInputValue, makeInputDisplayValue } from './dropdownUtils';

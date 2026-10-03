@@ -21,7 +21,7 @@
  *     CardGroupItem,
  *     CardGroupCollapsibleItem,
  *     CardGroupCollapsibleItemBody,
- *   } from '@razorpay/blade-svelte';
+ *   } from '@greenloom/loom-svelte';
  * </script>
  *
  * <CardGroup accessibilityLabel="Payment methods">

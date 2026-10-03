@@ -4,8 +4,8 @@
     MetaConstants,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
-  import { tooltipInteractiveWrapperClass } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/utils';
+  import { tooltipInteractiveWrapperClass } from '@greenloom/loom-core/styles';
   import { getTooltipContext } from './tooltipContext';
   import type { TooltipInteractiveWrapperProps } from './types';
 

@@ -93,9 +93,9 @@ type Delay = '2xquick' | 'xquick' | 'moderate' | 'gentle' | 'xgentle' | 'long' |
 This example demonstrates the basic implementation of the Move component to create a subtle animation effect for a card that appears with combined fade and movement animation when the component first mounts.
 
 ```tsx
-import { Move } from '@razorpay/blade/components';
-import { Card, CardBody, CardHeader, CardHeaderLeading } from '@razorpay/blade/components';
-import { Text } from '@razorpay/blade/components';
+import { Move } from '@greenloom/loom/components';
+import { Card, CardBody, CardHeader, CardHeaderLeading } from '@greenloom/loom/components';
+import { Text } from '@greenloom/loom/components';
 
 function BasicMoveExample() {
   return (

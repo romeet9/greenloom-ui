@@ -1,10 +1,12 @@
 import type { ReactNode } from 'react';
 import type { ThemeTokens, ColorSchemeNamesInput } from '~tokens/theme';
 
-type BladeProviderProps = {
+type LoomProviderProps = {
   themeTokens: ThemeTokens;
   colorScheme?: ColorSchemeNamesInput;
   children: ReactNode;
 };
 
-export type { BladeProviderProps };
+type BladeProviderProps = LoomProviderProps;
+
+export type { LoomProviderProps, BladeProviderProps };

@@ -9,7 +9,7 @@ import {
   TableBody,
   TableRow,
   TableCell,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -99,7 +99,7 @@ import {
   InfoIcon,
   IconButton,
   Tooltip,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -270,7 +270,7 @@ import {
   TableCell,
   Amount,
   Badge,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -386,7 +386,7 @@ import {
   Amount,
   Badge,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useState } from 'react';
 
 const nodes = [
@@ -508,7 +508,7 @@ import {
   Button,
   useTheme,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useState } from 'react';
 
 const nodes = [
@@ -645,7 +645,7 @@ import {
   TableToolbarActions,
   Button,
   useTheme,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -771,7 +771,7 @@ import {
   TableFooter,
   TableFooterRow,
   TableFooterCell,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -887,7 +887,7 @@ import {
   TableCell,
   Amount,
   Badge,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -1016,7 +1016,7 @@ import {
   useTheme,
   TablePagination,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -1159,7 +1159,7 @@ import {
   Link,
   TrashIcon,
   CopyIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [
@@ -1287,7 +1287,7 @@ import {
   TableFooter,
   TableFooterRow,
   TableFooterCell,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useState } from 'react';
 
 const nodes = [
@@ -1407,7 +1407,7 @@ import {
   useTheme,
   TablePagination,
   Link,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useEffect, useState } from 'react';
 
 const nodes = [
@@ -1530,7 +1530,7 @@ import {
   useTheme,
   TablePagination,
   Text,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useState } from 'react';
 
 const nodes = [
@@ -1678,7 +1678,7 @@ import {
   TableRow,
   TableCell,
   TablePagination,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React, { useEffect, useState } from 'react';
 
 const fetchData = async ({ page }) => {
@@ -1791,7 +1791,7 @@ import {
   DropdownOverlay,
   ActionList,
   ActionListItem,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 import React from 'react';
 
 const nodes = [

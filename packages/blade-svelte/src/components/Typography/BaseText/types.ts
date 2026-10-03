@@ -3,9 +3,9 @@ import type {
   AccessibilityProps,
   DotNotationToken,
   StyledPropsBlade,
-} from '@razorpay/blade-core/utils';
-import type { StyleOverride, TextSlot } from '@razorpay/blade-core/styles';
-import type { Theme, BladeComponentName } from '../../BladeProvider/types';
+} from '@greenloom/loom-core/utils';
+import type { StyleOverride, TextSlot } from '@greenloom/loom-core/styles';
+import type { Theme, BladeComponentName } from '../../LoomProvider/types';
 
 // Text color types - using DotNotationToken from blade-core, matching React implementation exactly
 type InteractiveText = DotNotationToken<Theme['colors']['interactive']['text']>;
@@ -62,7 +62,7 @@ export type BaseTextProps = {
   className?: string;
   /**
    * Per-slot classname overrides. When `styleOverrideRegistryKey` is set, merges with
-   * `BladeProvider` `componentConfig[styleOverrideRegistryKey].styleOverride`.
+   * `LoomProvider` `componentConfig[styleOverrideRegistryKey].styleOverride`.
    */
   styleOverride?: StyleOverride<TextSlot>;
   /** Registry key for provider-level styleOverride (e.g. `'Text'` | `'Heading'`). */

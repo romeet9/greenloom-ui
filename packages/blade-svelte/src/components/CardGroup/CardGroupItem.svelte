@@ -5,12 +5,12 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCardGroupItemClasses,
     getCardGroupChevronClasses,
     getCardGroupTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { ChevronRightIcon } from '../Icons/ChevronRightIcon';
   import { ChevronDownIcon } from '../Icons/ChevronDownIcon';
   import { getCollapsibleContext } from '../Collapsible/context';

@@ -80,7 +80,7 @@ const _Tabs = (
  * ### Basic Usage
  *
  * ```jsx
- * import { Tabs, TabList, TabItem, TabPanel } from '@razorpay/blade/components';
+ * import { Tabs, TabList, TabItem, TabPanel } from '@greenloom/loom/components';
  *
  * <Tabs variant="bordered" orientation="horizontal">
  *   <TabList>

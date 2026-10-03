@@ -1,4 +1,4 @@
-import type { DotLoaderSize } from '@razorpay/blade-core/styles';
+import type { DotLoaderSize } from '@greenloom/loom-core/styles';
 import type { IconColor } from '../Icons/types';
 
 export type DotLoaderProps = {

@@ -195,7 +195,7 @@ import {
   Box,
   Text,
   SearchIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function BasicAutoCompleteExample() {
   const [selectedItem, setSelectedItem] = useState('');
@@ -269,7 +269,7 @@ import {
   Box,
   Text,
   Spinner,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function AsyncAutoCompleteExample() {
   const [inputValue, setInputValue] = useState('');
@@ -404,7 +404,7 @@ import {
   Text,
   PlusIcon,
   TagIcon,
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 function CreatableAutoCompleteExample() {
   const [inputValue, setInputValue] = useState('');

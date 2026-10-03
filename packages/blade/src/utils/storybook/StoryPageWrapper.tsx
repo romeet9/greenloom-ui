@@ -118,7 +118,7 @@ const StoryPageWrapper = (props: StoryPageWrapperTypes): React.ReactElement => {
             <Button
               href={
                 props.apiDecisionLink ??
-                `https://github.com/razorpay/blade/blob/master/packages/blade/src/components/${
+                `https://github.com/greenloom/loom/blob/master/packages/blade/src/components/${
                   props.apiDecisionComponentName ?? props.componentName
                 }/_decisions/decisions.md`
               }
@@ -146,7 +146,7 @@ const StoryPageWrapper = (props: StoryPageWrapperTypes): React.ReactElement => {
             <SandboxHighlighter showLineNumbers={false} showTabs={false}>
               {props.imports
                 ? props.imports
-                : `import { ${props.componentName} } from '@razorpay/blade/components';\nimport type { ${props.componentName}Props } from '@razorpay/blade/components';`}
+                : `import { ${props.componentName} } from '@greenloom/loom/components';\nimport type { ${props.componentName}Props } from '@greenloom/loom/components';`}
             </SandboxHighlighter>
             <br />
             <br />

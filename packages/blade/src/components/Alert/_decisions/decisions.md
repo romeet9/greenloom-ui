@@ -19,7 +19,7 @@ Annotated component with props:
 Sample usage:
 
 ```jsx
-import { Alert, Link } from '@razorpay/blade';
+import { Alert, Link } from '@greenloom/loom';
 
 <Alert
   title="International Payments Only"

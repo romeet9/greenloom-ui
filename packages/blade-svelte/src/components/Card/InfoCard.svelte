@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import CardRoot from './CardRoot.svelte';
   import CardInfoSurface from './CardInfoSurface.svelte';
   import CardBody from './CardBody.svelte';

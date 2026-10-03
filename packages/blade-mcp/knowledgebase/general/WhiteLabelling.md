@@ -8,7 +8,7 @@ To make this possible, Blade allows you to customize the theme of the components
 
 ### `createTheme()`:
 
-> Returns a `ThemeTokens` object that can be passed to `themeTokens` prop of `BladeProvider` to customize the branding of all components.
+> Returns a `ThemeTokens` object that can be passed to `themeTokens` prop of `LoomProvider` to customize the branding of all components.
 
 `createTheme()` accepts an object with the following keys:
 
@@ -20,10 +20,10 @@ To make this possible, Blade allows you to customize the theme of the components
 
 ## Usage
 
-If your application has multiple `BladeProvider` components, you can pass the `brandColor` to each of them to customize the branding of the components inside them.
+If your application has multiple `LoomProvider` components, you can pass the `brandColor` to each of them to customize the branding of the components inside them.
 
 ```jsx
-import { createTheme } from '@razorpay/blade/tokens';
+import { createTheme } from '@greenloom/loom/tokens';
 
 const { theme: customThemeTokens } = createTheme({
   brandColor: '#83003D', // 'rgba(131, 0, 61)', 'hsl(332, 100%, 26%)' are also valid values
@@ -31,20 +31,20 @@ const { theme: customThemeTokens } = createTheme({
 
 const Wrapper = () => {
   return (
-    <BladeProvider themeTokens={customThemeTokens}>
+    <LoomProvider themeTokens={customThemeTokens}>
       <App />
-    </BladeProvider>
+    </LoomProvider>
   );
 };
 ```
 
 ### Light & Dark theme support
 
-Custom branded themes also contain support for light and dark color schemes. You can pass the `colorScheme` prop to `BladeProvider` to switch between light and dark color schemes.
+Custom branded themes also contain support for light and dark color schemes. You can pass the `colorScheme` prop to `LoomProvider` to switch between light and dark color schemes.
 
 ```jsx
 // or colorScheme="light"
-<BladeProvider themeTokens={customThemeTokens} colorScheme="dark">
+<LoomProvider themeTokens={customThemeTokens} colorScheme="dark">
   <App />
-</BladeProvider>
+</LoomProvider>
 ```

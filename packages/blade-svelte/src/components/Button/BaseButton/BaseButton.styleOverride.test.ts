@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { cx } from '@razorpay/blade-core/utils';
-import { getButtonClasses, getButtonTemplateClasses } from '@razorpay/blade-core/styles';
+import { cx } from '@greenloom/loom-core/utils';
+import { getButtonClasses, getButtonTemplateClasses } from '@greenloom/loom-core/styles';
 import { resolveComponentStyleOverride } from '../../../utils/resolveComponentStyleOverride';
-import type { BladeThemeContextValue } from '../BladeProvider/types';
-import type { ButtonSlot, StyleOverride } from '@razorpay/blade-core/styles';
+import type { BladeThemeContextValue } from '../LoomProvider/types';
+import type { ButtonSlot, StyleOverride } from '@greenloom/loom-core/styles';
 
 const buttonClasses = getButtonTemplateClasses();
 

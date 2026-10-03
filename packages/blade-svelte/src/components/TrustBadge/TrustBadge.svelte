@@ -6,12 +6,12 @@
     makeAnalyticsAttribute,
     getStyledPropsClasses,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getTrustBadgeTemplateClasses,
     getTrustBadgeTextColorToken,
     getTrustBadgeVariantClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import { RazorpayTrustIcon } from '../Icons';
   import type { TrustBadgeProps } from './types';

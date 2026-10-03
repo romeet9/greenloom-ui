@@ -1,6 +1,6 @@
 import type { Snippet, Component } from 'svelte';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
-import type { AvatarDensity, AvatarSlot, StyleOverride } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
+import type { AvatarDensity, AvatarSlot, StyleOverride } from '@greenloom/loom-core/styles';
 import type { IconProps } from '../Icons/types';
 
 /**

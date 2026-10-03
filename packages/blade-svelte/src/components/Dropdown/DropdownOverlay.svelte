@@ -1,11 +1,11 @@
 <script lang="ts">
   import { computePosition, autoUpdate, offset, flip, size as sizeMiddleware } from '@floating-ui/dom';
-  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@razorpay/blade-core/utils';
+  import { metaAttribute, MetaConstants, makeAnalyticsAttribute } from '@greenloom/loom-core/utils';
   import {
     getDropdownOverlayClasses,
     getDropdownTemplateClasses,
     dropdownFloatingClass,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { portal } from '../../utils/portal';
   import OverlayContextReset from '../OverlayContextReset/OverlayContextReset.svelte';
   import { getBottomSheetContext } from '../BottomSheet/bottomSheetContext';

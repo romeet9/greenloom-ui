@@ -11,7 +11,7 @@
  * @example
  * ```svelte
  * <script lang="ts">
- *   import { SearchInput } from '@razorpay/blade-svelte/components';
+ *   import { SearchInput } from '@greenloom/loom-svelte/components';
  *   let query = $state('');
  * </script>
  *

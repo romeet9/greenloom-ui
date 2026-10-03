@@ -7,7 +7,7 @@
     getStyledPropsClasses,
     throwBladeError,
     cx,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getBadgeClasses,
     getBadgeTemplateClasses,
@@ -16,7 +16,7 @@
     badgeIconSize,
     getBadgeTextColorToken,
     getBadgeIconColorToken,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import BaseText from '../Typography/BaseText/BaseText.svelte';
   import type { TextColors } from '../Typography/BaseText/types';
   import type { IconColor } from '../Icons/types';

@@ -4,13 +4,13 @@
     metaAttribute,
     MetaConstants,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCounterClasses,
     getCounterContentClasses,
     counterTextSizes,
     getCounterTextColorToken,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import type { BaseCounterProps } from './types';
   import BaseText from '../../Typography/BaseText/BaseText.svelte';
   import type { TextColors } from '../../Typography/BaseText/types';

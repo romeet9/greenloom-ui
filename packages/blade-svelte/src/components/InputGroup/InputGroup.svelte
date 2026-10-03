@@ -5,12 +5,12 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getInputGroupFieldClasses,
     getInputGroupHintIndentClass,
     getInputGroupTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import FormLabel from '../Input/_Form/FormLabel.svelte';
   import FormHint from '../Input/_Form/FormHint.svelte';
   import { useFormId } from '../Input/BaseInput/useFormId';

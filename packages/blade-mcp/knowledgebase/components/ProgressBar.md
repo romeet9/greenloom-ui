@@ -125,8 +125,8 @@ type ProgressBarProps = ProgressBarProgressProps | ProgressBarMeterProps;
 ### Basic Usage
 
 ```tsx
-import { ProgressBar } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { ProgressBar } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 
 function BasicProgressBarExample() {
   return (
@@ -144,8 +144,8 @@ function BasicProgressBarExample() {
 ### Dynamic Progress
 
 ```tsx
-import { ProgressBar } from '@razorpay/blade/components';
-import { Box } from '@razorpay/blade/components';
+import { ProgressBar } from '@greenloom/loom/components';
+import { Box } from '@greenloom/loom/components';
 import { useState, useEffect } from 'react';
 
 function DynamicProgressExample() {

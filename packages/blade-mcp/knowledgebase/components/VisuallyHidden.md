@@ -41,7 +41,7 @@ type VisuallyHiddenProps = {
 This example demonstrates how to use the VisuallyHidden component to create accessible controls with hidden labels that are only available to screen readers.
 
 ```tsx
-import { VisuallyHidden, Checkbox, Box, Text } from '@razorpay/blade/components';
+import { VisuallyHidden, Checkbox, Box, Text } from '@greenloom/loom/components';
 
 function AccessibleCheckboxExample() {
   return (

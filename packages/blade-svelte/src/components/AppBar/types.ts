@@ -1,6 +1,6 @@
 import type { Snippet } from 'svelte';
-import type { AppBarLeadingSlot, StyleOverride } from '@razorpay/blade-core/styles';
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { AppBarLeadingSlot, StyleOverride } from '@greenloom/loom-core/styles';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 import type { TooltipPlacement } from '../Tooltip/types';
 
 /**
@@ -162,7 +162,7 @@ export type AppBarActionsProps = {
    * (Figma `trailing=icon`) or a custom illustration/visual element
    * (Figma `trailing=illustration`).
    *
-   * **Note:** Unlike the React version which wraps children in a dark `BladeProvider`,
+   * **Note:** Unlike the React version which wraps children in a dark `LoomProvider`,
    * the Svelte version uses ambient theme colors. When `AppBar` variant is `'neutral'`
    * (dark surface), use `emphasis="moderate"` on `IconButton` so icons resolve to the
    * correct static-white color.

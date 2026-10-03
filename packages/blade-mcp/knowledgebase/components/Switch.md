@@ -104,7 +104,7 @@ This example demonstrates the basic usage of the Switch component with essential
 
 ```tsx
 import React from 'react';
-import { Switch } from '@razorpay/blade/components';
+import { Switch } from '@greenloom/loom/components';
 
 function BasicExample() {
   return (

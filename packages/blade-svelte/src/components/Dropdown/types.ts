@@ -1,7 +1,7 @@
 import type { Snippet } from 'svelte';
 import type { Placement } from '@floating-ui/dom';
-import type { StyledPropsBlade, DataAnalyticsAttribute } from '@razorpay/blade-core/utils';
-import type { BaseInputSize } from '@razorpay/blade-core/styles';
+import type { StyledPropsBlade, DataAnalyticsAttribute } from '@greenloom/loom-core/utils';
+import type { BaseInputSize } from '@greenloom/loom-core/styles';
 import type { IconComponent } from '../Icons';
 import type { DropdownTriggerer } from './dropdownComponentIds';
 

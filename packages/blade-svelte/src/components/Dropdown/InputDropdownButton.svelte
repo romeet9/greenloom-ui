@@ -5,12 +5,12 @@
     makeAccessible,
     makeAnalyticsAttribute,
     useId,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getInputDropdownButtonClasses,
     inputDropdownButtonContentClass,
     getDropdownTemplateClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import Text from '../Typography/Text/Text.svelte';
   import { ChevronUpDownIcon } from '../Icons';
   import { getActionListContainerRole } from '../ActionList/getA11yRoles';

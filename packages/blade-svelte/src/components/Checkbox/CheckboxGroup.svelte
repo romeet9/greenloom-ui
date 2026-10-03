@@ -6,14 +6,14 @@
     makeAccessible,
     makeAnalyticsAttribute,
     getStyledPropsClasses,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCheckboxGroupFieldClasses,
     getCheckboxGroupOptionsClasses,
     getCheckboxGroupLabelSizeClass,
     getCheckboxGroupTemplateClasses,
     getCheckboxHintClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { InfoIcon } from '../Icons';
   import { setCheckboxGroupContext } from './checkboxContext';
   import type { CheckboxGroupProps, CheckboxGroupContextType, State } from './types';

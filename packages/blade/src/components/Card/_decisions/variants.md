@@ -40,7 +40,7 @@ Metric card is designed to prominently display key performance indicators, stati
 * We can directly pass `MetricSlot` in `CardBody` and it will render the metric card.
 
 ```jsx
-import { Card ,CardHeader , CardHeaderLeading , CardHeaderTrailing, CardHeaderBadge , CardHeaderLink  } from '@razorpay/blade/components';
+import { Card ,CardHeader , CardHeaderLeading , CardHeaderTrailing, CardHeaderBadge , CardHeaderLink  } from '@greenloom/loom/components';
 
 <Card>
   <CardHeader>

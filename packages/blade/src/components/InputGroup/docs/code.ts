@@ -7,7 +7,7 @@ import {
   Button,
   Box,
   PasswordInput
-} from '@razorpay/blade/components';
+} from '@greenloom/loom/components';
 
 const InputGroupExample = () => {
   const [formData, setFormData] = useState({

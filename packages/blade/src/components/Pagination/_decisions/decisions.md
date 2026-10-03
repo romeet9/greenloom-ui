@@ -19,7 +19,7 @@ The `Pagination` component is a fully-featured component that handles all pagina
 Overall structure showing the main usage pattern:
 
 ```jsx
-import { Pagination } from '@razorpay/blade/components';
+import { Pagination } from '@greenloom/loom/components';
 
 <Pagination
   totalPages={1000}

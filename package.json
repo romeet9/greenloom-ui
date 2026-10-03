@@ -15,11 +15,12 @@
       "packages/blade-svelte"
     ],
     "nohoist": [
+      "@greenloom/loom/**",
       "@razorpay/blade/**"
     ]
   },
   "scripts": {
-    "tsc:blade": "lerna run --scope @razorpay/blade typecheck",
+    "tsc:blade": "yarn --cwd packages/blade typecheck",
     "tsc:knowledgebase": "node ./scripts/lintKnowledgebase.js",
     "check:knowledgebase-drift": "node ./scripts/checkKnowledgebaseDrift.js",
     "lint": "eslint --ext js,jsx,ts,tsx packages && stylelint '**/*.{js,jsx,ts,tsx}'",
@@ -45,7 +46,7 @@
     "build:blade-core": "yarn --cwd packages/blade-core build",
     "build:blade-mcp": "yarn --cwd packages/blade-mcp build",
     "build:blade-svelte": "yarn --cwd packages/blade-svelte build",
-    "build:eslint-plugin-blade": "lerna run --scope eslint-plugin-blade build",
+    "build:eslint-plugin-blade": "yarn --cwd packages/eslint-plugin-blade build",
     "generate-docs-lockfile": "node packages/blade/scripts/generateDocsLockFile.mjs",
     "generate-icons": "node scripts/icons/generate.mjs",
     "fetch-icons": "node scripts/icons/fetch-from-figma.js",

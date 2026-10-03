@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getActionListTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getActionListTemplateClasses } from '@greenloom/loom-core/styles';
   import type { ActionListItemBadgeGroupProps } from './types';
 
   // Call template getter so the CVA/template class isn't tree-shaken.

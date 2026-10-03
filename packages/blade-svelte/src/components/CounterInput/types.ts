@@ -1,4 +1,4 @@
-import type { StyledPropsBlade } from '@razorpay/blade-core/utils';
+import type { StyledPropsBlade } from '@greenloom/loom-core/utils';
 
 /**
  * Visual emphasis of the `CounterInput`.

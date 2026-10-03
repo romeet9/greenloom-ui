@@ -9,7 +9,7 @@ const BasicDrawerStory = `import React from 'react';
     Heading,
     TextInput,
     DownloadIcon,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -75,7 +75,7 @@ const DrawerStackingStory = `import React from 'react';
     Text,
     CardFooter,
     CardFooterTrailing,
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -178,7 +178,7 @@ const ScrollableContentStory = `import React from 'react';
     TextArea,
     Radio,
     RadioGroup
-  } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
 
   const App = () => {
     const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -261,8 +261,8 @@ const DrawerWithTableStory = `import React, { useState } from 'react';
     Link,
     ArrowRightIcon,
     useTheme,
-  } from '@razorpay/blade/components';
-  import type { TableData } from '@razorpay/blade/components';
+  } from '@greenloom/loom/components';
+  import type { TableData } from '@greenloom/loom/components';
 
   type Item = {
     id: number;

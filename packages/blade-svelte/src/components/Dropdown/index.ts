@@ -23,7 +23,7 @@
  *     ActionList,
  *     ActionListItem,
  *     Button,
- *   } from '@razorpay/blade-svelte/components';
+ *   } from '@greenloom/loom-svelte/components';
  * </script>
  *
  * <Dropdown selectionType="single">

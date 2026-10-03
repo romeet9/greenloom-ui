@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { getCardSurfaceClasses } from '@razorpay/blade-core/styles';
-  import type { CardSurfaceVariants, CardType } from '@razorpay/blade-core/styles';
-  import { cx } from '@razorpay/blade-core/utils';
+  import { getCardSurfaceClasses } from '@greenloom/loom-core/styles';
+  import type { CardSurfaceVariants, CardType } from '@greenloom/loom-core/styles';
+  import { cx } from '@greenloom/loom-core/utils';
 
   type OverflowValue = 'visible' | 'hidden' | 'scroll' | 'auto' | 'clip';
 

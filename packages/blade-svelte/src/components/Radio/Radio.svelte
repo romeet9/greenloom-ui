@@ -6,13 +6,13 @@
     makeAccessible,
     getStyledPropsClasses,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getRadioTemplateClasses,
     getRadioTitleClasses,
     getRadioSupportTextWrapperClasses,
     getRadioSupportTextClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import RadioIcon from './RadioIcon.svelte';
   import { getRadioGroupContext } from './radioContext';
   import type { RadioProps } from './types';

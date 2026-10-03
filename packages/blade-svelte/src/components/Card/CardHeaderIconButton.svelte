@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from '../Button/Button.svelte';
-  import { getCardTemplateClasses } from '@razorpay/blade-core/styles';
+  import { getCardTemplateClasses } from '@greenloom/loom-core/styles';
   import { useCardContext } from './CardContext';
   import type { CardHeaderIconButtonProps } from './types';
 

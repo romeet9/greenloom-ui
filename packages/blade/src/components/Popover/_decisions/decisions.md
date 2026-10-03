@@ -128,7 +128,7 @@ const InitialOpen = () => {
 To make popover apear on clicking a non-interactive elements such as icons, badges, counters etc. We will provide a `PopoverInteractiveWrapper` component which will work as a minimal trigger:
 
 ```js
-import { Popover, PopoverInteractiveWrapper } from '@razorpay/blade';
+import { Popover, PopoverInteractiveWrapper } from '@greenloom/loom';
 
 // non-interactive element as trigger
 <Popover content="Amount reversed to customer bank account">
@@ -147,7 +147,7 @@ Users will be able to use their own custom interactive components as triggers:
 To make custom elements work, the component needs to expose its inner ref, this can be achieved by using `React.forwardRef`:
 
 ```jsx
-import type { PopoverTriggerProps } from "@razorpay/blade/components";
+import type { PopoverTriggerProps } from "@greenloom/loom/components";
 
 type MyCustomButtonProps = {
   children: React.ReactNode

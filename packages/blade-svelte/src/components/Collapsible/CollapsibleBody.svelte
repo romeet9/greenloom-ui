@@ -5,11 +5,11 @@
     MetaConstants,
     makeAccessible,
     makeAnalyticsAttribute,
-  } from '@razorpay/blade-core/utils';
+  } from '@greenloom/loom-core/utils';
   import {
     getCollapsibleBodyClasses,
     getCollapsibleBodyInnerClasses,
-  } from '@razorpay/blade-core/styles';
+  } from '@greenloom/loom-core/styles';
   import { getCollapsibleContext } from './context';
   import type { CollapsibleBodyProps } from './types';
 

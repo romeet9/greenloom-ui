@@ -175,8 +175,8 @@ Enable file upload by providing `fileList`, `onFileChange`, and `onFileRemove`. 
 
 ```tsx
 import { useState } from 'react';
-import { ChatInput } from '@razorpay/blade/components';
-import type { BladeFileList, BladeFile } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
+import type { BladeFileList, BladeFile } from '@greenloom/loom/components';
 
 function ChatInputWithFileUpload() {
   const [value, setValue] = useState('');
@@ -208,7 +208,7 @@ Set `isGenerating={true}` while waiting for an AI response. The submit button be
 
 ```tsx
 import { useState, useRef } from 'react';
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 function ChatInputWithStopGeneration() {
   const [value, setValue] = useState('');
@@ -245,7 +245,7 @@ Set `validationState="error"` with an `errorText` to show an animated error popu
 
 ```tsx
 import { useState } from 'react';
-import { ChatInput } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
 
 function ChatInputWithValidation() {
   const [value, setValue] = useState('');
@@ -282,8 +282,8 @@ A fully featured `ChatInput` combining controlled text, file uploads, ghost sugg
 
 ```tsx
 import { useState, useRef } from 'react';
-import { ChatInput } from '@razorpay/blade/components';
-import type { BladeFileList } from '@razorpay/blade/components';
+import { ChatInput } from '@greenloom/loom/components';
+import type { BladeFileList } from '@greenloom/loom/components';
 
 function FullFeaturedChatInput() {
   const [value, setValue] = useState('');
