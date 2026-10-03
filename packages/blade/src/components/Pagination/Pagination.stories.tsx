@@ -20,7 +20,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole>
         {`
-        import { Pagination } from '@razorpay/blade/components';
+        import { Pagination } from '@greenloom/ui/components';
         import { useState } from 'react';
         
         function App() {

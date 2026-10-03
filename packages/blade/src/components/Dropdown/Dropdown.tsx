@@ -58,7 +58,7 @@ const validDropdownChildren = [
  *
  * ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-dropdown-with-select--with-single-select Dropdown Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-dropdown-with-select--with-single-select Dropdown Documentation}
  */
 const _Dropdown = (
   {
@@ -142,7 +142,7 @@ const _Dropdown = (
           throwBladeError({
             message: `Dropdown can only have one of following elements as children - \n\n ${validDropdownChildren.join(
               ', ',
-            )} \n\n Check out: https://blade.razorpay.com/?path=/story/components-dropdown`,
+            )} \n\n Check out: https://ui.greenloom.ai/?path=/story/components-dropdown`,
             moduleName: 'Dropdown',
           });
         }

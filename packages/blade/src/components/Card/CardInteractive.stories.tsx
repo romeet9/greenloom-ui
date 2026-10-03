@@ -17,7 +17,7 @@ import {
   CardHeaderBadge,
 } from '.';
 import { Code, Text, Heading } from '~components/Typography';
-import { RupeeIcon, RazorpayIcon } from '~components/Icons';
+import { RupeeIcon, GreenLoomIcon } from '~components/Icons';
 import { Link } from '~components/Link';
 import { Box } from '~components/Box';
 import { Button } from '~components/Button';
@@ -44,7 +44,7 @@ const Page = (): React.ReactElement => {
         <Sandbox>
           {`
         import React from 'react';
-        import { Card, CardBody, Box, Text, Amount, VisuallyHidden } from '@razorpay/blade/components';
+        import { Card, CardBody, Box, Text, Amount, VisuallyHidden } from '@greenloom/ui/components';
 
         type HiddenInputProps = {
           onChange: (value: string) => void;
@@ -422,7 +422,7 @@ export const LinkableCard = (): React.ReactElement => {
         </Text>
       </Box>
       <Card
-        href="https://razorpay.com/payment-links"
+        href="https://greenloom.ai/payment-links"
         accessibilityLabel="Payment Links"
         shouldScaleOnHover
         width={{ s: '100%', m: '400px' }}
@@ -438,7 +438,7 @@ export const LinkableCard = (): React.ReactElement => {
             Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately.
             Accepting payments from customers is now just a link away.
           </Text>
-          <Link marginTop="spacing.4" href="https://razorpay.com/payment-links/#overview">
+          <Link marginTop="spacing.4" href="https://greenloom.ai/payment-links/#overview">
             Get Demo
           </Link>
         </CardBody>
@@ -822,7 +822,7 @@ const merchantOnboardingOptions = [
     value: 'payment-gateway',
     title: 'Payment Gateway',
     subtitle: 'Accept online payments',
-    icon: RazorpayIcon,
+    icon: GreenLoomIcon,
     features: [
       '100+ payment methods',
       'UPI, Cards, Netbanking, Wallets',
@@ -834,7 +834,7 @@ const merchantOnboardingOptions = [
     value: 'payment-links',
     title: 'Payment Links',
     subtitle: 'Share & collect payments',
-    icon: RazorpayIcon,
+    icon: GreenLoomIcon,
     features: [
       'No coding required',
       'Share via SMS, email, WhatsApp',
@@ -846,7 +846,7 @@ const merchantOnboardingOptions = [
     value: 'payment-pages',
     title: 'Payment Pages',
     subtitle: 'Create online store',
-    icon: RazorpayIcon,
+    icon: GreenLoomIcon,
     features: [
       'Ready-to-use online store',
       'Product catalog management',
@@ -858,7 +858,7 @@ const merchantOnboardingOptions = [
     value: 'pos',
     title: 'Point of Sale (POS)',
     subtitle: 'In-store payments',
-    icon: RazorpayIcon,
+    icon: GreenLoomIcon,
     features: [
       'Accept card & UPI payments',
       'Contactless payments',

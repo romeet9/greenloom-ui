@@ -29,13 +29,13 @@ const Page = (): React.ReactElement => {
     <StoryPageWrapper
       componentDescription="Chips represents a collection of selectable objects which enable users to make selections, filter content, and trigger relevant actions. Chips can have either single selection or multiple (based on context)."
       componentName="ChipGroup"
-      imports={`import { Chip, ChipGroup } from '@razorpay/blade/components';\nimport type { ChipProps, ChipGroupProps } from '@razorpay/blade/components';`}
+      imports={`import { Chip, ChipGroup } from '@greenloom/ui/components';\nimport type { ChipProps, ChipGroupProps } from '@greenloom/ui/components';`}
       figmaURL="https://www.figma.com/proto/jubmQL9Z8V7881ayUD95ps/Blade-DSL?type=design&node-id=75272-53870&t=TGcKiXJiozSRKwOG-1&scaling=min-zoom&page-id=52377%3A23885&mode=design"
       note={
         <Text>
           Chip is a combination of ChipGroup and Chip components. This story demonstrates only the
           props of ChipGroup component. For Chips component props refer to the Chip story{' '}
-          <Link target="_blank" href="https://blade.razorpay.com/?path=/docs/components-chip-chip">
+          <Link target="_blank" href="https://ui.greenloom.ai/?path=/docs/components-chip-chip">
             here
           </Link>
         </Text>
@@ -44,7 +44,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole editorHeight={400}>
         {`
-          import { Box, Chip, ChipGroup, Text } from '@razorpay/blade/components';
+          import { Box, Chip, ChipGroup, Text } from '@greenloom/ui/components';
 
           function App() {
             return (

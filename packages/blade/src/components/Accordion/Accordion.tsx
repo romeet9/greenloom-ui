@@ -49,7 +49,7 @@ const MIN_WIDTH: BoxProps['minWidth'] = {
  * </Accordion>
  * ```
  *
- * Checkout https://blade.razorpay.com/?path=/docs/components-accordion--docs
+ * Checkout https://ui.greenloom.ai/?path=/docs/components-accordion--docs
  *
  */
 const _Accordion = (

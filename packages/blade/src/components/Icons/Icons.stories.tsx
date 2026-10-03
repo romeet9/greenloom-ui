@@ -3,7 +3,7 @@ import type { StoryFn, Meta } from '@storybook/react-vite';
 import { Title, Description } from '@storybook/addon-docs/blocks';
 import iconMap from './iconMap';
 import PlusIcon from './PlusIcon';
-import RazorpayTrustIcon from './RazorpayTrustIcon';
+import GreenLoomIcon from './GreenLoomIcon';
 import type { IconProps } from '.';
 import BaseBox from '~components/Box/BaseBox';
 import StoryPageWrapper from '~utils/storybook/StoryPageWrapper';
@@ -13,17 +13,17 @@ import { getStyledPropsArgTypes } from '~components/Box/BaseBox/storybookArgType
 const Page = (): ReactElement => {
   return (
     <StoryPageWrapper
-      componentDescription="Blade provides a bunch of icons out of the box in 6 different sizes. You can choose the size & color that fits best for your use case using the color & size props."
+      componentDescription="Green Loom provides a comprehensive set of stroke standard icons powered by Hugeicons and brand glyphs in 6 different sizes. You can choose the size & color that fits best for your use case using the color & size props."
       componentName="Icon"
       apiDecisionLink=""
-      note="Blade consists of a limited set of icons that are commonly used however you can contribute to Blade by adding more icons that are available on the Figma board as and when a use case arises. **See the adding icons section below for reference.**"
-      imports={`// Replace IconName with actual Icon's name that you would like to use \nimport { IconName } from '@razorpay/blade/components' \n// IconProps are generic Icon props for all icons, don't replace it with your IconName \nimport type { IconProps } from '@razorpay/blade/components'`}
-      figmaURL="https://www.figma.com/proto/jubmQL9Z8V7881ayUD95ps/Blade-DSL?type=design&node-id=59-177&t=asW4d8ea1ARhVt6g-1&scaling=min-zoom&page-id=57%3A0&mode=design"
+      note="Built on stroke-standard 24x24 specifications. Fully compatible with Hugeicons stroke standard."
+      imports={`// Replace IconName with actual Icon's name that you would like to use \nimport { IconName } from '@greenloom/ui/components' \n// IconProps are generic Icon props for all icons, don't replace it with your IconName \nimport type { IconProps } from '@greenloom/ui/components'`}
+      figmaURL=""
     >
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Button, ArrowRightIcon } from '@razorpay/blade/components';
+        import { Button, ArrowRightIcon } from '@greenloom/ui/components';
 
         function App() {
           // Icon component is meant to be used inside \`icon\` prop 
@@ -190,7 +190,7 @@ export const StrokedIcons: StoryFn<ComponentType<IconProps>> = ({ ...args }) => 
  * They are not part of the generic `iconMap` icon picker.
  */
 export const BrandedIcons: StoryFn<ComponentType<IconProps>> = ({ color, ...args }) => {
-  const brandedIcons = { RazorpayTrustIcon };
+  const brandedIcons = { GreenLoomIcon };
 
   return (
     <BaseBox>

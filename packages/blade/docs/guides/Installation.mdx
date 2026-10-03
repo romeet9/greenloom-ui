@@ -10,10 +10,6 @@ import {
   InfoIcon,
   Tooltip,
   TooltipInteractiveWrapper,
-  Accordion,
-  AccordionItem,
-  AccordionItemHeader,
-  AccordionItemBody,
   Heading,
   Tabs,
   TabList,
@@ -26,280 +22,142 @@ import MotionInstallation from '../../src/components/BaseMotion/docs/MotionInsta
 
 <Meta title="Guides/Installation" />
 
-# Installation
+# Installation & Setup
 
 <br />
 
-<Heading size="large">Pre-requisite</Heading>
+<Heading size="large">Loom Design System</Heading>
 
-Before you install the package, make sure that you have performed the following steps:
-
-<List marginBottom="spacing.5">
-  <ListItem>
-    <ListItemText>You must be running Node version >=14.19.0</ListItemText>
-  </ListItem>
-</List>
-
-<Accordion maxWidth="100%" variant="filled" defaultExpandedIndex={0}>
-  <AccordionItem>
-    <AccordionItemHeader><Text size="small">Razorpay Employees have to point @razorpay scope to GitHub Package Registry. Follow the steps below</Text></AccordionItemHeader>
-
-    <AccordionItemBody>
-      * Generate a Personal Access Token on GitHub by [visiting this link](https://github.com/settings/tokens/new?scopes=repo,workflow,write:packages,read:repo_hook,write:packages) (Enable SSO by clicking `Authorize` button next to Razorpay logo.)
-
-      * Run `code ~/.bashrc` or `code ~/.zshrc` in your editor and add this line
-
-        ```
-        export GITHUB_ACCESS_TOKEN="<YOUR_TOKEN>"
-        ```
-
-        > **Note**
-        >
-        > Replace `<YOUR_TOKEN>` with your actual GitHub Personal Access Token
-
-      * Run `source ~/.bashrc` or `source ~/.zshrc` based on the file you added your token.
-
-      * Run `code ~/.npmrc` and append the following
-        ```bash
-        # add following to your .npmrc
-        @razorpay:registry=https://npm.pkg.github.com/
-        //npm.pkg.github.com/:always-auth=true
-        //npm.pkg.github.com/:_authToken=${GITHUB_ACCESS_TOKEN}
-        ```
-    </AccordionItemBody>
-  </AccordionItem>
-</Accordion>
-
-<br />
-
-<Text marginY="spacing.4">Follow these 3 steps to get started!</Text>
+<Text marginY="spacing.4" color="surface.text.gray.subtle">
+  Follow the steps below to install and integrate <strong>Loom UI</strong> (@greenloom/ui) into your <strong>Green Loom</strong> web and cross-platform applications.
+</Text>
 
 <Tabs marginTop="spacing.8" variant="bordered" orientation="horizontal">
   <Box position="sticky" top="0px" zIndex={1} backgroundColor="surface.background.gray.intense">
     <TabList>
-      <TabItem value="basic">1. Basic Setup</TabItem>
-      <TabItem value="fonts">2. Install Fonts</TabItem>
-      <TabItem value="motion">3. Setup Motion React</TabItem>
-      <TabItem value="ts">4. TypeScript</TabItem>
+      <TabItem value="basic">1. Package Installation</TabItem>
+      <TabItem value="fonts">2. Typography (Geist)</TabItem>
+      <TabItem value="motion">3. Motion Setup</TabItem>
+      <TabItem value="ts">4. TypeScript Setup</TabItem>
     </TabList>
   </Box>
 
   <TabPanel value="basic">
-    <Heading size="large" marginTop="spacing.7">Add blade to your application</Heading>
+    <Heading size="large" marginTop="spacing.7">1. Add Loom UI to your project</Heading>
 
     <StepGroup orientation="vertical" size="medium">
-      <StepItem title="1. Install @razorpay/blade as a dependency.">
-        <Text>Blade has a few peer dependencies that you may already have installed in your project. If so, you can skip adding them again.</Text>
+      <StepItem title="1. Install @greenloom/ui and peer dependencies">
+        <Text color="surface.text.gray.subtle">
+          Install the Loom design system core package along with its React and motion dependencies:
+        </Text>
 
         ```shell
-        yarn add @razorpay/blade styled-components@5.3.11 @razorpay/i18nify-js@1.9.3 @razorpay/i18nify-react@4.0.8 framer-motion@11.13.3
+        yarn add @greenloom/ui styled-components@5.3.11 hugeicons-react framer-motion@11.13.3
         ```
 
         <List>
           <ListItem>
+            <ListItemLink href="https://hugeicons.com">hugeicons-react</ListItemLink>
+            <ListItemText>
+              Standard stroke icons library for all interface glyphs and actions.
+            </ListItemText>
+          </ListItem>
+          <ListItem>
             <ListItemLink href="https://www.npmjs.com/package/styled-components/v/5.3.11">styled-components@5</ListItemLink>
-
             <ListItemText>
-              <Tooltip content="Currently blade only supports version 5">
-                <TooltipInteractiveWrapper position="relative" left="2px" top="2px">
-                  <InfoIcon size="small" />
-                </TooltipInteractiveWrapper>
-              </Tooltip>
+              Theme-injected styling engine.
             </ListItemText>
           </ListItem>
-
           <ListItem>
-            <ListItemLink href="https://www.npmjs.com/package/@razorpay/i18nify-js">@razorpay/i18nify-js</ListItemLink>
-
+            <ListItemLink href="https://www.framer.com/motion/">framer-motion</ListItemLink>
             <ListItemText>
-              <Tooltip content="i18n library that blade depends on. Follow their installation guide for more info">
-                <TooltipInteractiveWrapper position="relative" left="2px" top="2px">
-                  <InfoIcon size="small" />
-                </TooltipInteractiveWrapper>
-              </Tooltip>
-            </ListItemText>
-          </ListItem>
-
-          <ListItem>
-            <ListItemLink href="https://www.npmjs.com/package/@razorpay/i18nify-react">@razorpay/i18nify-react</ListItemLink>
-
-            <ListItemText>
-              <Tooltip content="A state management React wrapper for @razorpay/i18nify-js that maintains locale state of your page">
-                <TooltipInteractiveWrapper position="relative" left="2px" top="2px">
-                  <InfoIcon size="small" />
-                </TooltipInteractiveWrapper>
-              </Tooltip>
+              Smooth declarative physics and UI transitions.
             </ListItemText>
           </ListItem>
         </List>
       </StepItem>
 
-      <StepItem title="2. Add ReactNative Dependencies [Optional for web projects]">
-        ```shell
-        yarn add @floating-ui/react-native@0.10.0 react-native-reanimated@3.4.1 react-native-tab-view@3.5.2 react-native-pager-view@6.2.1 react-native-svg@12.3.0 react-native-gesture-handler@2.9.0 @gorhom/bottom-sheet@4.4.6 @gorhom/portal@1.0.1
-        ```
+      <StepItem title="2. Wrap your application with BladeProvider (Loom Provider)">
+        <Text color="surface.text.gray.subtle">
+          Provide the Loom theme context and color scheme to your React tree:
+        </Text>
 
-        * `react-native-reanimated`
-          * Follow [this guide](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation) to install it on Android & iOS which is required by Blade.
-        * `react-native-svg`
-          * Follow [this guide](https://github.com/react-native-svg/react-native-svg#with-react-native-cli) to install it on Android & iOS which is required by Blade.
-        * `react-native-gesture-handler`
-          * Follow [this guide](https://docs.swmansion.com/react-native-gesture-handler/docs/installation) to install it, note that you don't need to add `<GestureHandlerRootView style={{ flex: 1 }}>` again on the root because BladeProvider already adds that out of the box.
-        * `@gorhom/bottom-sheet`
-          * Add this as peer dependency, no need to do additional setup since BladeProvider already sets everything up.
-        * `@gorhom/portal`
-          * Add this as peer dependency, no need to do additional setup since BladeProvider already sets everything up.
-        * `@floating-ui/react-native`
-          * Add this as peer dependency, no need to do additional setup.
-        * `react-native-tab-view`
-          * Add this as peer dependency, no need to do additional setup. This is needed for react-native Tabs component as per [this guide](https://reactnavigation.org/docs/tab-view/#installation).
-        * `react-native-pager-view`
-          * Add this as peer dependency, no need to do additional setup. This is needed for react-native Tabs component as per [this guide](https://reactnavigation.org/docs/tab-view/#installation).
+        ```tsx
+        import React from 'react';
+        import { BladeProvider } from '@greenloom/ui/components';
+        import { bladeTheme } from '@greenloom/ui/tokens';
 
-        And finally run `pod install` command so that blade's RN dependencies are linked to your project:
-
-        ```shell
-        cd ios && pod install
+        export function App() {
+          return (
+            <BladeProvider themeTokens={bladeTheme} colorScheme="light">
+              <YourApplicationRoutes />
+            </BladeProvider>
+          );
+        }
         ```
       </StepItem>
-
-      <StepItem title="Next: Install Fonts" />
     </StepGroup>
   </TabPanel>
 
   <TabPanel value="fonts">
-    <Heading size="large" marginTop="spacing.7">Installing Fonts</Heading>
+    <Heading size="large" marginTop="spacing.7">2. Typography Configuration</Heading>
 
-    We use 2 fonts. [TASA Orbiter](https://tasatype.localremote.co/) (for our headings), and [Inter](https://rsms.me/inter/) (for other text elements).
+    <Text marginY="spacing.4" color="surface.text.gray.subtle">
+      Loom UI standardizes on <strong>Geist</strong> for all headings, body text, and UI labels, and <strong>Geist Mono</strong> for numeric figures, currencies, tables, counters, and code.
+    </Text>
 
-    ### Web
+    ### Google Fonts Import (Recommended for Web)
 
-    * To add these fonts to your project, import them from the blade package in your root entry file.
-
-      ```ts
-      // Somewhere in root index.ts or entryBrowser.tsx file
-      import '@razorpay/blade/fonts.css';
-      ```
-
-    * While Blade handles the `font-family` for its components, you can set the `font-family` globally in your project's global styles for any custom components or exceptions.
-
-      ```ts
-      import { createGlobalStyle } from 'styled-components';
-
-      const GlobalStyles = createGlobalStyle`
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: ${(props) => props.theme.typography.fonts.family.text}
-      }
-
-      h1, h2, h3, h4, h5, h6 {
-        font-family: ${(props) => props.theme.typography.fonts.family.heading};
-      }
-      `;
-      ```
-
-    ##### No Bundler Setups or No Code Tools
-
-    If your project uses a no-bundler setup or is a no-code tool, you can install fonts with the `unpkg` link
+    Add the Google Fonts stylesheet to your `<head>` or main entry file:
 
     ```html
-    <link rel="stylesheet" href="https://unpkg.com/@razorpay/blade@<blade-version>/fonts.css" />
-    <!--
-      Replace <blade-version> in the URL with the version of Blade you're using
-      E.g. https://unpkg.com/@razorpay/blade@11.3.1/fonts.css
-    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     ```
 
-    ### React Native
+    ### CSS / Global Styles
 
-    * Download fonts from <a href="https://github.com/razorpay/blade/tree/master/packages/blade/fonts/blade-fonts-react-native.zip">blade-fonts-react-native.zip</a> and unzip.
+    ```css
+    body {
+      font-family: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
 
-    * #### For iOS
-
-      * Copy all font files from the `ios-fonts` directory to `<project_root>/public/fonts` (**create the directory if it doesn't exist**)
-
-      * Create a React Native config file at the root of your project - `<project_root>/react-native.config.js` and add the following content to it
-
-        ```js
-        module.exports = {
-          // ... rest of the config
-          assets: ['./public/fonts/'],
-        };
-        ```
-
-      * Run the following command to link fonts in ios
-
-        ```shell
-        npx react-native-asset -ios-a
-        ```
-
-    * #### For Android
-
-      * Copy all files from `android-fonts` to `/android/app/src/main/res/font`
-
-      * Navigate to `/android/app/src/main/java/com/<your_package_name>/MainApplication.java` and add the following contents to it
-
-        ```js
-        // add the below import statement after all the import statements
-        import com.facebook.react.views.text.ReactFontManager;
-        ```
-
-      * Now search for the `onCreate` method and add the following line to it
-
-        ```js
-        public void onCreate() {
-          // add the below lines as the first lines
-          ReactFontManager.getInstance().addCustomFont(this, "Inter", R.font.inter);
-          ReactFontManager.getInstance().addCustomFont(this, "TASA Orbiter Display", R.font.tasa);
-          // rest of the content of the method
-        }
-        ```
+    code, kbd, samp, pre, .mono {
+      font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    ```
   </TabPanel>
 
   <TabPanel value="motion">
-    <Heading size="large" marginTop="spacing.7">Add motion to your application</Heading>
+    <Heading size="large" marginTop="spacing.7">3. Motion Setup</Heading>
 
-    Assuming you've followed the first step and installed `framer-motion` in your project, Here's how we recommend you to setup the project-
+    <Text marginY="spacing.4" color="surface.text.gray.subtle">
+      Loom UI components integrate with Framer Motion for smooth layout transitions and modal entrances.
+    </Text>
 
     <MotionInstallation />
   </TabPanel>
 
   <TabPanel value="ts">
-    <Heading size="large" marginY="spacing.7">TypeScript Setup</Heading>
-
-    ### Web
-
-    If you're using TypeScript in your project, first make sure you have `@types/styled-components` installed.
+    <Heading size="large" marginY="spacing.7">4. TypeScript Configuration</Heading>
 
     ```shell
     yarn add -D @types/styled-components
     ```
 
-    Now, you can extend the theme interface to include your custom theme properties to `styled-components`.
+    Extend the default theme in your ambient type definitions:
 
     ```ts
-    // file: index.d.ts
-    import { Theme } from '@razorpay/blade/components';
+    // file: styled.d.ts
+    import { Theme } from '@greenloom/ui/components';
 
     declare module 'styled-components' {
       export interface DefaultTheme extends Theme {}
-    }
-    ```
-
-    ### React Native
-
-    To get ReactNative specific type hints for the blade components, you can switch the `moduleSuffixes` in your `tsconfig.json` to include `.native` files.
-
-    ```json
-    {
-      "compilerOptions": {
-        "moduleSuffixes": [".native", ""]
-      }
     }
     ```
   </TabPanel>

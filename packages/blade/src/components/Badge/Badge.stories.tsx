@@ -20,7 +20,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Badge, InfoIcon } from '@razorpay/blade/components';
+        import { Badge, InfoIcon } from '@greenloom/ui/components';
         
         function App() {
           return (

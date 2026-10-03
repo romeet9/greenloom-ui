@@ -208,7 +208,7 @@ export const sideNavWithReactRouter = {
                 <Indicator
                   color={isTestModeActive ? 'notice' : 'positive'}
                   emphasis="intense"
-                  accessibilityLabel=""
+                  accessibilityLabel="Test mode status"
                 />
               }
               backgroundColor={
@@ -216,7 +216,7 @@ export const sideNavWithReactRouter = {
               }
               trailing={
                 <BladeSwitch
-                  accessibilityLabel=""
+                  accessibilityLabel="Toggle test mode"
                   size="small"
                   isChecked={isTestModeActive}
                   onChange={({ isChecked }) => {
@@ -296,7 +296,7 @@ export const sideNavWithReactRouter = {
     HeadsetIcon,
     LayoutIcon,
     PlusIcon,
-    RazorpayxPayrollIcon,
+    AutomatePayrollIcon,
     ReportsIcon,
     StampIcon,
     UserCheckIcon,
@@ -325,7 +325,7 @@ export const sideNavWithReactRouter = {
           },
           trailing: (
             <Tooltip content="Create Payout (Cmd + P)" placement="right">
-              <Button icon={PlusIcon} size="xsmall" variant="tertiary" />
+              <Button icon={PlusIcon} size="xsmall" variant="tertiary" accessibilityLabel="Create Payout" />
             </Tooltip>
           ),
         },
@@ -384,7 +384,7 @@ export const sideNavWithReactRouter = {
           href: '/app/tax-payments',
         },
         {
-          icon: RazorpayxPayrollIcon,
+          icon: AutomatePayrollIcon,
           title: 'Payroll',
           href: '/app/payroll',
         },

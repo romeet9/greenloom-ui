@@ -31,7 +31,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Amount } from '@razorpay/blade/components';
+        import { Amount } from '@greenloom/ui/components';
         
         function App() {
           return <Amount value={10000} />;

@@ -102,7 +102,7 @@ const Page = (): React.ReactElement => {
           Alert,
           TextInput,
           Text,
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
         function App() {
           const [isOpen, setIsOpen] = React.useState(false);
           const [isPreviewOpen, setIsPreviewOpen] = React.useState(false);

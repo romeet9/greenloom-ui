@@ -34,7 +34,7 @@ import {
   PaymentGatewayIcon,
   PaymentLinkIcon,
   PaymentPagesIcon,
-  RazorpayxPayrollIcon,
+  AutomatePayrollIcon,
 } from '~components/Icons';
 import { RazorpayLogo } from '~components/SideNav/docs/RazorpayLogo';
 import { SearchInput } from '~components/Input/SearchInput';
@@ -240,7 +240,7 @@ export const DashboardWithRoutingExample = ({
                           {
                             href: '/app/payroll',
                             title: 'Payroll',
-                            icon: RazorpayxPayrollIcon,
+                            icon: AutomatePayrollIcon,
                             description: 'Automate payroll with ease.',
                           },
                           {

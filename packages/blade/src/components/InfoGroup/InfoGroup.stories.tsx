@@ -39,7 +39,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { InfoGroup, InfoItem, InfoItemKey, InfoItemValue, UserIcon } from '@razorpay/blade/components';
+        import { InfoGroup, InfoItem, InfoItemKey, InfoItemValue, UserIcon } from '@greenloom/ui/components';
         
         function App() {
           return (

@@ -78,7 +78,7 @@ export type CardProps = {
    * Sets the elevation for Cards
    *
    * **Links:**
-   * - Docs: https://blade.razorpay.com/?path=/docs/tokens-elevation--docs
+   * - Docs: https://ui.greenloom.ai/?path=/docs/tokens-elevation--docs
    *
    * @deprecated The `elevation` prop is deprecated and is a no-op. The Card always uses a custom elevation. This prop will be removed in a future major version.
    */
@@ -88,7 +88,7 @@ export type CardProps = {
    * @default `spacing.7`
    *
    * **Links:**
-   * - Docs: https://blade.razorpay.com/?path=/docs/tokens-spacing--docs
+   * - Docs: https://ui.greenloom.ai/?path=/docs/tokens-spacing--docs
    */
   padding?: CardSpacingValueType;
   /**

@@ -28,7 +28,7 @@ const Page = (): ReactElement => {
       <StorybookTitle>Usage</StorybookTitle>
       <Sandbox>
         {`
-          import { VisuallyHidden, Checkbox, Text, Box } from '@razorpay/blade/components';
+          import { VisuallyHidden, Checkbox, Text, Box } from '@greenloom/ui/components';
 
           function App() {
             return (

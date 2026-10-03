@@ -87,7 +87,7 @@ const _EmptyState: React.ForwardRefRenderFunction<BladeElementRef, EmptyStatePro
  * </EmptyState>
  * ```
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-emptystate EmptyState Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-emptystate EmptyState Documentation}
  */
 const EmptyState = assignWithoutSideEffects(React.forwardRef(_EmptyState), {
   displayName: 'EmptyState',

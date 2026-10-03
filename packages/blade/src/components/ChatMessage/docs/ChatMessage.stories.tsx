@@ -43,7 +43,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { ChatMessage } from '@razorpay/blade/components';
+        import { ChatMessage } from '@greenloom/ui/components';
         
         function App() {
           return (
@@ -57,8 +57,8 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Rolling Loading Text</Heading>
       <Sandbox showConsole>
         {`
-        import { ChatMessage } from '@razorpay/blade/components';
-        import { RayIcon } from '@razorpay/blade/components';
+        import { ChatMessage } from '@greenloom/ui/components';
+        import { RayIcon } from '@greenloom/ui/components';
 
         function App() {
           return (

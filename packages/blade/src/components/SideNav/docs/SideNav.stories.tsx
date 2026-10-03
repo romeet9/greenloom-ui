@@ -34,7 +34,7 @@ import {
   LayoutIcon,
   MenuIcon,
   PlusIcon,
-  RazorpayxPayrollIcon,
+  AutomatePayrollIcon,
   ReportsIcon,
   SettingsIcon,
   StampIcon,
@@ -109,9 +109,21 @@ export default {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Page = ({ match }: { match: any }): React.ReactElement => (
   <Box padding={{ base: 'spacing.2', m: 'spacing.6' }}>
-    <pre>
-      <code>{JSON.stringify(match, null, 4)}</code>
-    </pre>
+    <Text color="surface.text.gray.normal" fontFamily="code">
+      <pre
+        style={{
+          margin: 0,
+          padding: '16px',
+          borderRadius: '8px',
+          color: 'inherit',
+          fontFamily: 'inherit',
+          fontSize: '13.5px',
+          lineHeight: '1.6',
+        }}
+      >
+        <code>{JSON.stringify(match, null, 4)}</code>
+      </pre>
+    </Text>
   </Box>
 );
 
@@ -190,7 +202,12 @@ const navItemsJSON: NavItemsJSONType[] = [
         },
         trailing: (
           <Tooltip content="Create Payout (Cmd + P)" placement="right">
-            <Button icon={PlusIcon} size="xsmall" variant="tertiary" />
+            <Button
+              icon={PlusIcon}
+              size="xsmall"
+              variant="tertiary"
+              accessibilityLabel="Create payout"
+            />
           </Tooltip>
         ),
       },
@@ -322,7 +339,7 @@ const navItemsJSON: NavItemsJSONType[] = [
         href: '/app/tax-payments',
       },
       {
-        icon: RazorpayxPayrollIcon,
+        icon: AutomatePayrollIcon,
         title: 'Payroll',
         href: '/app/payroll',
       },
@@ -522,7 +539,7 @@ const SideNavExample = ({
             leading={TestIcon}
             trailing={
               <BladeSwitch
-                accessibilityLabel=""
+                accessibilityLabel="Toggle test mode"
                 size="small"
                 isChecked={isTestModeActive}
                 onChange={({ isChecked }) => {
@@ -554,6 +571,7 @@ const SideNavExample = ({
           display={{ base: undefined, m: 'none' }}
           variant="tertiary"
           icon={MenuIcon}
+          accessibilityLabel="Open navigation menu"
           onClick={() => setIsMobileOpen(true)}
           position="fixed"
           top="spacing.4"

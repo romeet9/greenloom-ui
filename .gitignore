@@ -7,6 +7,7 @@ dist
 
 # build direcotries
 **/storybook-site
+**/storybook-static
 **/build
 packages/blade/components.js
 packages/blade/components.native.js

@@ -158,15 +158,11 @@ const configs = {
   },
 };
 
-const framework = process.env.FRAMEWORK;
+const framework = process.env.FRAMEWORK || 'REACT';
 if (framework === 'REACT') {
   module.exports = { env: configs.react };
 } else if (framework === 'REACT_NATIVE') {
   module.exports = { env: configs.reactNative };
 } else {
-  throw new Error(
-    `Blade requires "FRAMEWORK" environment variable to be set. Valid values are "REACT" and "REACT_NATIVE". Instead, received: ${JSON.stringify(
-      framework,
-    )}`,
-  );
+  module.exports = { env: configs.react };
 }

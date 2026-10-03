@@ -26,12 +26,12 @@ import { Alert, Link } from '@razorpay/blade';
   description={
     <>
       Currently you can only accept payments in international currencies using PayPal. You cannot
-      accept payments in INR (₹) using PayPal. <Link href="https://razorpay.com">Know More</Link>
+      accept payments in INR (₹) using PayPal. <Link href="https://greenloom.ai">Know More</Link>
     </>
   }
   actions={{
     primary: { text: 'Primary Action', onClick: {() => { /* do something */ }} },
-    secondary: { text: 'Link', onClick: {() => { /* do something */ }}, href: 'https://razorpay.com'},
+    secondary: { text: 'Link', onClick: {() => { /* do something */ }}, href: 'https://greenloom.ai'},
   }}
 />;
 ```
@@ -126,7 +126,7 @@ This full bleed layout works for all desktop, mobile and native when the `isFull
   description={
     <>
       Use vendor payouts to quickly generate invoices.{' '}
-      <Link href="https://razorpay.com">Know More</Link>
+      <Link href="https://greenloom.ai">Know More</Link>
     </>
   }
 />
@@ -170,7 +170,7 @@ Sample usage:
 <Alert title="International Payments Only">
   <Alert.Description>
     Currently you can only accept payments in international currencies using PayPal. You cannot
-    accept payments in INR (₹) using PayPal. <Link href="https://razorpay.com">Know More</Link>
+    accept payments in INR (₹) using PayPal. <Link href="https://greenloom.ai">Know More</Link>
   </Alert.Description>
   <Alert.PrimaryAction
     onClick={() => {
@@ -183,7 +183,7 @@ Sample usage:
     onClick={() => {
       // do something
     }}
-    href="https://razorpay.com"
+    href="https://greenloom.ai"
   >
     Link
   </Alert.SecondaryAction>

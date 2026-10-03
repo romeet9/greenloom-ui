@@ -375,10 +375,10 @@ const colors: ColorsWithModes = {
           disabled: globalColors.chromatic.azure.a200,
         },
         onPrimary: {
-          normal: globalColors.neutral.white[500],
-          subtle: globalColors.neutral.white[400],
-          muted: globalColors.neutral.white[300],
-          disabled: globalColors.neutral.white[100],
+          normal: globalColors.neutral.black[500], // #0e0e0e high-contrast on Powder Green
+          subtle: globalColors.neutral.black[400],
+          muted: globalColors.neutral.black[300],
+          disabled: globalColors.neutral.black[100],
         },
         onNeutral: {
           normal: globalColors.neutral.white[500],
@@ -443,10 +443,10 @@ const colors: ColorsWithModes = {
           disabled: globalColors.chromatic.azure.a200,
         },
         onPrimary: {
-          normal: globalColors.neutral.white[500],
-          subtle: globalColors.neutral.white[400],
-          muted: globalColors.neutral.white[300],
-          disabled: globalColors.neutral.white[100],
+          normal: globalColors.neutral.black[500],
+          subtle: globalColors.neutral.black[400],
+          muted: globalColors.neutral.black[300],
+          disabled: globalColors.neutral.black[100],
         },
         onNeutral: {
           normal: globalColors.neutral.white[500],
@@ -760,20 +760,20 @@ const colors: ColorsWithModes = {
       text: {
         gray: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
-          disabled: globalColors.neutral.blueGrayDark.a564,
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
+          disabled: globalColors.neutral.blueGrayDark[500],
         },
         primary: {
-          normal: globalColors.chromatic.azure[300],
+          normal: globalColors.chromatic.azure[200],
         },
         onSea: {
-          onSubtle: globalColors.chromatic.forest[200],
-          onIntense: globalColors.chromatic.forest[800],
+          onSubtle: globalColors.chromatic.forest[100],
+          onIntense: globalColors.chromatic.forest[900],
         },
         onCloud: {
-          onSubtle: globalColors.chromatic.azure[200],
-          onIntense: globalColors.chromatic.azure[600],
+          onSubtle: globalColors.chromatic.azure[100],
+          onIntense: globalColors.chromatic.azure[700],
         },
         staticWhite: {
           normal: globalColors.neutral.white[500],
@@ -791,12 +791,12 @@ const colors: ColorsWithModes = {
       icon: {
         gray: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
-          disabled: globalColors.neutral.blueGrayDark.a532,
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
+          disabled: globalColors.neutral.blueGrayDark[500],
         },
         primary: {
-          normal: globalColors.chromatic.azure[300],
+          normal: globalColors.chromatic.azure[200],
         },
         onSea: {
           onSubtle: globalColors.chromatic.forest[400],
@@ -1065,27 +1065,27 @@ const colors: ColorsWithModes = {
         },
         neutral: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
           disabled: globalColors.neutral.blueGrayDark.a532,
         },
         gray: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
           disabled: globalColors.neutral.blueGrayDark.a532,
         },
         primary: {
-          normal: globalColors.chromatic.azure[300],
-          subtle: globalColors.chromatic.azure[400],
-          muted: globalColors.chromatic.azure[600],
+          normal: globalColors.chromatic.azure[200],
+          subtle: globalColors.chromatic.azure[300],
+          muted: globalColors.chromatic.azure[500],
           disabled: globalColors.chromatic.azure.a400,
         },
         onPrimary: {
-          normal: globalColors.neutral.white[500],
-          subtle: globalColors.neutral.white[400],
-          muted: globalColors.neutral.white[300],
-          disabled: globalColors.neutral.white[100],
+          normal: globalColors.neutral.black[500], // #0e0e0e high-contrast on Powder Green
+          subtle: globalColors.neutral.black[400],
+          muted: globalColors.neutral.black[300],
+          disabled: globalColors.neutral.black[100],
         },
         onNeutral: {
           normal: globalColors.neutral.black[500],
@@ -1133,14 +1133,14 @@ const colors: ColorsWithModes = {
         },
         neutral: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
           disabled: globalColors.neutral.blueGrayDark.a532,
         },
         gray: {
           normal: globalColors.neutral.blueGrayDark[0],
-          subtle: globalColors.neutral.blueGrayDark[300],
-          muted: globalColors.neutral.blueGrayDark[500],
+          subtle: globalColors.neutral.blueGrayDark[100],
+          muted: globalColors.neutral.blueGrayDark[200],
           disabled: globalColors.neutral.blueGrayDark.a532,
         },
         primary: {
@@ -1150,10 +1150,10 @@ const colors: ColorsWithModes = {
           disabled: globalColors.chromatic.azure.a400,
         },
         onPrimary: {
-          normal: globalColors.neutral.white[500],
-          subtle: globalColors.neutral.white[400],
-          muted: globalColors.neutral.white[300],
-          disabled: globalColors.neutral.white[100],
+          normal: globalColors.neutral.black[500],
+          subtle: globalColors.neutral.black[400],
+          muted: globalColors.neutral.black[300],
+          disabled: globalColors.neutral.black[100],
         },
         onNeutral: {
           normal: globalColors.neutral.black[500],

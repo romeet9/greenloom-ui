@@ -193,7 +193,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox showConsole>
             {`
-              import { OTPInput } from '@razorpay/blade/components';
+              import { OTPInput } from '@greenloom/ui/components';
 
               function App() {
                 return (

@@ -129,7 +129,7 @@ export const createServer = ({
   transportType?: 'stdio' | 'http';
 }): McpServer => {
   const server = new McpServer({
-    name: 'Blade MCP',
+    name: 'Loom UI MCP',
     version: getPackageJSONVersion(),
   });
 

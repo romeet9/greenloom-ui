@@ -160,7 +160,7 @@ const AmountValue = ({
   suffix,
 }: AmountValue): ReactElement => {
   const affixFontSize = isAffixSubtle ? subtleFontSizes[type][size] : normalAmountSizes[type][size];
-  const numberFontFamily: keyof FontFamily = type === 'body' ? 'text' : 'heading';
+  const numberFontFamily: keyof FontFamily = 'code'; // Green Loom AI: Geist Mono for numbers
   if (suffix === 'decimals' && isAffixSubtle) {
     if (isReactNative()) {
       // Align the small decimal to the large integer by their text BASELINE (not view

@@ -13,6 +13,7 @@ const getStyledCounterStyles = ({
   backgroundColor: getIn(theme.colors, backgroundColor),
   borderRadius: makeBorderSize(theme.border.radius.max),
   maxWidth: makeSize(maxWidth[platform]),
+  fontFamily: theme.typography.fonts.family.code,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

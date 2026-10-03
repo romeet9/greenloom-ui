@@ -735,7 +735,7 @@ export const WithScrollablePage = () => {
             >
               <Text>Built for Developers: Robust, clean,</Text>
               <SpotlightPopoverTourStep name="razorpay-docs">
-                <Link href="https://razorpay.com/docs/api/">developer friendly APIs</Link>
+                <Link href="https://greenloom.ai/docs/api/">developer friendly APIs</Link>
               </SpotlightPopoverTourStep>
               <Text>
                 , plugins and libraries for all major languages and platforms that let you focus on

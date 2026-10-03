@@ -102,12 +102,6 @@ export const parameters = {
         return bladeTheme;
       };
 
-      if (globals.version === '10' && window.top) {
-        window.top.location.href =
-          'https://v10--61c19ee8d3d282003ac1d81c.chromatic.com' +
-          window.top.location.pathname +
-          window.top.location.search;
-      }
       return (
         <DocsContainer context={context} {...rest}>
           <LazyMotion strict features={domMax}>
@@ -190,16 +184,8 @@ export const decorators = [
       return bladeTheme;
     };
 
-    if (context.globals.version === '10' && window.top) {
-      window.top.location.href =
-        'https://v10--61c19ee8d3d282003ac1d81c.chromatic.com' +
-        window.top.location.pathname +
-        window.top.location.search;
-    }
-
     return (
       <ErrorBoundary>
-        {/* strict in LazyMotion will make sure we don't use excessive `motion` component in blade components and instead use light weight `m` */}
         <LazyMotion strict features={domMax}>
           <BladeProvider
             key={`${context.globals.themeTokenName}-${context.globals.colorScheme}`}
@@ -217,60 +203,33 @@ export const decorators = [
 ];
 
 export const globalTypes = {
-  version: {
-    name: 'Blade Documentation Version',
-    description: 'Version of the Blade',
-    defaultValue: '12',
-    toolbar: {
-      icon: 'time',
-      title: ' v12 - Spark',
-      // Array of plain string values or MenuItem shape (see below)
-      items: [
-        { value: '10', title: ' v10 - Old' },
-        { value: '12', title: ' v12 - Spark', default: true },
-      ],
-      dynamicTitle: true,
-      // Property that specifies if the name of the item will be displayed
-      showName: false,
-    },
-  },
   colorScheme: {
     name: 'Color Scheme',
-    description: 'Color Scheme for Blade',
+    description: 'Color Scheme for Green Loom UI',
     defaultValue: 'light',
     toolbar: {
       icon: 'eye',
-      // Array of plain string values or MenuItem shape (see below)
       items: [
         { value: 'light', title: 'Light' },
         { value: 'dark', title: 'Dark' },
         { value: 'system', title: 'System' },
       ],
-      // Property that specifies if the name of the item will be displayed
       showName: true,
     },
   },
   brandColor: {
     name: 'Brand Color',
-    description: 'Brand Color (You can pass any valid color to BladeProvider)',
+    description: 'Green Loom Brand Accents',
     defaultValue: undefined,
     toolbar: {
       icon: 'paintbrush',
-      // Array of plain string values or MenuItem shape (see below)
       items: [
-        { value: undefined, title: 'Razorpay' },
-        { value: '#EE681A', title: 'ICICI' },
-        { value: '#83003D', title: 'Axis' },
-        { value: '#15A5EB', title: 'SBI' },
-        { value: '#107259', title: 'IDBI' },
-        { value: '#FFF10A', title: 'Allahabad' },
-        { value: '#F32951', title: 'BookMyShow' },
-        { value: '#F86B15', title: 'Swiggy' },
-        { value: '#CF2033', title: 'Zomato' },
-        { value: '#19BEA2', title: 'DSP Mutual Fund' },
-        { value: '#DF005D', title: 'Nykaa' },
+        { value: undefined, title: 'Powder Green (Default)' },
+        { value: '#059669', title: 'Emerald' },
+        { value: '#10B981', title: 'Mint' },
+        { value: '#C6B8FF', title: 'Powder Lilac' },
+        { value: '#83E4FA', title: 'Powder Blue' },
       ],
-      // Property that specifies if the name of the item will be displayed
       showName: true,
     },
   },

@@ -21,7 +21,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={400}>
         {`
-        import { AnnouncementBanner, AnnouncementIcon } from '@razorpay/blade/components';
+        import { AnnouncementBanner, AnnouncementIcon } from '@greenloom/ui/components';
 
         function App() {
           // The banner's colour treatment follows the app's colorScheme

@@ -222,7 +222,7 @@ const makeBoxProps = (
  *
  * ---
  * 
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-box Box Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-box Box Documentation}
  * 
  */
 const _Box: React.ForwardRefRenderFunction<BoxRefType, BoxProps> = (props, ref) => {

@@ -1,10 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks';
 import {
-  Collapsible,
-  CollapsibleLink,
-  CollapsibleBody,
-  Accordion,
-  AccordionItem,
   Text,
   Code,
   Link,
@@ -17,74 +12,68 @@ import { createTheme } from '../../src/tokens';
 
 <Meta title="Guides/Theming/createTheme Function" />
 
-# Custom Brand Theme
+<div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '24px' }}>
+  <div style={{ width: '40px', height: '40px', borderRadius: '10px', backgroundColor: 'rgba(16,185,129,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 2a10 10 0 0 1 10 10" />
+      <path d="M12 18a6 6 0 0 1-6-6" />
+    </svg>
+  </div>
+  <div>
+    <h1 style={{ margin: 0, fontSize: '28px', fontWeight: 700 }}>Custom Theming with createTheme</h1>
+    <p style={{ margin: 0, fontSize: '14px', opacity: 0.75 }}>Generate accessible color palettes and theme tokens for Green Loom</p>
+  </div>
+</div>
 
-You may want to use Blade with brands other than Razorpay. In fact, even at Razorpay we ship features for our merchants that match the merchant's brand like Payment Pages, Payment Button, Partner Merchants, Admin Dashboards to VAS merchants, etc.
+Loom UI is powered by a **Powder Green** chromatic palette by default. However, you can generate custom brand palettes or sub-brand tokens using the `createTheme()` utility while preserving strict WCAG AAA accessibility.
 
-To make this possible, Blade allows you to customize the theme of the components to match your brand with the `createTheme` function.
+---
 
 ## API Reference
 
-### `createTheme()`:
+### `createTheme({ brandColor })`
 
-> Returns a `ThemeTokens` object that can be passed to `themeTokens` prop of `BladeProvider` to customize the branding of all components.
-
-`createTheme()` accepts an object with the following keys:
-
-#### `brandColor`:
-
-* This is the primary color of your brand.
-* `createTheme` will generate a color palatte using this brand color which will then be used across Blade components to match your brand.
-* You can pass any valid CSS color value (rgb, hex or hsl) format to this key.
-
-## Usage
+Generates a complete `ThemeTokens` object containing typography, motion, spacing, and a dynamically balanced color scale based on your primary brand color.
 
 ```tsx
-import { createTheme } from '@razorpay/blade/tokens';
+import { createTheme } from '@greenloom/ui/tokens';
+import { BladeProvider } from '@greenloom/ui/components';
 
+// 1. Generate customized tokens from your brand color
 const { theme: customThemeTokens } = createTheme({
-  brandColor: '#83003D', // 'rgba(131, 0, 61)', 'hsl(332, 100%, 26%)' are also valid values
+  brandColor: '#10B981', // Hex, RGB, or HSL
 });
 
-const Wrapper = () => {
+// 2. Supply to your provider
+export function BrandedApp() {
   return (
-    <BladeProvider themeTokens={customThemeTokens}>
+    <BladeProvider themeTokens={customThemeTokens} colorScheme="dark">
       <App />
     </BladeProvider>
   );
-};
+}
 ```
 
-### Light & Dark theme support
+---
 
-Custom branded themes also contain support for light and dark color schemes. You can pass the `colorScheme` prop to `BladeProvider` to switch between light and dark color schemes.
+## Automatic Contrast Calculation
 
-```tsx
-// or colorScheme="light"
-<BladeProvider themeTokens={customThemeTokens} colorScheme="dark">
-  <App />
-</BladeProvider>
-```
+`createTheme` automatically calculates foreground and background luminance to ensure text and icon contrast meets the **WCAG 2.1 AA & AAA standards ($\ge 4.5:1$)**:
 
 export const ContrastDemo = () => {
   return (
-    <div>
-      <BladeProvider themeTokens={createTheme({ brandColor: '#83003D' }).theme} colorScheme="light">
-        <Heading>Foreground on Button is Light based on the brand color</Heading>
-        <Button icon={CreditCardIcon}>Pay Now</Button>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', margin: '20px 0' }}>
+      <BladeProvider themeTokens={createTheme({ brandColor: '#10B981' }).theme} colorScheme="light">
+        <Heading size="small">Emerald Green Brand — Automatic Dark Contrast Text</Heading>
+        <Button icon={CreditCardIcon} accessibilityLabel="Process payout">Process Payout</Button>
       </BladeProvider>
-      <BladeProvider themeTokens={createTheme({ brandColor: '#5EDD55' }).theme} colorScheme="light">
-        <Heading marginTop="spacing.6">
-          Foreground on Button is Dark based on the brand color
-        </Heading>
-        <Button icon={CreditCardIcon}>Pay Now</Button>
+      <BladeProvider themeTokens={createTheme({ brandColor: '#0E0E0E' }).theme} colorScheme="light">
+        <Heading size="small">Monochrome Black Brand — Automatic Light Contrast Text</Heading>
+        <Button icon={CreditCardIcon} accessibilityLabel="Process payout">Process Payout</Button>
       </BladeProvider>
     </div>
   );
 };
-
-### Handling Contrast
-
-`createTheme` will automatically handle contrast of your components to ensure that the text is always readable as per [WCAG 2.0 guidelines](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html).
 
 <ContrastDemo />

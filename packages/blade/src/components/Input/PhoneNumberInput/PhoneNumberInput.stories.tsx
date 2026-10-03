@@ -254,7 +254,7 @@ const meta: Meta<PhoneNumberInputProps> = {
           <Title>Usage</Title>
           <Sandbox>
             {`
-              import { PhoneNumberInput } from '@razorpay/blade/components';
+              import { PhoneNumberInput } from '@greenloom/ui/components';
 
               function App() {
                 return (

@@ -177,7 +177,7 @@ type CommonBoxVisualProps = MakeObjectResponsive<
        * @default `theme.elevation.lowRaised`
        *
        * **Links:**
-       * - Docs: https://blade.razorpay.com/?path=/docs/tokens-elevation--docs
+       * - Docs: https://ui.greenloom.ai/?path=/docs/tokens-elevation--docs
        */
       elevation?: keyof Elevation;
     }

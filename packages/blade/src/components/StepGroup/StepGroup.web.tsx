@@ -162,7 +162,7 @@ const _StepGroup = (
  *
  * ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-stepgroup--docs StepGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-stepgroup--docs StepGroup Documentation}
  */
 const StepGroup = assignWithoutSideEffects(React.forwardRef(_StepGroup), {
   componentId: componentIds.StepGroup,

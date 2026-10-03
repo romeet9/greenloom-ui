@@ -281,7 +281,7 @@ const [cardIcon, setCardIcon] = useState(null);
 
 ### External
 
-- [Razorpay Checkout](https://razorpay.com/demopg3/) - Payment input UX patterns
+- [Razorpay Checkout](https://greenloom.ai/demopg3/) - Payment input UX patterns
 - [Stripe Elements](https://checkout.stripe.dev/checkout) - Payment input UX patterns
 - [Ant Design Input](https://ant.design/components/input-number#input-number-demo-formatter) - Formatter function
   approach

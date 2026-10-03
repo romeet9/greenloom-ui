@@ -49,7 +49,7 @@ const Page = (): React.ReactElement => {
               SettingsIcon,
               DownloadIcon,
               Button 
-          } from '@razorpay/blade/components';
+          } from '@greenloom/ui/components';
 
           function App() {
               return (
@@ -265,7 +265,7 @@ const ActionListWithCustomItemsExample: StoryFn<typeof ActionListComponent> = ()
           <ActionListItem
             title="Go to Home"
             value="home"
-            href="https://razorpay.com"
+            href="https://greenloom.ai"
             target="_blank"
           />
           <ActionListItem
@@ -279,7 +279,7 @@ const ActionListWithCustomItemsExample: StoryFn<typeof ActionListComponent> = ()
           <ActionListItem
             title="Systems"
             value="systems"
-            href="https://razorpay.com/careers"
+            href="https://greenloom.ai/careers"
             target="_blank"
             titleSuffix={
               <ActionListItemBadgeGroup>

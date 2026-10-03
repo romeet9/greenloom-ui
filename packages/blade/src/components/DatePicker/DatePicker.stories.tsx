@@ -97,7 +97,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox editorHeight={600}>
             {`
-              import { DatePicker } from '@razorpay/blade/components';
+              import { DatePicker } from '@greenloom/ui/components';
 import { m } from 'framer-motion';
 
               function App() {

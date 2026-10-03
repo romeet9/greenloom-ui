@@ -98,7 +98,7 @@ const Page = (): React.ReactElement => {
       <Sandbox showConsole>
         {`
 import { useState } from 'react';
-import { LightBox, LightBoxBody, LightBoxItem, Button, Box } from '@razorpay/blade/components';
+import { LightBox, LightBoxBody, LightBoxItem, Button, Box } from '@greenloom/ui/components';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

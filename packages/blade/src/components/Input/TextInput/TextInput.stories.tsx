@@ -313,7 +313,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox>
             {`
-              import { TextInput } from '@razorpay/blade/components';
+              import { TextInput } from '@greenloom/ui/components';
 
               function App() {
                 return (

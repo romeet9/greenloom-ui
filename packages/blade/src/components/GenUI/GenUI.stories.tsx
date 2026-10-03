@@ -34,7 +34,7 @@ const schema = {
     {
       component: 'TEXT',
       content:
-        '### Features\n\n- **Bold text** and *italic text* support\n- `Inline code` and code blocks\n- [Links](https://razorpay.com) to external resources\n- Ordered and unordered lists',
+        '### Features\n\n- **Bold text** and *italic text* support\n- `Inline code` and code blocks\n- [Links](https://greenloom.ai) to external resources\n- Ordered and unordered lists',
     },
     {
       component: 'TEXT',
@@ -559,7 +559,7 @@ TextString.args = {
     '',
     'This is a regular paragraph with **bold text**, *italic text*, ***bold and italic***, and `inline code`.',
     '',
-    'Here is a [hyperlink](https://razorpay.com) inside a sentence.',
+    'Here is a [hyperlink](https://greenloom.ai) inside a sentence.',
     '',
     '### Unordered List',
     '',

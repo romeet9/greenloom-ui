@@ -219,7 +219,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox>
             {`
-              import { SearchInput } from '@razorpay/blade/components';
+              import { SearchInput } from '@greenloom/ui/components';
 
               function App() {
                 return (

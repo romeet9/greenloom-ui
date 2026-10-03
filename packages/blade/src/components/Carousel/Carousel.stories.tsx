@@ -32,7 +32,7 @@ const Page = (): React.ReactElement => {
           Carousel,
           CarouselItem,
           Text,
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
 
         function App() {
           return (

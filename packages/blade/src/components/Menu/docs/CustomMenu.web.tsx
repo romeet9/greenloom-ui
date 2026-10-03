@@ -5,7 +5,7 @@ import { Box } from '~components/Box';
 import {
   BusinessBankingIcon,
   CurrentAccountIcon,
-  RazorpayXIcon,
+  GreenLoomIcon,
   PaymentButtonIcon,
   PaymentGatewayIcon,
   PaymentLinksIcon,
@@ -81,7 +81,7 @@ const navMenuItems = {
   ],
   banking: [
     {
-      icon: RazorpayXIcon,
+      icon: GreenLoomIcon,
       name: 'RazorpayX',
       description: 'Business banking supercharged',
       href: '/x',

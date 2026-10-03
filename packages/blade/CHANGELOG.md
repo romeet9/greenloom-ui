@@ -1570,7 +1570,7 @@
 
 - 6d508bbc8: ## feat(blade): add donut charts 🍩
 
-  [Docs Link](https://blade.razorpay.com/?path=/docs/components-charts-donutchart--docs)
+  [Docs Link](https://ui.greenloom.ai/?path=/docs/components-charts-donutchart--docs)
 
   ### Deprecation of `colorTheme='default'`
 
@@ -1615,7 +1615,7 @@
 
 - 1b07633c3: feat(blade): add BarChart component
 
-  [Docs Link](https://blade.razorpay.com/?path=/docs/components-charts-barchart--docs)
+  [Docs Link](https://ui.greenloom.ai/?path=/docs/components-charts-barchart--docs)
 
 ## 12.55.1
 
@@ -1662,7 +1662,7 @@
 
 - ab1773547: feat(blade): add AreaChart component
 
-  [Docs Link](https://blade.razorpay.com/?path=/docs/components-charts-areachart--docs)
+  [Docs Link](https://ui.greenloom.ai/?path=/docs/components-charts-areachart--docs)
 
 ## 12.52.0
 
@@ -1689,7 +1689,7 @@
 
 - 2f0e492cd: feat(blade): added Chart subcomponents & Line Chart component
 
-  [Docs Link](https://blade.razorpay.com/?path=/docs/components-charts-linechart--docs)
+  [Docs Link](https://ui.greenloom.ai/?path=/docs/components-charts-linechart--docs)
 
 ## 12.50.0
 
@@ -2339,7 +2339,7 @@
 
 - 214b2121: feat(Motion / Elevate): add `Elevate` component to motion presets
 
-  Docs: https://blade.razorpay.com/?path=/docs/motion-elevate--docs
+  Docs: https://ui.greenloom.ai/?path=/docs/motion-elevate--docs
 
 ## 12.6.0
 
@@ -2831,7 +2831,7 @@
 
 - 0d3e260e: feat(SideNav): add SideNav component
 
-  Checkout [SideNav Documentation](https://blade.razorpay.com/?path=/docs/components-sidenav--docs)
+  Checkout [SideNav Documentation](https://ui.greenloom.ai/?path=/docs/components-sidenav--docs)
 
 ### Patch Changes
 
@@ -2928,7 +2928,7 @@
 
 - ada461c8: feat(StepGroup): add StepGroup component
 
-  Documentation: https://blade.razorpay.com/?path=/docs/components-stepgroup--docs
+  Documentation: https://ui.greenloom.ai/?path=/docs/components-stepgroup--docs
 
 ## 11.14.0
 
@@ -3139,7 +3139,7 @@
   </Accordion>
   ```
 
-  Checkout full documentation at https://blade.razorpay.com/?path=/docs/components-accordion--docs
+  Checkout full documentation at https://ui.greenloom.ai/?path=/docs/components-accordion--docs
 
 ## 11.6.3
 
@@ -3180,7 +3180,7 @@
 
 - 51208914: feat(Drawer): add Drawer component
 
-  Checkout https://blade.razorpay.com/?path=/docs/components-drawer--docs
+  Checkout https://ui.greenloom.ai/?path=/docs/components-drawer--docs
 
 ### Patch Changes
 
@@ -3298,7 +3298,7 @@
 
 - 469b2d72: feat: add `getBladeCoverage` and `assertBladeCoverage` utilities
 
-  Read more about it in the [Blade Coverage documentation](http://blade.razorpay.com/?path=/story/utils-blade-coverage--page).
+  Read more about it in the [Blade Coverage documentation](http://ui.greenloom.ai/?path=/story/utils-blade-coverage--page).
 
 ## 10.22.0
 
@@ -3560,7 +3560,7 @@
 
   #### Color Tokens Update
 
-  **[New White Color Tokens:](https://blade.razorpay.com/?path=/docs/tokens-colors--page)** Introducing white color tokens, enabling white buttons and links for enhanced design options.
+  **[New White Color Tokens:](https://ui.greenloom.ai/?path=/docs/tokens-colors--page)** Introducing white color tokens, enabling white buttons and links for enhanced design options.
 
   #### Deprecated `intent` prop in favor of the new `color` prop
 
@@ -3593,7 +3593,7 @@
 
 - e99730d7: feat: support customizing Blade Theme with a single brand color
 
-  You can find a detailed documentation [here](https://blade.razorpay.com/?path=/docs/guides-theming-createtheme--page)
+  You can find a detailed documentation [here](https://ui.greenloom.ai/?path=/docs/guides-theming-createtheme--page)
 
   ### Example Usage
 
@@ -4100,7 +4100,7 @@ For users on Jest v27 or older, or those with custom Jest resolvers (like `jest-
   export { App };
   ```
 
-  Checkout [Dropdown Docs](https://blade.razorpay.com/?path=/story/components-dropdown-dropdown--page&globals=showInternalComponents:true;measureEnabled:false) for more details
+  Checkout [Dropdown Docs](https://ui.greenloom.ai/?path=/story/components-dropdown-dropdown--page&globals=showInternalComponents:true;measureEnabled:false) for more details
 
 ## 8.14.0
 
@@ -4315,7 +4315,7 @@ For users on Jest v27 or older, or those with custom Jest resolvers (like `jest-
 
 - 4ff72975: feat(DropdownLink): add `DropdownLink` trigger for Dropdown
 
-  Checkout [Checkout DropdownLink Documentation](https://blade.razorpay.com/?path=/story/components-dropdown-with-button-and-link--with-link&globals=measureEnabled:false)
+  Checkout [Checkout DropdownLink Documentation](https://ui.greenloom.ai/?path=/story/components-dropdown-with-button-and-link--with-link&globals=measureEnabled:false)
 
 - 3fe1ff8f: feat(blade): add textAlign to Box
 
@@ -4552,7 +4552,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - 1333e756: feat(blade): added bottomsheet component
 
-  > For react-native consumers make sure to [go through the installation guide](https://blade.razorpay.com/?path=/docs/guides-installation--page#-add-blade-to-your-application) on how to setup the peer dependencies
+  > For react-native consumers make sure to [go through the installation guide](https://ui.greenloom.ai/?path=/docs/guides-installation--page#-add-blade-to-your-application) on how to setup the peer dependencies
 
   <details>
     <summary>⚠️ Migration guide from prerelease version</summary>
@@ -4839,7 +4839,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - a4be1b06: feat(Layout Primitives): Add `Box` Component and Styled Props to Blade Components
 
-  Documentation: https://blade.razorpay.com/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--page
+  Documentation: https://ui.greenloom.ai/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--page
 
   **Breakpoint Token Changes**
 
@@ -4898,7 +4898,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - bb2f1561: feat(Dropdown): Add `Dropdown`, `Select`, `ActionList`.
 
-  Check out [Dropdown Story](https://blade.razorpay.com/?path=/docs/components-dropdown-with-select) for usage
+  Check out [Dropdown Story](https://ui.greenloom.ai/?path=/docs/components-dropdown-with-select) for usage
 
 ### Patch Changes
 
@@ -6112,7 +6112,7 @@ Shift every spacing token other than the first one (`0th` index) by +1
   - Native:
 
   In native, we've marked all the dependencies as peerDependencies, so that web consumers doesn't have to install them + ensures there are no mismatches between blade vs consumer dependencies.
-  Please refer to the [installation guide](https://blade.razorpay.com/?path=/docs/guides-installation--page#-add-blade-to-your-application)https://blade.razorpay.com/?path=/docs/guides-installation--page#-add-blade-to-your-application for more details.
+  Please refer to the [installation guide](https://ui.greenloom.ai/?path=/docs/guides-installation--page#-add-blade-to-your-application)https://ui.greenloom.ai/?path=/docs/guides-installation--page#-add-blade-to-your-application for more details.
   ```
 
 ### Patch Changes
@@ -6346,7 +6346,7 @@ Shift every spacing token other than the first one (`0th` index) by +1
 
   #### Color Tokens Update
 
-  **[New White Color Tokens:](https://blade.razorpay.com/?path=/docs/tokens-colors--page)** Introducing white color tokens, enabling white buttons and links for enhanced design options.
+  **[New White Color Tokens:](https://ui.greenloom.ai/?path=/docs/tokens-colors--page)** Introducing white color tokens, enabling white buttons and links for enhanced design options.
 
   #### Deprecated `intent` prop in favor of the new `color` prop
 
@@ -6379,7 +6379,7 @@ Shift every spacing token other than the first one (`0th` index) by +1
 
 - e99730d7: feat: support customizing Blade Theme with a single brand color
 
-  You can find a detailed documentation [here](https://blade.razorpay.com/?path=/docs/guides-theming-createtheme--page)
+  You can find a detailed documentation [here](https://ui.greenloom.ai/?path=/docs/guides-theming-createtheme--page)
 
   ### Example Usage
 
@@ -6886,7 +6886,7 @@ For users on Jest v27 or older, or those with custom Jest resolvers (like `jest-
   export { App };
   ```
 
-  Checkout [Dropdown Docs](https://blade.razorpay.com/?path=/story/components-dropdown-dropdown--page&globals=showInternalComponents:true;measureEnabled:false) for more details
+  Checkout [Dropdown Docs](https://ui.greenloom.ai/?path=/story/components-dropdown-dropdown--page&globals=showInternalComponents:true;measureEnabled:false) for more details
 
 ## 8.14.0
 
@@ -7101,7 +7101,7 @@ For users on Jest v27 or older, or those with custom Jest resolvers (like `jest-
 
 - 4ff72975: feat(DropdownLink): add `DropdownLink` trigger for Dropdown
 
-  Checkout [Checkout DropdownLink Documentation](https://blade.razorpay.com/?path=/story/components-dropdown-with-button-and-link--with-link&globals=measureEnabled:false)
+  Checkout [Checkout DropdownLink Documentation](https://ui.greenloom.ai/?path=/story/components-dropdown-with-button-and-link--with-link&globals=measureEnabled:false)
 
 - 3fe1ff8f: feat(blade): add textAlign to Box
 
@@ -7338,7 +7338,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - 1333e756: feat(blade): added bottomsheet component
 
-  > For react-native consumers make sure to [go through the installation guide](https://blade.razorpay.com/?path=/docs/guides-installation--page#-add-blade-to-your-application) on how to setup the peer dependencies
+  > For react-native consumers make sure to [go through the installation guide](https://ui.greenloom.ai/?path=/docs/guides-installation--page#-add-blade-to-your-application) on how to setup the peer dependencies
 
   <details>
     <summary>⚠️ Migration guide from prerelease version</summary>
@@ -7625,7 +7625,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - a4be1b06: feat(Layout Primitives): Add `Box` Component and Styled Props to Blade Components
 
-  Documentation: https://blade.razorpay.com/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--page
+  Documentation: https://ui.greenloom.ai/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--page
 
   **Breakpoint Token Changes**
 
@@ -7684,7 +7684,7 @@ Read the entire decision [doc here](https://docs.google.com/document/d/1GQEd-1JX
 
 - bb2f1561: feat(Dropdown): Add `Dropdown`, `Select`, `ActionList`.
 
-  Check out [Dropdown Story](https://blade.razorpay.com/?path=/docs/components-dropdown-with-select) for usage
+  Check out [Dropdown Story](https://ui.greenloom.ai/?path=/docs/components-dropdown-with-select) for usage
 
 ### Patch Changes
 

@@ -36,8 +36,8 @@ import {
   PaymentGatewayIcon,
   PaymentLinkIcon,
   PaymentPagesIcon,
-  RazorpayxPayrollIcon,
-  RazorpayxPayrollFilledIcon,
+  AutomatePayrollIcon,
+  AutomatePayrollFilledIcon,
   RayIcon,
 } from '~components/Icons';
 import { RazorpayLogoWhite } from '~components/SideNav/docs/RazorpayLogo';
@@ -372,7 +372,7 @@ const TopNavFullExample = ({ variant = 'neutral' }: { variant?: 'primary' | 'neu
                     {
                       href: '/payroll',
                       title: 'Payroll',
-                      icon: { default: RazorpayxPayrollIcon, selected: RazorpayxPayrollFilledIcon },
+                      icon: { default: AutomatePayrollIcon, selected: AutomatePayrollFilledIcon },
                       description: 'Automate payroll with ease.',
                     },
                     {
@@ -596,7 +596,7 @@ const TopNavMinimalTemplate: StoryFn<typeof TopNav> = () => {
                     {
                       href: '/payroll',
                       title: 'Payroll',
-                      icon: { default: RazorpayxPayrollIcon, selected: RazorpayxPayrollFilledIcon },
+                      icon: { default: AutomatePayrollIcon, selected: AutomatePayrollFilledIcon },
                       description: 'Automate payroll with ease.',
                     },
                     {

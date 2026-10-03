@@ -87,7 +87,7 @@ export default {
         >
           <Sandbox editorHeight={600}>
             {`
-              import { TimePicker } from '@razorpay/blade/components';
+              import { TimePicker } from '@greenloom/ui/components';
 
               function App() {
                 const [time, setTime] = useState(null);

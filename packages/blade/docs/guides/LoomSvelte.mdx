@@ -1,0 +1,35 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { useEffect } from 'react';
+import { Box, Heading, Text, Link, Spinner, ExternalLinkIcon } from '../../src/components';
+
+export const RedirectToLoomSvelte = () => {
+  useEffect(() => {
+    window.open('https://ui.greenloom.ai/svelte', '_blank');
+  }, []);
+  
+  return null;
+};
+
+<Meta title="Guides/Loom Svelte" />
+
+<RedirectToLoomSvelte />
+
+<Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" gap="spacing.6" padding="spacing.10">
+  <Spinner size="large" accessibilityLabel="Redirecting to Loom Svelte" />
+
+  <Box display="flex" flexDirection="column" alignItems="center" gap="spacing.3">
+    <Heading size="large">Redirecting to Loom Svelte...</Heading>
+
+    <Text color="surface.text.gray.muted">
+      Opening Loom Svelte documentation in a new tab
+    </Text>
+  </Box>
+
+  <Text color="surface.text.gray.muted" size="small">
+    If you are not redirected automatically,{' '}
+
+    <Link href="https://ui.greenloom.ai/svelte" target="_blank" rel="noopener noreferrer" icon={ExternalLinkIcon} iconPosition="right">
+      click here to open Loom Svelte Storybook
+    </Link>
+  </Text>
+</Box>

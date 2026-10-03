@@ -28,7 +28,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { List, ListItem } from '@razorpay/blade/components';
+          import { List, ListItem } from '@greenloom/ui/components';
 
           function App() {
             return (

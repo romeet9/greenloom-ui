@@ -257,7 +257,7 @@ export default {
           </Subtitle>
           <img src={BaseInputLayoutImage} alt="Base Input Layout" />
           <Title>Usage</Title>
-          <code>{`import { BaseInput } from '@razorpay/blade/components' \nimport type { BaseInputProps } from '@razorpay/blade/components'`}</code>
+          <code>{`import { BaseInput } from '@greenloom/ui/components' \nimport type { BaseInputProps } from '@greenloom/ui/components'`}</code>
           <Title>Example</Title>
           <Primary />
           <Title>Properties</Title>

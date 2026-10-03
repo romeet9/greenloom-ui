@@ -47,7 +47,7 @@ const Page = (): React.ReactElement => {
           Tabs can look visually similar to{' '}
           <Link
             target="_blank"
-            href="https://blade.razorpay.com/?path=/docs/components-segmentedcontrol--docs"
+            href="https://ui.greenloom.ai/?path=/docs/components-segmentedcontrol--docs"
           >
             SegmentedControl
           </Link>
@@ -73,7 +73,7 @@ const Page = (): React.ReactElement => {
           TabList,
           TabItem,
           TabPanel,
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
 
         function App() {
           return (

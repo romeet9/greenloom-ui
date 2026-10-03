@@ -103,13 +103,13 @@ export const MotionExample = () => {
 
 If we want to create a circle that scales up and down with a **duration** of `xgentle` and an **easing** of `standard.effective`
 
-1. Ensure you've followed all the steps under ["Guides/Usage"](https://blade.razorpay.com/?path=/docs/guides-how-to-use--docs) to setup your theme with `<BladeProvider>`
+1. Ensure you've followed all the steps under ["Guides/Usage"](https://ui.greenloom.ai/?path=/docs/guides-how-to-use--docs) to setup your theme with `<BladeProvider>`
 2. Your theme tokens will be automatically available to `styled-components` as a `theme` prop
 3. Create a component using `styled-components` that looks like this:
 
 ```jsx
 import styled from 'styled-components';
-import { makeMotionTime } from '@razorpay/blade/utils';
+import { makeMotionTime } from '@greenloom/ui/utils';
 
 const ExampleDiv = styled.div`
   height: 50px;
@@ -139,8 +139,8 @@ const ExampleDiv = styled.div`
 4. You can also access your motion tokens using the `useTheme` hook
 
 ```jsx
-import { useTheme } from '@razorpay/blade/components';
-import { makeMotionTime } from '@razorpay/blade/utils';
+import { useTheme } from '@greenloom/ui/components';
+import { makeMotionTime } from '@greenloom/ui/utils';
 
 const CustomComponent = () => {
   const { theme } = useTheme();

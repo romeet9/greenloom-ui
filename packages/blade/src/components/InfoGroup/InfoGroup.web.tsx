@@ -190,7 +190,7 @@ const _InfoItemKey = (
  * ```
  *
  * ----
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-infogroup InfoGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-infogroup InfoGroup Documentation}
  */
 const InfoItemKey = assignWithoutSideEffects(React.forwardRef(_InfoItemKey), {
   displayName: 'InfoItemKey',
@@ -250,7 +250,7 @@ const _InfoItemValue = (
  * ```
  *
  * ----
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-infogroup InfoGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-infogroup InfoGroup Documentation}
  */
 const InfoItemValue = assignWithoutSideEffects(React.forwardRef(_InfoItemValue), {
   displayName: 'InfoItemValue',
@@ -352,7 +352,7 @@ const _InfoItem = (
  * ```
  *
  * ----
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-infogroup InfoGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-infogroup InfoGroup Documentation}
  */
 const InfoItem = assignWithoutSideEffects(React.forwardRef(_InfoItem), {
   displayName: 'InfoItem',
@@ -451,7 +451,7 @@ const _InfoGroup = (
  * ```
  *
  * ----
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-infogroup InfoGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-infogroup InfoGroup Documentation}
  */
 const InfoGroup = assignWithoutSideEffects(React.forwardRef(_InfoGroup), {
   displayName: 'InfoGroup',

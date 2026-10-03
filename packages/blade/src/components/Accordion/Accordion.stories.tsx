@@ -42,7 +42,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={500}>
         {`
-        import { Accordion, AccordionItem, AccordionItemHeader, AccordionItemBody } from '@razorpay/blade/components';
+        import { Accordion, AccordionItem, AccordionItemHeader, AccordionItemBody } from '@greenloom/ui/components';
 
         function App() {
           return (

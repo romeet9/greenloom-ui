@@ -49,6 +49,9 @@ const ShowMoreLink = ({
           marginX="spacing.4"
           icon={isExpanded ? ChevronUpIcon : undefined}
           iconPosition="right"
+          accessibilityProps={{
+            label: isExpanded ? 'Show less' : `Show ${collapsedItemsCount} more`,
+          }}
         >
           {isExpanded ? `` : `+${collapsedItemsCount}`}
         </FullWidthLink>
@@ -59,6 +62,9 @@ const ShowMoreLink = ({
           marginX="spacing.4"
           icon={isExpanded ? ChevronUpIcon : ChevronDownIcon}
           iconPosition="right"
+          accessibilityProps={{
+            label: isExpanded ? 'Show less' : `Show ${collapsedItemsCount} more`,
+          }}
         >
           {isExpanded ? 'Show Less' : `+${collapsedItemsCount} More`}
         </FullWidthLink>

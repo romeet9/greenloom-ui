@@ -25,7 +25,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={500}>
         {`
-        import { Collapsible, CollapsibleButton, CollapsibleBody, Text, Amount, Box } from '@razorpay/blade/components';
+        import { Collapsible, CollapsibleButton, CollapsibleBody, Text, Amount, Box } from '@greenloom/ui/components';
 
         function App() {
           return (

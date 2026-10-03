@@ -104,12 +104,12 @@ const Page = (): React.ReactElement => {
         CloseIcon,
         Code,
         Badge,
-      } from '@razorpay/blade/components';
+      } from '@greenloom/ui/components';
       import type {
         DatesRangeValue,
         TableData,
         CounterProps,
-      } from '@razorpay/blade/components';
+      } from '@greenloom/ui/components';
       
       type Item = {
         id: string;
@@ -1443,6 +1443,7 @@ const WithBulkActionExample: StoryFn<typeof ListView> = (args) => {
                 <Box width="208px">
                   <SearchInput
                     label=""
+                    accessibilityLabel="Search for Payment Id"
                     value={searchValue}
                     placeholder="Search for Payment Id"
                     onChange={({ value }) => handleSearchChange(value)}
@@ -1452,13 +1453,13 @@ const WithBulkActionExample: StoryFn<typeof ListView> = (args) => {
               )}
               <ButtonGroup variant="tertiary">
                 <Tooltip content="More options">
-                  <Button icon={MoreVerticalIcon} />
+                  <Button icon={MoreVerticalIcon} accessibilityLabel="More options" />
                 </Tooltip>
                 <Tooltip content="Download data">
-                  <Button icon={DownloadIcon} />
+                  <Button icon={DownloadIcon} accessibilityLabel="Download data" />
                 </Tooltip>
                 <Tooltip content="Share">
-                  <Button icon={ShareIcon} />
+                  <Button icon={ShareIcon} accessibilityLabel="Share" />
                 </Tooltip>
               </ButtonGroup>
             </Box>

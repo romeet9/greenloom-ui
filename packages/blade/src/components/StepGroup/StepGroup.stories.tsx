@@ -18,7 +18,7 @@ import {
   ClockIcon,
   FileIcon,
   HeartIcon,
-  RazorpayIcon,
+  GreenLoomIcon,
   UserIcon,
 } from '~components/Icons';
 import { Alert } from '~components/Alert';
@@ -45,7 +45,7 @@ const Page = (): React.ReactElement => {
           BriefcaseIcon,
           ClockIcon,
           HeartIcon,
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
 
         function App() {
           return (
@@ -268,7 +268,7 @@ const StepGroupNestedTemplate: StoryFn<typeof StepGroup> = (args) => {
           timestamp="Fri, 12th Oct'23 | 12:00pm"
           description="The dispute is reviewed by Razorpay team"
           stepProgress="full"
-          marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+          marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
         />
       </StepGroup>
       <StepItem
@@ -715,7 +715,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                   timestamp="Wed, 27th Mar'24 | 12:00pm"
                   description="Description"
                   stepProgress="full"
-                  marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                  marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
                 />
               </StepGroup>
               <StepItem
@@ -763,7 +763,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                   title="Nested Step 1"
                   timestamp="Wed, 27th Mar'24 | 12:00pm"
                   stepProgress="full"
-                  marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                  marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
                 />
               </StepGroup>
               <StepItem
@@ -991,7 +991,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                 timestamp="Wed, 27th Mar'24 | 12:00pm"
                 description="Description"
                 stepProgress="full"
-                marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
               />
             </StepGroup>
             <StepItem
@@ -1337,7 +1337,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                   timestamp="Wed, 27th Mar'24 | 12:00pm"
                   description="Description"
                   stepProgress="full"
-                  marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                  marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
                 />
               </StepGroup>
               <StepItem
@@ -1411,7 +1411,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                   title="Nested Step 1"
                   timestamp="Wed, 27th Mar'24 | 12:00pm"
                   stepProgress="full"
-                  marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                  marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
                 />
               </StepGroup>
               <StepItem
@@ -1689,7 +1689,7 @@ export const StepGroupShowcase = (): React.ReactElement => {
                 timestamp="Wed, 27th Mar'24 | 12:00pm"
                 description="Description"
                 stepProgress="full"
-                marker={<StepItemIcon icon={RazorpayIcon} color="positive" />}
+                marker={<StepItemIcon icon={GreenLoomIcon} color="positive" />}
               />
             </StepGroup>
             <StepItem

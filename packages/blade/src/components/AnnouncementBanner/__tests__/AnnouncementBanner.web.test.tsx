@@ -57,7 +57,7 @@ describe('<AnnouncementBanner />', () => {
   it('should render inline Link inside the message', () => {
     const { getByRole } = renderWithTheme(
       <AnnouncementBanner>
-        Your KYC is verified. <Link href="https://razorpay.com">View details</Link>
+        Your KYC is verified. <Link href="https://greenloom.ai">View details</Link>
       </AnnouncementBanner>,
     );
 

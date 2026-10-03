@@ -2,18 +2,44 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 <Meta title="Guides/Contributing" />
 
-# 🤗 Contributing to Blade
+<div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '24px' }}>
+  <div style={{ width: '40px', height: '40px', borderRadius: '10px', backgroundColor: 'rgba(16,185,129,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+      <circle cx="8.5" cy="7" r="4" />
+      <line x1="20" y1="8" x2="20" y2="14" />
+      <line x1="23" y1="11" x2="17" y2="11" />
+    </svg>
+  </div>
+  <div>
+    <h1 style={{ margin: 0, fontSize: '28px', fontWeight: 700 }}>Contributing to Loom UI</h1>
+    <p style={{ margin: 0, fontSize: '14px', opacity: 0.75 }}>Guidelines for developing, testing, and submitting component improvements</p>
+  </div>
+</div>
 
-Blade is an open-source project and we accept contributions from our other teams at Razorpay and also from outside of Razorpay. You can checkout the links below to help you get started with contribution
+Loom UI is the open-source design system powering **Green Loom**. We welcome contributions from engineering teams across all products and external contributors.
 
-## 🧑🏻‍💻 Local Development and Guidelines
+---
 
-Check out [CONTRIBUTING.md](https://github.com/razorpay/blade/blob/master/CONTRIBUTING.md) for local installation, codebase terminologies, editor setup and more.
+## Local Development Workflow
 
-## 📄 License
+1. **Install Dependencies:**
+   ```bash
+   yarn install
+   ```
 
-Blade is MIT Licensed. You can read full license at [LICENSE](https://github.com/razorpay/blade/blob/master/LICENSE.md)
+2. **Start Storybook Server:**
+   ```bash
+   yarn react:storybook
+   ```
 
-## 🏘️ Slack Channel (For Razorpay Employees)
+3. **Typecheck & Validation:**
+   ```bash
+   yarn typecheck
+   ```
 
-Razorpay Employees can reach out on `#design-system` and tag `@designsystem` for anything related to contributing to Blade.
+---
+
+## License
+
+Loom UI is licensed under the [MIT License](https://github.com/greenloom/ui/blob/master/LICENSE.md).

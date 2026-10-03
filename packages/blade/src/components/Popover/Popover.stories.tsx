@@ -40,7 +40,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Popover, Button } from '@razorpay/blade/components'
+        import { Popover, Button } from '@greenloom/ui/components'
         
         function App() {
           return (

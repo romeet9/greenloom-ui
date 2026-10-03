@@ -4,8 +4,8 @@ import AcceptPaymentsFilledIconComponent from './AcceptPaymentsFilledIcon';
 import AcceptPaymentsIconComponent from './AcceptPaymentsIcon';
 import ActivityIconComponent from './ActivityIcon';
 import AddressBookIconComponent from './AddressBookIcon';
-import AffordabilityFilledIconComponent from './AffordabilityFilledIcon';
-import AffordabilityIconComponent from './AffordabilityIcon';
+import GreenLoomIconComponent from './GreenLoomIcon';
+
 import AgentStudioIconComponent from './AgentStudioIcon';
 import AirplayIconComponent from './AirplayIcon';
 import AlertCircleIconComponent from './AlertCircleIcon';
@@ -317,10 +317,6 @@ import PromptIconComponent from './PromptIcon';
 import QRCodeIconComponent from './QRCodeIcon';
 import RadioIconComponent from './RadioIcon';
 import RayIconComponent from './RayIcon';
-import RazorpayIconComponent from './RazorpayIcon';
-import RazorpayXIconComponent from './RazorpayXIcon';
-import RazorpayxPayrollFilledIconComponent from './RazorpayxPayrollFilledIcon';
-import RazorpayxPayrollIconComponent from './RazorpayxPayrollIcon';
 import RefreshIconComponent from './RefreshIcon';
 import RepeatIconComponent from './RepeatIcon';
 import ReportsIconComponent from './ReportsIcon';
@@ -459,8 +455,7 @@ const iconMap: Record<string, IconComponent> = {
   AcceptPaymentsIcon: AcceptPaymentsIconComponent,
   ActivityIcon: ActivityIconComponent,
   AddressBookIcon: AddressBookIconComponent,
-  AffordabilityFilledIcon: AffordabilityFilledIconComponent,
-  AffordabilityIcon: AffordabilityIconComponent,
+  GreenLoomIcon: GreenLoomIconComponent,
   AgentStudioIcon: AgentStudioIconComponent,
   AirplayIcon: AirplayIconComponent,
   AlertCircleIcon: AlertCircleIconComponent,
@@ -772,10 +767,6 @@ const iconMap: Record<string, IconComponent> = {
   QRCodeIcon: QRCodeIconComponent,
   RadioIcon: RadioIconComponent,
   RayIcon: RayIconComponent,
-  RazorpayIcon: RazorpayIconComponent,
-  RazorpayXIcon: RazorpayXIconComponent,
-  RazorpayxPayrollFilledIcon: RazorpayxPayrollFilledIconComponent,
-  RazorpayxPayrollIcon: RazorpayxPayrollIconComponent,
   RefreshIcon: RefreshIconComponent,
   RepeatIcon: RepeatIconComponent,
   ReportsIcon: ReportsIconComponent,

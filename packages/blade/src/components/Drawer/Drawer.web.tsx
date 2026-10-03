@@ -262,7 +262,7 @@ const _Drawer: React.ForwardRefRenderFunction<BladeElementRef, DrawerProps> = (
  *
  *  ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-drawer Drawer Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-drawer Drawer Documentation}
  * 
  * 
  */

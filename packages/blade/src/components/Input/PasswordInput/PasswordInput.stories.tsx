@@ -27,7 +27,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { PasswordInput } from '@razorpay/blade/components';
+          import { PasswordInput } from '@greenloom/ui/components';
 
           function App() {
             return (

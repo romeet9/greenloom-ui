@@ -50,7 +50,7 @@ import { BottomDock } from '~components/BottomDock';
  * </BottomNav>
  * ```
  *
- * Checkout {@link https://blade.razorpay.com/??path=/docs/components-bottomnav--doc BottomNav Documentation}
+ * Checkout {@link https://ui.greenloom.ai/??path=/docs/components-bottomnav--doc BottomNav Documentation}
 
  */
 const _BottomNav = (

@@ -30,7 +30,7 @@ const Page = (): React.ReactElement => {
          ChartTooltip,
          ChartLegend,
          Box,
-       } from '@razorpay/blade/components';
+       } from '@greenloom/ui/components';
        
        const chartData = [
          { name: 'Group A', value: 400 },

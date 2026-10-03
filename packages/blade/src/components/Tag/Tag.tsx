@@ -161,7 +161,7 @@ const _Tag = (
  * )}
  * ```
  *
- * Checkout [Tags Documentation](https://blade.razorpay.com/?path=/story/components-tag--default) for more info.
+ * Checkout [Tags Documentation](https://ui.greenloom.ai/?path=/story/components-tag--default) for more info.
  *
  */
 const Tag = React.forwardRef(_Tag);

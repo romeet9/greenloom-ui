@@ -126,7 +126,7 @@ const _AvatarGroup = ({
  *
  *  ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-avatar-avatargroup AvatarGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-avatar-avatargroup AvatarGroup Documentation}
  * 
  */
 const AvatarGroup = assignWithoutSideEffects(_AvatarGroup, {

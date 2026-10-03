@@ -27,7 +27,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { ToastContainer, useToast } from '@razorpay/blade/components';
+        import { ToastContainer, useToast } from '@greenloom/ui/components';
 
         function App() {
           const toast = useToast();

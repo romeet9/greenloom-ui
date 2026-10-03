@@ -252,7 +252,7 @@ const _StepItem = ({
  *
  * ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-stepgroup--docs StepGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-stepgroup--docs StepGroup Documentation}
  */
 const StepItem = assignWithoutSideEffects(_StepItem, {
   componentId: componentIds.StepItem,

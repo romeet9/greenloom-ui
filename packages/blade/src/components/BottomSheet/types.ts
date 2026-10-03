@@ -91,7 +91,7 @@ type BottomSheetBodyProps = {
    * @default `spacing.5`
    *
    * **Links:**
-   * - Docs: https://blade.razorpay.com/?path=/docs/tokens-spacing--docs
+   * - Docs: https://ui.greenloom.ai/?path=/docs/tokens-spacing--docs
    */
   padding?: Extract<SpacingValueType, 'spacing.0' | 'spacing.5'>;
   overflow?: BaseBoxProps['overflow'];

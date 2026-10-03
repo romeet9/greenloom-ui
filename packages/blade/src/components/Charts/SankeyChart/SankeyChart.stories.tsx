@@ -24,7 +24,7 @@ const Page = (): React.ReactElement => (
     <Heading size="large">Usage</Heading>
     <Sandbox showConsole>
       {`
-        import { ChartSankeyWrapper, ChartSankey } from '@razorpay/blade/components';
+        import { ChartSankeyWrapper, ChartSankey } from '@greenloom/ui/components';
 
         function App() {
           return (

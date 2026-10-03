@@ -30,7 +30,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole>
         {`
-        import { Button } from '@razorpay/blade/components'
+        import { Button } from '@greenloom/ui/components'
         
         function App() {
           return (
@@ -49,7 +49,7 @@ const Page = (): ReactElement => {
       </Sandbox>
       <Heading>Usage with Icon</Heading>
       <Description markdown="`icon` prop accepts an `IconComponent` of Blade which should be used as:" />
-      <code>{`import { Button, CreditCardIcon } from '@razorpay/blade/components'; \n\n\u003CButton icon={CreditCardIcon}>Pay Now\u003C/Button>`}</code>
+      <code>{`import { Button, CreditCardIcon } from '@greenloom/ui/components'; \n\n\u003CButton icon={CreditCardIcon}>Pay Now\u003C/Button>`}</code>
       <br />
       <br />
     </StoryPageWrapper>
@@ -295,7 +295,7 @@ export const ButtonAsLink = ButtonTemplate.bind({});
 ButtonAsLink.args = {
   variant: 'primary',
   children: 'I am Link!',
-  href: 'https://razorpay.com/',
+  href: 'https://greenloom.ai/',
   target: '_blank',
   rel: 'noopener noreferrer',
 };

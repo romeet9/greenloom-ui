@@ -34,7 +34,7 @@ import {
   DownloadIcon,
   ExternalLinkIcon,
   MoreHorizontalIcon,
-  RazorpayIcon,
+  GreenLoomIcon,
   UpiIcon,
 } from '~components/Icons';
 import { Link } from '~components/Link';
@@ -515,7 +515,7 @@ const DetailedViewWithCardTemplate: StoryFn<typeof Drawer> = ({ ...args }) => {
       <Card width={{ base: '100%', m: '500px' }}>
         <CardHeader>
           <CardHeaderLeading
-            prefix={<CardHeaderIcon icon={RazorpayIcon} />}
+            prefix={<CardHeaderIcon icon={GreenLoomIcon} />}
             title="Transaction Details"
           />
           <CardHeaderTrailing

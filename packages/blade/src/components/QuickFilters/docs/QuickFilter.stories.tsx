@@ -25,7 +25,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { QuickFilterGroup,QuickFilter  } from '@razorpay/blade/components';
+        import { QuickFilterGroup,QuickFilter  } from '@greenloom/ui/components';
         
         function App() {
           return (

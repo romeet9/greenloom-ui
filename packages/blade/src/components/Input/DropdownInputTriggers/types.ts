@@ -38,7 +38,7 @@ type DropdownInputTriggersCommonProps = Pick<
   /**
    * Controlled value of the Select. Use it in combination of `onChange`.
    *
-   * Check out [Controlled Dropdown Documentation](https://blade.razorpay.com/?path=/story/components-dropdown-with-select--controlled-dropdown&globals=measureEnabled:false) for example.
+   * Check out [Controlled Dropdown Documentation](https://ui.greenloom.ai/?path=/story/components-dropdown-with-select--controlled-dropdown&globals=measureEnabled:false) for example.
    */
   value?: string | string[];
   /**
@@ -171,7 +171,7 @@ export type AutoCompleteProps = DropdownInputTriggersCommonProps & {
   /**
    * Controlled state of filtering of items in AutoComplete.
    *
-   * Checkout [Custom Filtering Example](https://blade.razorpay.com/?path=/story/components-dropdown-with-autocomplete--controlled-filtering)
+   * Checkout [Custom Filtering Example](https://ui.greenloom.ai/?path=/story/components-dropdown-with-autocomplete--controlled-filtering)
    *
    */
   filteredValues?: string[];

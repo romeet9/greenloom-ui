@@ -41,7 +41,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={500}>
         {`
-          import { TreeView, TreeViewItem } from '@razorpay/blade/components';
+          import { TreeView, TreeViewItem } from '@greenloom/ui/components';
 
           function App() {
             return (

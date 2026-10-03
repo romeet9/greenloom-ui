@@ -22,7 +22,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole>
         {`
-        import { CounterInput } from '@razorpay/blade/components';
+        import { CounterInput } from '@greenloom/ui/components';
         import { useState } from 'react';
 
         function App() {

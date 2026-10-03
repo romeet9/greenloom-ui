@@ -22,7 +22,7 @@ const BasicDrawer = (args: DrawerProps): React.ReactElement => {
           title="Vendor Payment Details"
           titleSuffix={<Badge color="positive">New</Badge>}
           subtitle="See your payment details here"
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download" />}
         />
         <DrawerBody>
           <Box display="flex" alignItems="center">
@@ -46,7 +46,7 @@ const StackedDrawer = (args: DrawerProps): React.ReactElement => {
           title="Vendor Payment Details"
           titleSuffix={<Badge color="positive">New</Badge>}
           subtitle="See your payment details here"
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download" />}
         />
         <DrawerBody>
           <Box display="flex" alignItems="center">
@@ -63,7 +63,10 @@ const StackedDrawer = (args: DrawerProps): React.ReactElement => {
       </Drawer>
 
       <Drawer isOpen={isSecondDrawerOpen} onDismiss={() => setIsSecondDrawerOpen(false)}>
-        <DrawerHeader title="Stacked Drawer" trailing={<Button icon={DownloadIcon} />} />
+        <DrawerHeader
+          title="Stacked Drawer"
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download" />}
+        />
         <DrawerBody>
           <Box display="flex" alignItems="center">
             <Heading>Drawer 2 Heading</Heading>

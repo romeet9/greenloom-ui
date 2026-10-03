@@ -19,7 +19,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { Avatar, AvatarGroup } from '@razorpay/blade/components';
+        import { Avatar, AvatarGroup } from '@greenloom/ui/components';
         
         function App() {
           return (

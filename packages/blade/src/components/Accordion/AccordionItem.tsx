@@ -22,7 +22,7 @@ type AccordionItemProps = {
    *
    * @deprecated Use AccordionItemHeader and AccordionItemBody
    *
-   * Checkout https://blade.razorpay.com/?path=/docs/components-accordion--docs for new API
+   * Checkout https://ui.greenloom.ai/?path=/docs/components-accordion--docs for new API
    */
   title?: string;
 
@@ -31,7 +31,7 @@ type AccordionItemProps = {
    *
    *  @deprecated Use AccordionItemHeader and AccordionItemBody
    *
-   * Checkout https://blade.razorpay.com/?path=/docs/components-accordion--docs for new API
+   * Checkout https://ui.greenloom.ai/?path=/docs/components-accordion--docs for new API
    */
   description?: string;
 
@@ -40,7 +40,7 @@ type AccordionItemProps = {
    *
    * @deprecated Use `leading={<StarIcon size="large" />}` on AccordionItemHeader instead
    *
-   * Checkout https://blade.razorpay.com/?path=/docs/components-accordion--docs for new API
+   * Checkout https://ui.greenloom.ai/?path=/docs/components-accordion--docs for new API
    */
   icon?: IconComponent;
 

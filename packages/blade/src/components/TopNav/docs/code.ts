@@ -48,7 +48,7 @@ export const topNavFullExample = {
     AnnouncementIcon,
     ChevronDownIcon,
     ChevronRightIcon,
-    RazorpayxPayrollIcon,
+    AutomatePayrollIcon,
     List,
     ListItem,
     AcceptPaymentsIcon,
@@ -176,7 +176,7 @@ export const topNavFullExample = {
                       {
                         href: "/payroll",
                         title: "Payroll",
-                        icon: RazorpayxPayrollIcon,
+                        icon: AutomatePayrollIcon,
                         description: "Automate payroll with ease.",
                       },
                       {
@@ -508,7 +508,7 @@ export const tabNavExample = {
     TabNavItems,
     Text,
     HomeIcon,
-    RazorpayxPayrollIcon,
+    AutomatePayrollIcon,
     AcceptPaymentsIcon,
     MagicCheckoutIcon,
     AwardIcon,
@@ -527,7 +527,7 @@ export const tabNavExample = {
             {
               href: '/payroll',
               title: 'Payroll',
-              icon: RazorpayxPayrollIcon,
+              icon: AutomatePayrollIcon,
               description: 'Automate payroll with ease.',
             },
             {

@@ -22,7 +22,7 @@ const Page = (): ReactElement => {
       <StorybookTitle>Usage</StorybookTitle>
       <Sandbox>
         {`
-          import { Display } from '@razorpay/blade/components';
+          import { Display } from '@greenloom/ui/components';
 
           function App() {
             return (

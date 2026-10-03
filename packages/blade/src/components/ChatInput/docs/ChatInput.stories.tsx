@@ -48,7 +48,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { ChatInput } from '@razorpay/blade/components';
+        import { ChatInput } from '@greenloom/ui/components';
         
         function App() {
           return (

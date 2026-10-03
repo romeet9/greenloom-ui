@@ -34,7 +34,7 @@ import {
   HomeIcon,
   ChevronRightIcon,
   ChevronDownIcon,
-  RazorpayxPayrollIcon,
+  AutomatePayrollIcon,
   AcceptPaymentsIcon,
   ShoppingBagIcon,
   AwardIcon,
@@ -416,7 +416,7 @@ const TopNavigation = (): React.ReactElement => {
               {
                 href: '/payroll',
                 title: 'Payroll',
-                icon: RazorpayxPayrollIcon,
+                icon: AutomatePayrollIcon,
                 description: 'Automate payroll with ease.',
               },
               {

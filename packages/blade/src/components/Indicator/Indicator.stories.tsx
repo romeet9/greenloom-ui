@@ -21,7 +21,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={500}>
         {`
-        import { Indicator, Box } from '@razorpay/blade/components';
+        import { Indicator, Box } from '@greenloom/ui/components';
 
         function App() {
           return (

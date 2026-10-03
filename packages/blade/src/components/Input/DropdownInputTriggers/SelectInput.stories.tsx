@@ -196,7 +196,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox showConsole>
             {`
-              import { SelectInput, Dropdown, DropdownOverlay, ActionList, ActionListItem } from '@razorpay/blade/components';
+              import { SelectInput, Dropdown, DropdownOverlay, ActionList, ActionListItem } from '@greenloom/ui/components';
 
               function App() {
                 return (

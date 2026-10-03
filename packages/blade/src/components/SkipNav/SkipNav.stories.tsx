@@ -27,7 +27,7 @@ const Page = (): ReactElement => {
             Link,
             Code,
             Box 
-          } from '@razorpay/blade/components';
+          } from '@greenloom/ui/components';
 
           function App() {
             return (

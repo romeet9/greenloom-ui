@@ -27,7 +27,7 @@ export const InternalCardExample = React.forwardRef(
         padding="spacing.7"
         width="300px"
         marginRight="spacing.6"
-        href="https://razorpay.com"
+        href="https://greenloom.ai"
       >
         <CardHeader marginBottom="spacing.4" paddingBottom="spacing.4">
           <CardHeaderLeading

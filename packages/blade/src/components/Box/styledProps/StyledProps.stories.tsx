@@ -37,7 +37,7 @@ const BoxStoryMeta = {
             <Heading size="xlarge">Layout Primitives Documentation</Heading>
             <Text marginTop="spacing.3">
               Check Out{' '}
-              <Link href="https://blade.razorpay.com/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--docs">
+              <Link href="https://ui.greenloom.ai/?path=/docs/components-layout-primitives-box-layout-primitives-tutorial--docs">
                 &quot;Styled Props for Blade Components&quot; section from &quot;How to Create
                 Layouts?&quot; Docs
               </Link>{' '}

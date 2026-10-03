@@ -181,7 +181,7 @@ const _Avatar: React.ForwardRefRenderFunction<BladeElementRef, AvatarProps> = (
  *
  *  ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-avatar-avatar Avatar Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-avatar-avatar Avatar Documentation}
  * 
  */
 const Avatar = assignWithoutSideEffects(React.forwardRef(_Avatar), {

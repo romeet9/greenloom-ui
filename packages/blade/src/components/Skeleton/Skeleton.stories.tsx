@@ -34,7 +34,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>{' '}
       <Sandbox>
         {`
-        import { Skeleton } from '@razorpay/blade/components';
+        import { Skeleton } from '@greenloom/ui/components';
         
         function App() {
           return (

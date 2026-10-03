@@ -19,7 +19,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox editorHeight={500}>
         {`
-        import { Alert } from '@razorpay/blade/components';
+        import { Alert } from '@greenloom/ui/components';
 
         function App() {
           return (
@@ -35,7 +35,7 @@ const Page = (): ReactElement => {
                   text: 'Primary Action',
                 },
                 secondary: {
-                  href: 'https://razorpay.com',
+                  href: 'https://greenloom.ai',
                   target: '_blank',
                   text: 'Go to Razorpay.com',
                 },
@@ -74,7 +74,7 @@ const meta: Meta<AlertProps> = {
         onClick: () => {
           console.log('Secondary action clicked');
         },
-        href: 'https://razorpay.com',
+        href: 'https://greenloom.ai',
         target: '_blank',
       },
     },
@@ -276,7 +276,7 @@ const renderAlertGrid = ({ isFullWidth }: { isFullWidth: boolean }): ReactElemen
                     },
                     secondary: {
                       text: 'Link',
-                      href: 'https://razorpay.com',
+                      href: 'https://greenloom.ai',
                       target: '_blank',
                     },
                   }}
@@ -298,7 +298,7 @@ const renderAlertGrid = ({ isFullWidth }: { isFullWidth: boolean }): ReactElemen
                     },
                     secondary: {
                       text: 'Link',
-                      href: 'https://razorpay.com',
+                      href: 'https://greenloom.ai',
                       target: '_blank',
                     },
                   }}
@@ -355,7 +355,7 @@ export const SubtleStack: StoryFn<typeof AlertComponent> = () => {
           },
           secondary: {
             text: 'Link',
-            href: 'https://razorpay.com',
+            href: 'https://greenloom.ai',
             target: '_blank',
           },
         }}
@@ -372,7 +372,7 @@ export const SubtleStack: StoryFn<typeof AlertComponent> = () => {
           },
           secondary: {
             text: 'Link',
-            href: 'https://razorpay.com',
+            href: 'https://greenloom.ai',
             target: '_blank',
           },
         }}
@@ -415,7 +415,7 @@ export const SubtleStack: StoryFn<typeof AlertComponent> = () => {
           },
           secondary: {
             text: 'Link',
-            href: 'https://razorpay.com',
+            href: 'https://greenloom.ai',
             target: '_blank',
           },
         }}
@@ -432,7 +432,7 @@ export const SubtleStack: StoryFn<typeof AlertComponent> = () => {
           },
           secondary: {
             text: 'Link',
-            href: 'https://razorpay.com',
+            href: 'https://greenloom.ai',
             target: '_blank',
           },
         }}

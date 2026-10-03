@@ -68,7 +68,7 @@ const DrawerTemplate: StoryFn<typeof Drawer> = (args) => {
           title="Vendor Payment Details"
           titleSuffix={<Badge color="positive">New</Badge>}
           subtitle="See your payment details here"
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download details" />}
         />
         <DrawerBody>
           <Box display="flex" flexDirection="row" alignItems="center">
@@ -120,7 +120,7 @@ export const DrawerStacking = (args: DrawerProps): React.ReactElement => {
           title="Vendor Payment Details"
           titleSuffix={<Badge color="positive">New</Badge>}
           subtitle="See your payment details here"
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download details" />}
         />
         <DrawerBody>
           <Box display="flex" flexDirection="row" alignItems="center">
@@ -201,7 +201,7 @@ export const InitialFocus = (args: DrawerProps): React.ReactElement => {
           title="Vendor Payment Details"
           titleSuffix={<Badge color="positive">New</Badge>}
           subtitle="See your payment details here"
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download details" />}
         />
         <DrawerBody>
           <Box display="flex" flexDirection="row" alignItems="center">

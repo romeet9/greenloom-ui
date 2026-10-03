@@ -26,12 +26,12 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { Link } from '@razorpay/blade/components';
+          import { Link } from '@greenloom/ui/components';
 
           function App() {
             return (
               <Link 
-                href="https://razorpay.com" 
+                href="https://greenloom.ai" 
                 target="_blank" 
                 rel="noopener noreferer"
               >
@@ -418,7 +418,7 @@ export const LinkShowcase: StoryFn<typeof LinkComponent> = () => {
                       variant="anchor"
                       color={color}
                       size={size}
-                      href="https://razorpay.com"
+                      href="https://greenloom.ai"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -442,7 +442,7 @@ export const LinkShowcase: StoryFn<typeof LinkComponent> = () => {
                     variant="anchor"
                     color={color}
                     size="medium"
-                    href="https://razorpay.com"
+                    href="https://greenloom.ai"
                     target="_blank"
                     rel="noreferrer noopener"
                     icon={DownloadIcon}
@@ -466,7 +466,7 @@ export const LinkShowcase: StoryFn<typeof LinkComponent> = () => {
                     variant="anchor"
                     color={color}
                     size="medium"
-                    href="https://razorpay.com"
+                    href="https://greenloom.ai"
                     target="_blank"
                     rel="noreferrer noopener"
                     icon={DownloadIcon}

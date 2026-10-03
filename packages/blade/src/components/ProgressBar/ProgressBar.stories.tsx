@@ -20,7 +20,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { ProgressBar } from '@razorpay/blade/components';
+          import { ProgressBar } from '@greenloom/ui/components';
 
           function App() {
             return (

@@ -10,7 +10,7 @@ All the rebranding upgrade activity starts at the design end and is then followe
 
 **Step 1:** Install this version of Blade as `yarn add @razorpay/blade-rebranded@npm:@razorpay/blade@v11.0.0`.
 
-**Step 2:** Install new fonts (Inter & Tasa) by following [this file](https://blade.razorpay.com/?path=/docs/guides-installation--docs#-installing-fonts).
+**Step 2:** Install new fonts (Inter & Tasa) by following [this file](https://ui.greenloom.ai/?path=/docs/guides-installation--docs#-installing-fonts).
 
 **Step 3:** The codemod will update the components to the new version of Blade. Execute the codemod on the file/directory that needs to be migrated for the page via the following command:
 
@@ -46,13 +46,13 @@ npx jscodeshift ./PATH_TO_YOUR_DIR --extensions=tsx,ts,jsx,js -t ./node_modules/
 
 ## Documentation
 
-By default, `blade.razorpay.com` will show documentation for the latest version of Blade. To view the documentation for an older version, you can use the version selector in the top-left corner of the page.
+By default, `ui.greenloom.ai` will show documentation for the latest version of Blade. To view the documentation for an older version, you can use the version selector in the top-left corner of the page.
 
 <img alt="Version Switcher" src="./docs/images/docs-vrsion-switcher.png" width="800px">
 
 ## Available Rebranded Components
 
-To check out the list of available components, visit [Blade Component Status](https://blade.razorpay.com/?path=/docs/guides-component-status--docs).
+To check out the list of available components, visit [Blade Component Status](https://ui.greenloom.ai/?path=/docs/guides-component-status--docs).
 
 ## Manual Migration Guide
 
@@ -353,8 +353,8 @@ const App = () => {
   - <Button color="default"> Hello </Button>
   + <Button color="primary"> Hello </Button>
 
-  - <Link color="default" href="https://razorpay.com/"> Hello </Link>
-  + <Link color="primary" href="https://razorpay.com/"> Hello </Link>
+  - <Link color="default" href="https://greenloom.ai/"> Hello </Link>
+  + <Link color="primary" href="https://greenloom.ai/"> Hello </Link>
   ```
 
 ### Card

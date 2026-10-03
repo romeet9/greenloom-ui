@@ -23,7 +23,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole>
         {`
-        import { IconButton, CloseIcon } from '@razorpay/blade/components';
+        import { IconButton, CloseIcon } from '@greenloom/ui/components';
 
         function App() {
           return (

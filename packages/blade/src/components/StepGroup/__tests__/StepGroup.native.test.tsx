@@ -57,7 +57,7 @@ describe('<StepGroup /> (native)', () => {
   it('should expose link role when href is passed', () => {
     const { getByRole } = renderWithTheme(
       <StepGroup>
-        <StepItem title="Introduction" href="https://razorpay.com" />
+        <StepItem title="Introduction" href="https://greenloom.ai" />
       </StepGroup>,
     );
 

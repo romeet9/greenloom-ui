@@ -1,0 +1,130 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { List, ListItem, ListItemText, Heading, Code } from '../../src/components';
+
+<Meta title="Guides/Loom MCP" />
+
+<div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '20px' }}>
+  <div style={{ width: '40px', height: '40px', borderRadius: '10px', backgroundColor: 'rgba(16,185,129,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+      <line x1="8" y1="21" x2="16" y2="21" />
+      <line x1="12" y1="17" x2="12" y2="21" />
+    </svg>
+  </div>
+  <div>
+    <h1 style={{ margin: 0, fontSize: '28px', fontWeight: 700 }}>Loom MCP</h1>
+    <p style={{ margin: 0, fontSize: '14px', opacity: 0.75 }}>Model Context Protocol server for Green Loom & Loom UI</p>
+  </div>
+</div>
+
+**Loom MCP** is an official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that equips AI assistants (such as Antigravity, Cursor, Windsurf, Claude Desktop, and Copilot) with deep knowledge of **Green Loom** design guidelines, accessible component patterns, design tokens, and TypeScript contracts.
+
+---
+
+<Heading size="large">Available Tools</Heading>
+
+export const toolsData = [
+  {
+    name: 'hi_loom',
+    description:
+      'Provides a welcome message and interactive overview of Loom UI components, tokens, and design guidelines.',
+  },
+  {
+    name: 'create_new_loom_project',
+    description:
+      'Scaffolds a new Green Loom web application with Vite, React 18, TypeScript, and Loom UI pre-configured.',
+  },
+  {
+    name: 'create_loom_cursor_rules',
+    description:
+      'Generates workspace rules and system prompts to guide AI models to write valid, accessible Loom UI code.',
+  },
+  {
+    name: 'get_loom_component_docs',
+    description:
+      'Fetches official documentation, accessible prop definitions, and TypeScript interfaces for specific Loom UI components.',
+  },
+  {
+    name: 'get_loom_pattern_docs',
+    description:
+      'Retrieves full dashboard patterns, split buttons, data tables, filter toolbars, and responsive navigation recipes.',
+  },
+  {
+    name: 'get_figma_to_code',
+    description:
+      'Translates Figma component parameters into production-ready Loom UI JSX structures.',
+  },
+];
+
+<table style={{ width: '100%', borderCollapse: 'collapse', margin: '1.5rem 0' }}>
+  <thead>
+    <tr style={{ backgroundColor: 'rgba(128,128,128,0.08)', borderBottom: '2px solid rgba(128,128,128,0.2)' }}>
+      <th style={{ padding: '0.85rem 1rem', textAlign: 'left', fontWeight: '600' }}>Tool Name</th>
+      <th style={{ padding: '0.85rem 1rem', textAlign: 'left', fontWeight: '600' }}>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {toolsData.map((tool, index) => (
+      <tr key={index} style={{ borderBottom: '1px solid rgba(128,128,128,0.15)' }}>
+        <td style={{ padding: '0.85rem 1rem' }}>
+          <Code size="small">{tool.name}</Code>
+        </td>
+        <td style={{ padding: '0.85rem 1rem', fontSize: '14px', lineHeight: 1.6 }}>{tool.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+---
+
+<Heading size="large">Prerequisites</Heading>
+
+<List marginBottom="spacing.5">
+  <ListItem>
+    <ListItemText>Node.js version &gt;= 18.18.0</ListItemText>
+  </ListItem>
+</List>
+
+---
+
+<Heading size="large">Integration Setup</Heading>
+
+### Cursor or VS Code
+
+Add to your `.cursor/mcp.json` or VS Code MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "loom-mcp": {
+      "command": "npx",
+      "args": ["-y", "@greenloom/mcp@latest"]
+    }
+  }
+}
+```
+
+### Claude Desktop
+
+Add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "loom-mcp": {
+      "command": "npx",
+      "args": ["-y", "@greenloom/mcp@latest"]
+    }
+  }
+}
+```
+
+---
+
+<Heading size="large">Prompting & Usage Example</Heading>
+
+```
+Can you build a reconciliation dashboard with SideNav, data table filters, and a summary card using Loom UI?
+```
+
+The AI agent will call `get_loom_component_docs` and `get_loom_pattern_docs` through Loom MCP to write verified, accessible code with the Powder Green palette.

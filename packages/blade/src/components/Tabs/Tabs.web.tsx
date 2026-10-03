@@ -74,7 +74,7 @@ const _Tabs = (
 /**
  * ### Tabs
  *
- * Check out the [Tab Stories & Examples](https://blade.razorpay.com/?path=/docs/components-tabs--default)
+ * Check out the [Tab Stories & Examples](https://ui.greenloom.ai/?path=/docs/components-tabs--default)
  *
  * ----
  * ### Basic Usage

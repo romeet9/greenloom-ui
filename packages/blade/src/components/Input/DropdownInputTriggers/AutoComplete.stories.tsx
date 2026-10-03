@@ -208,7 +208,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox showConsole>
             {`
-              import { AutoComplete, Dropdown, DropdownOverlay, ActionList, ActionListItem } from '@razorpay/blade/components';
+              import { AutoComplete, Dropdown, DropdownOverlay, ActionList, ActionListItem } from '@greenloom/ui/components';
 
               function App() {
                 return (

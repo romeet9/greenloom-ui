@@ -176,7 +176,7 @@ const BannerContainer = styled(BaseBox)((props) => {
  *
  * #### Usage
  *
- * SideNav requires handling active state with React Router, Checkout Usage with React Router v6 at - [SideNav Documentation](https://blade.razorpay.com/?path=/docs/components-sidenav--docs)
+ * SideNav requires handling active state with React Router, Checkout Usage with React Router v6 at - [SideNav Documentation](https://ui.greenloom.ai/?path=/docs/components-sidenav--docs)
  *
  */
 const _SideNav = (

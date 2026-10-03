@@ -524,7 +524,7 @@ const _FileUpload: React.ForwardRefRenderFunction<BladeElementRef, FileUploadPro
  *
  *  ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-fileupload FileUpload Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-fileupload FileUpload Documentation}
  * 
  */
 const FileUpload = assignWithoutSideEffects(forwardRef(_FileUpload), {

@@ -98,7 +98,7 @@ export const BaseHeaderKitchenSink = (): React.ReactElement => {
               New
             </Badge>
           }
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download" />}
         />
       </HeaderContainer>
       <HeaderContainer>
@@ -112,7 +112,7 @@ export const BaseHeaderKitchenSink = (): React.ReactElement => {
               New
             </Badge>
           }
-          trailing={<Button icon={DownloadIcon} />}
+          trailing={<Button icon={DownloadIcon} accessibilityLabel="Download" />}
         />
       </HeaderContainer>
       <HeaderContainer>

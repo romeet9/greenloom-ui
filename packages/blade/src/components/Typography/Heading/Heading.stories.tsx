@@ -23,7 +23,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { Heading } from '@razorpay/blade/components';
+          import { Heading } from '@greenloom/ui/components';
 
           function App() {
             return (

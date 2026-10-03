@@ -59,13 +59,13 @@ const Page = (): React.ReactElement => {
         BottomSheetBody,
         BottomSheetFooter,
         BottomSheetHeader,
-      } from '@razorpay/blade/components';
+      } from '@greenloom/ui/components';
       
       import type {
         BottomSheetProps, 
         BottomSheetFooterProps,
         BottomSheetHeaderProps
-      } from '@razorpay/blade/components';
+      } from '@greenloom/ui/components';
       `}
       figmaURL="https://www.figma.com/proto/jubmQL9Z8V7881ayUD95ps/Blade-DSL?type=design&node-id=76140-1564627&t=eMQWVawMPyhCdtgv-1&scaling=min-zoom&page-id=25042%3A498654&mode=design"
     >
@@ -82,7 +82,7 @@ const Page = (): React.ReactElement => {
             Box,
             Checkbox,
             Text,
-          } from '@razorpay/blade/components';
+          } from '@greenloom/ui/components';
 
           function App() {
             const [isOpen, setIsOpen] = React.useState(false);

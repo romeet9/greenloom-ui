@@ -28,7 +28,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Switch } from '@razorpay/blade/components';
+        import { Switch } from '@greenloom/ui/components';
 
         function App() {
           return (

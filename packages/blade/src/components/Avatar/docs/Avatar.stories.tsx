@@ -24,7 +24,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { Avatar } from '@razorpay/blade/components';
+        import { Avatar } from '@greenloom/ui/components';
         
         function App() {
           return (
@@ -101,7 +101,7 @@ const InteractiveNonInteractiveTemplate: StoryFn<typeof AvatarComponent> = () =>
   return (
     <Box display="flex" flexDirection="column" gap="spacing.5">
       <Text>We can make the Avatar interactive by adding an onClick or setting the href prop</Text>
-      <AvatarComponent href="https://razorpay.com" size="large" />
+      <AvatarComponent href="https://greenloom.ai" size="large" />
       <Text>If we omit these props, the avatar will render as a plain div element</Text>
       <AvatarComponent size="large" />
     </Box>
@@ -468,7 +468,7 @@ export const AvatarShowcase: StoryFn<typeof AvatarComponent> = () => {
             <Text size="small">onClick</Text>
           </Box>
           <Box display="flex" flexDirection="column" alignItems="center" gap="spacing.2">
-            <AvatarComponent size="large" name="Link" href="https://razorpay.com" target="_blank" />
+            <AvatarComponent size="large" name="Link" href="https://greenloom.ai" target="_blank" />
             <Text size="small">href</Text>
           </Box>
           <Box display="flex" flexDirection="column" alignItems="center" gap="spacing.2">

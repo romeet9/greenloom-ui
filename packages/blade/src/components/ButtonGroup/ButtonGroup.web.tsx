@@ -134,7 +134,7 @@ const _ButtonGroup = (
  *
  *  ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-buttongroup ButtonGroup Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-buttongroup ButtonGroup Documentation}
  * 
  */
 const ButtonGroup = assignWithoutSideEffects(React.forwardRef(_ButtonGroup), {

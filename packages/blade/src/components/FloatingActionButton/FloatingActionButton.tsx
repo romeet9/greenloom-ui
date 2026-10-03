@@ -38,7 +38,7 @@ const colorToSpinnerColor = {
  * />
  * ```
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-floatingactionbutton--docs FloatingActionButton Documentation}
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-floatingactionbutton--docs FloatingActionButton Documentation}
  */
 const _FloatingActionButton: React.ForwardRefRenderFunction<
   BladeElementRef,

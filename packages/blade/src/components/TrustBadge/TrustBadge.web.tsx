@@ -1,7 +1,7 @@
 import React from 'react';
 import type { TrustBadgeProps } from './types';
 import BaseBox from '~components/Box/BaseBox';
-import { RazorpayTrustIcon } from '~components/Icons';
+import { GreenLoomIcon } from '~components/Icons';
 import { Text } from '~components/Typography';
 import { makeAccessible } from '~utils/makeAccessible';
 import { makeAnalyticsAttribute } from '~utils/makeAnalyticsAttribute';
@@ -9,26 +9,13 @@ import { metaAttribute, MetaConstants } from '~utils/metaAttribute';
 import { getStyledProps } from '~components/Box/styledProps';
 import { assignWithoutSideEffects } from '~utils/assignWithoutSideEffects';
 
-const DEFAULT_LABEL = 'Razorpay Trusted Business';
+const DEFAULT_LABEL = 'Green Loom Verified';
 
 /**
  * ### TrustBadge
  *
- * A generic trust badge — a brand shield paired with a sea-tinted pill that displays
- * a configurable trust label (default: "Razorpay Trusted Business").
- *
- * The component is intentionally generic so the label and semantics can evolve
- * (e.g. "Razorpay Verified") without a breaking API change.
- *
- * ---
- *
- * #### Usage
- *
- * ```jsx
- * <TrustBadge />                        // shield + label pill (default)
- * <TrustBadge variant="icon-only" />    // shield only, no pill/text
- * <TrustBadge label="Razorpay Verified" />  // custom trust label
- * ```
+ * A generic trust badge — a brand shield paired with a subtle pill that displays
+ * a configurable trust label (default: "Green Loom Verified").
  */
 const _TrustBadge = ({
   variant = 'default',
@@ -53,15 +40,13 @@ const _TrustBadge = ({
       {...getStyledProps(rest)}
       {...makeAnalyticsAttribute(rest)}
     >
-      {/* In the default variant the pill text announces the badge, so the shield is decorative.
-        In the icon-only variant there is no visible text, so the shield wrapper carries the label. */}
       <BaseBox
         display="flex"
         alignItems="center"
         flexShrink={0}
         {...(isIconOnly ? makeAccessible({ role: 'img', label }) : { 'aria-hidden': true })}
       >
-        <RazorpayTrustIcon size="medium" />
+        <GreenLoomIcon size="medium" />
       </BaseBox>
       {isIconOnly ? null : (
         <Text size="xsmall" weight="regular" color="surface.text.gray.subtle">
@@ -73,7 +58,8 @@ const _TrustBadge = ({
 };
 
 const TrustBadge = assignWithoutSideEffects(_TrustBadge, {
-  componentId: MetaConstants.TrustBadge,
+  componentId: 'TrustBadge',
 });
 
 export { TrustBadge };
+export type { TrustBadgeProps };

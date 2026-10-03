@@ -5,8 +5,8 @@ export { default as AcceptPaymentsFilledIcon } from './AcceptPaymentsFilledIcon'
 export { default as AcceptPaymentsIcon } from './AcceptPaymentsIcon';
 export { default as ActivityIcon } from './ActivityIcon';
 export { default as AddressBookIcon } from './AddressBookIcon';
-export { default as AffordabilityFilledIcon } from './AffordabilityFilledIcon';
-export { default as AffordabilityIcon } from './AffordabilityIcon';
+export { default as GreenLoomIcon } from './GreenLoomIcon';
+
 export { default as AgentStudioIcon } from './AgentStudioIcon';
 export { default as AirplayIcon } from './AirplayIcon';
 export { default as AlertCircleIcon } from './AlertCircleIcon';
@@ -318,11 +318,6 @@ export { default as PromptIcon } from './PromptIcon';
 export { default as QRCodeIcon } from './QRCodeIcon';
 export { default as RadioIcon } from './RadioIcon';
 export { default as RayIcon } from './RayIcon';
-export { default as RazorpayIcon } from './RazorpayIcon';
-export { default as RazorpayTrustIcon } from './RazorpayTrustIcon';
-export { default as RazorpayXIcon } from './RazorpayXIcon';
-export { default as RazorpayxPayrollFilledIcon } from './RazorpayxPayrollFilledIcon';
-export { default as RazorpayxPayrollIcon } from './RazorpayxPayrollIcon';
 export { default as RefreshIcon } from './RefreshIcon';
 export { default as RepeatIcon } from './RepeatIcon';
 export { default as ReportsIcon } from './ReportsIcon';

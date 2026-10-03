@@ -22,7 +22,7 @@ const Page = (): ReactElement => {
       <Sandbox>
         {`
           import { useEffect, useState } from 'react';
-          import { Spinner, Text } from '@razorpay/blade/components';
+          import { Spinner, Text } from '@greenloom/ui/components';
 
           function App() {
             const [isLoading, setIsLoading] = useState(true);

@@ -1,4 +1,4 @@
-# Blade Design System — Agent Context
+# Green Loom AI Design System — Agent Context
 
 Blade is Razorpay's design system. This package (`@razorpay/blade`) ships React (web) and React Native components from a single shared codebase.
 

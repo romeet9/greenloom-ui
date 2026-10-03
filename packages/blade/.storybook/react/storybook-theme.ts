@@ -1,8 +1,8 @@
-export const surfaceTextNormal = 'hsla(217, 56%, 17%, 1)';
-export const bladePrimary = 'hsla(218, 89%, 51%, 1)';
+export const surfaceTextNormal = '#0E0E0E';
+export const bladePrimary = '#8db279';
 export const bladeTextFont =
-  '"Inter", -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif';
-export const bladeCodeFont = '"Menlo", San Francisco Mono, Courier New, Roboto Mono, monospace';
+  '"Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+export const bladeCodeFont = '"Geist Mono", "Menlo", monospace';
 
 export const themeConfig = {
   base: 'light' as const,
@@ -11,10 +11,10 @@ export const themeConfig = {
   colorSecondary: bladePrimary,
 
   // UI
-  appBg: '#F1F4F8',
+  appBg: '#fafaf9',
   appContentBg: '#FFFFFF',
-  appBorderColor: 'rgba(0,0,0,.02)',
-  appBorderRadius: 4,
+  appBorderColor: 'rgba(0,0,0,.06)',
+  appBorderRadius: 8,
 
   // Typography
   fontBase: bladeTextFont,
@@ -23,7 +23,7 @@ export const themeConfig = {
   // Text colors
   textColor: surfaceTextNormal,
   textInverseColor: '#FFFFFF',
-  textMutedColor: '#666666',
+  textMutedColor: '#4A5568',
 
   // Toolbar default and active colors
   barTextColor: surfaceTextNormal,
@@ -32,17 +32,19 @@ export const themeConfig = {
 
   // Form colors
   inputBg: '#FFFFFF',
-  inputBorder: 'rgba(0,0,0,.1)',
+  inputBorder: 'rgba(0,0,0,.15)',
   inputTextColor: surfaceTextNormal,
-  inputBorderRadius: 2,
+  inputBorderRadius: 6,
 
-  // hack for changing height width of brand image
+  // Green Loom Brand Title with official B&W icon
   brandTitle: `
-    <img
-      width="90px"
-      alt="Blade logo"
-      src="https://raw.githubusercontent.com/razorpay/blade/348012984e5039265ff8197e73c258ec00c7606e/branding/blade-logo-name.min.svg"
-    />
+    <div style="font-family: 'Geist', -apple-system, sans-serif; display: flex; align-items: center; gap: 10px; color: #0E0E0E; padding: 6px 2px; letter-spacing: -0.02em;">
+      <svg width="26" height="29" viewBox="0 0 170 189" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.12));">
+        <path d="M128.453,94.961c0,5.245-.041,10.491.011,15.736.056,5.6-2.113,10.185-6.2,13.899-1.423,1.293-3.119,2.224-4.791,3.173-8.091,4.59-16.144,9.246-24.265,13.783-6.689,3.737-13.601,3.931-20.323.281-8.889-4.828-17.679-9.846-26.385-14.998-6.275-3.713-9.456-9.422-9.481-16.766-.033-9.937.01-19.874-.019-29.811-.022-7.6,3.27-13.221,9.885-16.933,8.594-4.823,17.143-9.728,25.777-14.48,6.465-3.558,13.137-3.758,19.7-.309,5.355,2.814,10.563,5.908,15.844,8.865,3.604,2.018,7.26,3.948,10.824,6.033,5.906,3.456,9.309,8.522,9.414,15.499.08,5.342.016,10.686.016,16.029h-.008Z" fill="#000000" />
+        <path d="M74.475,112.684c0-5.408.046-10.817-.016-16.224-.043-3.718,1.669-6.368,4.779-8.141,10.288-5.865,20.606-11.678,30.917-17.505,1.019-.576,2.042-1.151,3.099-1.652,2.209-1.047,4.731-.605,6.199,1.031.747.833,1.147,1.8,1.145,2.928-.004,1.89-.025,3.78.005,5.669.039,2.396-1.081,4.152-3.075,5.294-8.948,5.127-17.929,10.198-26.889,15.305-1.089.621-1.685,1.568-1.682,2.878.012,5.864.001,11.728.01,17.593,0,.267-.176.643.169.786.245.101.462-.175.683-.301,5.148-2.924,10.276-5.886,15.461-8.742,1.211-.667,1.87-1.407,1.635-2.811-.053-.317-.041-.654-.001-.975.115-.922-.326-1.436-1.127-1.82-2.052-.982-4.079-2.017-6.116-3.031-.145-.072-.297-.134-.438-.214-1.041-.598-1.079-1.037-.046-1.633,3.297-1.902,6.613-3.771,9.928-5.641,3.06-1.727,6.132-3.432,9.19-5.162.614-.347,1.241-.587,1.948-.478.797.123,1.309.549,1.309,1.417-.002,6.907.108,13.816-.057,20.719-.09,3.759-2.319,6.417-5.479,8.258-4.328,2.522-8.698,4.97-13.051,7.448-4.494,2.558-8.961,5.167-13.495,7.652-3.397,1.861-6.998,2.514-10.665.819-2.778-1.284-4.285-3.588-4.324-6.654-.071-5.603-.02-11.207-.02-16.81h.006Z" fill="#FFFFFF" />
+      </svg>
+      <span style="font-size: 16px; font-weight: 700; color: #0E0E0E; letter-spacing: -0.02em;">Green Loom</span>
+    </div>
   `,
-  brandUrl: 'https://github.com/razorpay/blade',
+  brandUrl: '/',
 };

@@ -21,7 +21,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { Text } from '@razorpay/blade/components';
+          import { Text } from '@greenloom/ui/components';
 
           function App() {
             return (
@@ -42,7 +42,7 @@ const Page = (): ReactElement => {
             Text,
             Tooltip,
             TooltipInteractiveWrapper,
-          } from '@razorpay/blade/components';
+          } from '@greenloom/ui/components';
 
           function App() {
             return (

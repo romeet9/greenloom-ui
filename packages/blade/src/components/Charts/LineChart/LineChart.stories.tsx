@@ -39,7 +39,7 @@ const Page = (): React.ReactElement => {
            ChartLegend,
            ChartReferenceLine,
            Box,
-         } from '@razorpay/blade/components';
+         } from '@greenloom/ui/components';
          
          function App() {
            const data = [

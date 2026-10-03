@@ -19,7 +19,7 @@ const Page = (): ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-          import { Counter } from '@razorpay/blade/components';
+          import { Counter } from '@greenloom/ui/components';
 
           function App() {
             return (

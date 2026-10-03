@@ -19,7 +19,7 @@ Carousel is a UI component that allows the display and navigation of a set of co
 | visibleItems             | `1,2,3,autofit`                        | `1`                                      | Total number of carousel items to show at once, can be set to 1,2,3 or if set to `autofit` the carousel items will take up 100% of the container, consumers can pass fixed width to carousel items via the carouselItemWidth prop to achive bleed.     |          |
 | carouselItemWidth        | `ResponsiveProp<width>`                | `undefined`                              | Sets the width of the carousel items, this can be used with visibleItems: autofit to achive automatic bleed                                                                                                     |          |
 | carouselItemAlignment    | `start, end, center`                   | `start`                                  | Sets the align-items CSS property on carousel container which specifies how the carousel items will align if their heights are different                                                                     |          |
-| shouldAddStartEndMargin  | `boolean`                              | `false`                                  | If true, adds extra margin before and after the first/last slides so that they align in center, this prop can be used to achive carousel which is in [GST page](https://razorpay.com/gst-number-search/pan/) |          |
+| shouldAddStartEndMargin  | `boolean`                              | `false`                                  | If true, adds extra margin before and after the first/last slides so that they align in center, this prop can be used to achive carousel which is in [GST page](https://greenloom.ai/gst-number-search/pan/) |          |
 | showIndicators           | `boolean`                              | `true`                                   | Toggles the visibility of indicators                                                                                                                                                                         |          |
 | scrollOverlayColor             | `BrandColorTokens, SurfaceColorTokens` | `surface.background.level1.highContrast` | Sets the color of the overlay, so that consumers can blend the overlay with the background color, if this is not set the overlay won't be rendered                                                           |          |
 | navigationButtonPosition | `bottom,side`                          | `bottom`                                 | Sets the position of navigation button                                                                                                                                                                       |          |
@@ -84,7 +84,7 @@ When the `visibleItems` is set to `autofit`, the carousel will automatically adj
 
 - Automatic bleed support 
 - Scroll Overlay support
-- Have `shouldAddStartEndMargin` prop which can be used to replicate [these](https://razorpay.com/gst-number-search/pan/) kind of carousels 
+- Have `shouldAddStartEndMargin` prop which can be used to replicate [these](https://greenloom.ai/gst-number-search/pan/) kind of carousels 
   <img src="./gst-page-carousel.png" width="50%" />
 
 

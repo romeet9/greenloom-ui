@@ -1774,22 +1774,6 @@ const componentData: ComponentStatusDataType = [
       },
     },
   },
-  {
-    name: 'RazorSense',
-    description:
-      'RazorSense is a Blade Spark surface that renders an animated, shader-driven glass effect for AI and branded moments.',
-    platform: 'web',
-    frameworks: {
-      react: {
-        status: 'released',
-        releasedIn: '12.93.0',
-        storybookLink: 'Components/RazorSense',
-      },
-      svelte: {
-        status: 'to-be-decided',
-      },
-    },
-  },
 ];
 
 export type { ComponentStatuses, ComponentStatusDataType, FrameworkStatus };

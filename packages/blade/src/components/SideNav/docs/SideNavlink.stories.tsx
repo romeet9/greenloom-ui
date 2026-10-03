@@ -20,7 +20,7 @@ const titleSuffixMapping = {
 
 const trailingMapping = {
   '<Button icon={PlusIcon} variant="tertiary" size="xsmall" />': (
-    <Button icon={PlusIcon} variant="tertiary" size="xsmall" />
+    <Button icon={PlusIcon} variant="tertiary" size="xsmall" accessibilityLabel="Add item" />
   ),
 };
 

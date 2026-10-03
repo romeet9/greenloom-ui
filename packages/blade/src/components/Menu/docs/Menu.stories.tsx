@@ -78,7 +78,7 @@ const Page = (): React.ReactElement => {
           TestIcon,
           TicketIcon,
           UserIcon
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
         
         function App() {
           return (
@@ -274,7 +274,7 @@ const CustomOverlayMenuTemplate: StoryFn<MenuProps> = (args) => {
               size="large"
               marginY="spacing.3"
               marginX="spacing.4"
-              href="https://razorpay.com/"
+              href="https://greenloom.ai/"
             >
               View All Products
             </Link>
@@ -295,7 +295,7 @@ const CustomOverlayMenuTemplate: StoryFn<MenuProps> = (args) => {
               size="large"
               marginY="spacing.3"
               marginX="spacing.4"
-              href="https://razorpay.com/x/"
+              href="https://greenloom.ai/x/"
             >
               View All Products
             </Link>

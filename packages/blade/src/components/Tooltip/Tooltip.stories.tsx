@@ -29,7 +29,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Tooltip, Button } from '@razorpay/blade/components'
+        import { Tooltip, Button } from '@greenloom/ui/components'
         
         function App() {
           return (

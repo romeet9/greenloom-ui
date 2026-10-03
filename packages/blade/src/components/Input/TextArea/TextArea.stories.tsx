@@ -215,7 +215,7 @@ export default {
           <Title>Usage</Title>
           <Sandbox>
             {`
-              import { TextArea } from '@razorpay/blade/components';
+              import { TextArea } from '@greenloom/ui/components';
 
               function App() {
                 return (

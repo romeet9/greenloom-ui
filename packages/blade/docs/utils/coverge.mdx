@@ -28,7 +28,7 @@ Parameters:
 
   ```js dark
   import { test, expect } from '@playwright/test';
-  import { assertBladeCoverage } from '@razorpay/blade/coverageUtils';
+  import { assertBladeCoverage } from '@greenloom/ui/coverageUtils';
 
   test.describe.parallel('Test Home @flow=home', () => {
     test('should have blade coverage more than 70% @priority=normal', async ({ page }) => {
@@ -54,7 +54,7 @@ Parameters:
 This utility function calculates the blade usage coverage in percentage of the DOM elements on a web page.
 
 ```js dark
-import { getBladeCoverage } from '@razorpay/blade/coverageUtils';
+import { getBladeCoverage } from '@greenloom/ui/coverageUtils';
 
 const { bladeCoverage, totalNodes, bladeNodes } = getBladeCoverage();
 ```

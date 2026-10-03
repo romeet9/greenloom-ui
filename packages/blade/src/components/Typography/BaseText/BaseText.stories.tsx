@@ -29,7 +29,7 @@ export default {
           componentName="BaseText"
         >
           <Title>Usage</Title>
-          <code>{`import { BaseText } from '@razorpay/blade/components' \nimport type { BaseTextProps } from '@razorpay/blade/components'`}</code>
+          <code>{`import { BaseText } from '@greenloom/ui/components' \nimport type { BaseTextProps } from '@greenloom/ui/components'`}</code>
         </StoryPageWrapper>
       ),
     },

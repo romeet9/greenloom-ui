@@ -77,7 +77,7 @@ const _SelectInput = (
  *
  * ---
  *
- * Checkout {@link https://blade.razorpay.com/?path=/docs/components-dropdown-with-select--with-single-select SelectInput Documentation}.
+ * Checkout {@link https://ui.greenloom.ai/?path=/docs/components-dropdown-with-select--with-single-select SelectInput Documentation}.
  */
 
 const SelectInput = assignWithoutSideEffects(React.forwardRef(_SelectInput), {

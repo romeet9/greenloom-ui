@@ -28,7 +28,7 @@ const Page = (): React.ReactElement => {
       />
       <Sandbox>
         {`
-          import { FloatingActionButton, PlusIcon } from '@razorpay/blade/components';
+          import { FloatingActionButton, PlusIcon } from '@greenloom/ui/components';
 
           function App() {
             return (

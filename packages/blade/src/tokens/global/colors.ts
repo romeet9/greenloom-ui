@@ -240,22 +240,23 @@ export type Color = Readonly<{
 export const colors: Color = {
   chromatic: {
     azure: {
-      50: `hsla(217, 100%, 98%, ${opacity[1300]})`,
-      100: `hsla(218, 100%, 92%, ${opacity[1300]})`,
-      200: `hsla(218, 100%, 83%, ${opacity[1300]})`,
-      300: `hsla(217, 100%, 73%, ${opacity[1300]})`,
-      400: `hsla(218, 100%, 63%, ${opacity[1300]})`,
-      500: `hsla(218, 89%, 51%, ${opacity[1300]})`,
-      600: `hsla(218, 87%, 43%, ${opacity[1300]})`,
-      700: `hsla(218, 89%, 35%, ${opacity[1300]})`,
-      800: `hsla(218, 90%, 28%, ${opacity[1300]})`,
-      900: `hsla(218, 90%, 20%, ${opacity[1300]})`,
-      1000: `hsla(218, 93%, 10%, ${opacity[1300]})`,
-      a50: `hsla(218, 89%, 51%, ${opacity[100]})`,
-      a100: `hsla(218, 89%, 51%, ${opacity[300]})`,
-      a150: `hsla(218, 89%, 51%, ${opacity[400]})`,
-      a200: `hsla(218, 89%, 51%, ${opacity[500]})`,
-      a400: `hsla(218, 89%, 51%, ${opacity[800]})`,
+      // Green Loom AI Brand Color (Powder Green)
+      50: `hsla(105, 100%, 98%, ${opacity[1300]})`, // #f9fff7
+      100: `hsla(98, 93%, 95%, ${opacity[1300]})`, // #eefee5
+      200: `hsla(99, 90%, 92%, ${opacity[1300]})`, // #e5fdd8
+      300: `hsla(100, 90%, 88%, ${opacity[1300]})`, // #d9fcc7
+      400: `hsla(99, 91%, 86%, ${opacity[1300]})`, // #d2fcbc
+      500: `hsla(99, 27%, 59%, ${opacity[1300]})`, // #8db279 (Main Brand Green)
+      600: `hsla(100, 19%, 45%, ${opacity[1300]})`, // #6d8a5e
+      700: `hsla(98, 19%, 35%, ${opacity[1300]})`, // #546948
+      800: `hsla(97, 18%, 25%, ${opacity[1300]})`, // #3c4a33
+      900: `hsla(97, 20%, 18%, ${opacity[1300]})`, // #283322
+      1000: `hsla(97, 24%, 10%, ${opacity[1300]})`, // #131a10
+      a50: `hsla(99, 27%, 59%, ${opacity[100]})`,
+      a100: `hsla(99, 27%, 59%, ${opacity[300]})`,
+      a150: `hsla(99, 27%, 59%, ${opacity[400]})`,
+      a200: `hsla(99, 27%, 59%, ${opacity[500]})`,
+      a400: `hsla(99, 27%, 59%, ${opacity[800]})`,
     },
     emerald: {
       50: `hsla(150, 39%, 93%, ${opacity[1300]})`,

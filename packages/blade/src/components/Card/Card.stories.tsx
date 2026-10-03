@@ -74,7 +74,7 @@ const Page = (): React.ReactElement => {
           CardHeaderIconButton,
           InfoIcon,
           Text
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
 
         function App() {
           return (

@@ -34,10 +34,7 @@ const config: StorybookConfig = {
     '../../src/**/*.internal.stories.@(ts|tsx|js|jsx)',
   ],
 
-  addons: [
-    getAbsolutePath('@storybook/addon-docs'),
-    getAbsolutePath('@storybook/addon-a11y'),
-  ],
+  addons: [getAbsolutePath('@storybook/addon-docs'), getAbsolutePath('@storybook/addon-a11y')],
 
   framework: {
     name: getAbsolutePath('@storybook/react-vite'),
@@ -90,6 +87,10 @@ const config: StorybookConfig = {
         },
       },
     });
+  },
+
+  core: {
+    disableWhatsNewNotifications: true,
   },
 };
 

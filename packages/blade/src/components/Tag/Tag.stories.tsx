@@ -25,7 +25,7 @@ const Page = (): React.ReactElement => {
       <Sandbox>
         {`
         import React from 'react';
-        import { Tag, FileTextIcon } from '@razorpay/blade/components';
+        import { Tag, FileTextIcon } from '@greenloom/ui/components';
         
         function App() {
           const [isTagVisible, setIsTagVisible] = React.useState(true);

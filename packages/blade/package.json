@@ -1,17 +1,17 @@
 {
-  "name": "@razorpay/blade",
-  "description": "The Design System that powers Razorpay",
-  "version": "12.127.0",
+  "name": "@greenloom/ui",
+  "description": "The Design System that powers Green Loom AI",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=18"
   },
   "bin": {
     "migrate-typography": "./codemods/migrate-typography/transformers/migrate-typography.ts"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/razorpay/blade.git"
+    "url": "https://github.com/greenloom/ui.git"
   },
   "files": [
     "build",
@@ -33,9 +33,10 @@
   "keywords": [
     "design system",
     "react",
-    "react native",
-    "razorpay",
-    "blade"
+    "greenloom",
+    "ai",
+    "tailwind",
+    "ui"
   ],
   "exports": {
     "./fonts.css": {
@@ -155,6 +156,7 @@
     "react-window": "1.8.11",
     "react-zoom-pan-pinch": "3.7.0",
     "recharts": "3.7.0",
+    "hugeicons-react": "^0.4.0",
     "tinycolor2": "1.6.0",
     "ts-deepmerge": "6.2.0",
     "unist-util-visit-parents": "^6.0.2",

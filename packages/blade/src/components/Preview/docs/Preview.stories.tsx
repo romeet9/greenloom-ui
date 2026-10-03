@@ -34,7 +34,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox showConsole>
         {`
-        import { PreviewBody, PreviewHeader, Preview, PreviewFooter } from '@razorpay/blade/components';
+        import { PreviewBody, PreviewHeader, Preview, PreviewFooter } from '@greenloom/ui/components';
         
         function App() {
           return (
@@ -123,7 +123,7 @@ const PreviewTemplate: StoryFn<typeof Preview> = () => {
                   </Text>
                   <Box display="flex" flexDirection="row" justifyContent="space-between">
                     <Button
-                      href="https://razorpay.com/payment-links/"
+                      href="https://greenloom.ai/payment-links/"
                       variant="primary"
                       target="_blank"
                     >

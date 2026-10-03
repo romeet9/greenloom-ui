@@ -22,13 +22,13 @@ const Page = (): React.ReactElement => {
     <StoryPageWrapper
       componentDescription="Radio & RadioGroup can be used in forms when a user needs to single value from several options."
       componentName="Radio"
-      imports={`import { Radio, RadioGroup } from '@razorpay/blade/components';\nimport type { RadioProps, RadioGroupProps } from '@razorpay/blade/components';`}
+      imports={`import { Radio, RadioGroup } from '@greenloom/ui/components';\nimport type { RadioProps, RadioGroupProps } from '@greenloom/ui/components';`}
       figmaURL="https://www.figma.com/proto/jubmQL9Z8V7881ayUD95ps/Blade-DSL?type=design&node-id=75857-146071&t=8df9lRjFiAYVTKc4-1&scaling=min-zoom&page-id=13133%3A160667&mode=design"
     >
       <Title>Usage</Title>
       <Sandbox showConsole editorHeight={400}>
         {`
-          import { RadioGroup, Radio } from '@razorpay/blade/components';
+          import { RadioGroup, Radio } from '@greenloom/ui/components';
 
           function App() {
             return (

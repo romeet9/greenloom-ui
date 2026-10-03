@@ -15,11 +15,11 @@ const Page = (): React.ReactElement => {
     <StoryPageWrapper
       componentDescription="SegmentedControl allows users to select a single option from a set of 2-5 options, displayed as a horizontal group of buttons."
       componentName="SegmentedControl"
-      imports={`import { SegmentedControl, SegmentedControlItem } from '@razorpay/blade/components';`}
+      imports={`import { SegmentedControl, SegmentedControlItem } from '@greenloom/ui/components';`}
       note={
         <Text>
           SegmentedControl can look visually similar to{' '}
-          <Link target="_blank" href="https://blade.razorpay.com/?path=/docs/components-tabs--docs">
+          <Link target="_blank" href="https://ui.greenloom.ai/?path=/docs/components-tabs--docs">
             Tabs
           </Link>
           , but they solve different problems. Use <Code size="medium">SegmentedControl</Code> as a
@@ -36,7 +36,7 @@ const Page = (): React.ReactElement => {
       <Heading size="large">Usage</Heading>
       <Sandbox editorHeight={300}>
         {`
-          import { Box, SegmentedControl, SegmentedControlItem } from '@razorpay/blade/components';
+          import { Box, SegmentedControl, SegmentedControlItem } from '@greenloom/ui/components';
 
           function App() {
             return (

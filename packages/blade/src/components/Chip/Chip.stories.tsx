@@ -22,7 +22,7 @@ const Page = (): React.ReactElement => {
           usage refer to the ChipGroup story{' '}
           <Link
             target="_blank"
-            href="https://blade.razorpay.com/?path=/docs/components-chip-chipgroup"
+            href="https://ui.greenloom.ai/?path=/docs/components-chip-chipgroup"
           >
             here.
           </Link>

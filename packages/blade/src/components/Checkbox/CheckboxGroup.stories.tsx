@@ -24,7 +24,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole editorHeight={400}>
         {`
-          import { CheckboxGroup, Checkbox } from '@razorpay/blade/components';
+          import { CheckboxGroup, Checkbox } from '@greenloom/ui/components';
 
           function App() {
             return (

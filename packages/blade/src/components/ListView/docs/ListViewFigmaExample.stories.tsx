@@ -170,6 +170,7 @@ const BulkActionContent = (): React.ReactElement => {
               <Box width="208px">
                 <SearchInput
                   label=""
+                  accessibilityLabel="Search for Payment Id"
                   value={searchValue}
                   placeholder="Search for Payment Id"
                   onChange={({ value }) => {
@@ -197,10 +198,10 @@ const BulkActionContent = (): React.ReactElement => {
               </Box>
               <ButtonGroup variant="tertiary">
                 <Tooltip content="Download data">
-                  <Button icon={DownloadIcon} />
+                  <Button icon={DownloadIcon} accessibilityLabel="Download data" />
                 </Tooltip>
                 <Tooltip content="Share">
-                  <Button icon={ShareIcon} />
+                  <Button icon={ShareIcon} accessibilityLabel="Share" />
                 </Tooltip>
               </ButtonGroup>
             </Box>

@@ -22,7 +22,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox showConsole>
         {`
-        import { Checkbox } from '@razorpay/blade/components'
+        import { Checkbox } from '@greenloom/ui/components'
         
         function App() {
           return (

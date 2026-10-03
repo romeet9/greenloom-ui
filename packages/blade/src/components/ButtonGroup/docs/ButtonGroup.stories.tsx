@@ -39,7 +39,7 @@ const Page = (): React.ReactElement => {
           RefreshIcon,
           ShareIcon,
           DownloadIcon,
-        } from '@razorpay/blade/components';
+        } from '@greenloom/ui/components';
         
         function App() {
           return (
@@ -99,7 +99,7 @@ const ButtonGroupDropdownTemplate: StoryFn<typeof ButtonGroupComponent> = (args)
           <Button icon={PlusIcon}>Payout</Button>
         </Tooltip>
         <Dropdown>
-          <DropdownButton icon={ChevronDownIcon} />
+          <DropdownButton icon={ChevronDownIcon} accessibilityLabel="More actions" />
           <DropdownOverlay defaultPlacement="bottom-end">
             <ActionList>
               <ActionListItem title="Bulk Payout" value="bulk-payout" />
@@ -187,9 +187,9 @@ AllSizes.storyName = 'All Sizes';
 const ButtonGroupIconOnlyTemplate: StoryFn<typeof ButtonGroupComponent> = (args) => {
   return (
     <ButtonGroupComponent {...args}>
-      <Button icon={RefreshIcon} />
-      <Button icon={ShareIcon} />
-      <Button icon={DownloadIcon} />
+      <Button icon={RefreshIcon} accessibilityLabel="Sync" />
+      <Button icon={ShareIcon} accessibilityLabel="Share" />
+      <Button icon={DownloadIcon} accessibilityLabel="Download" />
     </ButtonGroupComponent>
   );
 };
@@ -422,9 +422,9 @@ const ShowcaseTemplate: StoryFn<typeof ButtonGroupComponent> = () => {
                 XSmall
               </Text>
               <ButtonGroupComponent size="xsmall">
-                <Button icon={RefreshIcon} />
-                <Button icon={ShareIcon} />
-                <Button icon={DownloadIcon} />
+                <Button icon={RefreshIcon} accessibilityLabel="Sync" />
+                <Button icon={ShareIcon} accessibilityLabel="Share" />
+                <Button icon={DownloadIcon} accessibilityLabel="Download" />
               </ButtonGroupComponent>
             </Box>
             <Box>
@@ -432,9 +432,9 @@ const ShowcaseTemplate: StoryFn<typeof ButtonGroupComponent> = () => {
                 Small
               </Text>
               <ButtonGroupComponent size="small">
-                <Button icon={RefreshIcon} />
-                <Button icon={ShareIcon} />
-                <Button icon={DownloadIcon} />
+                <Button icon={RefreshIcon} accessibilityLabel="Sync" />
+                <Button icon={ShareIcon} accessibilityLabel="Share" />
+                <Button icon={DownloadIcon} accessibilityLabel="Download" />
               </ButtonGroupComponent>
             </Box>
             <Box>
@@ -442,9 +442,9 @@ const ShowcaseTemplate: StoryFn<typeof ButtonGroupComponent> = () => {
                 Medium
               </Text>
               <ButtonGroupComponent size="medium">
-                <Button icon={RefreshIcon} />
-                <Button icon={ShareIcon} />
-                <Button icon={DownloadIcon} />
+                <Button icon={RefreshIcon} accessibilityLabel="Sync" />
+                <Button icon={ShareIcon} accessibilityLabel="Share" />
+                <Button icon={DownloadIcon} accessibilityLabel="Download" />
               </ButtonGroupComponent>
             </Box>
             <Box>
@@ -452,9 +452,9 @@ const ShowcaseTemplate: StoryFn<typeof ButtonGroupComponent> = () => {
                 Large
               </Text>
               <ButtonGroupComponent size="large">
-                <Button icon={RefreshIcon} />
-                <Button icon={ShareIcon} />
-                <Button icon={DownloadIcon} />
+                <Button icon={RefreshIcon} accessibilityLabel="Sync" />
+                <Button icon={ShareIcon} accessibilityLabel="Share" />
+                <Button icon={DownloadIcon} accessibilityLabel="Download" />
               </ButtonGroupComponent>
             </Box>
           </Box>
@@ -515,7 +515,7 @@ const ShowcaseTemplate: StoryFn<typeof ButtonGroupComponent> = () => {
               <Button icon={PlusIcon}>Payout</Button>
             </Tooltip>
             <Dropdown>
-              <DropdownButton icon={ChevronDownIcon} />
+              <DropdownButton icon={ChevronDownIcon} accessibilityLabel="More actions" />
               <DropdownOverlay>
                 <ActionList>
                   <ActionListItem title="Bulk Payout" value="bulk-payout" />

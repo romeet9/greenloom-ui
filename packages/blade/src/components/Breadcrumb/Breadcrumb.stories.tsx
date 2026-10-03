@@ -29,7 +29,7 @@ const Page = (): React.ReactElement => {
       <Title>Usage</Title>
       <Sandbox>
         {`
-        import { Box, Breadcrumb, BreadcrumbItem, HomeIcon } from '@razorpay/blade/components';
+        import { Box, Breadcrumb, BreadcrumbItem, HomeIcon } from '@greenloom/ui/components';
 
         function App() {
           return (
