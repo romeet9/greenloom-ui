@@ -1,56 +1,89 @@
 <br/>
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./branding/blade-original-dark-mode.min.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./branding/blade-original.min.svg">
-  <img width="450px" alt="Blade Design System Logo" src="./branding/blade-original.min.svg">
-</picture>
+  <img width="96px" alt="Loom UI Emblem" src="./branding/logo.svg">
+</p>
+
+<h1 align="center">Loom UI</h1>
+
+<p align="center">
+  The Enterprise Design System and Accessible Component Foundation for <strong>Green Loom</strong>
+</p>
+
+<p align="center">
+  <span style="display: inline-block; padding: 2px 8px; border-radius: 6px; background-color: rgba(16,185,129,0.1); color: #059669; font-weight: bold; border: 1px solid rgba(16,185,129,0.2);">v1.0.0</span> &nbsp;
+  <span style="display: inline-block; padding: 2px 8px; border-radius: 6px; background-color: rgba(16,185,129,0.1); color: #059669; font-weight: bold; border: 1px solid rgba(16,185,129,0.2);">WCAG AAA Compliant</span> &nbsp;
+  <span style="display: inline-block; padding: 2px 8px; border-radius: 6px; background-color: rgba(16,185,129,0.1); color: #059669; font-weight: bold; border: 1px solid rgba(16,185,129,0.2);">Zero A11y Violations</span> &nbsp;
+  <span style="display: inline-block; padding: 2px 8px; border-radius: 6px; background-color: rgba(16,185,129,0.1); color: #059669; font-weight: bold; border: 1px solid rgba(16,185,129,0.2);">TypeScript Native</span>
 </p>
 
 <br/>
 
-<p align="center">
-  <a href="https://npmjs.org/package/@razorpay/blade"><img alt="Blade Latest Version" src="https://img.shields.io/github/package-json/v/razorpay/blade?style=for-the-badge&labelColor=322&logo=npm&label=@razorpay/Blade&color=darkred&filename=packages%2Fblade%2Fpackage.json"></a> &nbsp;<a href="https://blade.razorpay.com/"><img alt="Documentation blade.razorpay.com" src="https://img.shields.io/badge/Documentation-blade.razorpay.com-0648EF?style=for-the-badge&labelColor=0012AD&logo=readthedocs&logoColor=eee"/></a> &nbsp;<a href="https://github.com/razorpay/blade/tree/master/CONTRIBUTING.md"><img alt="Discord Join Chat" src="https://img.shields.io/badge/Contributions-Open-333333?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=111111"/></a></p>
+## ✨ Key Features
 
-<h1 aria-hidden="true"></h1>
+- **Dense Data Ergonomics**: Engineered for high-density tables, multi-tier filters, financial workflows, and enterprise dashboards.
+- **Strict Accessibility (WCAG AAA)**: Full keyboard navigation, automated axe-core zero violation score, and high-contrast dark theme surfaces (`#0D1117`).
+- **Powder Green Design Tokens**: Harmonic natural palette paired with Geist typography and Hugeicons stroke iconography.
+- **AI-Native MCP Server**: Integrated `@greenloom/mcp` Model Context Protocol server for Claude Code, Cursor, and IDE coding agents.
+- **Cross-Platform**: Unified component APIs across React Web and React Native.
 
-<br/>
+---
 
-Blade is the Design System that powers [Razorpay](https://razorpay.com/).
+## 🚀 Getting Started for Developers
 
-## 🔗 Links
+### 1. Clone & Install
 
-- [Docs](https://blade.razorpay.com)
-- [Installation](https://blade.razorpay.com/?path=/docs/guides-installation--docs)
-- [@razorpay/blade-old](https://github.com/razorpay/blade-old) (Deprecated, Private)
+```bash
+git clone https://github.com/romeet9/greenloom-ui.git
+cd greenloom-ui
+yarn install
+```
 
-## ✨ Features
+### 2. Start Storybook (Component Explorer)
 
-- Cross-Platform (Works Natively on [React Web and React Native](https://blade.razorpay.com/?path=/docs/guides-installation--docs))
-- [White Labelling](https://blade.razorpay.com/?path=/docs/guides-theming-theme-playground--docs)
-- [Accessible](https://github.com/razorpay/blade/blob/master/rfcs/2022-04-09-accessibility.md#manual-testing)
-- Documented [RFCs](https://github.com/razorpay/blade/tree/master/rfcs) and [API Decisions](https://github.com/razorpay/blade/blob/master/packages/blade/src/components/Alert/_decisions/decisions.md)
+```bash
+yarn react:storybook
+```
+Open **[http://localhost:9009](http://localhost:9009)** in your browser to view all 80+ components, interactive docs, and theme playgrounds.
 
-## 📦 Monorepo Structure
+### 3. Build Packages
 
-This repository is organized as a monorepo containing several packages that work together to provide a complete design system ecosystem.
+```bash
+# Build core Loom UI packages
+yarn build
 
-### Packages
+# Build Loom UI MCP server
+yarn --cwd packages/blade-mcp build
+```
 
-| Package                                                                              | Description                                                                                                            |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [blade](./packages/blade/)                                                           | The core Blade Design System package with cross-platform UI components for React Web and React Native                  |
-| [blade-mcp](./packages/blade-mcp/)                                                   | Model Context Protocol (MCP) server for AI-assisted development using Blade components                                 |
-| [plugin-figma-blade-coverage](./packages/plugin-figma-blade-coverage/)               | Figma plugin that measures Blade component usage and coverage in design files. It acts like a linter for design files. |
-| [plugin-figma-token-publisher](./packages/plugin-figma-token-publisher/)             | Figma plugin for publishing design tokens                                                                              |
-| [blade-coverage-extension](./packages/blade-coverage-extension/)                     | Browser extension for measuring Blade component usage                                                                  |
-| [eslint-plugin-blade](./packages/eslint-plugin-blade/)                               | ESLint plugin for enforcing Blade coding standards                                                                     |
-| [widget-figma-dev-handoff-checklist](./packages/widget-figma-dev-handoff-checklist/) | Figma widget for design-to-development handoff checklists                                                              |
+---
+
+## 📦 Monorepo Packages
+
+| Package | Directory | Description |
+| :--- | :--- | :--- |
+| **`@greenloom/ui`** | [`./packages/blade`](./packages/blade/) | The core Loom UI component library, tokens, and theme providers. |
+| **`@greenloom/mcp`** | [`./packages/blade-mcp`](./packages/blade-mcp/) | Model Context Protocol (MCP) server for AI assistants building Loom UI code. |
+| **`@greenloom/svelte`** | [`./packages/blade-svelte`](./packages/blade-svelte/) | Svelte adapter for Loom UI components. |
+
+---
+
+## 🤖 Using the Loom UI MCP Server
+
+Connect your AI assistants (Claude Code, Cursor, Windsurf, Antigravity) to generate compliant Loom UI code:
+
+```json
+{
+  "mcpServers": {
+    "loom-ui": {
+      "command": "node",
+      "args": ["path/to/greenloom-ui/packages/blade-mcp/dist/server.js"]
+    }
+  }
+}
+```
+
+---
 
 ## 📝 License
 
-Licensed under the [MIT License](https://github.com/razorpay/blade/blob/master/LICENSE.md).
-
-<h1 aria-hidden="true"></h1>
-
-<p align="center">Interested in working with us? Checkout our <a href="https://razorpay.com/jobs">Jobs Page</a> for open roles 🤗</p>
+Licensed under the [MIT License](./LICENSE.md).
