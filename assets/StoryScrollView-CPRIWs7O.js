@@ -1,0 +1,1 @@
+import{j as o}from"./iframe-C1qQ09LF.js";const e=({children:r})=>o.jsx(o.Fragment,{children:r});try{e.displayName="StoryScrollView",e.__docgenInfo={description:"",displayName:"StoryScrollView",props:{}}}catch{}export{e as S};

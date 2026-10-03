@@ -1,0 +1,13 @@
+import{kp as o,j as e,X as x,x as b}from"./iframe-C1qQ09LF.js";import{S as B}from"./StoryPageWrapper-CS0_5maI.js";import{g as y}from"./storybookArgTypes-DFfQV31s.js";import"./preload-helper-Dp1pzeXC.js";import"./Sandbox.web-C7diOxlu.js";import"./baseCode-DnWYDQ6N.js";import"./componentStatusData-8pChZ-5h.js";const T=()=>e.jsxs(B,{componentName:"TrustBadge",componentDescription:"A generic trust badge — a brand shield paired with a sea-tinted pill that displays a configurable trust label (default: 'Green Loom Verified Partner'). The component is designed to be generic so the label can evolve without a breaking API change.",figmaURL:"https://www.figma.com/design/jubmQL9Z8V7881ayUD95ps/Blade-DSL?node-id=123352-128035&m=dev",children:[e.jsx(x,{children:"Usage"}),e.jsx(b,{backgroundColor:"surface.background.gray.subtle",padding:"spacing.5",borderRadius:"medium",children:e.jsx(o,{})})]}),v={title:"Components/TrustBadge",component:o,tags:["autodocs"],argTypes:{variant:{control:{type:"select"},options:["default","icon-only"]},label:{control:{type:"text"}},...y()},args:{variant:"default",label:"Green Loom Verified Partner"},parameters:{docs:{page:T}}},n=f=>e.jsx(b,{backgroundColor:"surface.background.gray.subtle",padding:"spacing.5",borderRadius:"medium",display:"inline-flex",children:e.jsx(o,{...f})}),s=n.bind({}),r=n.bind({});r.args={variant:"icon-only"};const a=n.bind({});a.args={label:"Green Loom Verified"};var t,d,i;s.parameters={...s.parameters,docs:{...(t=s.parameters)==null?void 0:t.docs,source:{originalSource:`args => {
+  return <BaseBox backgroundColor="surface.background.gray.subtle" padding="spacing.5" borderRadius="medium" display="inline-flex">
+      <TrustBadgeComponent {...args} />
+    </BaseBox>;
+}`,...(i=(d=s.parameters)==null?void 0:d.docs)==null?void 0:i.source}}};var c,u,l;r.parameters={...r.parameters,docs:{...(c=r.parameters)==null?void 0:c.docs,source:{originalSource:`args => {
+  return <BaseBox backgroundColor="surface.background.gray.subtle" padding="spacing.5" borderRadius="medium" display="inline-flex">
+      <TrustBadgeComponent {...args} />
+    </BaseBox>;
+}`,...(l=(u=r.parameters)==null?void 0:u.docs)==null?void 0:l.source}}};var g,p,m;a.parameters={...a.parameters,docs:{...(g=a.parameters)==null?void 0:g.docs,source:{originalSource:`args => {
+  return <BaseBox backgroundColor="surface.background.gray.subtle" padding="spacing.5" borderRadius="medium" display="inline-flex">
+      <TrustBadgeComponent {...args} />
+    </BaseBox>;
+}`,...(m=(p=a.parameters)==null?void 0:p.docs)==null?void 0:m.source}}};const P=["Default","IconOnly","CustomLabel"];export{a as CustomLabel,s as Default,r as IconOnly,P as __namedExportsOrder,v as default};

@@ -1,0 +1,6 @@
+import{i3 as e,j as o,i4 as l,dL as d,c5 as y,dJ as v,dH as u,dO as I}from"./iframe-C1qQ09LF.js";import{i as a}from"./iconMap-BGYDFM5U.js";import"./preload-helper-Dp1pzeXC.js";const f={title:"Components/BottomNav/BottomNavItem Playground",component:e,argTypes:{icon:{name:"icon",type:"select",options:Object.keys(a),mapping:a}},parameters:{previewTabs:{"storybook/docs/panel":{hidden:!0}}},globals:{viewport:{value:"iPhone6",isRotated:!1}}},r=[{title:"Payments",href:"/payments",icon:d},{title:"Transactions",href:"/transactions",icon:y},{title:"Links",href:"/payment-links",icon:v},{title:"Pages",href:"/payment-pages",icon:u},{title:"Buttons",href:"/payment-buttons",icon:I}],N=i=>o.jsxs(l,{children:[o.jsx(e,{...i}),r.slice(1).map((c,p)=>o.jsx(e,{...c},p))]}),t=N.bind({});t.args={...r[0],isActive:!0};t.storyName="BottomNavItem Playground";var s,n,m;t.parameters={...t.parameters,docs:{...(s=t.parameters)==null?void 0:s.docs,source:{originalSource:`args => {
+  return <BottomNav>
+      <BottomNavItem {...args} />
+      {bottomNavItems.slice(1).map((item, index) => <BottomNavItem key={index} {...item} />)}
+    </BottomNav>;
+}`,...(m=(n=t.parameters)==null?void 0:n.docs)==null?void 0:m.source}}};const x=["BottomNavItemPlayground"];export{t as BottomNavItemPlayground,x as __namedExportsOrder,f as default};
