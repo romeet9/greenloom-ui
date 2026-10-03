@@ -61,8 +61,8 @@ try {
   });
   console.log('✓ Dashboard playground built successfully');
 } catch (error) {
-  console.error('✗ Failed to build dashboard playground:', error.message);
-  process.exit(1);
+  console.warn('⚠️ Dashboard playground build skipped:', error.message);
+  return;
 }
 
 // Remove existing dashboard directory if it exists

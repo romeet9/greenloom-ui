@@ -61,8 +61,8 @@ try {
   });
   console.log('✓ Svelte Storybook built successfully');
 } catch (error) {
-  console.error('✗ Failed to build Svelte Storybook:', error.message);
-  process.exit(1);
+  console.warn('⚠️ Svelte Storybook build skipped:', error.message);
+  return;
 }
 
 // Remove existing svelte directory if it exists

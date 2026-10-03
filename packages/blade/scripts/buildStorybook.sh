@@ -33,7 +33,7 @@ done
 yarn generate-docs-lockfile
 
 # Build storybook with the output directory and any forwarded arguments
-cross-env FRAMEWORK=REACT storybook build -c ./.storybook/react -o "$OUTPUT_DIR" --quiet "${OTHER_ARGS[@]}"
+cross-env FRAMEWORK=REACT NODE_OPTIONS=--max_old_space_size=8192 storybook build -c ./.storybook/react -o "$OUTPUT_DIR" --quiet "${OTHER_ARGS[@]}"
 
 # Copy dashboard to the output directory (works for both default and Chromatic's custom dir)
 if [ "$SKIP_DASHBOARD" = false ]; then
