@@ -9,16 +9,17 @@ import {
 } from '../utils/changelogParser.js';
 import { analyticsToolCallEventName } from '../utils/tokens.js';
 
-const getChangelogToolName = 'get_blade_changelog';
+const getLoomChangelogToolName = 'get_loom_changelog';
+const getChangelogToolName = getLoomChangelogToolName;
 
-const getChangelogToolDescription = `
-Get the changelog of blade to help consumer with blade upgrades and checking release notes. Either for a specific version or a range of two versions,
+const getLoomChangelogToolDescription = `
+Get the changelog of Loom UI to help consumer with Loom UI upgrades and checking release notes. Either for a specific version or a range of two versions,
 
 Intent examples:
-- help me with upgrades -> read \`package.json\` to get consumer's blade version to use it as \`fromVersion\` and then use \`toVersion\` as \`latest\` version (range)
+- help me with upgrades -> read \`package.json\` to get consumer's Loom UI version to use it as \`fromVersion\` and then use \`toVersion\` as \`latest\` version (range)
 - what was changed in x.x.x version? -> Just \`fromVersion\` (set isRange to false & omit toVersion)
 - what was changed between x.x.x and y.y.y versions? -> \`fromVersion\` and \`toVersion\` (set isRange to true)
-- what is the latest version of blade? -> \`fromVersion\` as \`latest\` (set isRange to false & omit toVersion)
+- what is the latest version of Loom UI? -> \`fromVersion\` as \`latest\` (set isRange to false & omit toVersion)
 
 You will provide high level summary of notable changes in this output format:
 
@@ -36,12 +37,8 @@ You will provide high level summary of notable changes in this output format:
 # Breaking Changes:
 - **XYZ** component was removed (v12.0.0)
 \`\`\`
-
-Hyperlinking:
-Whenever you find blade versions mentioned ie \`(v12.0.0)\`, make sure to link it to release notes with this link:
-https://github.com/razorpay/blade/releases/tag/%40razorpay%2Fblade%4012.0.0 
-Example: \`(v12.0.0)\` becomes [(v12.0.0)](https://github.com/razorpay/blade/releases/tag/%40razorpay%2Fblade%4012.0.0)
 `;
+const getChangelogToolDescription = getLoomChangelogToolDescription;
 
 const getChangelogToolSchema = {
   fromVersion: z
@@ -133,9 +130,16 @@ const getChangelogToolCallback: ToolCallback<typeof getChangelogToolSchema> = as
   }
 };
 
+const getLoomChangelogToolCallback = getChangelogToolCallback;
+const getLoomChangelogToolSchema = getChangelogToolSchema;
+
 export {
+  getLoomChangelogToolCallback,
   getChangelogToolCallback,
+  getLoomChangelogToolName,
   getChangelogToolName,
+  getLoomChangelogToolDescription,
   getChangelogToolDescription,
+  getLoomChangelogToolSchema,
   getChangelogToolSchema,
 };

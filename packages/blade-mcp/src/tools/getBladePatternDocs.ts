@@ -21,27 +21,31 @@ const whichPatternToUseGuide = readFileSync(
   'utf8',
 );
 
-const getBladePatternDocsToolName = 'get_blade_pattern_docs';
+const getLoomPatternDocsToolName = 'get_loom_pattern_docs';
+const getBladePatternDocsToolName = getLoomPatternDocsToolName;
 
-const getBladePatternDocsToolDescription = `Fetch the Blade Design System pattern docs. Use this to get information about design patterns, best practices, and implementation guidelines.`;
+const getLoomPatternDocsToolDescription = `Fetch the Loom UI Design System pattern docs. Use this to get information about design patterns, best practices, and implementation guidelines.`;
+const getBladePatternDocsToolDescription = getLoomPatternDocsToolDescription;
 
 // Schema for stdio transport
-const getBladePatternDocsStdioSchema = {
+const getLoomPatternDocsStdioSchema = {
   patternsList: z
     .string()
     .describe(
-      `Comma separated list of blade pattern names. E.g. "ListView, DetailedView". Possible values: ${bladePatternsList.join(
+      `Comma separated list of loom pattern names. E.g. "ListView, DetailedView". Possible values: ${bladePatternsList.join(
         ', ',
       )}. Here is guide on how to decide which pattern to use: ${whichPatternToUseGuide}`,
     ),
   ...commonBladeMCPToolSchema,
 };
+const getBladePatternDocsStdioSchema = getLoomPatternDocsStdioSchema;
 
 // Schema for HTTP transport
-const getBladePatternDocsHttpSchema = {
-  ...getBladePatternDocsStdioSchema,
+const getLoomPatternDocsHttpSchema = {
+  ...getLoomPatternDocsStdioSchema,
   ...httpTransportSkillVersionSchema,
 };
+const getBladePatternDocsHttpSchema = getLoomPatternDocsHttpSchema;
 
 // Core business logic function
 const getBladePatternDocsCore = ({
@@ -120,7 +124,7 @@ const getBladePatternDocsCore = ({
 };
 
 // Callback for stdio transport
-const getBladePatternDocsStdioCallback: ToolCallback<typeof getBladePatternDocsStdioSchema> = ({
+const getLoomPatternDocsStdioCallback: ToolCallback<typeof getLoomPatternDocsStdioSchema> = ({
   patternsList,
   currentProjectRootDirectory,
   clientName,
@@ -132,9 +136,10 @@ const getBladePatternDocsStdioCallback: ToolCallback<typeof getBladePatternDocsS
     clientName,
   });
 };
+const getBladePatternDocsStdioCallback = getLoomPatternDocsStdioCallback;
 
 // Callback for HTTP transport
-const getBladePatternDocsHttpCallback: ToolCallback<typeof getBladePatternDocsHttpSchema> = ({
+const getLoomPatternDocsHttpCallback: ToolCallback<typeof getLoomPatternDocsHttpSchema> = ({
   patternsList,
   skillVersion,
   clientName,
@@ -148,12 +153,19 @@ const getBladePatternDocsHttpCallback: ToolCallback<typeof getBladePatternDocsHt
     clientName,
   });
 };
+const getBladePatternDocsHttpCallback = getLoomPatternDocsHttpCallback;
 
 export {
+  getLoomPatternDocsToolName,
   getBladePatternDocsToolName,
+  getLoomPatternDocsToolDescription,
   getBladePatternDocsToolDescription,
+  getLoomPatternDocsStdioCallback,
   getBladePatternDocsStdioCallback,
+  getLoomPatternDocsHttpCallback,
   getBladePatternDocsHttpCallback,
+  getLoomPatternDocsStdioSchema,
   getBladePatternDocsStdioSchema,
+  getLoomPatternDocsHttpSchema,
   getBladePatternDocsHttpSchema,
 };

@@ -5,7 +5,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PROJECT_ROOT_DIRECTORY = join(__dirname, '..', '..');
 
-const analyticsToolCallEventName = 'Blade MCP Tool Called';
+const analyticsToolCallEventName = 'Loom MCP Tool Called';
 
 // Skill Tokens
 const SKILL_VERSION = '1.0.0';
@@ -21,7 +21,7 @@ const SKILL_DIRECTORY_NAME = 'ui-code-guidelines';
 const CONSUMER_SKILL_RELATIVE_PATH = `.agents/skills/${SKILL_DIRECTORY_NAME}/${SKILL_FILE_NAME}`;
 const CONSUMER_SKILL_SYMLINK_RELATIVE_PATH = `.claude/skills/${SKILL_DIRECTORY_NAME}`;
 
-const CHECK_SKILL_VERSION_DESCRIPTION = `Get the version from the blade skill file. If the file does not exist, send 0.
+const CHECK_SKILL_VERSION_DESCRIPTION = `Get the version from the Loom skill file. If the file does not exist, send 0.
 
 
 Use this exact grep command:

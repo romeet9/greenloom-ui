@@ -1,11 +1,20 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import {
+  createNewLoomProjectToolName,
+  createNewLoomProjectToolDescription,
+  createNewLoomProjectToolSchema,
+  createNewLoomProjectToolCallback,
   createNewBladeProjectToolName,
   createNewBladeProjectToolDescription,
   createNewBladeProjectToolSchema,
   createNewBladeProjectToolCallback,
 } from './tools/createNewBladeProject.js';
 import {
+  createLoomSkillToolName,
+  createLoomSkillToolDescription,
+  createLoomSkillToolSchema,
+  createLoomSkillStdioCallback,
+  createLoomSkillHttpCallback,
   createBladeSkillToolName,
   createBladeSkillToolDescription,
   createBladeSkillToolSchema,
@@ -13,6 +22,12 @@ import {
   createBladeSkillHttpCallback,
 } from './tools/createBladeSkill.js';
 import {
+  getLoomComponentDocsToolName,
+  getLoomComponentDocsToolDescription,
+  getLoomComponentDocsHttpSchema,
+  getLoomComponentDocsStdioSchema,
+  getLoomComponentDocsStdioCallback,
+  getLoomComponentDocsHttpCallback,
   getBladeComponentDocsToolName,
   getBladeComponentDocsToolDescription,
   getBladeComponentDocsHttpSchema,
@@ -21,6 +36,10 @@ import {
   getBladeComponentDocsHttpCallback,
 } from './tools/getBladeComponentDocs.js';
 import {
+  hiLoomToolName,
+  hiLoomToolDescription,
+  hiLoomToolSchema,
+  hiLoomToolCallback,
   hiBladeToolName,
   hiBladeToolDescription,
   hiBladeToolSchema,
@@ -28,6 +47,12 @@ import {
 } from './tools/hiBlade.js';
 import { getPackageJSONVersion } from './utils/generalUtils.js';
 import {
+  getLoomPatternDocsToolName,
+  getLoomPatternDocsToolDescription,
+  getLoomPatternDocsHttpSchema,
+  getLoomPatternDocsHttpCallback,
+  getLoomPatternDocsStdioSchema,
+  getLoomPatternDocsStdioCallback,
   getBladePatternDocsToolName,
   getBladePatternDocsToolDescription,
   getBladePatternDocsHttpSchema,
@@ -36,6 +61,12 @@ import {
   getBladePatternDocsStdioCallback,
 } from './tools/getBladePatternDocs.js';
 import {
+  getLoomGeneralDocsToolName,
+  getLoomGeneralDocsToolDescription,
+  getLoomGeneralDocsHttpCallback,
+  getLoomGeneralDocsHttpSchema,
+  getLoomGeneralDocsStdioSchema,
+  getLoomGeneralDocsStdioCallback,
   getBladeGeneralDocsToolName,
   getBladeGeneralDocsToolDescription,
   getBladeGeneralDocsHttpCallback,
@@ -50,6 +81,10 @@ import {
   getFigmaToCodeToolCallback,
 } from './tools/getFigmaToCode.js';
 import {
+  getLoomChangelogToolName,
+  getLoomChangelogToolDescription,
+  getLoomChangelogToolSchema,
+  getLoomChangelogToolCallback,
   getChangelogToolName,
   getChangelogToolDescription,
   getChangelogToolSchema,
@@ -66,61 +101,61 @@ import { setMcpSseAnalyticsContext } from './utils/analyticsUtils.js';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const httpsServerTools = (server: McpServer): void => {
   server.tool(
-    createBladeSkillToolName,
-    createBladeSkillToolDescription,
-    createBladeSkillToolSchema,
-    createBladeSkillHttpCallback,
+    createLoomSkillToolName,
+    createLoomSkillToolDescription,
+    createLoomSkillToolSchema,
+    createLoomSkillHttpCallback,
   );
 
   server.tool(
-    getBladeComponentDocsToolName,
-    getBladeComponentDocsToolDescription,
-    getBladeComponentDocsHttpSchema,
-    getBladeComponentDocsHttpCallback,
+    getLoomComponentDocsToolName,
+    getLoomComponentDocsToolDescription,
+    getLoomComponentDocsHttpSchema,
+    getLoomComponentDocsHttpCallback,
   );
 
   server.tool(
-    getBladePatternDocsToolName,
-    getBladePatternDocsToolDescription,
-    getBladePatternDocsHttpSchema,
-    getBladePatternDocsHttpCallback,
+    getLoomPatternDocsToolName,
+    getLoomPatternDocsToolDescription,
+    getLoomPatternDocsHttpSchema,
+    getLoomPatternDocsHttpCallback,
   );
 
   server.tool(
-    getBladeGeneralDocsToolName,
-    getBladeGeneralDocsToolDescription,
-    getBladeGeneralDocsHttpSchema,
-    getBladeGeneralDocsHttpCallback,
+    getLoomGeneralDocsToolName,
+    getLoomGeneralDocsToolDescription,
+    getLoomGeneralDocsHttpSchema,
+    getLoomGeneralDocsHttpCallback,
   );
 };
 
 const stdioServerTools = (server: McpServer): void => {
   server.tool(
-    createBladeSkillToolName,
-    createBladeSkillToolDescription,
-    createBladeSkillToolSchema,
-    createBladeSkillStdioCallback,
+    createLoomSkillToolName,
+    createLoomSkillToolDescription,
+    createLoomSkillToolSchema,
+    createLoomSkillStdioCallback,
   );
 
   server.tool(
-    getBladeComponentDocsToolName,
-    getBladeComponentDocsToolDescription,
-    getBladeComponentDocsStdioSchema,
-    getBladeComponentDocsStdioCallback,
+    getLoomComponentDocsToolName,
+    getLoomComponentDocsToolDescription,
+    getLoomComponentDocsStdioSchema,
+    getLoomComponentDocsStdioCallback,
   );
 
   server.tool(
-    getBladePatternDocsToolName,
-    getBladePatternDocsToolDescription,
-    getBladePatternDocsStdioSchema,
-    getBladePatternDocsStdioCallback,
+    getLoomPatternDocsToolName,
+    getLoomPatternDocsToolDescription,
+    getLoomPatternDocsStdioSchema,
+    getLoomPatternDocsStdioCallback,
   );
 
   server.tool(
-    getBladeGeneralDocsToolName,
-    getBladeGeneralDocsToolDescription,
-    getBladeGeneralDocsStdioSchema,
-    getBladeGeneralDocsStdioCallback,
+    getLoomGeneralDocsToolName,
+    getLoomGeneralDocsToolDescription,
+    getLoomGeneralDocsStdioSchema,
+    getLoomGeneralDocsStdioCallback,
   );
 };
 export const createServer = ({
@@ -141,13 +176,13 @@ export const createServer = ({
     stdioServerTools(server);
   }
 
-  server.tool(hiBladeToolName, hiBladeToolDescription, hiBladeToolSchema, hiBladeToolCallback);
+  server.tool(hiLoomToolName, hiLoomToolDescription, hiLoomToolSchema, hiLoomToolCallback);
 
   server.tool(
-    createNewBladeProjectToolName,
-    createNewBladeProjectToolDescription,
-    createNewBladeProjectToolSchema,
-    createNewBladeProjectToolCallback,
+    createNewLoomProjectToolName,
+    createNewLoomProjectToolDescription,
+    createNewLoomProjectToolSchema,
+    createNewLoomProjectToolCallback,
   );
 
   server.tool(
@@ -158,10 +193,10 @@ export const createServer = ({
   );
 
   server.tool(
-    getChangelogToolName,
-    getChangelogToolDescription,
-    getChangelogToolSchema,
-    getChangelogToolCallback,
+    getLoomChangelogToolName,
+    getLoomChangelogToolDescription,
+    getLoomChangelogToolSchema,
+    getLoomChangelogToolCallback,
   );
 
   server.tool(

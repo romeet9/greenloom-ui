@@ -24,10 +24,12 @@ import { handleError, sendAnalytics } from '../utils/analyticsUtils.js';
 import { skillCreationInstructions } from '../utils/skillUtils.js';
 import type { McpToolResponse } from '../utils/types.js';
 
-const createBladeSkillToolName = 'create_blade_skill';
+const createLoomSkillToolName = 'create_loom_skill';
+const createBladeSkillToolName = createLoomSkillToolName;
 
-const createBladeSkillToolDescription =
-  'Creates the UI code guidelines skill for AI-assisted frontend code generation with Blade. Scaffolds the skill in .agents/skills/ui-code-guidelines and creates a symlink in .claude/skills for Claude Code support.';
+const createLoomSkillToolDescription =
+  'Creates the UI code guidelines skill for AI-assisted frontend code generation with Loom UI. Scaffolds the skill in .agents/skills/ui-code-guidelines and creates a symlink in .claude/skills for Claude Code support.';
+const createBladeSkillToolDescription = createLoomSkillToolDescription;
 
 const createBladeSkillToolSchema = {
   currentProjectRootDirectory: z
@@ -77,7 +79,7 @@ const createBladeSkillCore = ({
       } else {
         return {
           content: [
-            { type: 'text', text: 'Blade skill already exists and is up to date. Doing nothing' },
+            { type: 'text', text: 'Loom UI skill already exists and is up to date. Doing nothing' },
           ],
         };
       }
@@ -121,7 +123,7 @@ const createBladeSkillCore = ({
     sendAnalytics({
       eventName: analyticsToolCallEventName,
       properties: {
-        toolName: createBladeSkillToolName,
+        toolName: createLoomSkillToolName,
         skillVersion: SKILL_VERSION,
         rootDirectoryName: basename(currentProjectRootDirectory),
       },
@@ -131,20 +133,20 @@ const createBladeSkillCore = ({
       content: [
         {
           type: 'text',
-          text: `Blade skill created at: ${skillFilePath}. Symlink created at: ${symlinkPath}. Skill Version: ${SKILL_VERSION}`,
+          text: `Loom UI skill created at: ${skillFilePath}. Symlink created at: ${symlinkPath}. Skill Version: ${SKILL_VERSION}`,
         },
       ],
     };
   } catch (error: unknown) {
     return handleError({
-      toolName: createBladeSkillToolName,
+      toolName: createLoomSkillToolName,
       errorObject: error,
     });
   }
 };
 
 // Callback for stdio transport
-const createBladeSkillStdioCallback: ToolCallback<typeof createBladeSkillToolSchema> = ({
+const createLoomSkillStdioCallback: ToolCallback<typeof createBladeSkillToolSchema> = ({
   currentProjectRootDirectory,
 }) => {
   return createBladeSkillCore({
@@ -152,9 +154,10 @@ const createBladeSkillStdioCallback: ToolCallback<typeof createBladeSkillToolSch
     isHttpTransport: false,
   });
 };
+const createBladeSkillStdioCallback = createLoomSkillStdioCallback;
 
 // Callback for HTTP transport
-const createBladeSkillHttpCallback: ToolCallback<typeof createBladeSkillToolSchema> = ({
+const createLoomSkillHttpCallback: ToolCallback<typeof createBladeSkillToolSchema> = ({
   currentProjectRootDirectory,
 }) => {
   return createBladeSkillCore({
@@ -162,11 +165,19 @@ const createBladeSkillHttpCallback: ToolCallback<typeof createBladeSkillToolSche
     isHttpTransport: true,
   });
 };
+const createBladeSkillHttpCallback = createLoomSkillHttpCallback;
+
+const createLoomSkillToolSchema = createBladeSkillToolSchema;
 
 export {
+  createLoomSkillToolName,
   createBladeSkillToolName,
+  createLoomSkillToolDescription,
   createBladeSkillToolDescription,
+  createLoomSkillToolSchema,
   createBladeSkillToolSchema,
+  createLoomSkillStdioCallback,
   createBladeSkillStdioCallback,
+  createLoomSkillHttpCallback,
   createBladeSkillHttpCallback,
 };

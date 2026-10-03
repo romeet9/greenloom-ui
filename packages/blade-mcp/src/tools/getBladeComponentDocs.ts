@@ -15,18 +15,22 @@ import {
 const bladeComponentsList = getBladeDocsList('components');
 const bladeComponentsListString = bladeComponentsList.join(', ');
 
-const getBladeComponentDocsToolName = 'get_blade_component_docs';
-const getBladeComponentDocsToolDescription = `Fetch the Blade Design System docs for the given list of components. Use this to get information about the components and their props while adding or changing a component.`;
+const getLoomComponentDocsToolName = 'get_loom_component_docs';
+const getBladeComponentDocsToolName = getLoomComponentDocsToolName;
+
+const getLoomComponentDocsToolDescription = `Fetch the Loom UI Design System docs for the given list of components. Use this to get information about the components and their props while adding or changing a component.`;
+const getBladeComponentDocsToolDescription = getLoomComponentDocsToolDescription;
 
 // Schema for stdio transport
-const getBladeComponentDocsStdioSchema = {
+const getLoomComponentDocsStdioSchema = {
   componentsList: z
     .string()
     .describe(
-      `Comma separated list of semantic blade component names. E.g. "Button, Accordion". Make sure to use the semantic components (like PasswordInput for passwords). Possible values: ${bladeComponentsListString}`,
+      `Comma separated list of semantic loom component names. E.g. "Button, Accordion". Make sure to use the semantic components (like PasswordInput for passwords). Possible values: ${bladeComponentsListString}`,
     ),
   ...commonBladeMCPToolSchema,
 };
+const getBladeComponentDocsStdioSchema = getLoomComponentDocsStdioSchema;
 
 // Schema for HTTP transport
 const getBladeComponentDocsHttpSchema = {
@@ -108,7 +112,7 @@ const getBladeComponentDocsCore = ({
 };
 
 // Callback for stdio transport
-const getBladeComponentDocsStdioCallback: ToolCallback<typeof getBladeComponentDocsStdioSchema> = ({
+const getLoomComponentDocsStdioCallback: ToolCallback<typeof getLoomComponentDocsStdioSchema> = ({
   componentsList,
   currentProjectRootDirectory,
   clientName,
@@ -120,9 +124,10 @@ const getBladeComponentDocsStdioCallback: ToolCallback<typeof getBladeComponentD
     clientName,
   });
 };
+const getBladeComponentDocsStdioCallback = getLoomComponentDocsStdioCallback;
 
 // Callback for HTTP transport
-const getBladeComponentDocsHttpCallback: ToolCallback<typeof getBladeComponentDocsHttpSchema> = ({
+const getLoomComponentDocsHttpCallback: ToolCallback<typeof getBladeComponentDocsHttpSchema> = ({
   componentsList,
   skillVersion,
   clientName,
@@ -136,13 +141,22 @@ const getBladeComponentDocsHttpCallback: ToolCallback<typeof getBladeComponentDo
     clientName,
   });
 };
+const getBladeComponentDocsHttpCallback = getLoomComponentDocsHttpCallback;
+
+const getLoomComponentDocsHttpSchema = getBladeComponentDocsHttpSchema;
 
 // Export all at once
 export {
+  getLoomComponentDocsToolName,
   getBladeComponentDocsToolName,
+  getLoomComponentDocsToolDescription,
   getBladeComponentDocsToolDescription,
+  getLoomComponentDocsHttpCallback,
   getBladeComponentDocsHttpCallback,
+  getLoomComponentDocsStdioCallback,
   getBladeComponentDocsStdioCallback,
+  getLoomComponentDocsStdioSchema,
   getBladeComponentDocsStdioSchema,
+  getLoomComponentDocsHttpSchema,
   getBladeComponentDocsHttpSchema,
 };

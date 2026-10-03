@@ -16,17 +16,19 @@ import type { McpToolResponse } from '../utils/types.js';
 
 const bladeGeneralDocsList = getBladeDocsList('general');
 
-const getBladeGeneralDocsToolName = 'get_blade_general_docs';
+const getLoomGeneralDocsToolName = 'get_loom_general_docs';
+const getBladeGeneralDocsToolName = getLoomGeneralDocsToolName;
 
 const whichGeneralDocsToUse = readFileSync(
   join(GENERAL_KNOWLEDGEBASE_DIRECTORY, 'index.md'),
   'utf8',
 );
 
-const getBladeGeneralDocsToolDescription = `Fetch general Blade Design System documentation. Use this to get information about setup, installation, theming, tokens, and general guidelines.`;
+const getLoomGeneralDocsToolDescription = `Fetch general Loom UI Design System documentation. Use this to get information about setup, installation, theming, tokens, and general guidelines.`;
+const getBladeGeneralDocsToolDescription = getLoomGeneralDocsToolDescription;
 
 // Schema for stdio transport
-const getBladeGeneralDocsStdioSchema = {
+const getLoomGeneralDocsStdioSchema = {
   topicsList: z
     .string()
     .describe(
@@ -36,12 +38,14 @@ const getBladeGeneralDocsStdioSchema = {
     ),
   ...commonBladeMCPToolSchema,
 };
+const getBladeGeneralDocsStdioSchema = getLoomGeneralDocsStdioSchema;
 
 // Schema for HTTP transport
-const getBladeGeneralDocsHttpSchema = {
-  ...getBladeGeneralDocsStdioSchema,
+const getLoomGeneralDocsHttpSchema = {
+  ...getLoomGeneralDocsStdioSchema,
   ...httpTransportSkillVersionSchema,
 };
+const getBladeGeneralDocsHttpSchema = getLoomGeneralDocsHttpSchema;
 
 // Core business logic function
 const getBladeGeneralDocsCore = ({
@@ -117,7 +121,7 @@ const getBladeGeneralDocsCore = ({
 };
 
 // Callback for stdio transport
-const getBladeGeneralDocsStdioCallback: ToolCallback<typeof getBladeGeneralDocsStdioSchema> = ({
+const getLoomGeneralDocsStdioCallback: ToolCallback<typeof getLoomGeneralDocsStdioSchema> = ({
   topicsList,
   currentProjectRootDirectory,
   clientName,
@@ -129,9 +133,10 @@ const getBladeGeneralDocsStdioCallback: ToolCallback<typeof getBladeGeneralDocsS
     clientName,
   });
 };
+const getBladeGeneralDocsStdioCallback = getLoomGeneralDocsStdioCallback;
 
 // Callback for HTTP transport
-const getBladeGeneralDocsHttpCallback: ToolCallback<typeof getBladeGeneralDocsHttpSchema> = ({
+const getLoomGeneralDocsHttpCallback: ToolCallback<typeof getLoomGeneralDocsHttpSchema> = ({
   topicsList,
   skillVersion,
   clientName,
@@ -145,12 +150,19 @@ const getBladeGeneralDocsHttpCallback: ToolCallback<typeof getBladeGeneralDocsHt
     clientName,
   });
 };
+const getBladeGeneralDocsHttpCallback = getLoomGeneralDocsHttpCallback;
 
 export {
+  getLoomGeneralDocsToolName,
   getBladeGeneralDocsToolName,
+  getLoomGeneralDocsToolDescription,
   getBladeGeneralDocsToolDescription,
+  getLoomGeneralDocsHttpCallback,
   getBladeGeneralDocsHttpCallback,
+  getLoomGeneralDocsStdioCallback,
   getBladeGeneralDocsStdioCallback,
+  getLoomGeneralDocsHttpSchema,
   getBladeGeneralDocsHttpSchema,
+  getLoomGeneralDocsStdioSchema,
   getBladeGeneralDocsStdioSchema,
 };

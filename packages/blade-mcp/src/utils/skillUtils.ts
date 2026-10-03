@@ -120,8 +120,8 @@ function shouldCreateOrUpdateSkill(
     return handleError({
       toolName,
       mcpErrorMessage: isMissing
-        ? `Blade skill does not exist. Call \`${createBladeSkillToolName}\` first.`
-        : `Blade skill is outdated. Call \`${createBladeSkillToolName}\` first to update the skill`,
+        ? `Loom UI skill does not exist. Call \`${createBladeSkillToolName}\` first.`
+        : `Loom UI skill is outdated. Call \`${createBladeSkillToolName}\` first to update the skill`,
     });
   }
 
@@ -131,11 +131,11 @@ function shouldCreateOrUpdateSkill(
       {
         type: 'text',
         text: isMissing
-          ? `Blade skill does not exist. Create it using the following instructions: \n\n
+          ? `Loom UI skill does not exist. Create it using the following instructions: \n\n
           ${skillCreationInstructions({
             currentProjectRootDirectory,
           })}`
-          : `Blade skill is outdated. Expected version: ${SKILL_VERSION}. Current version: ${skillVersion}. Update it using the following instructions: \n\n
+          : `Loom UI skill is outdated. Expected version: ${SKILL_VERSION}. Current version: ${skillVersion}. Update it using the following instructions: \n\n
           ${skillCreationInstructions({
             currentProjectRootDirectory,
           })}`,

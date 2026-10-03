@@ -14,7 +14,7 @@ const getBladeDocsResponseText = ({
   const docNames = docsList.split(',').map((name: string) => name.trim());
 
   // Build the formatted documentation text
-  let responseText = `Blade ${documentationType} documentation for: ${docsList}\n\n`;
+  let responseText = `Loom UI ${documentationType} documentation for: ${docsList}\n\n`;
 
   // Process each component
   for (const docName of docNames) {
